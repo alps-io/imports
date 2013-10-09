@@ -1,0 +1,110 @@
+<alps>
+ <descriptor id="AggregateOffer" type="semantic" href="http://alps.io/schema.org/Offer">
+  <doc format="html">
+   When a single product that has different offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Offer#acceptedPaymentMethod"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#addOn"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#advanceBookingRequirement"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#availability"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#availabilityEnds"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#availabilityStarts"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#availableAtOrFrom"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#availableDeliveryMethod"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#businessFunction"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#category"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#deliveryLeadTime"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#eligibleCustomerType"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#eligibleDuration"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#eligibleQuantity"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#eligibleRegion"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#eligibleTransactionVolume"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#gtin13"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#gtin14"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#gtin8"/>
+
+  <descriptor id="highPrice" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The highest price of all offers available.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#includesObject"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#inventoryLevel"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#itemCondition"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#itemOffered"/>
+
+  <descriptor id="lowPrice" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The lowest price of all offers available.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Offer#mpn"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="offerCount" type="semantic" rt="http://alps.io/schema.org/Integer">
+   <doc format="html">
+    The number of offers for the product.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Offer#price"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#priceCurrency"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#priceSpecification"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#priceValidUntil"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#review"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#seller"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#serialNumber"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#sku"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#validFrom"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#validThrough"/>
+
+  <descriptor href="http://alps.io/schema.org/Offer#warranty"/>
+
+ </descriptor>
+</alps>

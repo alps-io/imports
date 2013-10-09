@@ -1,0 +1,240 @@
+<alps>
+ <descriptor id="Offer" type="semantic" href="http://alps.io/schema.org/Intangible">
+  <doc format="html">
+   An offer to sell an item&#x2014;for example, an offer to sell a product, the DVD of a movie, or tickets to an event.
+  </doc>
+
+  <descriptor id="acceptedPaymentMethod" type="semantic" rt="http://alps.io/schema.org/PaymentMethod">
+   <doc format="html">
+    The payment method(s) accepted by seller for this offer.
+   </doc>
+  </descriptor>
+
+  <descriptor id="addOn" type="semantic" rt="http://alps.io/schema.org/Offer">
+   <doc format="html">
+    An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge).
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="advanceBookingRequirement" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The amount of time that is required between accepting the offer and the actual usage of the resource or service.
+   </doc>
+  </descriptor>
+
+  <descriptor id="aggregateRating" type="semantic" rt="http://alps.io/schema.org/AggregateRating">
+   <doc format="html">
+    The overall rating, based on a collection of reviews or ratings, of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="availability" type="semantic" rt="http://alps.io/schema.org/ItemAvailability">
+   <doc format="html">
+    The availability of this item&#x2014;for example In stock, Out of stock, Pre-order, etc.
+   </doc>
+  </descriptor>
+
+  <descriptor id="availabilityEnds" type="semantic" rt="http://alps.io/schema.org/DateTime">
+   <doc format="html">
+    The end of the availability of the product or service included in the offer.
+   </doc>
+  </descriptor>
+
+  <descriptor id="availabilityStarts" type="semantic" rt="http://alps.io/schema.org/DateTime">
+   <doc format="html">
+    The beginning of the availability of the product or service included in the offer.
+   </doc>
+  </descriptor>
+
+  <descriptor id="availableAtOrFrom" type="semantic" rt="http://alps.io/schema.org/Place">
+   <doc format="html">
+    The place(s) from which the offer can be obtained (e.g. store locations).
+   </doc>
+  </descriptor>
+
+  <descriptor id="availableDeliveryMethod" type="semantic" rt="http://alps.io/schema.org/DeliveryMethod">
+   <doc format="html">
+    The delivery method(s) available for this offer.
+   </doc>
+  </descriptor>
+
+  <descriptor id="businessFunction" type="semantic" rt="http://alps.io/schema.org/BusinessFunction">
+   <doc format="html">
+    The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell.
+   </doc>
+  </descriptor>
+
+  <descriptor id="category" type="semantic" rt="http://alps.io/schema.org/PhysicalActivityCategory http://alps.io/schema.org/Text http://alps.io/schema.org/Thing">
+   <doc format="html">
+    A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
+   </doc>
+  </descriptor>
+
+  <descriptor id="deliveryLeadTime" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The typical delay between the receipt of the order and the goods leaving the warehouse.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="eligibleCustomerType" type="semantic" rt="http://alps.io/schema.org/BusinessEntityType">
+   <doc format="html">
+    The type(s) of customers for which the given offer is valid.
+   </doc>
+  </descriptor>
+
+  <descriptor id="eligibleDuration" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The duration for which the given offer is valid.
+   </doc>
+  </descriptor>
+
+  <descriptor id="eligibleQuantity" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The interval and unit of measurement of ordering quantities for which the offer or price specification is valid. This allows e.g. specifying that a certain freight charge is valid only for a certain quantity.
+   </doc>
+  </descriptor>
+
+  <descriptor id="eligibleRegion" type="semantic" rt="http://alps.io/schema.org/GeoShape http://alps.io/schema.org/Text">
+   <doc format="html">
+    The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
+   </doc>
+  </descriptor>
+
+  <descriptor id="eligibleTransactionVolume" type="semantic" rt="http://alps.io/schema.org/PriceSpecification">
+   <doc format="html">
+    The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.
+   </doc>
+  </descriptor>
+
+  <descriptor id="gtin13" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero.
+   </doc>
+  </descriptor>
+
+  <descriptor id="gtin14" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The GTIN-14 code of the product, or the product to which the offer refers.
+   </doc>
+  </descriptor>
+
+  <descriptor id="gtin8" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The GTIN-8 code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="includesObject" type="semantic" rt="http://alps.io/schema.org/TypeAndQuantityNode">
+   <doc format="html">
+    This links to a node or nodes indicating the exact quantity of the products included in the offer.
+   </doc>
+  </descriptor>
+
+  <descriptor id="inventoryLevel" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The current approximate inventory level for the item or items.
+   </doc>
+  </descriptor>
+
+  <descriptor id="itemCondition" type="semantic" rt="http://alps.io/schema.org/OfferItemCondition">
+   <doc format="html">
+    A predefined value from OfferItemCondition or a textual description of the condition of the product or service, or the products or services included in the offer.
+   </doc>
+  </descriptor>
+
+  <descriptor id="itemOffered" type="semantic" rt="http://alps.io/schema.org/Product">
+   <doc format="html">
+    The item being sold.
+   </doc>
+  </descriptor>
+
+  <descriptor id="mpn" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The Manufacturer Part Number (MPN) of the product, or the product to which the offer refers.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="price" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
+   </doc>
+  </descriptor>
+
+  <descriptor id="priceCurrency" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The currency (in 3-letter ISO 4217 format) of the offer price or a price component, when attached to PriceSpecification and its subtypes.
+   </doc>
+  </descriptor>
+
+  <descriptor id="priceSpecification" type="semantic" rt="http://alps.io/schema.org/PriceSpecification">
+   <doc format="html">
+    One or more detailed price specifications, indicating the unit price and delivery or payment charges.
+   </doc>
+  </descriptor>
+
+  <descriptor id="priceValidUntil" type="semantic" rt="http://alps.io/schema.org/Date">
+   <doc format="html">
+    The date after which the price is no longer available.
+   </doc>
+  </descriptor>
+
+  <descriptor id="review" type="semantic" rt="http://alps.io/schema.org/Review">
+   <doc format="html">
+    A review of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="reviews" type="semantic" rt="http://alps.io/schema.org/Review">
+   <doc format="html">
+    Review of the item (legacy spelling; see singular form, review).
+   </doc>
+  </descriptor>
+
+  <descriptor id="seller" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+   <doc format="html">
+    The seller.
+   </doc>
+  </descriptor>
+
+  <descriptor id="serialNumber" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.
+   </doc>
+  </descriptor>
+
+  <descriptor id="sku" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor id="validFrom" type="semantic" rt="http://alps.io/schema.org/DateTime">
+   <doc format="html">
+    The beginning of the validity of offer, price specification, or opening hours data.
+   </doc>
+  </descriptor>
+
+  <descriptor id="validThrough" type="semantic" rt="http://alps.io/schema.org/DateTime">
+   <doc format="html">
+    The end of the validity of offer, price specification, or opening hours data.
+   </doc>
+  </descriptor>
+
+  <descriptor id="warranty" type="semantic" rt="http://alps.io/schema.org/WarrantyPromise">
+   <doc format="html">
+    The warranty promise(s) included in the offer.
+   </doc>
+  </descriptor>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,138 @@
+<alps>
+ <descriptor id="AudioObject" type="semantic" href="http://alps.io/schema.org/MediaObject">
+  <doc format="html">
+   An audio file.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#about"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#accountablePerson"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#alternativeHeadline"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#associatedArticle"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#associatedMedia"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audience"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audio"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#author"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#award"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#bitrate"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#comment"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentLocation"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentRating"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#contentSize"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#contentUrl"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contributor"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightHolder"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightYear"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#creator"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateCreated"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateModified"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#datePublished"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#discussionUrl"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#duration"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#editor"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#embedUrl"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#encodesCreativeWork"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encoding"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#encodingFormat"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encodings"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#expires"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#genre"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#headline"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#height"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#inLanguage"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#interactionCount"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#keywords"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#mentions"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#offers"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#playerType"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#provider"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publisher"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publishingPrinciples"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#regionsAllowed"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#requiresSubscription"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#review"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#sourceOrganization"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#text"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
+
+  <descriptor id="transcript" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#uploadDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#version"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#video"/>
+
+  <descriptor href="http://alps.io/schema.org/MediaObject#width"/>
+
+ </descriptor>
+</alps>

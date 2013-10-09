@@ -1,0 +1,150 @@
+<alps>
+ <descriptor id="Movie" type="semantic" href="http://alps.io/schema.org/CreativeWork">
+  <doc format="html">
+   A movie.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#about"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#accountablePerson"/>
+
+  <descriptor id="actor" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    A cast member of the movie, TV series, season, or episode, or video.
+   </doc>
+  </descriptor>
+
+  <descriptor id="actors" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    A cast member of the movie, TV series, season, or episode, or video. (legacy spelling; see singular form, actor)
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#alternativeHeadline"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#associatedMedia"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audience"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audio"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#author"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#award"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#comment"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentLocation"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentRating"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contributor"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightHolder"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightYear"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#creator"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateCreated"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateModified"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#datePublished"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="director" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    The director of the movie, TV episode, or series.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#discussionUrl"/>
+
+  <descriptor id="duration" type="semantic" rt="http://alps.io/schema.org/Duration">
+   <doc format="html">
+    The duration of the item (movie, audio recording, event, etc.) in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#editor"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encoding"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encodings"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#genre"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#headline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#inLanguage"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#interactionCount"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#keywords"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#mentions"/>
+
+  <descriptor id="musicBy" type="semantic" rt="http://alps.io/schema.org/MusicGroup http://alps.io/schema.org/Person">
+   <doc format="html">
+    The composer of the movie or TV soundtrack.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#offers"/>
+
+  <descriptor id="producer" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    The producer of the movie, TV series, season, or episode, or video.
+   </doc>
+  </descriptor>
+
+  <descriptor id="productionCompany" type="semantic" rt="http://alps.io/schema.org/Organization">
+   <doc format="html">
+    The production company or studio that made the movie, TV series, season, or episode, or video.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#provider"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publisher"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publishingPrinciples"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#review"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#sourceOrganization"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#text"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
+
+  <descriptor id="trailer" type="semantic" rt="http://alps.io/schema.org/VideoObject">
+   <doc format="html">
+    The trailer of the movie or TV series, season, or episode.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#version"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#video"/>
+
+ </descriptor>
+</alps>

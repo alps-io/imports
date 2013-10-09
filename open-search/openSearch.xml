@@ -1,0 +1,324 @@
+<alps>
+    <link rel="self" href="http://alps.io/opensearch/opensearch" />
+    <link rel="help"
+        href="http://www.opensearch.org/Specifications/OpenSearch/1.1" />
+
+    <doc format="html">
+        This is the ALPS rendering of the 
+        <a href="http://www.opensearch.org/Specifications/OpenSearch/1.1">Open Search</a> 
+        specification.
+    </doc>
+
+    <descriptor id="OpenSearchDescription" type="semantic"
+        rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                The root node of the OpenSearch description document.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="ShortName" type="semantic"
+        rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                Contains a brief human-readable title that identifies this
+                search engine.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Description" type="semantic"
+        rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                Contains a human-readable text description of the search engine.
+            </p>
+        </doc>
+    </descriptor>
+
+    <!-- this is the descriptor that performs the search -->
+    <descriptor id="Url" type="safe">
+        <doc format="html">
+            <p>
+                Describes an interface by which a client can make requests for
+                an external resource, such as search results, search
+                suggestions, or additional description documents.
+            </p>
+        </doc>
+        <descriptor href="#template" />
+        <descripto href="#type" />
+        <descriptor href="#rel" />
+        <descriptor href="#indexOffset" />
+        <descriptor href="#pageOffset" />
+    </descriptor>
+
+    <descriptor id="template" type="semantic">
+        <doc format="html">
+            <p>
+                The OpenSearch URL template format can be used to represent
+                a parameterized form of the URL by which a search engine is
+                queried.
+            </p>
+        </doc>
+        <descriptor href="#searchTerms" />
+        <descriptor href="#count" />
+        <descriptor id="startIndex" href="#indexOffset" />
+        <descriptor id="startPage" href="#pageOffset" />
+        <descriptor id="language" href="#Language" />
+        <descriptor id="TemplateInputEncoding" name="inputEncoding" href="#InputEncoding" />
+        <descriptor id="TemplateOutputEncoding" name="outputEncoding" href="OutputEncoding" />
+    </descriptor>
+
+    <descriptor id="searchTerms" type="semantic">
+        <doc format="html">
+            <p>
+                The keyword or keywords desired by the search client.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="count" type="semantic">
+        <doc format="html">
+            <p>
+                The number of search results per page desired by the search
+                client.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="type" type="semantic" rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                The MIME type of the resource being described.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="rel" type="semantic" rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                The role of the resource being described in relation to the
+                description document. Only those tokens listed here have
+                meaning defined in this specification: results, suggestions,
+                self, collection.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="indexOffset" type="semantic">
+        <doc format="html">
+            <p>
+                The index number of the first search result.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="pageOffset" type="semantic">
+        <doc format="html">
+            <p>
+                The page number of the first set of search results.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Contact" type="semantic"
+        rt="http://alps.io/schema.org/Person#email">
+        <doc format="html">
+            <p>
+                Contains an email address at which the maintainer of the
+                description document can be reached.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Tags" type="semantic" rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                Contains a set of words that are used as keywords to identify
+                and categorize this search content. Tags must be a single word
+                and are delimited by the space character (' ').
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="LongName" type="semantic"
+        rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                Contains an extended human-readable title that identifies this
+                search engine.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Image" type="safe">
+        <doc format="html">
+            <p>
+                Contains a URL that identifies the location of an image that
+                can be used in association with this search content.
+            </p>
+        </doc>
+        <descriptor href="#height" />
+        <descriptor href="#width" />
+        <descriptor href="#type" />
+    </descriptor>
+
+    <descriptor id="height" type="semantic">
+        <doc format="html">
+            <p>
+                Contains the height, in pixels, of this image.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="width" type="semantic">
+        <doc format="html">
+            <p>
+                Contains the width, in pixels, of this image.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Query" type="semantic">
+        <doc format="html">
+            <p>
+                Defines a search query that can be performed by search clients.
+                Please see the OpenSearch Query element specification for more
+                information.
+            </p>
+        </doc>
+        <descriptor href="#role" />
+        <descriptor href="#title" />
+        <descriptor href="#totalResults" />
+        <descriptor href="#searchTerms" />
+        <descriptor href="#count" />
+        <descriptor id="startIndex" href="#indexOffset" />
+        <descriptor id="startPage" href="#pageOffset" />
+        <descriptor id="language" href="#Language" />
+        <descriptor id="QueryInputEncoding" name="inputEncoding" href="#InputEncoding" />
+        <descriptor id="QueryOutputEncoding" name="outputEndcoding" href="OutputEncoding" />
+    </descriptor>
+
+    <descriptor id="role" type="semantic">
+        <doc format="html">
+            <p>
+                Contains a string identifying how the search client should
+                interpret the search request defined by this Query element.
+                The following role values are identified with the OpenSearch
+                1.1 namespace. The list is exhaustive; only the role values
+                listed below may appear in the OpenSearch 1.1 namespace:
+                request, example, related, correction, subset, superset.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="title" type="semantic" rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                Contains a human-readable plain text string describing the
+                search request.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="totalResults" type="semantic">
+        <doc format="html">
+            <p>
+                Contains the expected number of results to be found if the
+                search request were made.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="itemsPerPage" type="semantic">
+        <doc format="html">
+            <p>
+                The number of search results returned per page.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Developer" type="semantic"
+        rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                Contains the human-readable name or identifier of the creator
+                or maintainer of the description document.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Attribution" type="semantic"
+        rt="http://alps.io/schema.org/Text">
+        <doc format="html">
+            <p>
+                Contains a list of all sources or entities that should be
+                credited for the content contained in the search feed.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="SyndicationRight" type="semantic">
+        <doc format="html">
+            <p>
+                Contains a value that indicates the degree to which the search
+                results provided by this search engine can be queried,
+                displayed, and redistributed. The value must be one of the
+                following strings (case insensitive): open, limited, private,
+                closed.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="AdultContent" type="semantic">
+        <doc format="html">
+            <p>
+                Contains a boolean value that should be set to true if the
+                search results may contain material intended only for adults.
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="Language" type="semantic">
+        <doc format="html">
+            <p>
+                Contains a string that indicates that the search engine
+                supports search results in the specified language. The value
+                must conform to the 
+                <a href="http://www.w3.org/TR/2004/REC-xml-20040204/#sec-lang-tag">
+                    XML 1.0 Language Identification</a>, as specified by 
+                <a href="http://tools.ietf.org/html/rfc5646">RFC5646></a>
+            </p>
+        </doc>
+    </descriptor>
+
+    <descriptor id="InputEncoding" type="semantic">
+        <doc format="html">
+            <p>
+                Contains a string that indicates that the search engine
+                supports search requests encoded with the specified character
+                encoding. The value must conform to the 
+                <a href="http://www.w3.org/TR/2004/REC-xml-20040204/#charencoding">
+                    XML 1.0 Character Encodings</a>, as specified by the 
+                <a href="http://www.iana.org/assignments/character-sets">
+                    IANA Character Set Assignments</a>.
+            </p>
+        </doc>
+    </descriptor>
+    
+    <descriptor id="OutputEncoding" type="semantic">
+        <doc format="html">
+            <p>
+                Contains a string that indicates that the search engine
+                supports search responses encoded with the specified character
+                encoding. The value must conform to the 
+                <a href="http://www.w3.org/TR/2004/REC-xml-20040204/#charencoding">
+                    XML 1.0 Character Encodings</a>, as specified by the 
+                <a href="http://www.iana.org/assignments/character-sets">
+                    IANA Character Set Assignments</a>.
+            </p>
+        </doc>
+    </descriptor>
+
+</alps> 

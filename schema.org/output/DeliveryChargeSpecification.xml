@@ -1,0 +1,48 @@
+<alps>
+ <descriptor id="DeliveryChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification">
+  <doc format="html">
+   The price for the delivery of an offer using a particular delivery method.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="appliesToDeliveryMethod" type="semantic" rt="http://alps.io/schema.org/DeliveryMethod">
+   <doc format="html">
+    The delivery method(s) to which the delivery charge or payment charge specification applies.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#eligibleQuantity"/>
+
+  <descriptor id="eligibleRegion" type="semantic" rt="http://alps.io/schema.org/GeoShape http://alps.io/schema.org/Text">
+   <doc format="html">
+    The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#eligibleTransactionVolume"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#maxPrice"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#minPrice"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#price"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#priceCurrency"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#validFrom"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#validThrough"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#valueAddedTaxIncluded"/>
+
+ </descriptor>
+</alps>

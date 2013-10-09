@@ -1,0 +1,18 @@
+<alps>
+ <descriptor id="ItemAvailability" type="semantic" href="http://alps.io/schema.org/Enumeration">
+  <doc format="html">
+   A list of possible product availablity options.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,48 @@
+<alps>
+ <descriptor id="MedicalSign" type="semantic" href="http://alps.io/schema.org/MedicalSignOrSymptom">
+  <doc format="html">
+   Any physical manifestation of a person's medical condition discoverable by objective diagnostic tests or physical examination.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalSignOrSymptom#cause"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor id="identifyingExam" type="semantic" rt="http://alps.io/schema.org/PhysicalExam">
+   <doc format="html">
+    A physical examination that can identify this sign.
+   </doc>
+  </descriptor>
+
+  <descriptor id="identifyingTest" type="semantic" rt="http://alps.io/schema.org/MedicalTest">
+   <doc format="html">
+    A diagnostic test that can identify this sign.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalSignOrSymptom#possibleTreatment"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

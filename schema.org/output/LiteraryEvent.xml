@@ -1,0 +1,42 @@
+<alps>
+ <descriptor id="LiteraryEvent" type="semantic" href="http://alps.io/schema.org/Event">
+  <doc format="html">
+   Event type: Literary event.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#attendee"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#attendees"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#duration"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#endDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#location"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#offers"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#performer"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#performers"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#startDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#subEvent"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#subEvents"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#superEvent"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

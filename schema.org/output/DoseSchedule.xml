@@ -1,0 +1,56 @@
+<alps>
+ <descriptor id="DoseSchedule" type="semantic" href="http://alps.io/schema.org/MedicalIntangible">
+  <doc format="html">
+   A specific dosing schedule for a drug or supplement.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="doseUnit" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The unit of the dose, e.g. 'mg'.
+   </doc>
+  </descriptor>
+
+  <descriptor id="doseValue" type="semantic" rt="http://alps.io/schema.org/Number">
+   <doc format="html">
+    The value of the dose, e.g. 500.
+   </doc>
+  </descriptor>
+
+  <descriptor id="frequency" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    How often the dose is taken, e.g. 'daily'.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor id="targetPopulation" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

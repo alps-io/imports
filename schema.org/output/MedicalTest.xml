@@ -1,0 +1,62 @@
+<alps>
+ <descriptor id="MedicalTest" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+  <doc format="html">
+   Any medical test, typically performed for diagnostic purposes.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="affectedBy" type="semantic" rt="http://alps.io/schema.org/Drug">
+   <doc format="html">
+    Drugs that affect the test's results.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="normalRange" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Range of acceptable values for a typical patient, when applicable.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor id="signDetected" type="semantic" rt="http://alps.io/schema.org/MedicalSign">
+   <doc format="html">
+    A sign detected by the test.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor id="usedToDiagnose" type="semantic" rt="http://alps.io/schema.org/MedicalCondition">
+   <doc format="html">
+    A condition the test is used to diagnose.
+   </doc>
+  </descriptor>
+
+  <descriptor id="usesDevice" type="semantic" rt="http://alps.io/schema.org/MedicalDevice">
+   <doc format="html">
+    Device used to perform the test.
+   </doc>
+  </descriptor>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,168 @@
+<alps>
+ <descriptor id="Diet" type="semantic" href="http://alps.io/schema.org/CreativeWork http://alps.io/schema.org/LifestyleModification">
+  <doc format="html">
+   A strategy of regulating the intake of food to achieve or maintain a specific health-related goal.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#about"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#accountablePerson"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#adverseOutcome"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#alternativeHeadline"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#associatedMedia"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audience"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audio"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#author"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#award"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#comment"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentLocation"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentRating"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#contraindication"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contributor"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightHolder"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightYear"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#creator"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateCreated"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateModified"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#datePublished"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="dietFeatures" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Nutritional information specific to the dietary plan. May include dietary recommendations on what foods to avoid, what foods to consume, and specific alterations/deviations from the USDA or other regulatory body's approved dietary guidelines.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#discussionUrl"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#duplicateTherapy"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#editor"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encoding"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encodings"/>
+
+  <descriptor id="endorsers" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+   <doc format="html">
+    People or organizations that endorse the plan.
+   </doc>
+  </descriptor>
+
+  <descriptor id="expertConsiderations" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Medical expert advice related to the plan.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#genre"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#headline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#inLanguage"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#interactionCount"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#keywords"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#mentions"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#offers"/>
+
+  <descriptor id="overview" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Descriptive information establishing the overarching theory/philosophy of the plan. May include the rationale for the name, the population where the plan first came to prominence, etc.
+   </doc>
+  </descriptor>
+
+  <descriptor id="physiologicalBenefits" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Specific physiologic benefits associated to the plan.
+   </doc>
+  </descriptor>
+
+  <descriptor id="proprietaryName" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Proprietary name given to the diet plan, typically by its originator or creator.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#provider"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publisher"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publishingPrinciples"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#review"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#reviews"/>
+
+  <descriptor id="risks" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Specific physiologic risks associated to the plan.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#seriousAdverseOutcome"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#sourceOrganization"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#text"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#version"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#video"/>
+
+ </descriptor>
+</alps>

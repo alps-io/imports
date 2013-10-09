@@ -1,0 +1,86 @@
+<alps>
+ <descriptor id="AnatomicalStructure" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+  <doc format="html">
+   Any part of the human body, typically a component of an anatomical system. Organs, tissues, and cells are all anatomical structures.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor id="associatedPathophysiology" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    If applicable, a description of the pathophysiology associated with the anatomical system, including potential abnormal changes in the mechanical, physical, and biochemical functions of the system.
+   </doc>
+  </descriptor>
+
+  <descriptor id="bodyLocation" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Location in the body of the anatomical structure.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor id="connectedTo" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+   <doc format="html">
+    Other anatomical structures to which this structure is connected.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="diagram" type="semantic" rt="http://alps.io/schema.org/ImageObject">
+   <doc format="html">
+    An image containing a diagram that illustrates the structure and/or its component substructures and/or connections with other structures.
+   </doc>
+  </descriptor>
+
+  <descriptor id="function" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Function of the anatomical structure.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="partOfSystem" type="semantic" rt="http://alps.io/schema.org/AnatomicalSystem">
+   <doc format="html">
+    The anatomical or organ system that this structure is part of.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor id="relatedCondition" type="semantic" rt="http://alps.io/schema.org/MedicalCondition">
+   <doc format="html">
+    A medical condition associated with this anatomy.
+   </doc>
+  </descriptor>
+
+  <descriptor id="relatedTherapy" type="semantic" rt="http://alps.io/schema.org/MedicalTherapy">
+   <doc format="html">
+    A medical therapy related to this anatomy.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor id="subStructure" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+   <doc format="html">
+    Component (sub-)structure(s) that comprise this anatomical structure.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

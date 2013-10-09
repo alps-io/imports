@@ -1,0 +1,58 @@
+<alps>
+ <descriptor id="BuddhistTemple" type="semantic" href="http://alps.io/schema.org/PlaceOfWorship">
+  <doc format="html">
+   A Buddhist temple.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#address"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#containedIn"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#event"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#events"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#faxNumber"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#geo"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#globalLocationNumber"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#interactionCount"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#isicV4"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#logo"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#map"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#maps"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/CivicStructure#openingHours"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#openingHoursSpecification"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#photo"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#photos"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#review"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#telephone"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

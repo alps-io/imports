@@ -1,0 +1,216 @@
+<alps>
+ <descriptor id="Organization" type="semantic" href="http://alps.io/schema.org/Thing">
+  <doc format="html">
+   An organization such as a school, NGO, corporation, club, etc.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="address" type="semantic" rt="http://alps.io/schema.org/PostalAddress">
+   <doc format="html">
+    Physical address of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="aggregateRating" type="semantic" rt="http://alps.io/schema.org/AggregateRating">
+   <doc format="html">
+    The overall rating, based on a collection of reviews or ratings, of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="brand" type="semantic" rt="http://alps.io/schema.org/Brand http://alps.io/schema.org/Organization">
+   <doc format="html">
+    The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.
+   </doc>
+  </descriptor>
+
+  <descriptor id="contactPoint" type="semantic" rt="http://alps.io/schema.org/ContactPoint">
+   <doc format="html">
+    A contact point for a person or organization.
+   </doc>
+  </descriptor>
+
+  <descriptor id="contactPoints" type="semantic" rt="http://alps.io/schema.org/ContactPoint">
+   <doc format="html">
+    A contact point for a person or organization (legacy spelling; see singular form, contactPoint).
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="duns" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The Dun  &amp; Bradstreet DUNS number for identifying an organization or business person.
+   </doc>
+  </descriptor>
+
+  <descriptor id="email" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Email address.
+   </doc>
+  </descriptor>
+
+  <descriptor id="employee" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    Someone working for this organization.
+   </doc>
+  </descriptor>
+
+  <descriptor id="employees" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    People working for this organization. (legacy spelling; see singular form, employee)
+   </doc>
+  </descriptor>
+
+  <descriptor id="event" type="semantic" rt="http://alps.io/schema.org/Event">
+   <doc format="html">
+    Upcoming or past event associated with this place or organization.
+   </doc>
+  </descriptor>
+
+  <descriptor id="events" type="semantic" rt="http://alps.io/schema.org/Event">
+   <doc format="html">
+    Upcoming or past events associated with this place or organization (legacy spelling; see singular form, event).
+   </doc>
+  </descriptor>
+
+  <descriptor id="faxNumber" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The fax number.
+   </doc>
+  </descriptor>
+
+  <descriptor id="founder" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    A person who founded this organization.
+   </doc>
+  </descriptor>
+
+  <descriptor id="founders" type="semantic" rt="http://alps.io/schema.org/Person">
+   <doc format="html">
+    A person who founded this organization (legacy spelling; see singular form, founder).
+   </doc>
+  </descriptor>
+
+  <descriptor id="foundingDate" type="semantic" rt="http://alps.io/schema.org/Date">
+   <doc format="html">
+    The date that this organization was founded.
+   </doc>
+  </descriptor>
+
+  <descriptor id="globalLocationNumber" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
+   </doc>
+  </descriptor>
+
+  <descriptor id="hasPOS" type="semantic" rt="http://alps.io/schema.org/Place">
+   <doc format="html">
+    Points-of-Sales operated by the organization or person.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="interactionCount" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction'>UserInteraction</a>.
+   </doc>
+  </descriptor>
+
+  <descriptor id="isicV4" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
+   </doc>
+  </descriptor>
+
+  <descriptor id="legalName" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The official name of the organization, e.g. the registered company name.
+   </doc>
+  </descriptor>
+
+  <descriptor id="location" type="semantic" rt="http://alps.io/schema.org/Place http://alps.io/schema.org/PostalAddress">
+   <doc format="html">
+    The location of the event or organization.
+   </doc>
+  </descriptor>
+
+  <descriptor id="logo" type="semantic" rt="http://alps.io/schema.org/ImageObject http://alps.io/schema.org/URL">
+   <doc format="html">
+    URL of an image for the logo of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="makesOffer" type="semantic" rt="http://alps.io/schema.org/Offer">
+   <doc format="html">
+    A pointer to products or services offered by the organization or person.
+   </doc>
+  </descriptor>
+
+  <descriptor id="member" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+   <doc format="html">
+    A member of this organization.
+   </doc>
+  </descriptor>
+
+  <descriptor id="members" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+   <doc format="html">
+    A member of this organization (legacy spelling; see singular form, member).
+   </doc>
+  </descriptor>
+
+  <descriptor id="naics" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The North American Industry Classification System (NAICS) code for a particular organization or business person.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="owns" type="semantic" rt="http://alps.io/schema.org/OwnershipInfo http://alps.io/schema.org/Product">
+   <doc format="html">
+    Products owned by the organization or person.
+   </doc>
+  </descriptor>
+
+  <descriptor id="review" type="semantic" rt="http://alps.io/schema.org/Review">
+   <doc format="html">
+    A review of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="reviews" type="semantic" rt="http://alps.io/schema.org/Review">
+   <doc format="html">
+    Review of the item (legacy spelling; see singular form, review).
+   </doc>
+  </descriptor>
+
+  <descriptor id="seeks" type="semantic" rt="http://alps.io/schema.org/Demand">
+   <doc format="html">
+    A pointer to products or services sought by the organization or person (demand).
+   </doc>
+  </descriptor>
+
+  <descriptor id="taxID" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.
+   </doc>
+  </descriptor>
+
+  <descriptor id="telephone" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The telephone number.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor id="vatID" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The Value-added Tax ID of the organisation or person.
+   </doc>
+  </descriptor>
+
+ </descriptor>
+</alps>

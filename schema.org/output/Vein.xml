@@ -1,0 +1,68 @@
+<alps>
+ <descriptor id="Vein" type="semantic" href="http://alps.io/schema.org/Vessel">
+  <doc format="html">
+   A type of blood vessel that specifically carries blood to the heart.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#associatedPathophysiology"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#bodyLocation"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#connectedTo"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#diagram"/>
+
+  <descriptor id="drainsTo" type="semantic" rt="http://alps.io/schema.org/Vessel">
+   <doc format="html">
+    The vasculature that the vein drains into.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#function"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#partOfSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor id="regionDrained" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/AnatomicalSystem">
+   <doc format="html">
+    The anatomical or organ system drained by this vessel; generally refers to a specific part of an organ.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedCondition"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedTherapy"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#subStructure"/>
+
+  <descriptor id="tributary" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+   <doc format="html">
+    The anatomical or organ system that the vein flows into; a larger structure that the vein connects to.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

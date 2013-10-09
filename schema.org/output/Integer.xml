@@ -1,0 +1,9 @@
+<alps>
+ <descriptor id="Integer" type="semantic" href="http://alps.io/schema.org/Number">
+  <doc format="html">
+   Data type: Integer.
+  </doc>
+
+
+ </descriptor>
+</alps>

@@ -1,0 +1,132 @@
+<alps>
+ <descriptor id="Place" type="semantic" href="http://alps.io/schema.org/Thing">
+  <doc format="html">
+   Entities that have a somewhat fixed, physical extension.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="address" type="semantic" rt="http://alps.io/schema.org/PostalAddress">
+   <doc format="html">
+    Physical address of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="aggregateRating" type="semantic" rt="http://alps.io/schema.org/AggregateRating">
+   <doc format="html">
+    The overall rating, based on a collection of reviews or ratings, of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="containedIn" type="semantic" rt="http://alps.io/schema.org/Place">
+   <doc format="html">
+    The basic containment relation between places.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="event" type="semantic" rt="http://alps.io/schema.org/Event">
+   <doc format="html">
+    Upcoming or past event associated with this place or organization.
+   </doc>
+  </descriptor>
+
+  <descriptor id="events" type="semantic" rt="http://alps.io/schema.org/Event">
+   <doc format="html">
+    Upcoming or past events associated with this place or organization (legacy spelling; see singular form, event).
+   </doc>
+  </descriptor>
+
+  <descriptor id="faxNumber" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The fax number.
+   </doc>
+  </descriptor>
+
+  <descriptor id="geo" type="semantic" rt="http://alps.io/schema.org/GeoCoordinates http://alps.io/schema.org/GeoShape">
+   <doc format="html">
+    The geo coordinates of the place.
+   </doc>
+  </descriptor>
+
+  <descriptor id="globalLocationNumber" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="interactionCount" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction'>UserInteraction</a>.
+   </doc>
+  </descriptor>
+
+  <descriptor id="isicV4" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
+   </doc>
+  </descriptor>
+
+  <descriptor id="logo" type="semantic" rt="http://alps.io/schema.org/ImageObject http://alps.io/schema.org/URL">
+   <doc format="html">
+    URL of an image for the logo of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="map" type="safe" rt="http://alps.io/schema.org/URL">
+   <doc format="html">
+    A URL to a map of the place.
+   </doc>
+  </descriptor>
+
+  <descriptor id="maps" type="safe" rt="http://alps.io/schema.org/URL">
+   <doc format="html">
+    A URL to a map of the place (legacy spelling; see singular form, map).
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="openingHoursSpecification" type="semantic" rt="http://alps.io/schema.org/OpeningHoursSpecification">
+   <doc format="html">
+    The opening hours of a certain place.
+   </doc>
+  </descriptor>
+
+  <descriptor id="photo" type="semantic" rt="http://alps.io/schema.org/ImageObject http://alps.io/schema.org/Photograph">
+   <doc format="html">
+    A photograph of this place.
+   </doc>
+  </descriptor>
+
+  <descriptor id="photos" type="semantic" rt="http://alps.io/schema.org/ImageObject http://alps.io/schema.org/Photograph">
+   <doc format="html">
+    Photographs of this place (legacy spelling; see singular form, photo).
+   </doc>
+  </descriptor>
+
+  <descriptor id="review" type="semantic" rt="http://alps.io/schema.org/Review">
+   <doc format="html">
+    A review of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="reviews" type="semantic" rt="http://alps.io/schema.org/Review">
+   <doc format="html">
+    Review of the item (legacy spelling; see singular form, review).
+   </doc>
+  </descriptor>
+
+  <descriptor id="telephone" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The telephone number.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

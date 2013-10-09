@@ -1,0 +1,72 @@
+<alps>
+ <descriptor id="PriceSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue">
+  <doc format="html">
+   A structured value representing a monetary amount. Typically, only the subclasses of this type are used for markup.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="eligibleQuantity" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The interval and unit of measurement of ordering quantities for which the offer or price specification is valid. This allows e.g. specifying that a certain freight charge is valid only for a certain quantity.
+   </doc>
+  </descriptor>
+
+  <descriptor id="eligibleTransactionVolume" type="semantic" rt="http://alps.io/schema.org/PriceSpecification">
+   <doc format="html">
+    The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="maxPrice" type="semantic" rt="http://alps.io/schema.org/Number">
+   <doc format="html">
+    The highest price if the price is a range.
+   </doc>
+  </descriptor>
+
+  <descriptor id="minPrice" type="semantic" rt="http://alps.io/schema.org/Number">
+   <doc format="html">
+    The lowest price if the price is a range.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="price" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
+   </doc>
+  </descriptor>
+
+  <descriptor id="priceCurrency" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The currency (in 3-letter ISO 4217 format) of the offer price or a price component, when attached to PriceSpecification and its subtypes.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor id="validFrom" type="semantic" rt="http://alps.io/schema.org/DateTime">
+   <doc format="html">
+    The beginning of the validity of offer, price specification, or opening hours data.
+   </doc>
+  </descriptor>
+
+  <descriptor id="validThrough" type="semantic" rt="http://alps.io/schema.org/DateTime">
+   <doc format="html">
+    The end of the validity of offer, price specification, or opening hours data.
+   </doc>
+  </descriptor>
+
+  <descriptor id="valueAddedTaxIncluded" type="semantic" rt="http://alps.io/schema.org/Boolean">
+   <doc format="html">
+    Specifies whether the applicable value-added tax (VAT) is included in the price specification or not.
+   </doc>
+  </descriptor>
+
+ </descriptor>
+</alps>

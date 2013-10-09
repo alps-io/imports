@@ -1,0 +1,48 @@
+<alps>
+ <descriptor id="GeoShape" type="semantic" href="http://alps.io/schema.org/StructuredValue">
+  <doc format="html">
+   The geographic shape of a place.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="box" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+   </doc>
+  </descriptor>
+
+  <descriptor id="circle" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="elevation" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The elevation of a location.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="line" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="polygon" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

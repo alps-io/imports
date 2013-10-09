@@ -1,0 +1,36 @@
+<alps>
+ <descriptor id="Rating" type="semantic" href="http://alps.io/schema.org/Intangible">
+  <doc format="html">
+   The rating of the video.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="bestRating" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="ratingValue" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The rating for the content.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor id="worstRating" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed.
+   </doc>
+  </descriptor>
+
+ </descriptor>
+</alps>

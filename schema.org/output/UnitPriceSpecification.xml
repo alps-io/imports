@@ -1,0 +1,54 @@
+<alps>
+ <descriptor id="UnitPriceSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification">
+  <doc format="html">
+   The price asked for a given offer by the respective organization or person.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="billingIncrement" type="semantic" rt="http://alps.io/schema.org/Number">
+   <doc format="html">
+    This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#eligibleQuantity"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#eligibleTransactionVolume"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#maxPrice"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#minPrice"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#price"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#priceCurrency"/>
+
+  <descriptor id="priceType" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.
+   </doc>
+  </descriptor>
+
+  <descriptor id="unitCode" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The unit of measurement given using the UN/CEFACT Common Code (3 characters).
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#validFrom"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#validThrough"/>
+
+  <descriptor href="http://alps.io/schema.org/PriceSpecification#valueAddedTaxIncluded"/>
+
+ </descriptor>
+</alps>

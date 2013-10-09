@@ -1,0 +1,200 @@
+<alps>
+ <descriptor id="MediaObject" type="semantic" href="http://alps.io/schema.org/CreativeWork">
+  <doc format="html">
+   An image, video, or audio object embedded in a web page. Note that a creative work may have many media objects associated with it on the same web page. For example, a page about a single song (MusicRecording) may have a music video (VideoObject), and a high and low bandwidth audio stream (2 AudioObject's).
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#about"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#accountablePerson"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#alternativeHeadline"/>
+
+  <descriptor id="associatedArticle" type="semantic" rt="http://alps.io/schema.org/NewsArticle">
+   <doc format="html">
+    A NewsArticle associated with the Media Object.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#associatedMedia"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audience"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#audio"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#author"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#award"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
+
+  <descriptor id="bitrate" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The bitrate of the media object.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#comment"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentLocation"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contentRating"/>
+
+  <descriptor id="contentSize" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    File size in (mega/kilo) bytes.
+   </doc>
+  </descriptor>
+
+  <descriptor id="contentUrl" type="safe" rt="http://alps.io/schema.org/URL">
+   <doc format="html">
+    Actual bytes of the media object, for example the image file or video file. (previous spelling: contentURL)
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#contributor"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightHolder"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightYear"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#creator"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateCreated"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#dateModified"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#datePublished"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#discussionUrl"/>
+
+  <descriptor id="duration" type="semantic" rt="http://alps.io/schema.org/Duration">
+   <doc format="html">
+    The duration of the item (movie, audio recording, event, etc.) in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#editor"/>
+
+  <descriptor id="embedUrl" type="safe" rt="http://alps.io/schema.org/URL">
+   <doc format="html">
+    A URL pointing to a player for a specific video. In general, this is the information in the <code>src</code> element of an <code>embed</code> tag and should not be the same as the content of the <code>loc</code> tag. (previous spelling: embedURL)
+   </doc>
+  </descriptor>
+
+  <descriptor id="encodesCreativeWork" type="semantic" rt="http://alps.io/schema.org/CreativeWork">
+   <doc format="html">
+    The creative work encoded by this media object
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encoding"/>
+
+  <descriptor id="encodingFormat" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    mp3, mpeg4, etc.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#encodings"/>
+
+  <descriptor id="expires" type="semantic" rt="http://alps.io/schema.org/Date">
+   <doc format="html">
+    Date the content expires and is no longer useful or available. Useful for videos.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#genre"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#headline"/>
+
+  <descriptor id="height" type="semantic" rt="http://alps.io/schema.org/Distance http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The height of the item.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#inLanguage"/>
+
+  <descriptor id="interactionCount" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction'>UserInteraction</a>.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#keywords"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#mentions"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="offers" type="semantic" rt="http://alps.io/schema.org/Offer">
+   <doc format="html">
+    An offer to sell this item&#x2014;for example, an offer to sell a product, the DVD of a movie, or tickets to an event.
+   </doc>
+  </descriptor>
+
+  <descriptor id="playerType" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Player type required&#x2014;for example, Flash or Silverlight.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#provider"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publisher"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#publishingPrinciples"/>
+
+  <descriptor id="regionsAllowed" type="semantic" rt="http://alps.io/schema.org/Place">
+   <doc format="html">
+    The regions where the media is allowed. If not specified, then it's assumed to be allowed everywhere. Specify the countries in <a href='http://en.wikipedia.org/wiki/ISO_3166'>ISO 3166 format</a>.
+   </doc>
+  </descriptor>
+
+  <descriptor id="requiresSubscription" type="semantic" rt="http://alps.io/schema.org/Boolean">
+   <doc format="html">
+    Indicates if use of the media require a subscription  (either paid or free). Allowed values are <code>true</code> or <code>false</code> (note that an earlier version had 'yes', 'no').
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#review"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#sourceOrganization"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#text"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
+
+  <descriptor id="uploadDate" type="semantic" rt="http://alps.io/schema.org/Date">
+   <doc format="html">
+    Date when this media object was uploaded to this site.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#version"/>
+
+  <descriptor href="http://alps.io/schema.org/CreativeWork#video"/>
+
+  <descriptor id="width" type="semantic" rt="http://alps.io/schema.org/Distance http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The width of the item.
+   </doc>
+  </descriptor>
+
+ </descriptor>
+</alps>

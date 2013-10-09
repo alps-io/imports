@@ -1,0 +1,128 @@
+<alps>
+ <descriptor id="MedicalCondition" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+  <doc format="html">
+   Any condition of the human body that affects the normal functioning of a person, whether physically or mentally. Includes diseases, injuries, disabilities, disorders, syndromes, etc.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor id="associatedAnatomy" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/AnatomicalSystem http://alps.io/schema.org/SuperficialAnatomy">
+   <doc format="html">
+    The anatomy of the underlying organ system or structures associated with this entity.
+   </doc>
+  </descriptor>
+
+  <descriptor id="cause" type="semantic" rt="http://alps.io/schema.org/MedicalCause">
+   <doc format="html">
+    An underlying cause. More specifically, one of the causative agent(s) that are most directly responsible for the pathophysiologic process that eventually results in the occurrence.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="differentialDiagnosis" type="semantic" rt="http://alps.io/schema.org/DDxElement">
+   <doc format="html">
+    One of a set of differential diagnoses for the condition. Specifically, a closely-related or competing diagnosis typically considered later in the cognitive process whereby this medical condition is distinguished from others most likely responsible for a similar collection of signs and symptoms to reach the most parsimonious diagnosis or diagnoses in a patient.
+   </doc>
+  </descriptor>
+
+  <descriptor id="epidemiology" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The characteristics of associated patients, such as age, gender, race etc.
+   </doc>
+  </descriptor>
+
+  <descriptor id="expectedPrognosis" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The likely outcome in either the short term or long term of the medical condition.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="naturalProgression" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The expected progression of the condition if it is not treated and allowed to progress naturally.
+   </doc>
+  </descriptor>
+
+  <descriptor id="pathophysiology" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Changes in the normal mechanical, physical, and biochemical functions that are associated with this activity or condition.
+   </doc>
+  </descriptor>
+
+  <descriptor id="possibleComplication" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A possible unexpected and unfavorable evolution of a medical condition. Complications may include worsening of the signs or symptoms of the disease, extension of the condition to other organ systems, etc.
+   </doc>
+  </descriptor>
+
+  <descriptor id="possibleTreatment" type="semantic" rt="http://alps.io/schema.org/MedicalTherapy">
+   <doc format="html">
+    A possible treatment to address this condition, sign or symptom.
+   </doc>
+  </descriptor>
+
+  <descriptor id="primaryPrevention" type="semantic" rt="http://alps.io/schema.org/MedicalTherapy">
+   <doc format="html">
+    A preventative therapy used to prevent an initial occurrence of the medical condition, such as vaccination.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor id="riskFactor" type="semantic" rt="http://alps.io/schema.org/MedicalRiskFactor">
+   <doc format="html">
+    A modifiable or non-modifiable factor that increases the risk of a patient contracting this condition, e.g. age,  coexisting condition.
+   </doc>
+  </descriptor>
+
+  <descriptor id="secondaryPrevention" type="semantic" rt="http://alps.io/schema.org/MedicalTherapy">
+   <doc format="html">
+    A preventative therapy used to prevent reoccurrence of the medical condition after an initial episode of the condition.
+   </doc>
+  </descriptor>
+
+  <descriptor id="signOrSymptom" type="semantic" rt="http://alps.io/schema.org/MedicalSignOrSymptom">
+   <doc format="html">
+    A sign or symptom of this condition. Signs are objective or physically observable manifestations of the medical condition while symptoms are the subjective experienceof the medical condition.
+   </doc>
+  </descriptor>
+
+  <descriptor id="stage" type="semantic" rt="http://alps.io/schema.org/MedicalConditionStage">
+   <doc format="html">
+    The stage of the condition, if applicable.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor id="subtype" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    A more specific type of the condition, where applicable, for example 'Type 1 Diabetes', 'Type 2 Diabetes', or 'Gestational Diabetes' for Diabetes.
+   </doc>
+  </descriptor>
+
+  <descriptor id="typicalTest" type="semantic" rt="http://alps.io/schema.org/MedicalTest">
+   <doc format="html">
+    A medical test typically performed given this condition.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

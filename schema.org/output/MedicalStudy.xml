@@ -1,0 +1,68 @@
+<alps>
+ <descriptor id="MedicalStudy" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+  <doc format="html">
+   A medical study is an umbrella type covering all kinds of research studies relating to human medicine or health, including observational studies and interventional trials and registries, randomized, controlled or not. When the specific type of study is known, use one of the extensions of this type, such as MedicalTrial or MedicalObservationalStudy. Also, note that this type should be used to mark up data that describes the study itself; to tag an article that publishes the results of a study, use MedicalScholarlyArticle. Note: use the code property of MedicalEntity to store study IDs, e.g. clinicaltrials.gov ID.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="outcome" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Expected or actual outcomes of the study.
+   </doc>
+  </descriptor>
+
+  <descriptor id="population" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Any characteristics of the population used in the study, e.g. 'males under 65'.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor id="sponsor" type="semantic" rt="http://alps.io/schema.org/Organization">
+   <doc format="html">
+    Sponsor of the study.
+   </doc>
+  </descriptor>
+
+  <descriptor id="status" type="semantic" rt="http://alps.io/schema.org/MedicalStudyStatus">
+   <doc format="html">
+    The status of the study (enumerated).
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor id="studyLocation" type="semantic" rt="http://alps.io/schema.org/AdministrativeArea">
+   <doc format="html">
+    The location in which the study is taking/took place.
+   </doc>
+  </descriptor>
+
+  <descriptor id="studySubject" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+   <doc format="html">
+    A subject of the study, i.e. one of the medical conditions, therapies, devices, drugs, etc. investigated by the study.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

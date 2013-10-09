@@ -1,0 +1,72 @@
+<alps>
+ <descriptor id="UserComments" type="semantic" href="http://alps.io/schema.org/UserInteraction">
+  <doc format="html">
+   The UserInteraction event in which a user comments on an item.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#attendee"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#attendees"/>
+
+  <descriptor id="commentText" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The text of the UserComment.
+   </doc>
+  </descriptor>
+
+  <descriptor id="commentTime" type="semantic" rt="http://alps.io/schema.org/Date">
+   <doc format="html">
+    The time at which the UserComment was made.
+   </doc>
+  </descriptor>
+
+  <descriptor id="creator" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+   <doc format="html">
+    The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="discusses" type="semantic" rt="http://alps.io/schema.org/CreativeWork">
+   <doc format="html">
+    Specifies the CreativeWork associated with the UserComment.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Event#duration"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#endDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#location"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#offers"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#performer"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#performers"/>
+
+  <descriptor id="replyToUrl" type="safe" rt="http://alps.io/schema.org/URL">
+   <doc format="html">
+    The URL at which a reply may be posted to the specified UserComment.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Event#startDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#subEvent"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#subEvents"/>
+
+  <descriptor href="http://alps.io/schema.org/Event#superEvent"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

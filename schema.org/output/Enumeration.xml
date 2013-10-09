@@ -1,0 +1,18 @@
+<alps>
+ <descriptor id="Enumeration" type="semantic" href="http://alps.io/schema.org/Intangible">
+  <doc format="html">
+   Lists or enumerations&#x2014;for example, a list of cuisines or music genres, etc.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

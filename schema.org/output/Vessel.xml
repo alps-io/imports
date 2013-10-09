@@ -1,0 +1,50 @@
+<alps>
+ <descriptor id="Vessel" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure">
+  <doc format="html">
+   A component of the human body circulatory system comprised of an intricate network of hollow tubes that transport blood throughout the entire body.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#associatedPathophysiology"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#bodyLocation"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#connectedTo"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#diagram"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#function"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#partOfSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedCondition"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedTherapy"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#subStructure"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

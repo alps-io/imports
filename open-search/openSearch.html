@@ -1,0 +1,590 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Documentation</title>
+</head>
+<body>
+<h1>Documentation</h1>
+<doc format="html">
+        This is the ALPS rendering of the 
+        <a href="http://www.opensearch.org/Specifications/OpenSearch/1.1">Open Search</a> 
+        specification.
+    </doc><ul class="link">
+<li>rel:self = <a href="http://alps.io/opensearch/opensearch" rel="self">http://alps.io/opensearch/opensearch</a>
+</li>
+<li>rel:help = <a href="http://www.opensearch.org/Specifications/OpenSearch/1.1" rel="help">http://www.opensearch.org/Specifications/OpenSearch/1.1</a>
+</li>
+</ul>
+    
+    
+
+    
+
+    <div class="descriptor">
+<h4 class="id" id="OpenSearchDescription">OpenSearchDescription</h4>
+<doc format="html">
+            <p>
+                The root node of the OpenSearch description document.
+            </p>
+        </doc><ul class="attributes">
+<li>id : OpenSearchDescription</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="ShortName">ShortName</h4>
+<doc format="html">
+            <p>
+                Contains a brief human-readable title that identifies this
+                search engine.
+            </p>
+        </doc><ul class="attributes">
+<li>id : ShortName</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Description">Description</h4>
+<doc format="html">
+            <p>
+                Contains a human-readable text description of the search engine.
+            </p>
+        </doc><ul class="attributes">
+<li>id : Description</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    
+    <div class="descriptor">
+<h4 class="id" id="Url">Url</h4>
+<doc format="html">
+            <p>
+                Describes an interface by which a client can make requests for
+                an external resource, such as search results, search
+                suggestions, or additional description documents.
+            </p>
+        </doc><ul class="attributes">
+<li>id : Url</li>
+<li>type : safe</li>
+<li>Contains: <div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#template">#template</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#rel">#rel</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#indexOffset">#indexOffset</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#pageOffset">#pageOffset</a>
+</li></ul>
+</div>
+</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="template">template</h4>
+<doc format="html">
+            <p>
+                The OpenSearch URL template format can be used to represent
+                a parameterized form of the URL by which a search engine is
+                queried.
+            </p>
+        </doc><ul class="attributes">
+<li>id : template</li>
+<li>type : semantic</li>
+<li>Contains: <div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#searchTerms">#searchTerms</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#count">#count</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="startIndex">startIndex</h4>
+<ul class="attributes">
+<li>id : startIndex</li>
+<li>href : <a href="#indexOffset">#indexOffset</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="startPage">startPage</h4>
+<ul class="attributes">
+<li>id : startPage</li>
+<li>href : <a href="#pageOffset">#pageOffset</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="language">language</h4>
+<ul class="attributes">
+<li>id : language</li>
+<li>href : <a href="#Language">#Language</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="TemplateInputEncoding">TemplateInputEncoding</h4>
+<ul class="attributes">
+<li>id : TemplateInputEncoding</li>
+<li>name : inputEncoding</li>
+<li>href : <a href="#InputEncoding">#InputEncoding</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="TemplateOutputEncoding">TemplateOutputEncoding</h4>
+<ul class="attributes">
+<li>id : TemplateOutputEncoding</li>
+<li>name : outputEncoding</li>i
+              <li>href : <a href="OutputEncoding">OutputEncoding</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="searchTerms">searchTerms</h4>
+<doc format="html">
+            <p>
+                The keyword or keywords desired by the search client.
+            </p>
+        </doc><ul class="attributes">
+<li>id : searchTerms</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="count">count</h4>
+<doc format="html">
+            <p>
+                The number of search results per page desired by the search
+                client.
+            </p>
+        </doc><ul class="attributes">
+<li>id : count</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="type">type</h4>
+<doc format="html">
+            <p>
+                The MIME type of the resource being described.
+            </p>
+        </doc><ul class="attributes">
+<li>id : type</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="rel">rel</h4>
+<doc format="html">
+            <p>
+                The role of the resource being described in relation to the
+                description document. Only those tokens listed here have
+                meaning defined in this specification: results, suggestions,
+                self, collection.
+            </p>
+        </doc><ul class="attributes">
+<li>id : rel</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="indexOffset">indexOffset</h4>
+<doc format="html">
+            <p>
+                The index number of the first search result.
+            </p>
+        </doc><ul class="attributes">
+<li>id : indexOffset</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="pageOffset">pageOffset</h4>
+<doc format="html">
+            <p>
+                The page number of the first set of search results.
+            </p>
+        </doc><ul class="attributes">
+<li>id : pageOffset</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Contact">Contact</h4>
+<doc format="html">
+            <p>
+                Contains an email address at which the maintainer of the
+                description document can be reached.
+            </p>
+        </doc><ul class="attributes">
+<li>id : Contact</li>
+<li>type : semantic</li>
+<li>rt : <a href="http://alps.io/schema.org/Person#email">http://alps.io/schema.org/Person#email</a>
+</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Tags">Tags</h4>
+<doc format="html">
+            <p>
+                Contains a set of words that are used as keywords to identify
+                and categorize this search content. Tags must be a single word
+                and are delimited by the space character (' ').
+            </p>
+        </doc><ul class="attributes">
+<li>id : Tags</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="LongName">LongName</h4>
+<doc format="html">
+            <p>
+                Contains an extended human-readable title that identifies this
+                search engine.
+            </p>
+        </doc><ul class="attributes">
+<li>id : LongName</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Image">Image</h4>
+<doc format="html">
+            <p>
+                Contains a URL that identifies the location of an image that
+                can be used in association with this search content.
+            </p>
+        </doc><ul class="attributes">
+<li>id : Image</li>
+<li>type : safe</li>
+<li>Contains: <div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#height">#height</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#width">#width</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#type">#type</a>
+</li></ul>
+</div>
+</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="height">height</h4>
+<doc format="html">
+            <p>
+                Contains the height, in pixels, of this image.
+            </p>
+        </doc><ul class="attributes">
+<li>id : height</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="width">width</h4>
+<doc format="html">
+            <p>
+                Contains the width, in pixels, of this image.
+            </p>
+        </doc><ul class="attributes">
+<li>id : width</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Query">Query</h4>
+<doc format="html">
+            <p>
+                Defines a search query that can be performed by search clients.
+                Please see the OpenSearch Query element specification for more
+                information.
+            </p>
+        </doc><ul class="attributes">
+<li>id : Query</li>
+<li>type : semantic</li>
+<li>Contains: <div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#role">#role</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#title">#title</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#totalResults">#totalResults</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#searchTerms">#searchTerms</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id=""></h4>
+<ul class="attributes"><li>href : <a href="#count">#count</a>
+</li></ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="startIndex">startIndex</h4>
+<ul class="attributes">
+<li>id : startIndex</li>
+<li>href : <a href="#indexOffset">#indexOffset</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="startPage">startPage</h4>
+<ul class="attributes">
+<li>id : startPage</li>
+<li>href : <a href="#pageOffset">#pageOffset</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="language">language</h4>
+<ul class="attributes">
+<li>id : language</li>
+<li>href : <a href="#Language">#Language</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="QueryInputEncoding">QueryInputEncoding</h4>
+<ul class="attributes">
+<li>id : QueryInputEncoding</li>
+<li>name : inputEncoding</li>
+<li>href : <a href="#InputEncoding">#InputEncoding</a>
+</li>
+</ul>
+</div>
+<div class="descriptor">
+<h4 class="id" id="QueryOutputEncoding">QueryOutputEncoding</h4>
+<ul class="attributes">
+<li>id : QueryOutputEncoding</li>
+<li>name : outputEndcoding</li>i
+              <li>href : <a href="OutputEncoding">OutputEncoding</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="role">role</h4>
+<doc format="html">
+            <p>
+                Contains a string identifying how the search client should
+                interpret the search request defined by this Query element.
+                The following role values are identified with the OpenSearch
+                1.1 namespace. The list is exhaustive; only the role values
+                listed below may appear in the OpenSearch 1.1 namespace:
+                request, example, related, correction, subset, superset.
+            </p>
+        </doc><ul class="attributes">
+<li>id : role</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="title">title</h4>
+<doc format="html">
+            <p>
+                Contains a human-readable plain text string describing the
+                search request.
+            </p>
+        </doc><ul class="attributes">
+<li>id : title</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="totalResults">totalResults</h4>
+<doc format="html">
+            <p>
+                Contains the expected number of results to be found if the
+                search request were made.
+            </p>
+        </doc><ul class="attributes">
+<li>id : totalResults</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="itemsPerPage">itemsPerPage</h4>
+<doc format="html">
+            <p>
+                The number of search results returned per page.
+            </p>
+        </doc><ul class="attributes">
+<li>id : itemsPerPage</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Developer">Developer</h4>
+<doc format="html">
+            <p>
+                Contains the human-readable name or identifier of the creator
+                or maintainer of the description document.
+            </p>
+        </doc><ul class="attributes">
+<li>id : Developer</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Attribution">Attribution</h4>
+<doc format="html">
+            <p>
+                Contains a list of all sources or entities that should be
+                credited for the content contained in the search feed.
+            </p>
+        </doc><ul class="attributes">
+<li>id : Attribution</li>
+<li>type : semantic</li>
+<li>rt : http://alps.io/schema.org/Text</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="SyndicationRight">SyndicationRight</h4>
+<doc format="html">
+            <p>
+                Contains a value that indicates the degree to which the search
+                results provided by this search engine can be queried,
+                displayed, and redistributed. The value must be one of the
+                following strings (case insensitive): open, limited, private,
+                closed.
+            </p>
+        </doc><ul class="attributes">
+<li>id : SyndicationRight</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="AdultContent">AdultContent</h4>
+<doc format="html">
+            <p>
+                Contains a boolean value that should be set to true if the
+                search results may contain material intended only for adults.
+            </p>
+        </doc><ul class="attributes">
+<li>id : AdultContent</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="Language">Language</h4>
+<doc format="html">
+            <p>
+                Contains a string that indicates that the search engine
+                supports search results in the specified language. The value
+                must conform to the 
+                <a href="http://www.w3.org/TR/2004/REC-xml-20040204/#sec-lang-tag">
+                    XML 1.0 Language Identification</a>, as specified by 
+                <a href="http://tools.ietf.org/html/rfc5646">RFC5646&gt;</a>
+            </p>
+        </doc><ul class="attributes">
+<li>id : Language</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+    <div class="descriptor">
+<h4 class="id" id="InputEncoding">InputEncoding</h4>
+<doc format="html">
+            <p>
+                Contains a string that indicates that the search engine
+                supports search requests encoded with the specified character
+                encoding. The value must conform to the 
+                <a href="http://www.w3.org/TR/2004/REC-xml-20040204/#charencoding">
+                    XML 1.0 Character Encodings</a>, as specified by the 
+                <a href="http://www.iana.org/assignments/character-sets">
+                    IANA Character Set Assignments</a>.
+            </p>
+        </doc><ul class="attributes">
+<li>id : InputEncoding</li>
+<li>type : semantic</li>
+</ul>
+</div>
+    
+    <div class="descriptor">
+<h4 class="id" id="OutputEncoding">OutputEncoding</h4>
+<doc format="html">
+            <p>
+                Contains a string that indicates that the search engine
+                supports search responses encoded with the specified character
+                encoding. The value must conform to the 
+                <a href="http://www.w3.org/TR/2004/REC-xml-20040204/#charencoding">
+                    XML 1.0 Character Encodings</a>, as specified by the 
+                <a href="http://www.iana.org/assignments/character-sets">
+                    IANA Character Set Assignments</a>.
+            </p>
+        </doc><ul class="attributes">
+<li>id : OutputEncoding</li>
+<li>type : semantic</li>
+</ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<alps>
+ <descriptor id="MedicalProcedure" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+  <doc format="html">
+   A process of care used in either a diagnostic, therapeutic, or palliative capacity that relies on invasive (surgical), non-invasive, or percutaneous techniques.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="followup" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Typical or recommended followup care after the procedure is performed.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor id="howPerformed" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    How the procedure is performed.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="preparation" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Typical preparation that a patient must undergo before having the procedure performed.
+   </doc>
+  </descriptor>
+
+  <descriptor id="procedureType" type="semantic" rt="http://alps.io/schema.org/MedicalProcedureType">
+   <doc format="html">
+    The type of procedure, for example Surgical, Noninvasive, or Percutaneous.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

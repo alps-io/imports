@@ -1,0 +1,25 @@
+<alps>
+ <descriptor id="BusinessEntityType" type="semantic" href="http://alps.io/schema.org/Enumeration">
+  <doc format="html">
+   A business entity type is a conceptual entity representing the legal form, the size, the main line of business, the position in the value chain, or any combination thereof, of an organization or business person.
+
+    Commonly used values:
+
+    http://purl.org/goodrelations/v1#Business
+    http://purl.org/goodrelations/v1#Enduser
+    http://purl.org/goodrelations/v1#PublicInstitution
+    http://purl.org/goodrelations/v1#Reseller
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

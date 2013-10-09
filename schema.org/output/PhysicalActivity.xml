@@ -1,0 +1,66 @@
+<alps>
+ <descriptor id="PhysicalActivity" type="semantic" href="http://alps.io/schema.org/LifestyleModification">
+  <doc format="html">
+   Any bodily activity that enhances or maintains physical fitness and overall health and wellness. Includes activity that is part of daily living and routine, structured exercise, and exercise prescribed as part of a medical treatment or recovery plan.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#adverseOutcome"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor id="associatedAnatomy" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/AnatomicalSystem http://alps.io/schema.org/SuperficialAnatomy">
+   <doc format="html">
+    The anatomy of the underlying organ system or structures associated with this entity.
+   </doc>
+  </descriptor>
+
+  <descriptor id="category" type="semantic" rt="http://alps.io/schema.org/PhysicalActivityCategory http://alps.io/schema.org/Text http://alps.io/schema.org/Thing">
+   <doc format="html">
+    A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#contraindication"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#duplicateTherapy"/>
+
+  <descriptor id="epidemiology" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The characteristics of associated patients, such as age, gender, race etc.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="pathophysiology" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Changes in the normal mechanical, physical, and biochemical functions that are associated with this activity or condition.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#seriousAdverseOutcome"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,9 @@
+<alps>
+ <descriptor id="DateTime" type="semantic" href="http://alps.io/schema.org/DataType">
+  <doc format="html">
+   A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm] (see Chapter 5.4 of ISO 8601).
+  </doc>
+
+
+ </descriptor>
+</alps>

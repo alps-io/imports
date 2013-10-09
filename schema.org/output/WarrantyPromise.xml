@@ -1,0 +1,30 @@
+<alps>
+ <descriptor id="WarrantyPromise" type="semantic" href="http://alps.io/schema.org/StructuredValue">
+  <doc format="html">
+   A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="durationOfWarranty" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+   <doc format="html">
+    The duration of the warranty promise. Common unitCode values are ANN for year, MON for months, or DAY for days.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor id="warrantyScope" type="semantic" rt="http://alps.io/schema.org/WarrantyScope">
+   <doc format="html">
+    The scope of the warranty promise.
+   </doc>
+  </descriptor>
+
+ </descriptor>
+</alps>

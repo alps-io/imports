@@ -1,0 +1,9 @@
+<alps>
+ <descriptor id="Text" type="semantic" href="http://alps.io/schema.org/DataType">
+  <doc format="html">
+   Data type: Text.
+  </doc>
+
+
+ </descriptor>
+</alps>

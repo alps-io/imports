@@ -1,0 +1,36 @@
+<alps>
+ <descriptor id="GeoCoordinates" type="semantic" href="http://alps.io/schema.org/StructuredValue">
+  <doc format="html">
+   The geographic coordinates of a place or event.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="elevation" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The elevation of a location.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="latitude" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The latitude of a location. For example <code>37.42242</code>.
+   </doc>
+  </descriptor>
+
+  <descriptor id="longitude" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+   <doc format="html">
+    The longitude of a location. For example <code>-122.08585</code>.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

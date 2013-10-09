@@ -1,0 +1,84 @@
+<alps>
+ <descriptor id="SportsTeam" type="semantic" href="http://alps.io/schema.org/Organization">
+  <doc format="html">
+   Organization: Sports team.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#address"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#brand"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#contactPoint"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#contactPoints"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#duns"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#email"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#employee"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#employees"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#event"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#events"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#faxNumber"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#founder"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#founders"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#foundingDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#globalLocationNumber"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#hasPOS"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#interactionCount"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#isicV4"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#legalName"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#location"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#logo"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#makesOffer"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#member"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#members"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#naics"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#owns"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#review"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#seeks"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#taxID"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#telephone"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#vatID"/>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,9 @@
+<alps>
+ <descriptor id="URL" type="semantic" href="http://alps.io/schema.org/Text">
+  <doc format="html">
+   Data type: URL.
+  </doc>
+
+
+ </descriptor>
+</alps>

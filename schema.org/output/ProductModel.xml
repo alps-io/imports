@@ -1,0 +1,86 @@
+<alps>
+ <descriptor id="ProductModel" type="semantic" href="http://alps.io/schema.org/Product">
+  <doc format="html">
+   A datasheet or vendor specification of a product (in the sense of a prototypical description).
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#aggregateRating"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#brand"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#color"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#depth"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#gtin13"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#gtin14"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#gtin8"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#height"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#isAccessoryOrSparePartFor"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#isConsumableFor"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#isRelatedTo"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#isSimilarTo"/>
+
+  <descriptor id="isVariantOf" type="semantic" rt="http://alps.io/schema.org/ProductModel">
+   <doc format="html">
+    A pointer to a base product from which this product is a variant. It is safe to infer that the variant inherits all product features from the base model, unless defined locally. This is not transitive.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Product#itemCondition"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#logo"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#manufacturer"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#model"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#mpn"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#offers"/>
+
+  <descriptor id="predecessorOf" type="semantic" rt="http://alps.io/schema.org/ProductModel">
+   <doc format="html">
+    A pointer from a previous, often discontinued variant of the product to its newer variant.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Product#productID"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#releaseDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#review"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#sku"/>
+
+  <descriptor id="successorOf" type="semantic" rt="http://alps.io/schema.org/ProductModel">
+   <doc format="html">
+    A pointer from a newer variant of a product  to its previous, often discontinued predecessor.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#weight"/>
+
+  <descriptor href="http://alps.io/schema.org/Product#width"/>
+
+ </descriptor>
+</alps>

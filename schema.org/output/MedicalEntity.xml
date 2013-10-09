@@ -1,0 +1,60 @@
+<alps>
+ <descriptor id="MedicalEntity" type="semantic" href="http://alps.io/schema.org/Thing">
+  <doc format="html">
+   The most generic type of entity related to health and the practice of medicine.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor id="alternateName" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Any alternate name for this medical entity.
+   </doc>
+  </descriptor>
+
+  <descriptor id="code" type="semantic" rt="http://alps.io/schema.org/MedicalCode">
+   <doc format="html">
+    A medical code for the entity, taken from a controlled vocabulary or ontology such as ICD-9, DiseasesDB, MeSH, SNOMED-CT, RxNorm, etc.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="guideline" type="semantic" rt="http://alps.io/schema.org/MedicalGuideline">
+   <doc format="html">
+    A medical guideline related to this entity.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="medicineSystem" type="semantic" rt="http://alps.io/schema.org/MedicineSystem">
+   <doc format="html">
+    The system of medicine that includes this MedicalEntity, for example 'evidence-based', 'homeopathic', 'chiropractic', etc.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor id="recognizingAuthority" type="semantic" rt="http://alps.io/schema.org/Organization">
+   <doc format="html">
+    If applicable, the organization that officially recognizes this entity as part of its endorsed system of medicine.
+   </doc>
+  </descriptor>
+
+  <descriptor id="relevantSpecialty" type="semantic" rt="http://alps.io/schema.org/MedicalSpecialty">
+   <doc format="html">
+    If applicable, a medical specialty in which this entity is relevant.
+   </doc>
+  </descriptor>
+
+  <descriptor id="study" type="semantic" rt="http://alps.io/schema.org/MedicalStudy">
+   <doc format="html">
+    A medical study or trial related to this entity.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,9 @@
+<alps>
+ <descriptor id="Date" type="semantic" href="http://alps.io/schema.org/DataType">
+  <doc format="html">
+   A date value in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>.
+  </doc>
+
+
+ </descriptor>
+</alps>

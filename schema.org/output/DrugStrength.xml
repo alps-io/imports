@@ -1,0 +1,56 @@
+<alps>
+ <descriptor id="DrugStrength" type="semantic" href="http://alps.io/schema.org/MedicalIntangible">
+  <doc format="html">
+   A specific strength in which a medical drug is available in a specific country.
+  </doc>
+
+  <descriptor id="activeIngredient" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    An active ingredient, typically chemical compounds and/or biologic substances.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor id="availableIn" type="semantic" rt="http://alps.io/schema.org/AdministrativeArea">
+   <doc format="html">
+    The location in which the strength is available.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor id="strengthUnit" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The units of an active ingredient's strength, e.g. mg.
+   </doc>
+  </descriptor>
+
+  <descriptor id="strengthValue" type="semantic" rt="http://alps.io/schema.org/Number">
+   <doc format="html">
+    The value of an active ingredient's strength, e.g. 325.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

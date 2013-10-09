@@ -1,0 +1,44 @@
+<alps>
+ <descriptor id="MedicalRiskEstimator" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+  <doc format="html">
+   Any rule set or interactive tool for estimating the risk of developing a complication or condition.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="estimatesRiskOf" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+   <doc format="html">
+    The condition, complication, or symptom whose risk is being estimated.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor id="includedRiskFactor" type="semantic" rt="http://alps.io/schema.org/MedicalRiskFactor">
+   <doc format="html">
+    A modifiable or non-modifiable risk factor included in the calculation, e.g. age, coexisting condition.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

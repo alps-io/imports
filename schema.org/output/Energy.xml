@@ -1,0 +1,18 @@
+<alps>
+ <descriptor id="Energy" type="semantic" href="http://alps.io/schema.org/Quantity">
+  <doc format="html">
+   Properties that take Enerygy as values are of the form '<Number> <Energy unit of measure>'
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,44 @@
+<alps>
+ <descriptor id="MedicalConditionStage" type="semantic" href="http://alps.io/schema.org/MedicalIntangible">
+  <doc format="html">
+   A stage of a medical condition, such as 'Stage IIIa'.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor id="stageAsNumber" type="semantic" rt="http://alps.io/schema.org/Number">
+   <doc format="html">
+    The stage represented as a number, e.g. 3.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor id="subStageSuffix" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    The substage, e.g. 'a' for Stage IIIa.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

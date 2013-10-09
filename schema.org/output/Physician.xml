@@ -1,0 +1,126 @@
+<alps>
+ <descriptor id="Physician" type="semantic" href="http://alps.io/schema.org/MedicalOrganization">
+  <doc format="html">
+   A doctor's office.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#address"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#aggregateRating"/>
+
+  <descriptor id="availableService" type="semantic" rt="http://alps.io/schema.org/MedicalProcedure http://alps.io/schema.org/MedicalTest http://alps.io/schema.org/MedicalTherapy">
+   <doc format="html">
+    A medical service available from this provider.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/LocalBusiness#branchOf"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#brand"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#contactPoint"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#contactPoints"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#containedIn"/>
+
+  <descriptor href="http://alps.io/schema.org/LocalBusiness#currenciesAccepted"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#duns"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#email"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#employee"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#employees"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#event"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#events"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#faxNumber"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#founder"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#founders"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#foundingDate"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#geo"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#globalLocationNumber"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#hasPOS"/>
+
+  <descriptor id="hospitalAffiliation" type="semantic" rt="http://alps.io/schema.org/Hospital">
+   <doc format="html">
+    A hospital with which the physician or office is affiliated.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#interactionCount"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#isicV4"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#legalName"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#location"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#logo"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#makesOffer"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#map"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#maps"/>
+
+  <descriptor id="medicalSpecialty" type="semantic" rt="http://alps.io/schema.org/MedicalSpecialty">
+   <doc format="html">
+    A medical specialty of the provider.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Organization#member"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#members"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#naics"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/LocalBusiness#openingHours"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#openingHoursSpecification"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#owns"/>
+
+  <descriptor href="http://alps.io/schema.org/LocalBusiness#paymentAccepted"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#photo"/>
+
+  <descriptor href="http://alps.io/schema.org/Place#photos"/>
+
+  <descriptor href="http://alps.io/schema.org/LocalBusiness#priceRange"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#review"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#reviews"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#seeks"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#taxID"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#telephone"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+  <descriptor href="http://alps.io/schema.org/Organization#vatID"/>
+
+ </descriptor>
+</alps>

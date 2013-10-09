@@ -1,0 +1,56 @@
+<alps>
+ <descriptor id="MedicalGuideline" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+  <doc format="html">
+   Any recommendation made by a standard society (e.g. ACC/AHA) or consensus statement that denotes how to diagnose and treat a particular condition. Note: this type should be used to tag the actual guideline recommendation; if the guideline recommendation occurs in a larger scholarly article, use MedicalScholarlyArticle to tag the overall article, not this type. Note also: the organization making the recommendation should be captured in the recognizingAuthority base property of MedicalEntity.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor id="evidenceLevel" type="semantic" rt="http://alps.io/schema.org/MedicalEvidenceLevel">
+   <doc format="html">
+    Strength of evidence of the data used to formulate the guideline (enumerated).
+   </doc>
+  </descriptor>
+
+  <descriptor id="evidenceOrigin" type="semantic" rt="http://alps.io/schema.org/Text">
+   <doc format="html">
+    Source of the data used to formulate the guidance, e.g. RCT, consensus opinion, etc.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor id="guidelineDate" type="semantic" rt="http://alps.io/schema.org/Date">
+   <doc format="html">
+    Date on which this guideline's recommendation was made.
+   </doc>
+  </descriptor>
+
+  <descriptor id="guidelineSubject" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+   <doc format="html">
+    The medical conditions, treatments, etc. that are the subject of the guideline.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>

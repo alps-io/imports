@@ -1,0 +1,50 @@
+<alps>
+ <descriptor id="TherapeuticProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure http://alps.io/schema.org/MedicalTherapy">
+  <doc format="html">
+   A medical procedure intended primarly for therapeutic purposes, aimed at improving a health condition.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#adverseOutcome"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#contraindication"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#duplicateTherapy"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalProcedure#followup"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalProcedure#howPerformed"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalProcedure#preparation"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalProcedure#procedureType"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy#seriousAdverseOutcome"/>
+
+  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+
+ </descriptor>
+</alps>
