@@ -2343,6 +2343,57 @@
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/MedicalOrganization">MedicalOrganization</a></span>
     </div>
 
+    <div typeof="rdfs:Class" resource="http://schema.org/Order">
+      <span class="h" property="rdfs:label">Order</span>
+      <span property="rdfs:comment">An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Intangible">Intangible</a></span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/OrderItem">
+      <span class="h" property="rdfs:label">OrderItem</span>
+      <span property="rdfs:comment">An order item is a line of an order. It includes the quantity and shipping details of a bought offer.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Intangible">Intangible</a></span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/OrderStatus">
+      <span class="h" property="rdfs:label">OrderStatus</span>
+      <span property="rdfs:comment">Enumerated status values for Order.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/StatusEnumeration">StatusEnumeration</a></span>
+    </div>
+
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderCancelled">
+      <span class="h" property="rdfs:label">OrderCancelled</span>
+      <span property="rdfs:comment">OrderStatus representing cancellation of an order.</span>
+    </div>
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderDelivered">
+      <span class="h" property="rdfs:label">OrderDelivered</span>
+      <span property="rdfs:comment">OrderStatus representing successful delivery of an order.</span>
+    </div>
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderInTransit">
+      <span class="h" property="rdfs:label">OrderInTransit</span>
+      <span property="rdfs:comment">OrderStatus representing that an order is in transit.</span>
+    </div>
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderPaymentDue">
+      <span class="h" property="rdfs:label">OrderPaymentDue</span>
+      <span property="rdfs:comment">OrderStatus representing that payment is due on an order.</span>
+    </div>
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderPickupAvailable">
+      <span class="h" property="rdfs:label">OrderPickupAvailable</span>
+      <span property="rdfs:comment">OrderStatus representing availability of an order for pickup.</span>
+    </div>
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderProblem">
+      <span class="h" property="rdfs:label">OrderProblem</span>
+      <span property="rdfs:comment">OrderStatus representing that there is a problem with the order.</span>
+    </div>
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderProcessing">
+      <span class="h" property="rdfs:label">OrderProcessing</span>
+      <span property="rdfs:comment">OrderStatus representing that an order is being processed.</span>
+    </div>
+    <div typeof="http://schema.org/OrderStatus" resource="http://schema.org/OrderReturned">
+      <span class="h" property="rdfs:label">OrderReturned</span>
+      <span property="rdfs:comment">OrderStatus representing that an order has been returned.</span>
+    </div>
+
     <div typeof="rdfs:Class" resource="http://schema.org/OutletStore">
       <span class="h" property="rdfs:label">OutletStore</span>
       <span property="rdfs:comment">An outlet store.</span>
@@ -2818,6 +2869,12 @@
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/AdministrativeArea">AdministrativeArea</a></span>
     </div>
 
+    <div typeof="rdfs:Class" resource="http://schema.org/StatusEnumeration">
+      <span class="h" property="rdfs:label">StatusEnumeration</span>
+      <span property="rdfs:comment">Lists or enumerations dealing with status types.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Enumeration">Enumeration</a></span>
+    </div>
+
     <div typeof="rdfs:Class" resource="http://schema.org/SubwayStation">
       <span class="h" property="rdfs:label">SubwayStation</span>
       <span property="rdfs:comment">A subway station.</span>
@@ -3247,6 +3304,20 @@
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Product">Product</a></span>
        <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass">GoodRelationsClass</a></span></div>
 
+    <!-- TODO: declare properties -->
+    <div typeof="rdfs:Class" resource="http://schema.org/Invoice">
+      <span class="h" property="rdfs:label">Invoice</span>
+      <span property="rdfs:comment">A statement of the money due for goods or services; a bill.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Intangible">Intangible</a></span>
+    </div>
+
+    <!-- TODO: declare properties -->
+    <div typeof="rdfs:Class" resource="http://schema.org/ParcelDelivery">
+      <span class="h" property="rdfs:label">ParcelDelivery</span>
+      <span property="rdfs:comment">The delivery of a parcel either via the postal service or a commercial service.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Intangible">Intangible</a></span>
+    </div>
+
     <div typeof="rdfs:Class" resource="http://schema.org/OpeningHoursSpecification">
       <span class="h" property="rdfs:label">OpeningHoursSpecification</span>
       <span property="rdfs:comment">A structured value providing information about the opening hours of a place or a certain service inside a place.</span>
@@ -3338,6 +3409,12 @@
       <span property="rdfs:comment">The subject matter of the content.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/CreativeWork">CreativeWork</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/acceptedOffer">
+      <span class="h" property="rdfs:label">acceptedOffer</span>
+      <span property="rdfs:comment">The offer(s) -- e.g., product, quantity and price combinations -- included in the order.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Offer">Offer</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/acceptedPaymentMethod">
       <span class="h" property="rdfs:label">acceptedPaymentMethod</span>
@@ -3788,6 +3865,12 @@
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Number">Number</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/billingAddress">
+      <span class="h" property="rdfs:label">billingAddress</span>
+      <span property="rdfs:comment">The billing address for the order.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/PostalAddress">PostalAddress</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/billingIncrement">
       <span class="h" property="rdfs:label">billingIncrement</span>
       <span property="rdfs:comment">This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.</span>
@@ -3887,6 +3970,15 @@
       <span property="rdfs:comment">Any precaution, guidance, contraindication, etc. related to this drug&#39;s use by breastfeeding mothers.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Drug">Drug</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/broker">
+      <span class="h" property="rdfs:label">broker</span>
+      <span property="rdfs:comment">An entity that arranges for an exchange between a buyer and a seller. In most cases a broker never acquires or releases ownership of a product or service involved in an exchange. If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Reservation">Reservation</a></span> -->
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Organization">Organization</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Person">Person</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/browserRequirements">
       <span class="h" property="rdfs:label">browserRequirements</span>
@@ -4054,6 +4146,13 @@
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/AnatomicalStructure">AnatomicalStructure</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/AnatomicalSystem">AnatomicalSystem</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/confirmationNumber">
+      <span class="h" property="rdfs:label">confirmationNumber</span>
+      <span property="rdfs:comment">A number that confirms the given order or payment has been received.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/connectedTo">
       <span class="h" property="rdfs:label">connectedTo</span>
       <span property="rdfs:comment">Other anatomical structures to which this structure is connected.</span>
@@ -4206,6 +4305,14 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/LocalBusiness">LocalBusiness</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/customer">
+      <span class="h" property="rdfs:label">customer</span>
+      <span property="rdfs:comment">Party placing the order or paying the invoice.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Organization">Organization</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Person">Person</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/dateCreated">
       <span class="h" property="rdfs:label">dateCreated</span>
       <span property="rdfs:comment">The date on which the CreativeWork was created.</span>
@@ -4305,6 +4412,28 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/TVEpisode">TVEpisode</a></span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/TVSeries">TVSeries</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Person">Person</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/discount">
+      <span class="h" property="rdfs:label">discount</span>
+      <span property="rdfs:comment">Any discount applied (to an Order).</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Number">Number</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/discountCode">
+      <span class="h" property="rdfs:label">discountCode</span>
+      <span property="rdfs:comment">Code used to redeem a discount.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/discountCurrency">
+      <span class="h" property="rdfs:label">discountCurrency</span>
+      <span property="rdfs:comment">
+        The currency of the discount.
+        
+        Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker symbol for cryptocurrencies e.g. "BTC"; well known names for Local Exchange Tradings Systems (LETS) and other currency types e.g. "Ithaca HOUR".</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/discusses">
       <span class="h" property="rdfs:label">discusses</span>
@@ -5066,6 +5195,12 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/CreativeWork">CreativeWork</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Boolean">Boolean</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/isGift">
+      <span class="h" property="rdfs:label">isGift</span>
+      <span property="rdfs:comment">Was the offer accepted as a gift for someone other than the buyer.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Boolean">Boolean</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/isicV4">
       <span class="h" property="rdfs:label">isicV4</span>
       <span property="rdfs:comment">The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.</span>
@@ -5526,6 +5661,59 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/SoftwareApplication">SoftwareApplication</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderDate">
+      <span class="h" property="rdfs:label">orderDate</span>
+      <span property="rdfs:comment">Date order was placed.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Date">Date</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderDelivery">
+      <span class="h" property="rdfs:label">orderDelivery</span>
+      <span property="rdfs:comment">The delivery of the parcel related to this order or order item.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/OrderItem">OrderItem</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderItemNumber">
+      <span class="h" property="rdfs:label">orderItemNumber</span>
+      <span property="rdfs:comment">The identifier of the order item.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/OrderItem">OrderItem</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderItemStatus">
+      <span class="h" property="rdfs:label">orderItemStatus</span>
+      <span property="rdfs:comment">The current status of the order item.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/OrderItem">OrderItem</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/OrderStatus">OrderStatus</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderNumber">
+      <span class="h" property="rdfs:label">orderNumber</span>
+      <span property="rdfs:comment">The identifier of the transaction.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderQuantity">
+      <span class="h" property="rdfs:label">orderQuantity</span>
+      <span property="rdfs:comment">The number of the item ordered. If the property is not set, assume the quantity is one.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/OrderItem">OrderItem</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Number">Number</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderStatus">
+      <span class="h" property="rdfs:label">orderStatus</span>
+      <span property="rdfs:comment">The current status of the order.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/OrderStatus">OrderStatus</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/orderedItem">
+      <span class="h" property="rdfs:label">orderedItem</span>
+      <span property="rdfs:comment">The item ordered.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/OrderItem">OrderItem</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/OrderItem">OrderItem</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Product">Product</a></span>
+      <!-- <span>Range: <a property="http://schema.org/range" href="http://schema.org/Service">Service</a></span> -->
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/origin">
       <span class="h" property="rdfs:label">origin</span>
       <span property="rdfs:comment">The place or point where a muscle arises.</span>
@@ -5588,6 +5776,12 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Person">Person</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Person">Person</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/partOfInvoice">
+      <span class="h" property="rdfs:label">partOfInvoice</span>
+      <span property="rdfs:comment">The order is being paid as part of the referenced Invoice.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Invoice">Invoice</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/partOfSeason">
       <span class="h" property="rdfs:label">partOfSeason</span>
       <span property="rdfs:comment">The season to which this episode belongs.</span>
@@ -5619,6 +5813,34 @@
       <span property="rdfs:comment">Cash, credit card, etc.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/LocalBusiness">LocalBusiness</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/paymentDueDate">
+      <span class="h" property="rdfs:label">paymentDueDate</span>
+      <span property="rdfs:comment">The date that payment is due.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Date">Date</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/paymentMethod">
+      <span class="h" property="rdfs:label">paymentMethod</span>
+      <span property="rdfs:comment">The name of the credit card or other method of payment for the order.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/PaymentMethod">PaymentMethod</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/paymentMethodId">
+      <span class="h" property="rdfs:label">paymentMethodId</span>
+      <span property="rdfs:comment">An identifier for the method of payment used (e.g. the last 4 digits of the credit card).</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/paymentUrl">
+      <span class="h" property="rdfs:label">paymentUrl</span>
+      <span property="rdfs:comment">The URL for sending a payment.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/URL">URL</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/performer">
       <span class="h" property="rdfs:label">performer</span>
@@ -6234,8 +6456,11 @@
     <div typeof="rdf:Property" resource="http://schema.org/seller">
       <span class="h" property="rdfs:label">seller</span>
       <span property="rdfs:comment">An entity which offers (sells / leases / lends / loans) the services / goods. A seller may also be a provider.</span>
-      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Offer">Offer</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/BuyAction">BuyAction</a></span> -->
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Demand">Demand</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Flight">Flight</a></span> -->
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Offer">Offer</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Organization">Organization</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Person">Person</a></span>
     </div>
