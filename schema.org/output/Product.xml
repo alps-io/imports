@@ -1,10 +1,10 @@
 <alps>
- <descriptor id="Product" type="semantic" href="http://alps.io/schema.org/Thing">
+ <descriptor id="Product" type="semantic" href="http://alps.io/schema.org/Thing.xml">
   <doc format="html">
    A product is anything that is made available for sale—for example, a pair of shoes, a concert ticket, or a car. Commodity services, like haircuts, can also be represented using this type.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="aggregateRating" type="semantic">
    <doc format="html">
@@ -30,7 +30,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="gtin13" type="semantic">
    <doc format="html">
@@ -56,7 +56,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="isAccessoryOrSparePartFor" type="semantic">
    <doc format="html">
@@ -112,7 +112,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="offers" type="semantic">
    <doc format="html">
@@ -150,7 +150,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="weight" type="semantic">
    <doc format="html">

@@ -1,10 +1,10 @@
 <alps>
- <descriptor id="Organization" type="semantic" href="http://alps.io/schema.org/Thing">
+ <descriptor id="Organization" type="semantic" href="http://alps.io/schema.org/Thing.xml">
   <doc format="html">
    An organization such as a school, NGO, corporation, club, etc.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="address" type="semantic">
    <doc format="html">
@@ -36,7 +36,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="duns" type="semantic">
    <doc format="html">
@@ -110,7 +110,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="interactionCount" type="semantic">
    <doc format="html">
@@ -166,7 +166,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="owns" type="semantic">
    <doc format="html">
@@ -204,7 +204,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="vatID" type="semantic">
    <doc format="html">

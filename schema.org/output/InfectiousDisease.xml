@@ -1,30 +1,30 @@
 <alps>
- <descriptor id="InfectiousDisease" type="semantic" href="http://alps.io/schema.org/MedicalCondition">
+ <descriptor id="InfectiousDisease" type="semantic" href="http://alps.io/schema.org/MedicalCondition.xml">
   <doc format="html">
    An infectious disease is a clinically evident human disease resulting from the presence of pathogenic microbial agents, like pathogenic viruses, pathogenic bacteria, fungi, protozoa, multicellular parasites, and prions. To be considered an infectious disease, such pathogens are known to be able to cause this disease.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#associatedAnatomy"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#associatedAnatomy"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#cause"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#cause"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#differentialDiagnosis"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#differentialDiagnosis"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#epidemiology"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#epidemiology"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#expectedPrognosis"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#expectedPrognosis"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="infectiousAgent" type="semantic">
    <doc format="html">
@@ -38,35 +38,35 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#naturalProgression"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#naturalProgression"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#pathophysiology"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#pathophysiology"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#possibleComplication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#possibleComplication"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#possibleTreatment"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#possibleTreatment"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#primaryPrevention"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#primaryPrevention"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#riskFactor"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#riskFactor"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#secondaryPrevention"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#secondaryPrevention"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#signOrSymptom"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#signOrSymptom"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#stage"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#stage"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#subtype"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#subtype"/>
 
   <descriptor id="transmissionMethod" type="semantic">
    <doc format="html">
@@ -74,9 +74,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalCondition#typicalTest"/>
+  <descriptor href="http://alps.io/schema.org/MedicalCondition.xml#typicalTest"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

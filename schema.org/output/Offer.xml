@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Offer" type="semantic" href="http://alps.io/schema.org/Intangible">
+ <descriptor id="Offer" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
   <doc format="html">
    An offer to sell an item&#x2014;for example, an offer to sell a product, the DVD of a movie, or tickets to an event.
   </doc>
@@ -16,7 +16,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="advanceBookingRequirement" type="semantic">
    <doc format="html">
@@ -78,7 +78,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="eligibleCustomerType" type="semantic">
    <doc format="html">
@@ -128,7 +128,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="includesObject" type="semantic">
    <doc format="html">
@@ -160,7 +160,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="price" type="semantic">
    <doc format="html">
@@ -216,7 +216,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
    <doc format="html">

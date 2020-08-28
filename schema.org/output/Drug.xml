@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Drug" type="semantic" href="http://alps.io/schema.org/MedicalTherapy">
+ <descriptor id="Drug" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml">
   <doc format="html">
    A chemical or biologic substance, used as a medical therapy, that has a physiological effect on an organism.
   </doc>
@@ -10,7 +10,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="administrationRoute" type="semantic">
    <doc format="html">
@@ -18,7 +18,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#adverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#adverseOutcome"/>
 
   <descriptor id="alcoholWarning" type="semantic">
    <doc format="html">
@@ -26,7 +26,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="availableStrength" type="semantic">
    <doc format="html">
@@ -46,9 +46,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#contraindication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#contraindication"/>
 
   <descriptor id="cost" type="semantic">
    <doc format="html">
@@ -56,7 +56,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="dosageForm" type="semantic">
    <doc format="html">
@@ -76,7 +76,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#duplicateTherapy"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
 
   <descriptor id="foodWarning" type="semantic">
    <doc format="html">
@@ -84,11 +84,11 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
 
   <descriptor id="interactingDrug" type="semantic">
    <doc format="html">
@@ -108,7 +108,7 @@
    </doc>
   </descriptor>
 
-  <descriptor id="labelDetails" type="safe" rt="http://alps.io/schema.org/URL">
+  <descriptor id="labelDetails" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc format="html">
     Link to the drug's label details.
    </doc>
@@ -132,9 +132,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nonProprietaryName" type="semantic">
    <doc format="html">
@@ -160,7 +160,7 @@
    </doc>
   </descriptor>
 
-  <descriptor id="prescribingInfo" type="safe" rt="http://alps.io/schema.org/URL">
+  <descriptor id="prescribingInfo" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc format="html">
     Link to prescribing information for the drug.
    </doc>
@@ -172,7 +172,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="relatedDrug" type="semantic">
    <doc format="html">
@@ -180,13 +180,13 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#seriousAdverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="warning" type="semantic">
    <doc format="html">

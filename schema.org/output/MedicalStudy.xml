@@ -1,24 +1,24 @@
 <alps>
- <descriptor id="MedicalStudy" type="semantic" href="http://alps.io/schema.org/MedicalEntity">
+ <descriptor id="MedicalStudy" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
   <doc format="html">
    A medical study is an umbrella type covering all kinds of research studies relating to human medicine or health, including observational studies and interventional trials and registries, randomized, controlled or not. When the specific type of study is known, use one of the extensions of this type, such as MedicalTrial or MedicalObservationalStudy. Also, note that this type should be used to mark up data that describes the study itself; to tag an article that publishes the results of a study, use MedicalScholarlyArticle. Note: use the code property of MedicalEntity to store study IDs, e.g. clinicaltrials.gov ID.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="outcome" type="semantic">
    <doc format="html">
@@ -32,9 +32,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="sponsor" type="semantic">
    <doc format="html">
@@ -48,7 +48,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="studyLocation" type="semantic">
    <doc format="html">
@@ -62,7 +62,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

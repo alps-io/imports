@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Demand" type="semantic" href="http://alps.io/schema.org/Intangible">
+ <descriptor id="Demand" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
   <doc format="html">
    A demand entity represents the public, not necessarily binding, not necessarily exclusive, announcement by an organization or person to seek a certain type of goods or services. For describing demand using this type, the very same properties used for Offer apply.
   </doc>
@@ -10,7 +10,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="advanceBookingRequirement" type="semantic">
    <doc format="html">
@@ -60,7 +60,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="eligibleCustomerType" type="semantic">
    <doc format="html">
@@ -110,7 +110,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="includesObject" type="semantic">
    <doc format="html">
@@ -142,7 +142,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="priceSpecification" type="semantic">
    <doc format="html">
@@ -168,7 +168,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
    <doc format="html">

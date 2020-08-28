@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="WarrantyScope" type="semantic" href="http://alps.io/schema.org/Enumeration">
+ <descriptor id="WarrantyScope" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
   <doc format="html">
    A range of of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.
 
@@ -10,15 +10,15 @@
     http://purl.org/goodrelations/v1#PartsAndLabor-PickUp
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

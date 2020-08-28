@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DietarySupplement" type="semantic" href="http://alps.io/schema.org/MedicalTherapy">
+ <descriptor id="DietarySupplement" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml">
   <doc format="html">
    A product taken by mouth that contains a dietary ingredient intended to supplement the diet. Dietary ingredients may include vitamins, minerals, herbs or other botanicals, amino acids, and substances such as enzymes, organ tissues, glandulars and metabolites.
   </doc>
@@ -10,11 +10,11 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#adverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#adverseOutcome"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="background" type="semantic">
    <doc format="html">
@@ -22,11 +22,11 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#contraindication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#contraindication"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="dosageForm" type="semantic">
    <doc format="html">
@@ -34,13 +34,13 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#duplicateTherapy"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
 
   <descriptor id="isProprietary" type="semantic">
    <doc format="html">
@@ -72,9 +72,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nonProprietaryName" type="semantic">
    <doc format="html">
@@ -82,7 +82,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="recommendedIntake" type="semantic">
    <doc format="html">
@@ -90,7 +90,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="safetyConsideration" type="semantic">
    <doc format="html">
@@ -98,9 +98,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#seriousAdverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="targetPopulation" type="semantic">
    <doc format="html">
@@ -108,7 +108,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

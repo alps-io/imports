@@ -1,36 +1,36 @@
 <alps>
- <descriptor id="PathologyTest" type="semantic" href="http://alps.io/schema.org/MedicalTest">
+ <descriptor id="PathologyTest" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml">
   <doc format="html">
    A medical test performed by a laboratory that typically involves examination of a tissue sample by a pathologist.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTest#affectedBy"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#affectedBy"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTest#normalRange"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#normalRange"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTest#signDetected"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#signDetected"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="tissueSample" type="semantic">
    <doc format="html">
@@ -38,11 +38,11 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTest#usedToDiagnose"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#usedToDiagnose"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTest#usesDevice"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#usesDevice"/>
 
  </descriptor>
 </alps>

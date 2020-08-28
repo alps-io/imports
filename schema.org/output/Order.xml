@@ -1,7 +1,7 @@
 <alps>
- <descriptor id="ItemAvailability" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+ <descriptor id="Order" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
   <doc format="html">
-   A list of possible product availablity options.
+   An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.
   </doc>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>

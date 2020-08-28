@@ -1,10 +1,10 @@
 <alps>
- <descriptor id="DeliveryChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification">
+ <descriptor id="DeliveryChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification.xml">
   <doc format="html">
    The price for the delivery of an offer using a particular delivery method.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="appliesToDeliveryMethod" type="semantic">
    <doc format="html">
@@ -12,9 +12,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#eligibleQuantity"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleQuantity"/>
 
   <descriptor id="eligibleRegion" type="semantic">
    <doc format="html">
@@ -22,27 +22,27 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#eligibleTransactionVolume"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleTransactionVolume"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#maxPrice"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#maxPrice"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#minPrice"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#minPrice"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#price"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#price"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#priceCurrency"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#priceCurrency"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#validFrom"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#validFrom"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#validThrough"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#validThrough"/>
 
-  <descriptor href="http://alps.io/schema.org/PriceSpecification#valueAddedTaxIncluded"/>
+  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#valueAddedTaxIncluded"/>
 
  </descriptor>
 </alps>

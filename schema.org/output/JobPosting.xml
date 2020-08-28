@@ -1,10 +1,10 @@
 <alps>
- <descriptor id="JobPosting" type="semantic" href="http://alps.io/schema.org/Intangible">
+ <descriptor id="JobPosting" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
   <doc format="html">
    A listing that describes a job opening in a certain organization.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="baseSalary" type="semantic">
    <doc format="html">
@@ -24,7 +24,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="educationRequirements" type="semantic">
    <doc format="html">
@@ -50,7 +50,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="incentives" type="semantic">
    <doc format="html">
@@ -70,7 +70,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="occupationalCategory" type="semantic">
    <doc format="html">
@@ -114,7 +114,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="workHours" type="semantic">
    <doc format="html">

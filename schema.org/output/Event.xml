@@ -1,10 +1,10 @@
 <alps>
- <descriptor id="Event" type="semantic" href="http://alps.io/schema.org/Thing">
+ <descriptor id="Event" type="semantic" href="http://alps.io/schema.org/Thing.xml">
   <doc format="html">
    An event happening at a certain time at a certain location.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="attendee" type="semantic">
    <doc format="html">
@@ -18,7 +18,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="duration" type="semantic">
    <doc format="html">
@@ -32,7 +32,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="location" type="semantic">
    <doc format="html">
@@ -40,7 +40,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="offers" type="semantic">
    <doc format="html">
@@ -84,7 +84,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

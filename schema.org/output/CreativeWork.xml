@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="CreativeWork" type="semantic" href="http://alps.io/schema.org/Thing">
+ <descriptor id="CreativeWork" type="semantic" href="http://alps.io/schema.org/Thing.xml">
   <doc format="html">
    The most generic kind of creative work, including books, movies, photographs, software programs, etc.
   </doc>
@@ -16,7 +16,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="aggregateRating" type="semantic">
    <doc format="html">
@@ -126,9 +126,9 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor id="discussionUrl" type="safe" rt="http://alps.io/schema.org/URL">
+  <descriptor id="discussionUrl" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc format="html">
     A link to the page containing the comments of the CreativeWork.
    </doc>
@@ -164,7 +164,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="inLanguage" type="semantic">
    <doc format="html">
@@ -196,7 +196,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="offers" type="semantic">
    <doc format="html">
@@ -216,7 +216,7 @@
    </doc>
   </descriptor>
 
-  <descriptor id="publishingPrinciples" type="safe" rt="http://alps.io/schema.org/URL">
+  <descriptor id="publishingPrinciples" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc format="html">
     Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork.
    </doc>
@@ -246,13 +246,13 @@
    </doc>
   </descriptor>
 
-  <descriptor id="thumbnailUrl" type="safe" rt="http://alps.io/schema.org/URL">
+  <descriptor id="thumbnailUrl" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc format="html">
     A thumbnail image relevant to the Thing.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="version" type="semantic">
    <doc format="html">

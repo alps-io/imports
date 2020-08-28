@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DayOfWeek" type="semantic" href="http://alps.io/schema.org/Enumeration">
+ <descriptor id="DayOfWeek" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
   <doc format="html">
    The day of the week, e.g. used to specify to which day the opening hours of an OpeningHoursSpecification refer.
 
@@ -15,15 +15,15 @@
     http://purl.org/goodrelations/v1#PublicHolidays
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

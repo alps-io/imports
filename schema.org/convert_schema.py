@@ -62,7 +62,7 @@ class RDFClass(object):
 
     @property
     def url(self):
-        return base_url + self.label
+        return base_url + self.label + ".xml"
 
     @property
     def as_alps(self):
@@ -122,7 +122,7 @@ class RDFProperty(object):
             type=self.type,
             label=self.label,
             href="",
-            rt=" ".join(base_url + range_class.label for range_class in self.range_classes),
+            rt=" ".join(base_url + range_class.label + ".xml" for range_class in self.range_classes),
             doc=fix_doc(self.comment))
 
         if defined_in_class == for_class:

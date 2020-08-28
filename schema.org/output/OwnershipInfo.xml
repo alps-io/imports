@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="OwnershipInfo" type="semantic" href="http://alps.io/schema.org/StructuredValue">
+ <descriptor id="OwnershipInfo" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
   <doc format="html">
    A structured value providing information about when a certain organization or person owned a certain product.
   </doc>
@@ -10,13 +10,13 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="ownedFrom" type="semantic">
    <doc format="html">
@@ -36,7 +36,7 @@
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>
