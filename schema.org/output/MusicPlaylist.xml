@@ -74,7 +74,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="numTracks" type="semantic" rt="http://alps.io/schema.org/Integer">
+  <descriptor id="numTracks" type="semantic">
    <doc format="html">
     The number of tracks in this album or playlist.
    </doc>
@@ -98,13 +98,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
 
-  <descriptor id="track" type="semantic" rt="http://alps.io/schema.org/MusicRecording">
+  <descriptor id="track" type="semantic">
    <doc format="html">
     A music recording (track)&#x2014;usually a single song.
    </doc>
   </descriptor>
 
-  <descriptor id="tracks" type="semantic" rt="http://alps.io/schema.org/MusicRecording">
+  <descriptor id="tracks" type="semantic">
    <doc format="html">
     A music recording (track)&#x2014;usually a single song (legacy spelling; see singular form, track).
    </doc>

@@ -26,13 +26,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="blogPost" type="semantic" rt="http://alps.io/schema.org/BlogPosting">
+  <descriptor id="blogPost" type="semantic">
    <doc format="html">
     A posting that is part of this blog.
    </doc>
   </descriptor>
 
-  <descriptor id="blogPosts" type="semantic" rt="http://alps.io/schema.org/BlogPosting">
+  <descriptor id="blogPosts" type="semantic">
    <doc format="html">
     The postings that are part of this blog (legacy spelling; see singular form, blogPost).
    </doc>

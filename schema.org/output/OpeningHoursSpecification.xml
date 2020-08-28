@@ -6,13 +6,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
 
-  <descriptor id="closes" type="semantic" rt="http://alps.io/schema.org/Time">
+  <descriptor id="closes" type="semantic">
    <doc format="html">
     The closing hour of the place or service on the given day(s) of the week.
    </doc>
   </descriptor>
 
-  <descriptor id="dayOfWeek" type="semantic" rt="http://alps.io/schema.org/DayOfWeek">
+  <descriptor id="dayOfWeek" type="semantic">
    <doc format="html">
     The day of the week for which these opening hours are valid.
    </doc>
@@ -24,7 +24,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="opens" type="semantic" rt="http://alps.io/schema.org/Time">
+  <descriptor id="opens" type="semantic">
    <doc format="html">
     The opening hour of the place or service on the given day(s) of the week.
    </doc>
@@ -32,13 +32,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#url"/>
 
-  <descriptor id="validFrom" type="semantic" rt="http://alps.io/schema.org/DateTime">
+  <descriptor id="validFrom" type="semantic">
    <doc format="html">
     The beginning of the validity of offer, price specification, or opening hours data.
    </doc>
   </descriptor>
 
-  <descriptor id="validThrough" type="semantic" rt="http://alps.io/schema.org/DateTime">
+  <descriptor id="validThrough" type="semantic">
    <doc format="html">
     The end of the validity of offer, price specification, or opening hours data.
    </doc>

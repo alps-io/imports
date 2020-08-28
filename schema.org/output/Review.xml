@@ -68,7 +68,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
 
-  <descriptor id="itemReviewed" type="semantic" rt="http://alps.io/schema.org/Thing">
+  <descriptor id="itemReviewed" type="semantic">
    <doc format="html">
     The item that is being reviewed/rated.
    </doc>
@@ -90,13 +90,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#review"/>
 
-  <descriptor id="reviewBody" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="reviewBody" type="semantic">
    <doc format="html">
     The actual body of the review
    </doc>
   </descriptor>
 
-  <descriptor id="reviewRating" type="semantic" rt="http://alps.io/schema.org/Rating">
+  <descriptor id="reviewRating" type="semantic">
    <doc format="html">
     The rating given in this review. Note that reviews can themselves be rated. The <code>reviewRating</code> applies to rating given by the review. The <code>aggregateRating</code> property applies to the review itself, as a creative work.
    </doc>

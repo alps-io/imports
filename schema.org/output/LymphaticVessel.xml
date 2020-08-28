@@ -30,7 +30,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="originatesFrom" type="semantic" rt="http://alps.io/schema.org/Vessel">
+  <descriptor id="originatesFrom" type="semantic">
    <doc format="html">
     The vasculature the lymphatic structure originates, or afferents, from.
    </doc>
@@ -40,7 +40,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
 
-  <descriptor id="regionDrained" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/AnatomicalSystem">
+  <descriptor id="regionDrained" type="semantic">
    <doc format="html">
     The anatomical or organ system drained by this vessel; generally refers to a specific part of an organ.
    </doc>
@@ -52,7 +52,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="runsTo" type="semantic" rt="http://alps.io/schema.org/Vessel">
+  <descriptor id="runsTo" type="semantic">
    <doc format="html">
     The vasculature the lymphatic structure runs, or efferents, to.
    </doc>

@@ -10,7 +10,7 @@
 
   <descriptor href="http://alps.io/schema.org/Organization#aggregateRating"/>
 
-  <descriptor id="alumni" type="semantic" rt="http://alps.io/schema.org/Person">
+  <descriptor id="alumni" type="semantic">
    <doc format="html">
     Alumni of educational organization.
    </doc>

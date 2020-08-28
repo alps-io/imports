@@ -26,13 +26,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="infectiousAgent" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="infectiousAgent" type="semantic">
    <doc format="html">
     The actual infectious agent, such as a specific bacterium.
    </doc>
   </descriptor>
 
-  <descriptor id="infectiousAgentClass" type="semantic" rt="http://alps.io/schema.org/InfectiousAgentClass">
+  <descriptor id="infectiousAgentClass" type="semantic">
    <doc format="html">
     The class of infectious agent (bacteria, prion, etc.) that causes the disease.
    </doc>
@@ -68,7 +68,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalCondition#subtype"/>
 
-  <descriptor id="transmissionMethod" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="transmissionMethod" type="semantic">
    <doc format="html">
     How the disease spreads, either as a route or vector, for example 'direct contact', 'Aedes aegypti', etc.
    </doc>

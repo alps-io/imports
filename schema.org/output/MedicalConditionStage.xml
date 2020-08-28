@@ -24,7 +24,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="stageAsNumber" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="stageAsNumber" type="semantic">
    <doc format="html">
     The stage represented as a number, e.g. 3.
    </doc>
@@ -32,7 +32,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
 
-  <descriptor id="subStageSuffix" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="subStageSuffix" type="semantic">
    <doc format="html">
     The substage, e.g. 'a' for Stage IIIa.
    </doc>

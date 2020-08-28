@@ -10,7 +10,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="logo" type="semantic" rt="http://alps.io/schema.org/ImageObject http://alps.io/schema.org/URL">
+  <descriptor id="logo" type="semantic">
    <doc format="html">
     URL of an image for the logo of the item.
    </doc>

@@ -30,7 +30,7 @@
 
   <descriptor href="http://alps.io/schema.org/MediaObject#bitrate"/>
 
-  <descriptor id="caption" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="caption" type="semantic">
    <doc format="html">
     The caption for this object.
    </doc>
@@ -104,7 +104,7 @@
 
   <descriptor href="http://alps.io/schema.org/MediaObject#playerType"/>
 
-  <descriptor id="productionCompany" type="semantic" rt="http://alps.io/schema.org/Organization">
+  <descriptor id="productionCompany" type="semantic">
    <doc format="html">
     The production company or studio that made the movie, TV series, season, or episode, or video.
    </doc>
@@ -128,7 +128,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#text"/>
 
-  <descriptor id="thumbnail" type="semantic" rt="http://alps.io/schema.org/ImageObject">
+  <descriptor id="thumbnail" type="semantic">
    <doc format="html">
     Thumbnail image for an image or video.
    </doc>
@@ -136,7 +136,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
 
-  <descriptor id="transcript" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="transcript" type="semantic">
    <doc format="html">
     If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
    </doc>
@@ -150,13 +150,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#video"/>
 
-  <descriptor id="videoFrameSize" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="videoFrameSize" type="semantic">
    <doc format="html">
     The frame size of the video.
    </doc>
   </descriptor>
 
-  <descriptor id="videoQuality" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="videoQuality" type="semantic">
    <doc format="html">
     The quality of the video.
    </doc>

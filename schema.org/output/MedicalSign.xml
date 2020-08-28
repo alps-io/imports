@@ -16,13 +16,13 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
 
-  <descriptor id="identifyingExam" type="semantic" rt="http://alps.io/schema.org/PhysicalExam">
+  <descriptor id="identifyingExam" type="semantic">
    <doc format="html">
     A physical examination that can identify this sign.
    </doc>
   </descriptor>
 
-  <descriptor id="identifyingTest" type="semantic" rt="http://alps.io/schema.org/MedicalTest">
+  <descriptor id="identifyingTest" type="semantic">
    <doc format="html">
     A diagnostic test that can identify this sign.
    </doc>

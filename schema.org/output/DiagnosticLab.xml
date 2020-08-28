@@ -10,7 +10,7 @@
 
   <descriptor href="http://alps.io/schema.org/Organization#aggregateRating"/>
 
-  <descriptor id="availableTest" type="semantic" rt="http://alps.io/schema.org/MedicalTest">
+  <descriptor id="availableTest" type="semantic">
    <doc format="html">
     A diagnostic test or procedure offered by this lab.
    </doc>

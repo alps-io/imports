@@ -12,7 +12,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="followup" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="followup" type="semantic">
    <doc format="html">
     Typical or recommended followup care after the procedure is performed.
    </doc>
@@ -20,7 +20,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
 
-  <descriptor id="howPerformed" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="howPerformed" type="semantic">
    <doc format="html">
     How the procedure is performed.
    </doc>
@@ -32,13 +32,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="preparation" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="preparation" type="semantic">
    <doc format="html">
     Typical preparation that a patient must undergo before having the procedure performed.
    </doc>
   </descriptor>
 
-  <descriptor id="procedureType" type="semantic" rt="http://alps.io/schema.org/MedicalProcedureType">
+  <descriptor id="procedureType" type="semantic">
    <doc format="html">
     The type of procedure, for example Surgical, Noninvasive, or Percutaneous.
    </doc>

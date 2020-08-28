@@ -4,7 +4,7 @@
    A structured value providing information about when a certain organization or person owned a certain product.
   </doc>
 
-  <descriptor id="acquiredFrom" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+  <descriptor id="acquiredFrom" type="semantic">
    <doc format="html">
     The organization or person from which the product was acquired.
    </doc>
@@ -18,19 +18,19 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="ownedFrom" type="semantic" rt="http://alps.io/schema.org/DateTime">
+  <descriptor id="ownedFrom" type="semantic">
    <doc format="html">
     The date and time of obtaining the product.
    </doc>
   </descriptor>
 
-  <descriptor id="ownedThrough" type="semantic" rt="http://alps.io/schema.org/DateTime">
+  <descriptor id="ownedThrough" type="semantic">
    <doc format="html">
     The date and time of giving up ownership on the product.
    </doc>
   </descriptor>
 
-  <descriptor id="typeOfGood" type="semantic" rt="http://alps.io/schema.org/Product">
+  <descriptor id="typeOfGood" type="semantic">
    <doc format="html">
     The product that this structured value is referring to.
    </doc>

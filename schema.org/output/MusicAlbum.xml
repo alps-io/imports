@@ -26,7 +26,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="byArtist" type="semantic" rt="http://alps.io/schema.org/MusicGroup">
+  <descriptor id="byArtist" type="semantic">
    <doc format="html">
     The artist that performed this album or recording.
    </doc>

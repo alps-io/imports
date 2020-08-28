@@ -32,7 +32,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="browserRequirements" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="browserRequirements" type="semantic">
    <doc format="html">
     Specifies browser requirements in human-readable text. For example,"requires HTML5 support".
    </doc>

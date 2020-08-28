@@ -6,19 +6,19 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
 
-  <descriptor id="calories" type="semantic" rt="http://alps.io/schema.org/Energy">
+  <descriptor id="calories" type="semantic">
    <doc format="html">
     The number of calories
    </doc>
   </descriptor>
 
-  <descriptor id="carbohydrateContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="carbohydrateContent" type="semantic">
    <doc format="html">
     The number of grams of carbohydrates.
    </doc>
   </descriptor>
 
-  <descriptor id="cholesterolContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="cholesterolContent" type="semantic">
    <doc format="html">
     The number of milligrams of cholesterol.
    </doc>
@@ -26,13 +26,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="fatContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="fatContent" type="semantic">
    <doc format="html">
     The number of grams of fat.
    </doc>
   </descriptor>
 
-  <descriptor id="fiberContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="fiberContent" type="semantic">
    <doc format="html">
     The number of grams of fiber.
    </doc>
@@ -42,43 +42,43 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="proteinContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="proteinContent" type="semantic">
    <doc format="html">
     The number of grams of protein.
    </doc>
   </descriptor>
 
-  <descriptor id="saturatedFatContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="saturatedFatContent" type="semantic">
    <doc format="html">
     The number of grams of saturated fat.
    </doc>
   </descriptor>
 
-  <descriptor id="servingSize" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="servingSize" type="semantic">
    <doc format="html">
     The serving size, in terms of the number of volume or mass
    </doc>
   </descriptor>
 
-  <descriptor id="sodiumContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="sodiumContent" type="semantic">
    <doc format="html">
     The number of milligrams of sodium.
    </doc>
   </descriptor>
 
-  <descriptor id="sugarContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="sugarContent" type="semantic">
    <doc format="html">
     The number of grams of sugar.
    </doc>
   </descriptor>
 
-  <descriptor id="transFatContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="transFatContent" type="semantic">
    <doc format="html">
     The number of grams of trans fat.
    </doc>
   </descriptor>
 
-  <descriptor id="unsaturatedFatContent" type="semantic" rt="http://alps.io/schema.org/Mass">
+  <descriptor id="unsaturatedFatContent" type="semantic">
    <doc format="html">
     The number of grams of unsaturated fat.
    </doc>

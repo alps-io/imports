@@ -26,7 +26,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="inventoryLevel" type="semantic" rt="http://alps.io/schema.org/QuantitativeValue">
+  <descriptor id="inventoryLevel" type="semantic">
    <doc format="html">
     The current approximate inventory level for the item or items.
    </doc>

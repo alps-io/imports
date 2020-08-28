@@ -8,13 +8,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#accountablePerson"/>
 
-  <descriptor id="actor" type="semantic" rt="http://alps.io/schema.org/Person">
+  <descriptor id="actor" type="semantic">
    <doc format="html">
     A cast member of the movie, TV series, season, or episode, or video.
    </doc>
   </descriptor>
 
-  <descriptor id="actors" type="semantic" rt="http://alps.io/schema.org/Person">
+  <descriptor id="actors" type="semantic">
    <doc format="html">
     A cast member of the movie, TV series, season, or episode, or video. (legacy spelling; see singular form, actor)
    </doc>
@@ -60,7 +60,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="director" type="semantic" rt="http://alps.io/schema.org/Person">
+  <descriptor id="director" type="semantic">
    <doc format="html">
     The director of the movie, TV episode, or series.
    </doc>
@@ -68,7 +68,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#discussionUrl"/>
 
-  <descriptor id="duration" type="semantic" rt="http://alps.io/schema.org/Duration">
+  <descriptor id="duration" type="semantic">
    <doc format="html">
     The duration of the item (movie, audio recording, event, etc.) in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>.
    </doc>
@@ -96,7 +96,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#mentions"/>
 
-  <descriptor id="musicBy" type="semantic" rt="http://alps.io/schema.org/MusicGroup http://alps.io/schema.org/Person">
+  <descriptor id="musicBy" type="semantic">
    <doc format="html">
     The composer of the movie or TV soundtrack.
    </doc>
@@ -106,13 +106,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#offers"/>
 
-  <descriptor id="producer" type="semantic" rt="http://alps.io/schema.org/Person">
+  <descriptor id="producer" type="semantic">
    <doc format="html">
     The producer of the movie, TV series, season, or episode, or video.
    </doc>
   </descriptor>
 
-  <descriptor id="productionCompany" type="semantic" rt="http://alps.io/schema.org/Organization">
+  <descriptor id="productionCompany" type="semantic">
    <doc format="html">
     The production company or studio that made the movie, TV series, season, or episode, or video.
    </doc>
@@ -134,7 +134,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
 
-  <descriptor id="trailer" type="semantic" rt="http://alps.io/schema.org/VideoObject">
+  <descriptor id="trailer" type="semantic">
    <doc format="html">
     The trailer of the movie or TV series, season, or episode.
    </doc>

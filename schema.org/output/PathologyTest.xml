@@ -32,7 +32,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
 
-  <descriptor id="tissueSample" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="tissueSample" type="semantic">
    <doc format="html">
     The type of tissue sample required for the test.
    </doc>

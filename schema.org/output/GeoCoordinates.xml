@@ -8,7 +8,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="elevation" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+  <descriptor id="elevation" type="semantic">
    <doc format="html">
     The elevation of a location.
    </doc>
@@ -16,13 +16,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="latitude" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+  <descriptor id="latitude" type="semantic">
    <doc format="html">
     The latitude of a location. For example <code>37.42242</code>.
    </doc>
   </descriptor>
 
-  <descriptor id="longitude" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+  <descriptor id="longitude" type="semantic">
    <doc format="html">
     The longitude of a location. For example <code>-122.08585</code>.
    </doc>

@@ -26,7 +26,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="breadcrumb" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="breadcrumb" type="semantic">
    <doc format="html">
     A set of links that can help a user understand and navigate a website hierarchy.
    </doc>
@@ -74,7 +74,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
 
-  <descriptor id="isPartOf" type="semantic" rt="http://alps.io/schema.org/CollectionPage">
+  <descriptor id="isPartOf" type="semantic">
    <doc format="html">
     Indicates the collection or gallery to which the item belongs.
    </doc>
@@ -82,13 +82,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#keywords"/>
 
-  <descriptor id="lastReviewed" type="semantic" rt="http://alps.io/schema.org/Date">
+  <descriptor id="lastReviewed" type="semantic">
    <doc format="html">
     Date on which the content on this web page was last reviewed for accuracy and/or completeness.
    </doc>
   </descriptor>
 
-  <descriptor id="mainContentOfPage" type="semantic" rt="http://alps.io/schema.org/WebPageElement">
+  <descriptor id="mainContentOfPage" type="semantic">
    <doc format="html">
     Indicates if this web page element is the main subject of the page.
    </doc>
@@ -100,7 +100,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#offers"/>
 
-  <descriptor id="primaryImageOfPage" type="semantic" rt="http://alps.io/schema.org/ImageObject">
+  <descriptor id="primaryImageOfPage" type="semantic">
    <doc format="html">
     Indicates the main image on the page
    </doc>
@@ -120,7 +120,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#review"/>
 
-  <descriptor id="reviewedBy" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+  <descriptor id="reviewedBy" type="semantic">
    <doc format="html">
     People or organizations that have reviewed the content on this web page for accuracy and/or completeness.
    </doc>
@@ -142,7 +142,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#sourceOrganization"/>
 
-  <descriptor id="specialty" type="semantic" rt="http://alps.io/schema.org/Specialty">
+  <descriptor id="specialty" type="semantic">
    <doc format="html">
     One of the domain specialities to which this web page's content applies.
    </doc>

@@ -6,7 +6,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
 
-  <descriptor id="algorithm" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="algorithm" type="semantic">
    <doc format="html">
     The algorithm or rules to follow to compute the score.
    </doc>

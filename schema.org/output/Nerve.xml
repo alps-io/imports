@@ -12,7 +12,7 @@
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure#bodyLocation"/>
 
-  <descriptor id="branch" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/Nerve">
+  <descriptor id="branch" type="semantic">
    <doc format="html">
     The branches that delineate from the nerve bundle.
    </doc>
@@ -36,7 +36,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="nerveMotor" type="semantic" rt="http://alps.io/schema.org/Muscle">
+  <descriptor id="nerveMotor" type="semantic">
    <doc format="html">
     The neurological pathway extension that involves muscle control.
    </doc>
@@ -52,13 +52,13 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="sensoryUnit" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/SuperficialAnatomy">
+  <descriptor id="sensoryUnit" type="semantic">
    <doc format="html">
     The neurological pathway extension that inputs and sends information to the brain or spinal cord.
    </doc>
   </descriptor>
 
-  <descriptor id="sourcedFrom" type="semantic" rt="http://alps.io/schema.org/BrainStructure">
+  <descriptor id="sourcedFrom" type="semantic">
    <doc format="html">
     The neurological pathway that originates the neurons.
    </doc>

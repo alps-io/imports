@@ -26,7 +26,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="byArtist" type="semantic" rt="http://alps.io/schema.org/MusicGroup">
+  <descriptor id="byArtist" type="semantic">
    <doc format="html">
     The artist that performed this album or recording.
    </doc>
@@ -56,7 +56,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#discussionUrl"/>
 
-  <descriptor id="duration" type="semantic" rt="http://alps.io/schema.org/Duration">
+  <descriptor id="duration" type="semantic">
    <doc format="html">
     The duration of the item (movie, audio recording, event, etc.) in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>.
    </doc>
@@ -74,7 +74,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="inAlbum" type="semantic" rt="http://alps.io/schema.org/MusicAlbum">
+  <descriptor id="inAlbum" type="semantic">
    <doc format="html">
     The album to which this recording belongs.
    </doc>
@@ -82,7 +82,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#inLanguage"/>
 
-  <descriptor id="inPlaylist" type="semantic" rt="http://alps.io/schema.org/MusicPlaylist">
+  <descriptor id="inPlaylist" type="semantic">
    <doc format="html">
     The playlist to which this recording belongs.
    </doc>

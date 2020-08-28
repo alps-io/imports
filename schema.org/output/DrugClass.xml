@@ -16,7 +16,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="drug" type="semantic" rt="http://alps.io/schema.org/Drug">
+  <descriptor id="drug" type="semantic">
    <doc format="html">
     A drug in this drug class.
    </doc>

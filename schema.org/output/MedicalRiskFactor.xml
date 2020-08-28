@@ -16,7 +16,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="increasesRiskOf" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+  <descriptor id="increasesRiskOf" type="semantic">
    <doc format="html">
     The condition, complication, etc. influenced by this factor.
    </doc>

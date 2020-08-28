@@ -10,7 +10,7 @@
 
   <descriptor href="http://alps.io/schema.org/Organization#aggregateRating"/>
 
-  <descriptor id="availableService" type="semantic" rt="http://alps.io/schema.org/MedicalProcedure http://alps.io/schema.org/MedicalTest http://alps.io/schema.org/MedicalTherapy">
+  <descriptor id="availableService" type="semantic">
    <doc format="html">
     A medical service available from this provider.
    </doc>
@@ -56,7 +56,7 @@
 
   <descriptor href="http://alps.io/schema.org/Organization#hasPOS"/>
 
-  <descriptor id="hospitalAffiliation" type="semantic" rt="http://alps.io/schema.org/Hospital">
+  <descriptor id="hospitalAffiliation" type="semantic">
    <doc format="html">
     A hospital with which the physician or office is affiliated.
    </doc>
@@ -80,7 +80,7 @@
 
   <descriptor href="http://alps.io/schema.org/Place#maps"/>
 
-  <descriptor id="medicalSpecialty" type="semantic" rt="http://alps.io/schema.org/MedicalSpecialty">
+  <descriptor id="medicalSpecialty" type="semantic">
    <doc format="html">
     A medical specialty of the provider.
    </doc>

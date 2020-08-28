@@ -8,7 +8,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
 
-  <descriptor id="applicableLocation" type="semantic" rt="http://alps.io/schema.org/AdministrativeArea">
+  <descriptor id="applicableLocation" type="semantic">
    <doc format="html">
     The location in which the status applies.
    </doc>
@@ -16,25 +16,25 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
 
-  <descriptor id="costCategory" type="semantic" rt="http://alps.io/schema.org/DrugCostCategory">
+  <descriptor id="costCategory" type="semantic">
    <doc format="html">
     The category of cost, such as wholesale, retail, reimbursement cap, etc.
    </doc>
   </descriptor>
 
-  <descriptor id="costCurrency" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="costCurrency" type="semantic">
    <doc format="html">
     The currency (in 3-letter <a href=http://en.wikipedia.org/wiki/ISO_4217>ISO 4217 format</a>) of the drug cost.
    </doc>
   </descriptor>
 
-  <descriptor id="costOrigin" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="costOrigin" type="semantic">
    <doc format="html">
     Additional details to capture the origin of the cost data. For example, 'Medicare Part B'.
    </doc>
   </descriptor>
 
-  <descriptor id="costPerUnit" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+  <descriptor id="costPerUnit" type="semantic">
    <doc format="html">
     The cost per unit of the drug.
    </doc>
@@ -42,7 +42,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="drugUnit" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="drugUnit" type="semantic">
    <doc format="html">
     The unit in which the drug is measured, e.g. '5 mg tablet'.
    </doc>

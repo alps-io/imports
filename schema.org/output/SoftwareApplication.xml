@@ -14,19 +14,19 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#alternativeHeadline"/>
 
-  <descriptor id="applicationCategory" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="applicationCategory" type="semantic">
    <doc format="html">
     Type of software application, e.g. "Game, Multimedia".
    </doc>
   </descriptor>
 
-  <descriptor id="applicationSubCategory" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="applicationSubCategory" type="semantic">
    <doc format="html">
     Subcategory of the application, e.g. "Arcade Game".
    </doc>
   </descriptor>
 
-  <descriptor id="applicationSuite" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="applicationSuite" type="semantic">
    <doc format="html">
     The name of the application suite to which the application belongs (e.g. Excel belongs to Office)
    </doc>
@@ -56,13 +56,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#copyrightYear"/>
 
-  <descriptor id="countriesNotSupported" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="countriesNotSupported" type="semantic">
    <doc format="html">
     Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
    </doc>
   </descriptor>
 
-  <descriptor id="countriesSupported" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="countriesSupported" type="semantic">
    <doc format="html">
     Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
    </doc>
@@ -78,7 +78,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="device" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="device" type="semantic">
    <doc format="html">
     Device required to run the application. Used in cases where a specific make/model is required to run the application.
    </doc>
@@ -98,19 +98,19 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#encodings"/>
 
-  <descriptor id="featureList" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="featureList" type="semantic">
    <doc format="html">
     Features or modules provided by this application (and possibly required by other applications).
    </doc>
   </descriptor>
 
-  <descriptor id="fileFormat" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="fileFormat" type="semantic">
    <doc format="html">
     MIME format of the binary (e.g. application/zip).
    </doc>
   </descriptor>
 
-  <descriptor id="fileSize" type="semantic" rt="http://alps.io/schema.org/Integer">
+  <descriptor id="fileSize" type="semantic">
    <doc format="html">
     Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.
    </doc>
@@ -136,7 +136,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#keywords"/>
 
-  <descriptor id="memoryRequirements" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="memoryRequirements" type="semantic">
    <doc format="html">
     Minimum memory requirements.
    </doc>
@@ -148,19 +148,19 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#offers"/>
 
-  <descriptor id="operatingSystem" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="operatingSystem" type="semantic">
    <doc format="html">
     Operating systems supported (Windows 7, OSX 10.6, Android 1.6).
    </doc>
   </descriptor>
 
-  <descriptor id="permissions" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="permissions" type="semantic">
    <doc format="html">
     Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi).
    </doc>
   </descriptor>
 
-  <descriptor id="processorRequirements" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="processorRequirements" type="semantic">
    <doc format="html">
     Processor architecture required to run the application (e.g. IA64).
    </doc>
@@ -172,13 +172,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#publishingPrinciples"/>
 
-  <descriptor id="releaseNotes" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="releaseNotes" type="semantic">
    <doc format="html">
     Description of what changed in this version.
    </doc>
   </descriptor>
 
-  <descriptor id="requirements" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="requirements" type="semantic">
    <doc format="html">
     Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).
    </doc>
@@ -188,13 +188,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#reviews"/>
 
-  <descriptor id="screenshot" type="semantic" rt="http://alps.io/schema.org/ImageObject http://alps.io/schema.org/URL">
+  <descriptor id="screenshot" type="semantic">
    <doc format="html">
     A link to a screenshot image of the app.
    </doc>
   </descriptor>
 
-  <descriptor id="softwareVersion" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="softwareVersion" type="semantic">
    <doc format="html">
     Version of the software instance.
    </doc>
@@ -202,7 +202,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#sourceOrganization"/>
 
-  <descriptor id="storageRequirements" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="storageRequirements" type="semantic">
    <doc format="html">
     Storage requirements (free space required).
    </doc>

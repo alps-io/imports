@@ -8,13 +8,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#accountablePerson"/>
 
-  <descriptor id="activityDuration" type="semantic" rt="http://alps.io/schema.org/Duration">
+  <descriptor id="activityDuration" type="semantic">
    <doc format="html">
     Length of time to engage in the activity.
    </doc>
   </descriptor>
 
-  <descriptor id="activityFrequency" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="activityFrequency" type="semantic">
    <doc format="html">
     How often one should engage in the activity.
    </doc>
@@ -22,7 +22,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
 
-  <descriptor id="additionalVariable" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="additionalVariable" type="semantic">
    <doc format="html">
     Any additional component of the exercise prescription that may need to be articulated to the patient. This may include the order of exercises, the number of repetitions of movement, quantitative distance, progressions over time, etc.
    </doc>
@@ -90,7 +90,7 @@
 
   <descriptor href="http://alps.io/schema.org/PhysicalActivity#epidemiology"/>
 
-  <descriptor id="exerciseType" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="exerciseType" type="semantic">
    <doc format="html">
     Type(s) of exercise or activity, such as strength training, flexibility training, aerobics, cardiac rehabilitation, etc.
    </doc>
@@ -108,7 +108,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
 
-  <descriptor id="intensity" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="intensity" type="semantic">
    <doc format="html">
     Quantitative measure gauging the degree of force involved in the exercise, for example, heartbeats per minute. May include the velocity of the movement.
    </doc>
@@ -140,13 +140,13 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="repetitions" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="repetitions" type="semantic">
    <doc format="html">
     Number of times one should repeat the activity.
    </doc>
   </descriptor>
 
-  <descriptor id="restPeriods" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="restPeriods" type="semantic">
    <doc format="html">
     How often one should break from the activity.
    </doc>
@@ -172,7 +172,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#video"/>
 
-  <descriptor id="workload" type="semantic" rt="http://alps.io/schema.org/Energy">
+  <descriptor id="workload" type="semantic">
    <doc format="html">
     Quantitative measure of the physiologic output of the exercise; also referred to as energy expenditure.
    </doc>

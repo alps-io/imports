@@ -12,7 +12,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="itemReviewed" type="semantic" rt="http://alps.io/schema.org/Thing">
+  <descriptor id="itemReviewed" type="semantic">
    <doc format="html">
     The item that is being reviewed/rated.
    </doc>
@@ -20,7 +20,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="ratingCount" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="ratingCount" type="semantic">
    <doc format="html">
     The count of total number of ratings.
    </doc>
@@ -28,7 +28,7 @@
 
   <descriptor href="http://alps.io/schema.org/Rating#ratingValue"/>
 
-  <descriptor id="reviewCount" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="reviewCount" type="semantic">
    <doc format="html">
     The count of total number of reviews.
    </doc>

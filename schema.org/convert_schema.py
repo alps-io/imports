@@ -15,7 +15,14 @@ ALPS_CLASS_BASE = """<alps>
  </descriptor>
 </alps>"""
 
-ALPS_PROPERTY_BASE = """  <descriptor id="%(label)s" type="%(type)s"%(href)s rt="%(rt)s">
+ALPS_PROPERTY_BASE_SEMANTIC = """  <descriptor id="%(label)s" type="%(type)s"%(href)s>
+   <doc format="html">
+    %(doc)s
+   </doc>
+  </descriptor>
+"""
+
+ALPS_PROPERTY_BASE_LINK = """  <descriptor id="%(label)s" type="%(type)s"%(href)s rt="%(rt)s">
    <doc format="html">
     %(doc)s
    </doc>
@@ -119,7 +126,10 @@ class RDFProperty(object):
             doc=fix_doc(self.comment))
 
         if defined_in_class == for_class:
-            template = ALPS_PROPERTY_BASE
+            if self.type == "semantic":
+                template = ALPS_PROPERTY_BASE_SEMANTIC
+            else:
+                template = ALPS_PROPERTY_BASE_LINK
         else:
             template = ALPS_PROPERTY_REFERENCE
             # This is being included in a subclass of one of its

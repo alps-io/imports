@@ -12,13 +12,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="diagnosis" type="semantic" rt="http://alps.io/schema.org/MedicalCondition">
+  <descriptor id="diagnosis" type="semantic">
    <doc format="html">
     One or more alternative conditions considered in the differential diagnosis process.
    </doc>
   </descriptor>
 
-  <descriptor id="distinguishingSign" type="semantic" rt="http://alps.io/schema.org/MedicalSignOrSymptom">
+  <descriptor id="distinguishingSign" type="semantic">
    <doc format="html">
     One of a set of signs and symptoms that can be used to distinguish this diagnosis from others in the differential diagnosis.
    </doc>

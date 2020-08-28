@@ -8,7 +8,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
 
-  <descriptor id="applicableLocation" type="semantic" rt="http://alps.io/schema.org/AdministrativeArea">
+  <descriptor id="applicableLocation" type="semantic">
    <doc format="html">
     The location in which the status applies.
    </doc>

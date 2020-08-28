@@ -30,7 +30,7 @@
 
   <descriptor href="http://alps.io/schema.org/MediaObject#bitrate"/>
 
-  <descriptor id="caption" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="caption" type="semantic">
    <doc format="html">
     The caption for this object.
    </doc>
@@ -78,7 +78,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#encodings"/>
 
-  <descriptor id="exifData" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="exifData" type="semantic">
    <doc format="html">
     exif data for this object.
    </doc>
@@ -118,7 +118,7 @@
 
   <descriptor href="http://alps.io/schema.org/MediaObject#regionsAllowed"/>
 
-  <descriptor id="representativeOfPage" type="semantic" rt="http://alps.io/schema.org/Boolean">
+  <descriptor id="representativeOfPage" type="semantic">
    <doc format="html">
     Indicates whether this image is representative of the content of the page.
    </doc>
@@ -134,7 +134,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#text"/>
 
-  <descriptor id="thumbnail" type="semantic" rt="http://alps.io/schema.org/ImageObject">
+  <descriptor id="thumbnail" type="semantic">
    <doc format="html">
     Thumbnail image for an image or video.
    </doc>

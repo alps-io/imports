@@ -6,7 +6,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
 
-  <descriptor id="billingIncrement" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="billingIncrement" type="semantic">
    <doc format="html">
     This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.
    </doc>
@@ -30,13 +30,13 @@
 
   <descriptor href="http://alps.io/schema.org/PriceSpecification#priceCurrency"/>
 
-  <descriptor id="priceType" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="priceType" type="semantic">
    <doc format="html">
     A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.
    </doc>
   </descriptor>
 
-  <descriptor id="unitCode" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="unitCode" type="semantic">
    <doc format="html">
     The unit of measurement given using the UN/CEFACT Common Code (3 characters).
    </doc>

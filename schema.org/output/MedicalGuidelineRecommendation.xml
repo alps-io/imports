@@ -30,7 +30,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
 
-  <descriptor id="recommendationStrength" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="recommendationStrength" type="semantic">
    <doc format="html">
     Strength of the guideline's recommendation (e.g. 'class I').
    </doc>

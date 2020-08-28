@@ -14,13 +14,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#alternativeHeadline"/>
 
-  <descriptor id="articleBody" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="articleBody" type="semantic">
    <doc format="html">
     The actual body of the article.
    </doc>
   </descriptor>
 
-  <descriptor id="articleSection" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="articleSection" type="semantic">
    <doc format="html">
     Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.
    </doc>
@@ -110,7 +110,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#video"/>
 
-  <descriptor id="wordCount" type="semantic" rt="http://alps.io/schema.org/Integer">
+  <descriptor id="wordCount" type="semantic">
    <doc format="html">
     The number of words in the text of the Article.
    </doc>

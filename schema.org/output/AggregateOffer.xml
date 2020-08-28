@@ -48,7 +48,7 @@
 
   <descriptor href="http://alps.io/schema.org/Offer#gtin8"/>
 
-  <descriptor id="highPrice" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+  <descriptor id="highPrice" type="semantic">
    <doc format="html">
     The highest price of all offers available.
    </doc>
@@ -64,7 +64,7 @@
 
   <descriptor href="http://alps.io/schema.org/Offer#itemOffered"/>
 
-  <descriptor id="lowPrice" type="semantic" rt="http://alps.io/schema.org/Number http://alps.io/schema.org/Text">
+  <descriptor id="lowPrice" type="semantic">
    <doc format="html">
     The lowest price of all offers available.
    </doc>
@@ -74,7 +74,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="offerCount" type="semantic" rt="http://alps.io/schema.org/Integer">
+  <descriptor id="offerCount" type="semantic">
    <doc format="html">
     The number of offers for the product.
    </doc>

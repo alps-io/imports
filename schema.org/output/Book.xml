@@ -26,13 +26,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="bookEdition" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="bookEdition" type="semantic">
    <doc format="html">
     The edition of the book.
    </doc>
   </descriptor>
 
-  <descriptor id="bookFormat" type="semantic" rt="http://alps.io/schema.org/BookFormatType">
+  <descriptor id="bookFormat" type="semantic">
    <doc format="html">
     The format of the book.
    </doc>
@@ -72,7 +72,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#headline"/>
 
-  <descriptor id="illustrator" type="semantic" rt="http://alps.io/schema.org/Person">
+  <descriptor id="illustrator" type="semantic">
    <doc format="html">
     The illustrator of the book.
    </doc>
@@ -86,7 +86,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
 
-  <descriptor id="isbn" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="isbn" type="semantic">
    <doc format="html">
     The ISBN of the book.
    </doc>
@@ -98,7 +98,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="numberOfPages" type="semantic" rt="http://alps.io/schema.org/Integer">
+  <descriptor id="numberOfPages" type="semantic">
    <doc format="html">
     The number of pages in the book.
    </doc>

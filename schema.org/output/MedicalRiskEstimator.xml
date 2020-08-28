@@ -12,7 +12,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="estimatesRiskOf" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+  <descriptor id="estimatesRiskOf" type="semantic">
    <doc format="html">
     The condition, complication, or symptom whose risk is being estimated.
    </doc>
@@ -22,7 +22,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="includedRiskFactor" type="semantic" rt="http://alps.io/schema.org/MedicalRiskFactor">
+  <descriptor id="includedRiskFactor" type="semantic">
    <doc format="html">
     A modifiable or non-modifiable risk factor included in the calculation, e.g. age, coexisting condition.
    </doc>

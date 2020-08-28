@@ -4,7 +4,7 @@
    A muscle is an anatomical structure consisting of a contractile form of tissue that animals use to effect movement.
   </doc>
 
-  <descriptor id="action" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="action" type="semantic">
    <doc format="html">
     The movement the muscle generates.
    </doc>
@@ -14,7 +14,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
 
-  <descriptor id="antagonist" type="semantic" rt="http://alps.io/schema.org/Muscle">
+  <descriptor id="antagonist" type="semantic">
    <doc format="html">
     The muscle whose action counteracts the specified muscle.
    </doc>
@@ -22,7 +22,7 @@
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure#associatedPathophysiology"/>
 
-  <descriptor id="bloodSupply" type="semantic" rt="http://alps.io/schema.org/Vessel">
+  <descriptor id="bloodSupply" type="semantic">
    <doc format="html">
     The blood vessel that carries blood from the heart to the muscle.
    </doc>
@@ -44,7 +44,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="insertion" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="insertion" type="semantic">
    <doc format="html">
     The place of attachment of a muscle, or what the muscle moves.
    </doc>
@@ -54,13 +54,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="nerve" type="semantic" rt="http://alps.io/schema.org/Nerve">
+  <descriptor id="nerve" type="semantic">
    <doc format="html">
     The underlying innervation associated with the muscle.
    </doc>
   </descriptor>
 
-  <descriptor id="origin" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="origin" type="semantic">
    <doc format="html">
     The place or point where a muscle arises.
    </doc>

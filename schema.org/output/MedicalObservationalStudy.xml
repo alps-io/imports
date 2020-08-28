@@ -34,7 +34,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
 
-  <descriptor id="studyDesign" type="semantic" rt="http://alps.io/schema.org/MedicalObservationalStudyDesign">
+  <descriptor id="studyDesign" type="semantic">
    <doc format="html">
     Specifics about the observational study design (enumerated).
    </doc>

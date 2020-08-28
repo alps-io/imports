@@ -118,7 +118,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#thumbnailUrl"/>
 
-  <descriptor id="transcript" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="transcript" type="semantic">
    <doc format="html">
     If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
    </doc>

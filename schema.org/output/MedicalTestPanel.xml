@@ -32,7 +32,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
 
-  <descriptor id="subTest" type="semantic" rt="http://alps.io/schema.org/MedicalTest">
+  <descriptor id="subTest" type="semantic">
    <doc format="html">
     A component test of the panel.
    </doc>

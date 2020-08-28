@@ -10,13 +10,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#image"/>
 
-  <descriptor id="maxValue" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="maxValue" type="semantic">
    <doc format="html">
     The upper of the product characteristic.
    </doc>
   </descriptor>
 
-  <descriptor id="minValue" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="minValue" type="semantic">
    <doc format="html">
     The lower value of the product characteristic.
    </doc>
@@ -24,7 +24,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="unitCode" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="unitCode" type="semantic">
    <doc format="html">
     The unit of measurement given using the UN/CEFACT Common Code (3 characters).
    </doc>
@@ -32,13 +32,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#url"/>
 
-  <descriptor id="value" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="value" type="semantic">
    <doc format="html">
     The value of the product characteristic.
    </doc>
   </descriptor>
 
-  <descriptor id="valueReference" type="semantic" rt="http://alps.io/schema.org/Enumeration http://alps.io/schema.org/StructuredValue">
+  <descriptor id="valueReference" type="semantic">
    <doc format="html">
     A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.
    </doc>

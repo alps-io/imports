@@ -30,7 +30,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="citation" type="semantic" rt="http://alps.io/schema.org/CreativeWork http://alps.io/schema.org/Text">
+  <descriptor id="citation" type="semantic">
    <doc format="html">
     A citation or reference to another creative work, such as another publication, web page, scholarly article, etc. NOTE: Candidate for promotion to ScholarlyArticle.
    </doc>
@@ -88,7 +88,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#provider"/>
 
-  <descriptor id="publicationType" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="publicationType" type="semantic">
    <doc format="html">
     The type of the medical article, taken from the US NLM MeSH <a href=http://www.nlm.nih.gov/mesh/pubtypes.html>publication type catalog.
    </doc>

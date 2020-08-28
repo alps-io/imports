@@ -56,7 +56,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="dietFeatures" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="dietFeatures" type="semantic">
    <doc format="html">
     Nutritional information specific to the dietary plan. May include dietary recommendations on what foods to avoid, what foods to consume, and specific alterations/deviations from the USDA or other regulatory body's approved dietary guidelines.
    </doc>
@@ -72,13 +72,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#encodings"/>
 
-  <descriptor id="endorsers" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+  <descriptor id="endorsers" type="semantic">
    <doc format="html">
     People or organizations that endorse the plan.
    </doc>
   </descriptor>
 
-  <descriptor id="expertConsiderations" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="expertConsiderations" type="semantic">
    <doc format="html">
     Medical expert advice related to the plan.
    </doc>
@@ -110,19 +110,19 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#offers"/>
 
-  <descriptor id="overview" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="overview" type="semantic">
    <doc format="html">
     Descriptive information establishing the overarching theory/philosophy of the plan. May include the rationale for the name, the population where the plan first came to prominence, etc.
    </doc>
   </descriptor>
 
-  <descriptor id="physiologicalBenefits" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="physiologicalBenefits" type="semantic">
    <doc format="html">
     Specific physiologic benefits associated to the plan.
    </doc>
   </descriptor>
 
-  <descriptor id="proprietaryName" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="proprietaryName" type="semantic">
    <doc format="html">
     Proprietary name given to the diet plan, typically by its originator or creator.
    </doc>
@@ -142,7 +142,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#reviews"/>
 
-  <descriptor id="risks" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="risks" type="semantic">
    <doc format="html">
     Specific physiologic risks associated to the plan.
    </doc>

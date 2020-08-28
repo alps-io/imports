@@ -10,19 +10,19 @@
 
   <descriptor href="http://alps.io/schema.org/Event#attendees"/>
 
-  <descriptor id="commentText" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="commentText" type="semantic">
    <doc format="html">
     The text of the UserComment.
    </doc>
   </descriptor>
 
-  <descriptor id="commentTime" type="semantic" rt="http://alps.io/schema.org/Date">
+  <descriptor id="commentTime" type="semantic">
    <doc format="html">
     The time at which the UserComment was made.
    </doc>
   </descriptor>
 
-  <descriptor id="creator" type="semantic" rt="http://alps.io/schema.org/Organization http://alps.io/schema.org/Person">
+  <descriptor id="creator" type="semantic">
    <doc format="html">
     The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
    </doc>
@@ -30,7 +30,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="discusses" type="semantic" rt="http://alps.io/schema.org/CreativeWork">
+  <descriptor id="discusses" type="semantic">
    <doc format="html">
     Specifies the CreativeWork associated with the UserComment.
    </doc>

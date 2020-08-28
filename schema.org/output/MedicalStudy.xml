@@ -20,13 +20,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="outcome" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="outcome" type="semantic">
    <doc format="html">
     Expected or actual outcomes of the study.
    </doc>
   </descriptor>
 
-  <descriptor id="population" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="population" type="semantic">
    <doc format="html">
     Any characteristics of the population used in the study, e.g. 'males under 65'.
    </doc>
@@ -36,13 +36,13 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="sponsor" type="semantic" rt="http://alps.io/schema.org/Organization">
+  <descriptor id="sponsor" type="semantic">
    <doc format="html">
     Sponsor of the study.
    </doc>
   </descriptor>
 
-  <descriptor id="status" type="semantic" rt="http://alps.io/schema.org/MedicalStudyStatus">
+  <descriptor id="status" type="semantic">
    <doc format="html">
     The status of the study (enumerated).
    </doc>
@@ -50,13 +50,13 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
 
-  <descriptor id="studyLocation" type="semantic" rt="http://alps.io/schema.org/AdministrativeArea">
+  <descriptor id="studyLocation" type="semantic">
    <doc format="html">
     The location in which the study is taking/took place.
    </doc>
   </descriptor>
 
-  <descriptor id="studySubject" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+  <descriptor id="studySubject" type="semantic">
    <doc format="html">
     A subject of the study, i.e. one of the medical conditions, therapies, devices, drugs, etc. investigated by the study.
    </doc>

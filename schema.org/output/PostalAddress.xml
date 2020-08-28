@@ -6,19 +6,19 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
 
-  <descriptor id="addressCountry" type="semantic" rt="http://alps.io/schema.org/Country">
+  <descriptor id="addressCountry" type="semantic">
    <doc format="html">
     The country. For example, USA. You can also provide the two-letter <a href='http://en.wikipedia.org/wiki/ISO_3166-1'>ISO 3166-1 alpha-2 country code</a>.
    </doc>
   </descriptor>
 
-  <descriptor id="addressLocality" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="addressLocality" type="semantic">
    <doc format="html">
     The locality. For example, Mountain View.
    </doc>
   </descriptor>
 
-  <descriptor id="addressRegion" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="addressRegion" type="semantic">
    <doc format="html">
     The region. For example, CA.
    </doc>
@@ -36,19 +36,19 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="postOfficeBoxNumber" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="postOfficeBoxNumber" type="semantic">
    <doc format="html">
     The post offce box number for PO box addresses.
    </doc>
   </descriptor>
 
-  <descriptor id="postalCode" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="postalCode" type="semantic">
    <doc format="html">
     The postal code. For example, 94043.
    </doc>
   </descriptor>
 
-  <descriptor id="streetAddress" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="streetAddress" type="semantic">
    <doc format="html">
     The street address. For example, 1600 Amphitheatre Pkwy.
    </doc>

@@ -6,7 +6,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
 
-  <descriptor id="contactType" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="contactType" type="semantic">
    <doc format="html">
     A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point.
    </doc>
@@ -14,13 +14,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="email" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="email" type="semantic">
    <doc format="html">
     Email address.
    </doc>
   </descriptor>
 
-  <descriptor id="faxNumber" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="faxNumber" type="semantic">
    <doc format="html">
     The fax number.
    </doc>
@@ -30,7 +30,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="telephone" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="telephone" type="semantic">
    <doc format="html">
     The telephone number.
    </doc>

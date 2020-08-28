@@ -10,7 +10,7 @@
    </doc>
   </descriptor>
 
-  <descriptor id="description" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="description" type="semantic">
    <doc format="html">
     A short description of the item.
    </doc>
@@ -22,7 +22,7 @@
    </doc>
   </descriptor>
 
-  <descriptor id="name" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="name" type="semantic">
    <doc format="html">
     The name of the item.
    </doc>

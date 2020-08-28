@@ -8,7 +8,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
 
-  <descriptor id="cause" type="semantic" rt="http://alps.io/schema.org/MedicalCause">
+  <descriptor id="cause" type="semantic">
    <doc format="html">
     An underlying cause. More specifically, one of the causative agent(s) that are most directly responsible for the pathophysiologic process that eventually results in the occurrence.
    </doc>
@@ -26,7 +26,7 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#name"/>
 
-  <descriptor id="possibleTreatment" type="semantic" rt="http://alps.io/schema.org/MedicalTherapy">
+  <descriptor id="possibleTreatment" type="semantic">
    <doc format="html">
     A possible treatment to address this condition, sign or symptom.
    </doc>

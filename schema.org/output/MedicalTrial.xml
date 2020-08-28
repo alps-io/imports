@@ -22,7 +22,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalStudy#outcome"/>
 
-  <descriptor id="phase" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="phase" type="semantic">
    <doc format="html">
     The phase of the trial.
    </doc>
@@ -44,7 +44,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalStudy#studySubject"/>
 
-  <descriptor id="trialDesign" type="semantic" rt="http://alps.io/schema.org/MedicalTrialDesign">
+  <descriptor id="trialDesign" type="semantic">
    <doc format="html">
     Specifics about the trial design (enumerated).
    </doc>

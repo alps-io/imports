@@ -8,7 +8,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
 
-  <descriptor id="associatedPathophysiology" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="associatedPathophysiology" type="semantic">
    <doc format="html">
     If applicable, a description of the pathophysiology associated with the anatomical system, including potential abnormal changes in the mechanical, physical, and biochemical functions of the system.
    </doc>
@@ -28,19 +28,19 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
 
-  <descriptor id="relatedAnatomy" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/AnatomicalSystem">
+  <descriptor id="relatedAnatomy" type="semantic">
    <doc format="html">
     Anatomical systems or structures that relate to the superficial anatomy.
    </doc>
   </descriptor>
 
-  <descriptor id="relatedCondition" type="semantic" rt="http://alps.io/schema.org/MedicalCondition">
+  <descriptor id="relatedCondition" type="semantic">
    <doc format="html">
     A medical condition associated with this anatomy.
    </doc>
   </descriptor>
 
-  <descriptor id="relatedTherapy" type="semantic" rt="http://alps.io/schema.org/MedicalTherapy">
+  <descriptor id="relatedTherapy" type="semantic">
    <doc format="html">
     A medical therapy related to this anatomy.
    </doc>
@@ -48,7 +48,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="significance" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="significance" type="semantic">
    <doc format="html">
     The significance associated with the superficial anatomy; as an example, how characteristics of the superficial anatomy can suggest underlying medical conditions or courses of treatment.
    </doc>

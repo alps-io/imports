@@ -8,7 +8,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
 
-  <descriptor id="causeOf" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+  <descriptor id="causeOf" type="semantic">
    <doc format="html">
     The condition, complication, symptom, sign, etc. caused.
    </doc>

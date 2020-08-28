@@ -14,7 +14,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#alternativeHeadline"/>
 
-  <descriptor id="aspect" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="aspect" type="semantic">
    <doc format="html">
     An aspect of medical practice that is considered on the page, such as 'diagnosis', 'treatment', 'causes', 'prognosis', 'etiology', 'epidemiology', etc.
    </doc>

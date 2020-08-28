@@ -10,7 +10,7 @@
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure#associatedPathophysiology"/>
 
-  <descriptor id="biomechnicalClass" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="biomechnicalClass" type="semantic">
    <doc format="html">
     The biomechanical properties of the bone.
    </doc>
@@ -28,7 +28,7 @@
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure#function"/>
 
-  <descriptor id="functionalClass" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="functionalClass" type="semantic">
    <doc format="html">
     The degree of mobility the joint allows.
    </doc>
@@ -52,7 +52,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="structuralClass" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="structuralClass" type="semantic">
    <doc format="html">
     The name given to how bone physically connects to each other.
    </doc>

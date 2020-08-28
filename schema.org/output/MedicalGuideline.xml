@@ -12,13 +12,13 @@
 
   <descriptor href="http://alps.io/schema.org/Thing#description"/>
 
-  <descriptor id="evidenceLevel" type="semantic" rt="http://alps.io/schema.org/MedicalEvidenceLevel">
+  <descriptor id="evidenceLevel" type="semantic">
    <doc format="html">
     Strength of evidence of the data used to formulate the guideline (enumerated).
    </doc>
   </descriptor>
 
-  <descriptor id="evidenceOrigin" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="evidenceOrigin" type="semantic">
    <doc format="html">
     Source of the data used to formulate the guidance, e.g. RCT, consensus opinion, etc.
    </doc>
@@ -26,13 +26,13 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
 
-  <descriptor id="guidelineDate" type="semantic" rt="http://alps.io/schema.org/Date">
+  <descriptor id="guidelineDate" type="semantic">
    <doc format="html">
     Date on which this guideline's recommendation was made.
    </doc>
   </descriptor>
 
-  <descriptor id="guidelineSubject" type="semantic" rt="http://alps.io/schema.org/MedicalEntity">
+  <descriptor id="guidelineSubject" type="semantic">
    <doc format="html">
     The medical conditions, treatments, etc. that are the subject of the guideline.
    </doc>

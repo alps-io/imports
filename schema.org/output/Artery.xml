@@ -8,7 +8,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
 
-  <descriptor id="arterialBranch" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="arterialBranch" type="semantic">
    <doc format="html">
     The branches that comprise the arterial structure.
    </doc>
@@ -46,7 +46,7 @@
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
 
-  <descriptor id="source" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="source" type="semantic">
    <doc format="html">
     The anatomical or organ system that the artery originates from.
    </doc>
@@ -56,7 +56,7 @@
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure#subStructure"/>
 
-  <descriptor id="supplyTo" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="supplyTo" type="semantic">
    <doc format="html">
     The area to which the artery supplies blood to.
    </doc>

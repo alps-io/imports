@@ -68,13 +68,13 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#isFamilyFriendly"/>
 
-  <descriptor id="itemListElement" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="itemListElement" type="semantic">
    <doc format="html">
     A single list item.
    </doc>
   </descriptor>
 
-  <descriptor id="itemListOrder" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="itemListOrder" type="semantic">
    <doc format="html">
     Type of ordering (e.g. Ascending, Descending, Unordered).
    </doc>

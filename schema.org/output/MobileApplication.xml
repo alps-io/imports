@@ -32,7 +32,7 @@
 
   <descriptor href="http://alps.io/schema.org/CreativeWork#awards"/>
 
-  <descriptor id="carrierRequirements" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="carrierRequirements" type="semantic">
    <doc format="html">
     Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).
    </doc>
