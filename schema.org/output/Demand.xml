@@ -152,7 +152,7 @@
 
   <descriptor id="seller" type="semantic">
    <doc format="html">
-    The seller.
+    An entity which offers (sells / leases / lends / loans) the services / goods. A seller may also be a provider.
    </doc>
   </descriptor>
 
