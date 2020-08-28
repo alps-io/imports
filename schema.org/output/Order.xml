@@ -4,13 +4,135 @@
    An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.
   </doc>
 
+  <descriptor id="acceptedOffer" type="semantic">
+   <doc format="html">
+    The offer(s) -- e.g., product, quantity and price combinations -- included in the order.
+   </doc>
+  </descriptor>
+
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+
+  <descriptor id="billingAddress" type="semantic">
+   <doc format="html">
+    The billing address for the order.
+   </doc>
+  </descriptor>
+
+  <descriptor id="broker" type="semantic">
+   <doc format="html">
+    An entity that arranges for an exchange between a buyer and a seller. In most cases a broker never acquires or releases ownership of a product or service involved in an exchange. If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred.
+   </doc>
+  </descriptor>
+
+  <descriptor id="confirmationNumber" type="semantic">
+   <doc format="html">
+    A number that confirms the given order or payment has been received.
+   </doc>
+  </descriptor>
+
+  <descriptor id="customer" type="semantic">
+   <doc format="html">
+    Party placing the order or paying the invoice.
+   </doc>
+  </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
+  <descriptor id="discount" type="semantic">
+   <doc format="html">
+    Any discount applied (to an Order).
+   </doc>
+  </descriptor>
+
+  <descriptor id="discountCode" type="semantic">
+   <doc format="html">
+    Code used to redeem a discount.
+   </doc>
+  </descriptor>
+
+  <descriptor id="discountCurrency" type="semantic">
+   <doc format="html">
+    The currency of the discount.
+        
+        Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker symbol for cryptocurrencies e.g. "BTC"; well known names for Local Exchange Tradings Systems (LETS) and other currency types e.g. "Ithaca HOUR".
+   </doc>
+  </descriptor>
+
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
+  <descriptor id="isGift" type="semantic">
+   <doc format="html">
+    Was the offer accepted as a gift for someone other than the buyer.
+   </doc>
+  </descriptor>
+
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
+
+  <descriptor id="orderDate" type="semantic">
+   <doc format="html">
+    Date order was placed.
+   </doc>
+  </descriptor>
+
+  <descriptor id="orderDelivery" type="semantic">
+   <doc format="html">
+    The delivery of the parcel related to this order or order item.
+   </doc>
+  </descriptor>
+
+  <descriptor id="orderNumber" type="semantic">
+   <doc format="html">
+    The identifier of the transaction.
+   </doc>
+  </descriptor>
+
+  <descriptor id="orderStatus" type="semantic">
+   <doc format="html">
+    The current status of the order.
+   </doc>
+  </descriptor>
+
+  <descriptor id="orderedItem" type="semantic">
+   <doc format="html">
+    The item ordered.
+   </doc>
+  </descriptor>
+
+  <descriptor id="partOfInvoice" type="semantic">
+   <doc format="html">
+    The order is being paid as part of the referenced Invoice.
+   </doc>
+  </descriptor>
+
+  <descriptor id="paymentDueDate" type="semantic">
+   <doc format="html">
+    The date that payment is due.
+   </doc>
+  </descriptor>
+
+  <descriptor id="paymentMethod" type="semantic">
+   <doc format="html">
+    The name of the credit card or other method of payment for the order.
+   </doc>
+  </descriptor>
+
+  <descriptor id="paymentMethodId" type="semantic">
+   <doc format="html">
+    An identifier for the method of payment used (e.g. the last 4 digits of the credit card).
+   </doc>
+  </descriptor>
+
+  <descriptor id="paymentUrl" type="safe" rt="http://alps.io/schema.org/URL.xml">
+   <doc format="html">
+    The URL for sending a payment.
+   </doc>
+  </descriptor>
+
+  <descriptor id="seller" type="semantic">
+   <doc format="html">
+    An entity which offers (sells / leases / lends / loans) the services / goods. A seller may also be a provider.
+   </doc>
+  </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 

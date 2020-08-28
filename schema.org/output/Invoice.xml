@@ -1,0 +1,54 @@
+<alps>
+ <descriptor id="Invoice" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+  <doc format="html">
+   A statement of the money due for goods or services; a bill.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+
+  <descriptor id="broker" type="semantic">
+   <doc format="html">
+    An entity that arranges for an exchange between a buyer and a seller. In most cases a broker never acquires or releases ownership of a product or service involved in an exchange. If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred.
+   </doc>
+  </descriptor>
+
+  <descriptor id="confirmationNumber" type="semantic">
+   <doc format="html">
+    A number that confirms the given order or payment has been received.
+   </doc>
+  </descriptor>
+
+  <descriptor id="customer" type="semantic">
+   <doc format="html">
+    Party placing the order or paying the invoice.
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
+
+  <descriptor id="paymentDueDate" type="semantic">
+   <doc format="html">
+    The date that payment is due.
+   </doc>
+  </descriptor>
+
+  <descriptor id="paymentMethod" type="semantic">
+   <doc format="html">
+    The name of the credit card or other method of payment for the order.
+   </doc>
+  </descriptor>
+
+  <descriptor id="paymentMethodId" type="semantic">
+   <doc format="html">
+    An identifier for the method of payment used (e.g. the last 4 digits of the credit card).
+   </doc>
+  </descriptor>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
+
+ </descriptor>
+</alps>

@@ -1,0 +1,18 @@
+<alps>
+ <descriptor id="StatusEnumeration" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+  <doc format="html">
+   Lists or enumerations dealing with status types.
+  </doc>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
+
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
+
+ </descriptor>
+</alps>
