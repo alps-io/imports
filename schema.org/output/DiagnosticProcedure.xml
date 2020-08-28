@@ -1,7 +1,7 @@
 <alps>
  <descriptor id="DiagnosticProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml http://alps.io/schema.org/MedicalTest.xml">
   <doc format="html">
-   A medical procedure intended primarly for diagnostic, as opposed to therapeutic, purposes.
+   A medical procedure intended primarily for diagnostic, as opposed to therapeutic, purposes.
   </doc>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>

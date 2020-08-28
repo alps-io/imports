@@ -1,7 +1,7 @@
 <alps>
  <descriptor id="ItemAvailability" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
   <doc format="html">
-   A list of possible product availablity options.
+   A list of possible product availability options.
   </doc>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>

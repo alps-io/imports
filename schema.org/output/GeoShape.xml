@@ -8,7 +8,7 @@
 
   <descriptor id="box" type="semantic">
    <doc format="html">
-    A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+    A box is the area enclosed by the rectangle formed by two points. The first point is the lower corner, the second point is the upper corner. A box is expressed as two points separated by a space character.
    </doc>
   </descriptor>
 
@@ -38,7 +38,7 @@
 
   <descriptor id="polygon" type="semantic">
    <doc format="html">
-    A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+    A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more space delimited points where the first and final points are identical.
    </doc>
   </descriptor>
 

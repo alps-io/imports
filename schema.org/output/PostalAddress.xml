@@ -38,7 +38,7 @@
 
   <descriptor id="postOfficeBoxNumber" type="semantic">
    <doc format="html">
-    The post offce box number for PO box addresses.
+    The post office box number for PO box addresses.
    </doc>
   </descriptor>
 

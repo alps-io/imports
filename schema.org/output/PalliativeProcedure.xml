@@ -1,7 +1,7 @@
 <alps>
  <descriptor id="PalliativeProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml http://alps.io/schema.org/MedicalTherapy.xml">
   <doc format="html">
-   A medical procedure intended primarly for palliative purposes, aimed at relieving the symptoms of an underlying health condition.
+   A medical procedure intended primarily for palliative purposes, aimed at relieving the symptoms of an underlying health condition.
   </doc>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>

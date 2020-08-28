@@ -1,7 +1,7 @@
 <alps>
  <descriptor id="PawnShop" type="semantic" href="http://alps.io/schema.org/Store.xml">
   <doc format="html">
-   A pawnstore.
+   A shop that will buy, or lend money against the security of, personal possessions.
   </doc>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>

@@ -40,7 +40,7 @@
    </doc>
   </descriptor>
 
-  <descriptor id="clincalPharmacology" type="semantic">
+  <descriptor id="clinicalPharmacology" type="semantic">
    <doc format="html">
     Description of the absorption and elimination of drugs, including their concentration (pharmacokinetics, pK) and biological effects (pharmacodynamics, pD).
    </doc>
