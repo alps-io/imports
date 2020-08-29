@@ -3306,6 +3306,12 @@
       <span property="rdfs:comment">The price for the delivery of an offer using a particular delivery method.</span>
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/PriceSpecification">PriceSpecification</a></span>
        <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass">GoodRelationsClass</a></span></div>
+    
+    <div typeof="rdfs:Class" resource="http://schema.org/DeliveryEvent">
+      <span class="h" property="rdfs:label">DeliveryEvent</span>
+      <span property="rdfs:comment">An event involving the delivery of an item.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Event">Event</a></span>
+    </div>
 
     <div typeof="rdfs:Class" resource="http://schema.org/DeliveryMethod">
       <span class="h" property="rdfs:label">DeliveryMethod</span>
@@ -3343,7 +3349,6 @@
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Intangible">Intangible</a></span>
     </div>
 
-    <!-- TODO: declare properties -->
     <div typeof="rdfs:Class" resource="http://schema.org/ParcelDelivery">
       <span class="h" property="rdfs:label">ParcelDelivery</span>
       <span property="rdfs:comment">The delivery of a parcel either via the postal service or a commercial service.</span>
@@ -3461,6 +3466,12 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/FoodEstablishment">FoodEstablishment</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/URL">URL</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/accessCode">
+      <span class="h" property="rdfs:label">accessCode</span>
+      <span property="rdfs:comment">Password, PIN, or access code needed for delivery (e.g. from a locker).</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/DeliveryEvent">DeliveryEvent</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/accountablePerson">
       <span class="h" property="rdfs:label">accountablePerson</span>
@@ -3836,6 +3847,12 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Demand">Demand</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/DeliveryMethod">DeliveryMethod</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/availableFrom">
+      <span class="h" property="rdfs:label">availableFrom</span>
+      <span property="rdfs:comment">When the item is available for pickup from the store, locker, etc.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/DeliveryEvent">DeliveryEvent</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/availableIn">
       <span class="h" property="rdfs:label">availableIn</span>
       <span property="rdfs:comment">The location in which the strength is available.</span>
@@ -3863,6 +3880,12 @@
       <span property="rdfs:comment">A diagnostic test or procedure offered by this lab.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/DiagnosticLab">DiagnosticLab</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/MedicalTest">MedicalTest</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/availableThrough">
+      <span class="h" property="rdfs:label">availableThrough</span>
+      <span property="rdfs:comment">After this date, the item will no longer be available for pickup.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/DeliveryEvent">DeliveryEvent</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/award">
       <span class="h" property="rdfs:label">award</span>
@@ -4420,12 +4443,24 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Person">Person</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Date">Date</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/deliveryAddress">
+      <span class="h" property="rdfs:label">deliveryAddress</span>
+      <span property="rdfs:comment">Destination address.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/PostalAddress">PostalAddress</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/deliveryLeadTime">
       <span class="h" property="rdfs:label">deliveryLeadTime</span>
       <span property="rdfs:comment">The typical delay between the receipt of the order and the goods leaving the warehouse.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Offer">Offer</a></span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Demand">Demand</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/QuantitativeValue">QuantitativeValue</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/deliveryStatus">
+      <span class="h" property="rdfs:label">deliveryStatus</span>
+      <span property="rdfs:comment">New entry added as the package passes through each leg of its journey (from shipment to final delivery).</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DeliveryEvent">DeliveryEvent</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/depth">
       <span class="h" property="rdfs:label">depth</span>
@@ -4808,6 +4843,20 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ImageObject">ImageObject</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/expectedArrivalFrom">
+      <span class="h" property="rdfs:label">expectedArrivalFrom</span>
+      <span property="rdfs:comment">The earliest date the package may arrive.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Date">Date</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/expectedArrivalUntil">
+      <span class="h" property="rdfs:label">expectedArrivalUntil</span>
+      <span property="rdfs:comment">The latest date the package may arrive.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Date">Date</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/expectedPrognosis">
       <span class="h" property="rdfs:label">expectedPrognosis</span>
       <span property="rdfs:comment">The likely outcome in either the short term or long term of the medical condition.</span>
@@ -5018,6 +5067,13 @@
       <span property="rdfs:comment">The medical conditions, treatments, etc. that are the subject of the guideline.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MedicalGuideline">MedicalGuideline</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/MedicalEntity">MedicalEntity</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/hasDeliveryMethod">
+      <span class="h" property="rdfs:label">hasDeliveryMethod</span>
+      <span property="rdfs:comment">Method used for delivery or shipping.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/DeliveryEvent">DeliveryEvent</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/DeliveryMethod">DeliveryMethod</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/hasPOS">
       <span class="h" property="rdfs:label">hasPOS</span>
@@ -5338,6 +5394,12 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/AggregateRating">AggregateRating</a></span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Review">Review</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/itemShipped">
+      <span class="h" property="rdfs:label">itemShipped</span>
+      <span property="rdfs:comment">Item(s) being shipped.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Product">Product</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/jobLocation">
       <span class="h" property="rdfs:label">jobLocation</span>
@@ -5798,6 +5860,12 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Muscle">Muscle</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/AnatomicalStructure">AnatomicalStructure</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/originAddress">
+      <span class="h" property="rdfs:label">originAddress</span>
+      <span property="rdfs:comment">Shipper's address.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/PostalAddress">PostalAddress</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/originatesFrom">
       <span class="h" property="rdfs:label">originatesFrom</span>
       <span property="rdfs:comment">The vasculature the lymphatic structure originates, or afferents, from.</span>
@@ -5859,6 +5927,12 @@
       <span property="rdfs:comment">The order is being paid as part of the referenced Invoice.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Order">Order</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Invoice">Invoice</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/partOfOrder">
+      <span class="h" property="rdfs:label">partOfOrder</span>
+      <span property="rdfs:comment">The overall order the items in this delivery were included in.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Order">Order</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/partOfSeason">
       <span class="h" property="rdfs:label">partOfSeason</span>
@@ -6931,6 +7005,18 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MusicPlaylist">MusicPlaylist</a></span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MusicGroup">MusicGroup</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/MusicRecording">MusicRecording</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/trackingNumber">
+      <span class="h" property="rdfs:label">trackingNumber</span>
+      <span property="rdfs:comment">Shipper tracking number.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/trackingUrl">
+      <span class="h" property="rdfs:label">trackingUrl</span>
+      <span property="rdfs:comment">Shipper tracking number.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ParcelDelivery">ParcelDelivery</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/URL">URL</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/tracks">
       <span class="h" property="rdfs:label">tracks</span>
