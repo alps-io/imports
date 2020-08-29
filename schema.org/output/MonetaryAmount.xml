@@ -1,10 +1,18 @@
 <alps>
- <descriptor id="QuantitativeValue" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="MonetaryAmount" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
   <doc format="html">
-   A point value or interval for product characteristics and other purposes.
+   A monetary value or range. This type can be used to describe an amount of money such as $50 USD, or a range as in describing a bank account being suitable for a balance between £1,000 and £1,000,000 GBP, or the value of a salary, etc. It is recommended to use PriceSpecification Types to describe the price of an Offer, Invoice, etc.
   </doc>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+
+  <descriptor id="currency" type="semantic">
+   <doc format="html">
+    The currency in which the monetary amount is expressed.
+
+        Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker symbol for cryptocurrencies e.g. "BTC"; well known names for Local Exchange Tradings Systems (LETS) and other currency types e.g. "Ithaca HOUR".
+   </doc>
+  </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
@@ -24,13 +32,19 @@
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor id="unitCode" type="semantic">
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
+
+  <descriptor id="validFrom" type="semantic">
    <doc format="html">
-    The unit of measurement given using the UN/CEFACT Common Code (3 characters).
+    The date when the item becomes valid.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
+  <descriptor id="validThrough" type="semantic">
+   <doc format="html">
+    The end of the validity of offer, price specification, or opening hours data.
+   </doc>
+  </descriptor>
 
   <descriptor id="value" type="semantic">
    <doc format="html">
@@ -40,12 +54,6 @@
         For PropertyValue, it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.
         Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.
         Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.
-   </doc>
-  </descriptor>
-
-  <descriptor id="valueReference" type="semantic">
-   <doc format="html">
-    A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.
    </doc>
   </descriptor>
 

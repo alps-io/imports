@@ -4,7 +4,19 @@
    A statement of the money due for goods or services; a bill.
   </doc>
 
+  <descriptor id="accountId" type="semantic">
+   <doc format="html">
+    The identifier for the account the payment will be applied to.
+   </doc>
+  </descriptor>
+
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+
+  <descriptor id="billingPeriod" type="semantic">
+   <doc format="html">
+    The time interval used to compute the invoice.
+   </doc>
+  </descriptor>
 
   <descriptor id="broker" type="semantic">
    <doc format="html">
@@ -33,6 +45,12 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
+
+  <descriptor id="minimumPaymentDue" type="semantic">
+   <doc format="html">
+    The minimum payment required at this time.
+   </doc>
+  </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 

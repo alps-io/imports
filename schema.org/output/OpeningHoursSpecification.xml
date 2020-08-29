@@ -34,7 +34,7 @@
 
   <descriptor id="validFrom" type="semantic">
    <doc format="html">
-    The beginning of the validity of offer, price specification, or opening hours data.
+    The date when the item becomes valid.
    </doc>
   </descriptor>
 

@@ -2142,6 +2142,12 @@
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Store">Store</a></span>
     </div>
 
+    <div typeof="rdfs:Class" resource="http://schema.org/MonetaryAmount">
+      <span class="h" property="rdfs:label">MonetaryAmount</span>
+      <span property="rdfs:comment">A monetary value or range. This type can be used to describe an amount of money such as $50 USD, or a range as in describing a bank account being suitable for a balance between £1,000 and £1,000,000 GBP, or the value of a salary, etc. It is recommended to use PriceSpecification Types to describe the price of an Offer, Invoice, etc.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/StructuredValue">StructuredValue</a></span>
+    </div>
+
     <div typeof="rdfs:Class" resource="http://schema.org/Mosque">
       <span class="h" property="rdfs:label">Mosque</span>
       <span property="rdfs:comment">A mosque.</span>
@@ -3304,7 +3310,6 @@
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Product">Product</a></span>
        <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass">GoodRelationsClass</a></span></div>
 
-    <!-- TODO: declare properties -->
     <div typeof="rdfs:Class" resource="http://schema.org/Invoice">
       <span class="h" property="rdfs:label">Invoice</span>
       <span property="rdfs:comment">A statement of the money due for goods or services; a bill.</span>
@@ -3435,6 +3440,12 @@
       <span property="rdfs:comment">Specifies the Person that is legally accountable for the CreativeWork.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/CreativeWork">CreativeWork</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Person">Person</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/accountId">
+      <span class="h" property="rdfs:label">accountId</span>
+      <span property="rdfs:comment">The identifier for the account the payment will be applied to.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/acquiredFrom">
       <span class="h" property="rdfs:label">acquiredFrom</span>
@@ -3877,6 +3888,12 @@
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/UnitPriceSpecification">UnitPriceSpecification</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Number">Number</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/billingPeriod">
+      <span class="h" property="rdfs:label">billingPeriod</span>
+      <span property="rdfs:comment">The time interval used to compute the invoice.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Duration">Duration</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/biomechnicalClass">
       <span class="h" property="rdfs:label">biomechnicalClass</span>
       <span property="rdfs:comment">The biomechanical properties of the bone.</span>
@@ -4310,6 +4327,20 @@
       <span class="h" property="rdfs:label">currenciesAccepted</span>
       <span property="rdfs:comment">The currency accepted (in &lt;a href=&#39;http://en.wikipedia.org/wiki/ISO_4217&#39;&gt;ISO 4217 currency format&lt;/a&gt;).</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/LocalBusiness">LocalBusiness</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/currency">
+      <span class="h" property="rdfs:label">currency</span>
+      <span property="rdfs:comment">
+        The currency in which the monetary amount is expressed.
+
+        Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker symbol for cryptocurrencies e.g. "BTC"; well known names for Local Exchange Tradings Systems (LETS) and other currency types e.g. "Ithaca HOUR".
+      </span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/DatedMoneySpecification">DatedMoneySpecification</a></span> -->
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/ExchangeRateSpecification">ExchangeRateSpecification</a></span> -->
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/LoanOrCredit">LoanOrCredit</a></span> -->
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MonetaryAmount">MonetaryAmount</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MonetaryAmountDistribution">MonetaryAmountDistribution</a></span> -->
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/customer">
@@ -5434,7 +5465,10 @@
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/maxValue">
       <span class="h" property="rdfs:label">maxValue</span>
-      <span property="rdfs:comment">The upper of the product characteristic.</span>
+      <span property="rdfs:comment">The upper value of some characteristic or property.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MonetaryAmount">MonetaryAmount</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PropertyValue">PropertyValue</a></span> -->
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PropertyValueSpecification">PropertyValueSpecification</a></span> -->
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/QuantitativeValue">QuantitativeValue</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Number">Number</a></span>
     </div>
@@ -5499,6 +5533,13 @@
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/URL">URL</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/minimumPaymentDue">
+      <span class="h" property="rdfs:label">minimumPaymentDue</span>
+      <span property="rdfs:comment">The minimum payment required at this time.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Invoice">Invoice</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/MonetaryAmount">MonetaryAmount</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/PriceSpecification">PriceSpecification</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/minPrice">
       <span class="h" property="rdfs:label">minPrice</span>
       <span property="rdfs:comment">The lowest price if the price is a range.</span>
@@ -5507,7 +5548,10 @@
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/minValue">
       <span class="h" property="rdfs:label">minValue</span>
-      <span property="rdfs:comment">The lower value of the product characteristic.</span>
+      <span property="rdfs:comment">The lower value of some characteristic or property.</span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MonetaryAmount">MonetaryAmount</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PropertyValue">PropertyValue</a></span> -->
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PropertyValueSpecification">PropertyValueSpecification</a></span> -->
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/QuantitativeValue">QuantitativeValue</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Number">Number</a></span>
     </div>
@@ -6929,27 +6973,47 @@
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/validFrom">
       <span class="h" property="rdfs:label">validFrom</span>
-      <span property="rdfs:comment">The beginning of the validity of offer, price specification, or opening hours data.</span>
-      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Offer">Offer</a></span>
-      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PriceSpecification">PriceSpecification</a></span>
+      <span property="rdfs:comment">The date when the item becomes valid.</span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Demand">Demand</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/LocationFeatureSpecification">LocationFeatureSpecification</a></span> -->
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MonetaryAmount">MonetaryAmount</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Offer">Offer</a></span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/OpeningHoursSpecification">OpeningHoursSpecification</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Permit">Permit</a></span> -->
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PriceSpecification">PriceSpecification</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Date">Date</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/validThrough">
       <span class="h" property="rdfs:label">validThrough</span>
       <span property="rdfs:comment">The end of the validity of offer, price specification, or opening hours data.</span>
-      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Offer">Offer</a></span>
-      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PriceSpecification">PriceSpecification</a></span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Demand">Demand</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/JobPosting">JobPosting</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/LocationFeatureSpecification">LocationFeatureSpecification</a></span> -->
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MonetaryAmount">MonetaryAmount</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/Offer">Offer</a></span>
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/OpeningHoursSpecification">OpeningHoursSpecification</a></span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PriceSpecification">PriceSpecification</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Date">Date</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/DateTime">DateTime</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/value">
       <span class="h" property="rdfs:label">value</span>
-      <span property="rdfs:comment">The value of the product characteristic.</span>
+      <span property="rdfs:comment">
+        The value of the quantitative value or property value node.
+
+        For QuantitativeValue and MonetaryAmount, the recommended type for values is 'Number'.
+        For PropertyValue, it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.
+        Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.
+        Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.
+      </span>
+      <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/MonetaryAmount">MonetaryAmount</a></span>
+      <!-- <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/PropertyValue">PropertyValue</a></span> -->
       <span>Domain: <a property="http://schema.org/domain" href="http://schema.org/QuantitativeValue">QuantitativeValue</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Boolean">Boolean</a></span>
       <span>Range: <a property="http://schema.org/range" href="http://schema.org/Number">Number</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/StructuredValue">StructuredValue</a></span>
+      <span>Range: <a property="http://schema.org/range" href="http://schema.org/Text">Text</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/valueAddedTaxIncluded">
       <span class="h" property="rdfs:label">valueAddedTaxIncluded</span>
