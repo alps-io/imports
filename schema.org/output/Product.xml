@@ -18,6 +18,12 @@
    </doc>
   </descriptor>
 
+  <descriptor id="category" type="semantic">
+   <doc format="html">
+    A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
+   </doc>
+  </descriptor>
+
   <descriptor id="color" type="semantic">
    <doc format="html">
     The color of the product.
