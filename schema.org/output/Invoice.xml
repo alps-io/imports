@@ -72,6 +72,36 @@
    </doc>
   </descriptor>
 
+  <descriptor id="paymentStatus" type="semantic">
+   <doc format="html">
+    The status of payment; whether the invoice has been paid or not.
+   </doc>
+  </descriptor>
+
+  <descriptor id="provider" type="semantic">
+   <doc format="html">
+    The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.
+   </doc>
+  </descriptor>
+
+  <descriptor id="referencesOrder" type="semantic">
+   <doc format="html">
+    The anatomical or organ system drained by this vessel; generally refers to a specific part of an organ.
+   </doc>
+  </descriptor>
+
+  <descriptor id="scheduledPaymentDate" type="semantic">
+   <doc format="html">
+    The date the invoice is scheduled to be paid.
+   </doc>
+  </descriptor>
+
+  <descriptor id="totalPaymentDue" type="semantic">
+   <doc format="html">
+    The total amount due.
+   </doc>
+  </descriptor>
+
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
