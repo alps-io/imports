@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ParcelService" type="semantic" href="http://alps.io/schema.org/DeliveryMethod">
+ <descriptor id="ParcelService" type="semantic" href="http://alps.io/schema.org/DeliveryMethod.xml">
   <doc format="html">
    A private parcel service as the delivery mode available for a certain offer.
 
@@ -10,15 +10,15 @@
     http://purl.org/goodrelations/v1#UPS
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

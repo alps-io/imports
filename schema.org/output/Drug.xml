@@ -1,194 +1,194 @@
 <alps>
- <descriptor id="Drug" type="semantic" href="http://alps.io/schema.org/MedicalTherapy">
+ <descriptor id="Drug" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml">
   <doc format="html">
    A chemical or biologic substance, used as a medical therapy, that has a physiological effect on an organism.
   </doc>
 
-  <descriptor id="activeIngredient" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="activeIngredient" type="semantic">
    <doc format="html">
     An active ingredient, typically chemical compounds and/or biologic substances.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor id="administrationRoute" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="administrationRoute" type="semantic">
    <doc format="html">
     A route by which this drug may be administered, e.g. 'oral'.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#adverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#adverseOutcome"/>
 
-  <descriptor id="alcoholWarning" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="alcoholWarning" type="semantic">
    <doc format="html">
     Any precaution, guidance, contraindication, etc. related to consumption of alcohol while taking this drug.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor id="availableStrength" type="semantic" rt="http://alps.io/schema.org/DrugStrength">
+  <descriptor id="availableStrength" type="semantic">
    <doc format="html">
     An available dosage strength for the drug.
    </doc>
   </descriptor>
 
-  <descriptor id="breastfeedingWarning" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="breastfeedingWarning" type="semantic">
    <doc format="html">
     Any precaution, guidance, contraindication, etc. related to this drug's use by breastfeeding mothers.
    </doc>
   </descriptor>
 
-  <descriptor id="clincalPharmacology" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="clinicalPharmacology" type="semantic">
    <doc format="html">
     Description of the absorption and elimination of drugs, including their concentration (pharmacokinetics, pK) and biological effects (pharmacodynamics, pD).
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#contraindication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#contraindication"/>
 
-  <descriptor id="cost" type="semantic" rt="http://alps.io/schema.org/DrugCost">
+  <descriptor id="cost" type="semantic">
    <doc format="html">
     Cost per unit of the drug, as reported by the source being tagged.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor id="dosageForm" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="dosageForm" type="semantic">
    <doc format="html">
     A dosage form in which this drug/supplement is available, e.g. 'tablet', 'suspension', 'injection'.
    </doc>
   </descriptor>
 
-  <descriptor id="doseSchedule" type="semantic" rt="http://alps.io/schema.org/DoseSchedule">
+  <descriptor id="doseSchedule" type="semantic">
    <doc format="html">
     A dosing schedule for the drug for a given population, either observed, recommended, or maximum dose based on the type used.
    </doc>
   </descriptor>
 
-  <descriptor id="drugClass" type="semantic" rt="http://alps.io/schema.org/DrugClass">
+  <descriptor id="drugClass" type="semantic">
    <doc format="html">
     The class of drug this belongs to (e.g., statins).
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#duplicateTherapy"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
 
-  <descriptor id="foodWarning" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="foodWarning" type="semantic">
    <doc format="html">
     Any precaution, guidance, contraindication, etc. related to consumption of specific foods while taking this drug.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
 
-  <descriptor id="interactingDrug" type="semantic" rt="http://alps.io/schema.org/Drug">
+  <descriptor id="interactingDrug" type="semantic">
    <doc format="html">
     Another drug that is known to interact with this drug in a way that impacts the effect of this drug or causes a risk to the patient. Note: disease interactions are typically captured as contraindications.
    </doc>
   </descriptor>
 
-  <descriptor id="isAvailableGenerically" type="semantic" rt="http://alps.io/schema.org/Boolean">
+  <descriptor id="isAvailableGenerically" type="semantic">
    <doc format="html">
     True if the drug is available in a generic form (regardless of name).
    </doc>
   </descriptor>
 
-  <descriptor id="isProprietary" type="semantic" rt="http://alps.io/schema.org/Boolean">
+  <descriptor id="isProprietary" type="semantic">
    <doc format="html">
     True if this item's name is a proprietary/brand name (vs. generic name).
    </doc>
   </descriptor>
 
-  <descriptor id="labelDetails" type="safe" rt="http://alps.io/schema.org/URL">
+  <descriptor id="labelDetails" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc format="html">
     Link to the drug's label details.
    </doc>
   </descriptor>
 
-  <descriptor id="legalStatus" type="semantic" rt="http://alps.io/schema.org/DrugLegalStatus">
+  <descriptor id="legalStatus" type="semantic">
    <doc format="html">
     The drug or supplement's legal status, including any controlled substance schedules that apply.
    </doc>
   </descriptor>
 
-  <descriptor id="manufacturer" type="semantic" rt="http://alps.io/schema.org/Organization">
+  <descriptor id="manufacturer" type="semantic">
    <doc format="html">
     The manufacturer of the product.
    </doc>
   </descriptor>
 
-  <descriptor id="mechanismOfAction" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="mechanismOfAction" type="semantic">
    <doc format="html">
     The specific biochemical interaction through which this drug or supplement produces its pharmacological effect.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor id="nonProprietaryName" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="nonProprietaryName" type="semantic">
    <doc format="html">
     The generic name of this drug or supplement.
    </doc>
   </descriptor>
 
-  <descriptor id="overdosage" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="overdosage" type="semantic">
    <doc format="html">
     Any information related to overdose on a drug, including signs or symptoms, treatments, contact information for emergency response.
    </doc>
   </descriptor>
 
-  <descriptor id="pregnancyCategory" type="semantic" rt="http://alps.io/schema.org/DrugPregnancyCategory">
+  <descriptor id="pregnancyCategory" type="semantic">
    <doc format="html">
     Pregnancy category of this drug.
    </doc>
   </descriptor>
 
-  <descriptor id="pregnancyWarning" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="pregnancyWarning" type="semantic">
    <doc format="html">
     Any precaution, guidance, contraindication, etc. related to this drug's use during pregnancy.
    </doc>
   </descriptor>
 
-  <descriptor id="prescribingInfo" type="safe" rt="http://alps.io/schema.org/URL">
+  <descriptor id="prescribingInfo" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc format="html">
     Link to prescribing information for the drug.
    </doc>
   </descriptor>
 
-  <descriptor id="prescriptionStatus" type="semantic" rt="http://alps.io/schema.org/DrugPrescriptionStatus">
+  <descriptor id="prescriptionStatus" type="semantic">
    <doc format="html">
     Indicates whether this drug is available by prescription or over-the-counter.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor id="relatedDrug" type="semantic" rt="http://alps.io/schema.org/Drug">
+  <descriptor id="relatedDrug" type="semantic">
    <doc format="html">
     Any other drug related to this one, for example commonly-prescribed alternatives.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#seriousAdverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
-  <descriptor id="warning" type="semantic" rt="http://alps.io/schema.org/Text http://alps.io/schema.org/URL">
+  <descriptor id="warning" type="semantic">
    <doc format="html">
     Any FDA or other warnings about the drug (text or URL).
    </doc>

@@ -1,68 +1,68 @@
 <alps>
- <descriptor id="Artery" type="semantic" href="http://alps.io/schema.org/Vessel">
+ <descriptor id="Artery" type="semantic" href="http://alps.io/schema.org/Vessel.xml">
   <doc format="html">
    A type of blood vessel that specifically carries blood away from the heart.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor id="arterialBranch" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="arterialBranch" type="semantic">
    <doc format="html">
     The branches that comprise the arterial structure.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#associatedPathophysiology"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#bodyLocation"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#connectedTo"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#connectedTo"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#diagram"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#function"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#partOfSystem"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedCondition"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedTherapy"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedTherapy"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor id="source" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="source" type="semantic">
    <doc format="html">
     The anatomical or organ system that the artery originates from.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#subStructure"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
 
-  <descriptor id="supplyTo" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="supplyTo" type="semantic">
    <doc format="html">
     The area to which the artery supplies blood to.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

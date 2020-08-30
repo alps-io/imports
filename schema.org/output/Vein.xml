@@ -1,68 +1,68 @@
 <alps>
- <descriptor id="Vein" type="semantic" href="http://alps.io/schema.org/Vessel">
+ <descriptor id="Vein" type="semantic" href="http://alps.io/schema.org/Vessel.xml">
   <doc format="html">
    A type of blood vessel that specifically carries blood to the heart.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#associatedPathophysiology"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#bodyLocation"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#connectedTo"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#connectedTo"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#diagram"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
 
-  <descriptor id="drainsTo" type="semantic" rt="http://alps.io/schema.org/Vessel">
+  <descriptor id="drainsTo" type="semantic">
    <doc format="html">
     The vasculature that the vein drains into.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#function"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#partOfSystem"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor id="regionDrained" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure http://alps.io/schema.org/AnatomicalSystem">
+  <descriptor id="regionDrained" type="semantic">
    <doc format="html">
     The anatomical or organ system drained by this vessel; generally refers to a specific part of an organ.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedCondition"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#relatedTherapy"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedTherapy"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure#subStructure"/>
+  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
 
-  <descriptor id="tributary" type="semantic" rt="http://alps.io/schema.org/AnatomicalStructure">
+  <descriptor id="tributary" type="semantic">
    <doc format="html">
     The anatomical or organ system that the vein flows into; a larger structure that the vein connects to.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

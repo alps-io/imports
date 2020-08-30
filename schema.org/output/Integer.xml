@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Integer" type="semantic" href="http://alps.io/schema.org/Number">
+ <descriptor id="Integer" type="semantic" href="http://alps.io/schema.org/Number.xml">
   <doc format="html">
    Data type: Integer.
   </doc>

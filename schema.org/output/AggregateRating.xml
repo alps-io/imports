@@ -1,42 +1,42 @@
 <alps>
- <descriptor id="AggregateRating" type="semantic" href="http://alps.io/schema.org/Rating">
+ <descriptor id="AggregateRating" type="semantic" href="http://alps.io/schema.org/Rating.xml">
   <doc format="html">
    The average rating based on multiple ratings or reviews.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Rating#bestRating"/>
+  <descriptor href="http://alps.io/schema.org/Rating.xml#bestRating"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor id="itemReviewed" type="semantic" rt="http://alps.io/schema.org/Thing">
+  <descriptor id="itemReviewed" type="semantic">
    <doc format="html">
     The item that is being reviewed/rated.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor id="ratingCount" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="ratingCount" type="semantic">
    <doc format="html">
     The count of total number of ratings.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Rating#ratingValue"/>
+  <descriptor href="http://alps.io/schema.org/Rating.xml#ratingValue"/>
 
-  <descriptor id="reviewCount" type="semantic" rt="http://alps.io/schema.org/Number">
+  <descriptor id="reviewCount" type="semantic">
    <doc format="html">
     The count of total number of reviews.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
-  <descriptor href="http://alps.io/schema.org/Rating#worstRating"/>
+  <descriptor href="http://alps.io/schema.org/Rating.xml#worstRating"/>
 
  </descriptor>
 </alps>

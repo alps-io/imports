@@ -1,56 +1,56 @@
 <alps>
- <descriptor id="MedicalTrial" type="semantic" href="http://alps.io/schema.org/MedicalStudy">
+ <descriptor id="MedicalTrial" type="semantic" href="http://alps.io/schema.org/MedicalStudy.xml">
   <doc format="html">
    A medical trial is a type of medical study that uses scientific process used to compare the safety and efficacy of medical therapies or medical procedures. In general, medical trials are controlled and subjects are allocated at random to the different treatment and/or control groups.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalStudy#outcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#outcome"/>
 
-  <descriptor id="phase" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="phase" type="semantic">
    <doc format="html">
     The phase of the trial.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalStudy#population"/>
+  <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#population"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalStudy#sponsor"/>
+  <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#sponsor"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalStudy#status"/>
+  <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#status"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalStudy#studyLocation"/>
+  <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#studyLocation"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalStudy#studySubject"/>
+  <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#studySubject"/>
 
-  <descriptor id="trialDesign" type="semantic" rt="http://alps.io/schema.org/MedicalTrialDesign">
+  <descriptor id="trialDesign" type="semantic">
    <doc format="html">
     Specifics about the trial design (enumerated).
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

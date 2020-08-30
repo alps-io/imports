@@ -1,108 +1,108 @@
 <alps>
- <descriptor id="BedAndBreakfast" type="semantic" href="http://alps.io/schema.org/LodgingBusiness">
+ <descriptor id="BedAndBreakfast" type="semantic" href="http://alps.io/schema.org/LodgingBusiness.xml">
   <doc format="html">
    Bed and breakfast.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#address"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#address"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#aggregateRating"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#aggregateRating"/>
 
-  <descriptor href="http://alps.io/schema.org/LocalBusiness#branchOf"/>
+  <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#branchOf"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#brand"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#brand"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#contactPoint"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#contactPoint"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#contactPoints"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#contactPoints"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#containedIn"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#containedIn"/>
 
-  <descriptor href="http://alps.io/schema.org/LocalBusiness#currenciesAccepted"/>
+  <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#currenciesAccepted"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#duns"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#duns"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#email"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#email"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#employee"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#employee"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#employees"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#employees"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#event"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#event"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#events"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#events"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#faxNumber"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#faxNumber"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#founder"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#founder"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#founders"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#founders"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#foundingDate"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#foundingDate"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#geo"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#geo"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#globalLocationNumber"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#globalLocationNumber"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#hasPOS"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#hasPOS"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#interactionCount"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#interactionCount"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#isicV4"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#isicV4"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#legalName"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#legalName"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#location"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#location"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#logo"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#logo"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#makesOffer"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#makesOffer"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#map"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#map"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#maps"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#maps"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#member"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#member"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#members"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#members"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#naics"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#naics"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/LocalBusiness#openingHours"/>
+  <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#openingHours"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#openingHoursSpecification"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#openingHoursSpecification"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#owns"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#owns"/>
 
-  <descriptor href="http://alps.io/schema.org/LocalBusiness#paymentAccepted"/>
+  <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#paymentAccepted"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#photo"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#photo"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#photos"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#photos"/>
 
-  <descriptor href="http://alps.io/schema.org/LocalBusiness#priceRange"/>
+  <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#priceRange"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#review"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#review"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#reviews"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#reviews"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#seeks"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#seeks"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#taxID"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#taxID"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#telephone"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#telephone"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
-  <descriptor href="http://alps.io/schema.org/Organization#vatID"/>
+  <descriptor href="http://alps.io/schema.org/Organization.xml#vatID"/>
 
  </descriptor>
 </alps>

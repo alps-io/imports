@@ -1,56 +1,56 @@
 <alps>
- <descriptor id="GatedResidenceCommunity" type="semantic" href="http://alps.io/schema.org/Residence">
+ <descriptor id="GatedResidenceCommunity" type="semantic" href="http://alps.io/schema.org/Residence.xml">
   <doc format="html">
    Residence type: Gated community.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#address"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#address"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#aggregateRating"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#aggregateRating"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#containedIn"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#containedIn"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#event"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#event"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#events"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#events"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#faxNumber"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#faxNumber"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#geo"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#geo"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#globalLocationNumber"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#globalLocationNumber"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#interactionCount"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#interactionCount"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#isicV4"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#isicV4"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#logo"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#logo"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#map"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#map"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#maps"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#maps"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#openingHoursSpecification"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#openingHoursSpecification"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#photo"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#photo"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#photos"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#photos"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#review"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#review"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#reviews"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#reviews"/>
 
-  <descriptor href="http://alps.io/schema.org/Place#telephone"/>
+  <descriptor href="http://alps.io/schema.org/Place.xml#telephone"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

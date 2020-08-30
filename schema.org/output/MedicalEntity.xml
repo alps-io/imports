@@ -1,60 +1,60 @@
 <alps>
- <descriptor id="MedicalEntity" type="semantic" href="http://alps.io/schema.org/Thing">
+ <descriptor id="MedicalEntity" type="semantic" href="http://alps.io/schema.org/Thing.xml">
   <doc format="html">
    The most generic type of entity related to health and the practice of medicine.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor id="alternateName" type="semantic" rt="http://alps.io/schema.org/Text">
+  <descriptor id="alternateName" type="semantic">
    <doc format="html">
     Any alternate name for this medical entity.
    </doc>
   </descriptor>
 
-  <descriptor id="code" type="semantic" rt="http://alps.io/schema.org/MedicalCode">
+  <descriptor id="code" type="semantic">
    <doc format="html">
     A medical code for the entity, taken from a controlled vocabulary or ontology such as ICD-9, DiseasesDB, MeSH, SNOMED-CT, RxNorm, etc.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor id="guideline" type="semantic" rt="http://alps.io/schema.org/MedicalGuideline">
+  <descriptor id="guideline" type="semantic">
    <doc format="html">
     A medical guideline related to this entity.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor id="medicineSystem" type="semantic" rt="http://alps.io/schema.org/MedicineSystem">
+  <descriptor id="medicineSystem" type="semantic">
    <doc format="html">
     The system of medicine that includes this MedicalEntity, for example 'evidence-based', 'homeopathic', 'chiropractic', etc.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor id="recognizingAuthority" type="semantic" rt="http://alps.io/schema.org/Organization">
+  <descriptor id="recognizingAuthority" type="semantic">
    <doc format="html">
     If applicable, the organization that officially recognizes this entity as part of its endorsed system of medicine.
    </doc>
   </descriptor>
 
-  <descriptor id="relevantSpecialty" type="semantic" rt="http://alps.io/schema.org/MedicalSpecialty">
+  <descriptor id="relevantSpecialty" type="semantic">
    <doc format="html">
     If applicable, a medical specialty in which this entity is relevant.
    </doc>
   </descriptor>
 
-  <descriptor id="study" type="semantic" rt="http://alps.io/schema.org/MedicalStudy">
+  <descriptor id="study" type="semantic">
    <doc format="html">
     A medical study or trial related to this entity.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

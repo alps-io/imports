@@ -1,56 +1,56 @@
 <alps>
- <descriptor id="QualitativeValue" type="semantic" href="http://alps.io/schema.org/Enumeration">
+ <descriptor id="QualitativeValue" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
   <doc format="html">
    A predefined value for a product characteristic, e.g. the the power cord plug type "US" or the garment sizes "S", "M", "L", and "XL"
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor id="equal" type="semantic" rt="http://alps.io/schema.org/QualitativeValue">
+  <descriptor id="equal" type="semantic">
    <doc format="html">
     This ordering relation for qualitative values indicates that the subject is equal to the object.
    </doc>
   </descriptor>
 
-  <descriptor id="greater" type="semantic" rt="http://alps.io/schema.org/QualitativeValue">
+  <descriptor id="greater" type="semantic">
    <doc format="html">
     This ordering relation for qualitative values indicates that the subject is greater than the object.
    </doc>
   </descriptor>
 
-  <descriptor id="greaterOrEqual" type="semantic" rt="http://alps.io/schema.org/QualitativeValue">
+  <descriptor id="greaterOrEqual" type="semantic">
    <doc format="html">
     This ordering relation for qualitative values indicates that the subject is greater than or equal to the object.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor id="lesser" type="semantic" rt="http://alps.io/schema.org/QualitativeValue">
+  <descriptor id="lesser" type="semantic">
    <doc format="html">
     This ordering relation for qualitative values indicates that the subject is lesser than the object.
    </doc>
   </descriptor>
 
-  <descriptor id="lesserOrEqual" type="semantic" rt="http://alps.io/schema.org/QualitativeValue">
+  <descriptor id="lesserOrEqual" type="semantic">
    <doc format="html">
     This ordering relation for qualitative values indicates that the subject is lesser than or equal to the object.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor id="nonEqual" type="semantic" rt="http://alps.io/schema.org/QualitativeValue">
+  <descriptor id="nonEqual" type="semantic">
    <doc format="html">
     This ordering relation for qualitative values indicates that the subject is not equal to the object.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
-  <descriptor id="valueReference" type="semantic" rt="http://alps.io/schema.org/Enumeration http://alps.io/schema.org/StructuredValue">
+  <descriptor id="valueReference" type="semantic">
    <doc format="html">
     A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.
    </doc>

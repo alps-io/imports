@@ -1,48 +1,48 @@
 <alps>
- <descriptor id="DrugClass" type="semantic" href="http://alps.io/schema.org/MedicalTherapy">
+ <descriptor id="DrugClass" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml">
   <doc format="html">
    A class of medical drugs, e.g., statins. Classes can represent general pharmacological class, common mechanisms of action, common physiological effects, etc.
   </doc>
 
-  <descriptor href="http://alps.io/schema.org/Thing#additionalType"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#adverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#adverseOutcome"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#alternateName"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#code"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#contraindication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#contraindication"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#description"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
-  <descriptor id="drug" type="semantic" rt="http://alps.io/schema.org/Drug">
+  <descriptor id="drug" type="semantic">
    <doc format="html">
     A drug in this drug class.
    </doc>
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#duplicateTherapy"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#guideline"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#image"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#indication"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#medicineSystem"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#name"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#recognizingAuthority"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#relevantSpecialty"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy#seriousAdverseOutcome"/>
+  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity#study"/>
+  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
-  <descriptor href="http://alps.io/schema.org/Thing#url"/>
+  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>
