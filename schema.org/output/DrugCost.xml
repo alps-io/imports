@@ -2,15 +2,9 @@
  <descriptor id="DrugCost" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
   <doc href="http://schema.org/DrugCost" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
   <descriptor id="applicableLocation" type="semantic">
    <doc href="http://schema.org/applicableLocation" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
   <descriptor id="costCategory" type="semantic">
    <doc href="http://schema.org/costCategory" />
@@ -28,27 +22,9 @@
    <doc href="http://schema.org/costPerUnit" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="drugUnit" type="semantic">
    <doc href="http://schema.org/drugUnit" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

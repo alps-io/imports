@@ -6,33 +6,13 @@
    <doc href="http://schema.org/activeIngredient" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#adverseOutcome"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
   <descriptor id="background" type="semantic">
    <doc href="http://schema.org/background" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#contraindication"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="dosageForm" type="semantic">
    <doc href="http://schema.org/dosageForm" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
 
   <descriptor id="isProprietary" type="semantic">
    <doc href="http://schema.org/isProprietary" />
@@ -54,35 +34,21 @@
    <doc href="http://schema.org/mechanismOfAction" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="nonProprietaryName" type="semantic">
    <doc href="http://schema.org/nonProprietaryName" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="recommendedIntake" type="semantic">
    <doc href="http://schema.org/recommendedIntake" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
   <descriptor id="safetyConsideration" type="semantic">
    <doc href="http://schema.org/safetyConsideration" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
   <descriptor id="targetPopulation" type="semantic">
    <doc href="http://schema.org/targetPopulation" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

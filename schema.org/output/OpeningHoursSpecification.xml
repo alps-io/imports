@@ -2,8 +2,6 @@
  <descriptor id="OpeningHoursSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/OpeningHoursSpecification" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="closes" type="semantic">
    <doc href="http://schema.org/closes" />
   </descriptor>
@@ -12,17 +10,9 @@
    <doc href="http://schema.org/dayOfWeek" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="opens" type="semantic">
    <doc href="http://schema.org/opens" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
    <doc href="http://schema.org/validFrom" />

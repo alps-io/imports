@@ -2,8 +2,6 @@
  <descriptor id="MedicalEntity" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc href="http://schema.org/MedicalEntity" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="alternateName" type="semantic">
    <doc href="http://schema.org/alternateName" />
   </descriptor>
@@ -12,19 +10,13 @@
    <doc href="http://schema.org/code" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="guideline" type="semantic">
    <doc href="http://schema.org/guideline" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="medicineSystem" type="semantic">
    <doc href="http://schema.org/medicineSystem" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="recognizingAuthority" type="semantic">
    <doc href="http://schema.org/recognizingAuthority" />
@@ -37,8 +29,6 @@
   <descriptor id="study" type="semantic">
    <doc href="http://schema.org/study" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -6,14 +6,6 @@
    <doc href="http://schema.org/acquiredFrom" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="ownedFrom" type="semantic">
    <doc href="http://schema.org/ownedFrom" />
   </descriptor>
@@ -25,8 +17,6 @@
   <descriptor id="typeOfGood" type="semantic">
    <doc href="http://schema.org/typeOfGood" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

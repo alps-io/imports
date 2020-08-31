@@ -2,33 +2,6 @@
  <descriptor id="MedicalRiskCalculator" type="semantic" href="http://alps.io/schema.org/MedicalRiskEstimator.xml#MedicalRiskEstimator">
   <doc href="http://schema.org/MedicalRiskCalculator" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalRiskEstimator.xml#estimatesRiskOf"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalRiskEstimator.xml#includedRiskFactor"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

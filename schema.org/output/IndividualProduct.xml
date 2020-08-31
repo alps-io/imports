@@ -2,71 +2,9 @@
  <descriptor id="IndividualProduct" type="semantic" href="http://alps.io/schema.org/Product.xml#Product">
   <doc href="http://schema.org/IndividualProduct" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#aggregateRating"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#brand"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#category"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#color"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#depth"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#gtin13"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#gtin14"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#gtin8"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#height"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#isAccessoryOrSparePartFor"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#isConsumableFor"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#isRelatedTo"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#isSimilarTo"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#itemCondition"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#logo"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#manufacturer"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#model"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#mpn"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#offers"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#productID"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#releaseDate"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#review"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#reviews"/>
-
   <descriptor id="serialNumber" type="semantic">
    <doc href="http://schema.org/serialNumber" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#sku"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#weight"/>
-
-  <descriptor href="http://alps.io/schema.org/Product.xml#width"/>
 
  </descriptor>
 </alps>

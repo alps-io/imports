@@ -2,33 +2,17 @@
  <descriptor id="MedicalDevice" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc href="http://schema.org/MedicalDevice" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="adverseOutcome" type="semantic">
    <doc href="http://schema.org/adverseOutcome" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
   <descriptor id="contraindication" type="semantic">
    <doc href="http://schema.org/contraindication" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="indication" type="semantic">
    <doc href="http://schema.org/indication" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="postOp" type="semantic">
    <doc href="http://schema.org/postOp" />
@@ -46,17 +30,9 @@
    <doc href="http://schema.org/purpose" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
   <descriptor id="seriousAdverseOutcome" type="semantic">
    <doc href="http://schema.org/seriousAdverseOutcome" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -2,10 +2,6 @@
  <descriptor id="MedicalCondition" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc href="http://schema.org/MedicalCondition" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
   <descriptor id="associatedAnatomy" type="semantic">
    <doc href="http://schema.org/associatedAnatomy" />
   </descriptor>
@@ -13,10 +9,6 @@
   <descriptor id="cause" type="semantic">
    <doc href="http://schema.org/cause" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="differentialDiagnosis" type="semantic">
    <doc href="http://schema.org/differentialDiagnosis" />
@@ -29,14 +21,6 @@
   <descriptor id="expectedPrognosis" type="semantic">
    <doc href="http://schema.org/expectedPrognosis" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="naturalProgression" type="semantic">
    <doc href="http://schema.org/naturalProgression" />
@@ -58,10 +42,6 @@
    <doc href="http://schema.org/primaryPrevention" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
   <descriptor id="riskFactor" type="semantic">
    <doc href="http://schema.org/riskFactor" />
   </descriptor>
@@ -78,8 +58,6 @@
    <doc href="http://schema.org/stage" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
   <descriptor id="subtype" type="semantic">
    <doc href="http://schema.org/subtype" />
   </descriptor>
@@ -87,8 +65,6 @@
   <descriptor id="typicalTest" type="semantic">
    <doc href="http://schema.org/typicalTest" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

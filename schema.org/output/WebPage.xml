@@ -2,79 +2,13 @@
  <descriptor id="WebPage" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
   <doc href="http://schema.org/WebPage" />
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#accountablePerson"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#aggregateRating"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#alternativeHeadline"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#associatedMedia"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#audience"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#audio"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#author"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#award"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
-
   <descriptor id="breadcrumb" type="semantic">
    <doc href="http://schema.org/breadcrumb" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contentLocation"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contentRating"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contributor"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightHolder"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightYear"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#creator"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#dateCreated"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#dateModified"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#datePublished"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#discussionUrl"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#editor"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encoding"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encodings"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#genre"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#headline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#inLanguage"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#interactionCount"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#isFamilyFriendly"/>
-
   <descriptor id="isPartOf" type="semantic">
    <doc href="http://schema.org/isPartOf" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#keywords"/>
 
   <descriptor id="lastReviewed" type="semantic">
    <doc href="http://schema.org/lastReviewed" />
@@ -84,33 +18,17 @@
    <doc href="http://schema.org/mainContentOfPage" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#mentions"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
-
   <descriptor id="primaryImageOfPage" type="semantic">
    <doc href="http://schema.org/primaryImageOfPage" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publisher"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publishingPrinciples"/>
 
   <descriptor id="relatedLink" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc href="http://schema.org/relatedLink" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#review"/>
-
   <descriptor id="reviewedBy" type="semantic">
    <doc href="http://schema.org/reviewedBy" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#reviews"/>
 
   <descriptor id="significantLink" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc href="http://schema.org/significantLink" />
@@ -120,21 +38,9 @@
    <doc href="http://schema.org/significantLinks" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#sourceOrganization"/>
-
   <descriptor id="specialty" type="semantic">
    <doc href="http://schema.org/specialty" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#text"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#version"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#video"/>
 
  </descriptor>
 </alps>

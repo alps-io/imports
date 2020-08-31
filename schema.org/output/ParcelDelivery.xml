@@ -2,8 +2,6 @@
  <descriptor id="ParcelDelivery" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc href="http://schema.org/ParcelDelivery" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="deliveryAddress" type="semantic">
    <doc href="http://schema.org/deliveryAddress" />
   </descriptor>
@@ -11,8 +9,6 @@
   <descriptor id="deliveryStatus" type="semantic">
    <doc href="http://schema.org/deliveryStatus" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="expectedArrivalFrom" type="semantic">
    <doc href="http://schema.org/expectedArrivalFrom" />
@@ -26,13 +22,9 @@
    <doc href="http://schema.org/hasDeliveryMethod" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="itemShipped" type="semantic">
    <doc href="http://schema.org/itemShipped" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="originAddress" type="semantic">
    <doc href="http://schema.org/originAddress" />
@@ -53,8 +45,6 @@
   <descriptor id="trackingUrl" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc href="http://schema.org/trackingUrl" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

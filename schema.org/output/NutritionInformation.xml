@@ -2,8 +2,6 @@
  <descriptor id="NutritionInformation" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/NutritionInformation" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="calories" type="semantic">
    <doc href="http://schema.org/calories" />
   </descriptor>
@@ -16,8 +14,6 @@
    <doc href="http://schema.org/cholesterolContent" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="fatContent" type="semantic">
    <doc href="http://schema.org/fatContent" />
   </descriptor>
@@ -25,10 +21,6 @@
   <descriptor id="fiberContent" type="semantic">
    <doc href="http://schema.org/fiberContent" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="proteinContent" type="semantic">
    <doc href="http://schema.org/proteinContent" />
@@ -57,8 +49,6 @@
   <descriptor id="unsaturatedFatContent" type="semantic">
    <doc href="http://schema.org/unsaturatedFatContent" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

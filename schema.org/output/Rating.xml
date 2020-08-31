@@ -2,23 +2,13 @@
  <descriptor id="Rating" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc href="http://schema.org/Rating" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="bestRating" type="semantic">
    <doc href="http://schema.org/bestRating" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="ratingValue" type="semantic">
    <doc href="http://schema.org/ratingValue" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="worstRating" type="semantic">
    <doc href="http://schema.org/worstRating" />

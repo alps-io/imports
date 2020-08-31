@@ -10,8 +10,6 @@
    <doc href="http://schema.org/addOn" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="advanceBookingRequirement" type="semantic">
    <doc href="http://schema.org/advanceBookingRequirement" />
   </descriptor>
@@ -52,8 +50,6 @@
    <doc href="http://schema.org/deliveryLeadTime" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="eligibleCustomerType" type="semantic">
    <doc href="http://schema.org/eligibleCustomerType" />
   </descriptor>
@@ -86,8 +82,6 @@
    <doc href="http://schema.org/gtin8" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="includesObject" type="semantic">
    <doc href="http://schema.org/includesObject" />
   </descriptor>
@@ -107,8 +101,6 @@
   <descriptor id="mpn" type="semantic">
    <doc href="http://schema.org/mpn" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="price" type="semantic">
    <doc href="http://schema.org/price" />
@@ -145,8 +137,6 @@
   <descriptor id="sku" type="semantic">
    <doc href="http://schema.org/sku" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
    <doc href="http://schema.org/validFrom" />

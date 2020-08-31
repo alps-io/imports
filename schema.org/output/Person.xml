@@ -6,8 +6,6 @@
    <doc href="http://schema.org/additionalName" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="address" type="semantic">
    <doc href="http://schema.org/address" />
   </descriptor>
@@ -60,8 +58,6 @@
    <doc href="http://schema.org/deathDate" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="duns" type="semantic">
    <doc href="http://schema.org/duns" />
   </descriptor>
@@ -110,8 +106,6 @@
    <doc href="http://schema.org/honorificSuffix" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="interactionCount" type="semantic">
    <doc href="http://schema.org/interactionCount" />
   </descriptor>
@@ -139,8 +133,6 @@
   <descriptor id="naics" type="semantic">
    <doc href="http://schema.org/naics" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nationality" type="semantic">
    <doc href="http://schema.org/nationality" />
@@ -189,8 +181,6 @@
   <descriptor id="telephone" type="semantic">
    <doc href="http://schema.org/telephone" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="vatID" type="semantic">
    <doc href="http://schema.org/vatID" />

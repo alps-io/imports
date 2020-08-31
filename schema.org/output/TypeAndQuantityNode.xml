@@ -2,8 +2,6 @@
  <descriptor id="TypeAndQuantityNode" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/TypeAndQuantityNode" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="amountOfThisGood" type="semantic">
    <doc href="http://schema.org/amountOfThisGood" />
   </descriptor>
@@ -12,12 +10,6 @@
    <doc href="http://schema.org/businessFunction" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="typeOfGood" type="semantic">
    <doc href="http://schema.org/typeOfGood" />
   </descriptor>
@@ -25,8 +17,6 @@
   <descriptor id="unitCode" type="semantic">
    <doc href="http://schema.org/unitCode" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

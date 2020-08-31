@@ -2,8 +2,6 @@
  <descriptor id="PaymentChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification.xml#PriceSpecification">
   <doc href="http://schema.org/PaymentChargeSpecification" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="appliesToDeliveryMethod" type="semantic">
    <doc href="http://schema.org/appliesToDeliveryMethod" />
   </descriptor>
@@ -11,32 +9,6 @@
   <descriptor id="appliesToPaymentMethod" type="semantic">
    <doc href="http://schema.org/appliesToPaymentMethod" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleQuantity"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleTransactionVolume"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#maxPrice"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#minPrice"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#price"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#priceCurrency"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#validFrom"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#validThrough"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#valueAddedTaxIncluded"/>
 
  </descriptor>
 </alps>

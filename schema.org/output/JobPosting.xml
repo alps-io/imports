@@ -2,8 +2,6 @@
  <descriptor id="JobPosting" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc href="http://schema.org/JobPosting" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="baseSalary" type="semantic">
    <doc href="http://schema.org/baseSalary" />
   </descriptor>
@@ -15,8 +13,6 @@
   <descriptor id="datePosted" type="semantic">
    <doc href="http://schema.org/datePosted" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="educationRequirements" type="semantic">
    <doc href="http://schema.org/educationRequirements" />
@@ -34,8 +30,6 @@
    <doc href="http://schema.org/hiringOrganization" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="incentives" type="semantic">
    <doc href="http://schema.org/incentives" />
   </descriptor>
@@ -47,8 +41,6 @@
   <descriptor id="jobLocation" type="semantic">
    <doc href="http://schema.org/jobLocation" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="occupationalCategory" type="semantic">
    <doc href="http://schema.org/occupationalCategory" />
@@ -77,8 +69,6 @@
   <descriptor id="title" type="semantic">
    <doc href="http://schema.org/title" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validThrough" type="semantic">
    <doc href="http://schema.org/validThrough" />

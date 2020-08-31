@@ -6,19 +6,13 @@
    <doc href="http://schema.org/activeIngredient" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="administrationRoute" type="semantic">
    <doc href="http://schema.org/administrationRoute" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#adverseOutcome"/>
-
   <descriptor id="alcoholWarning" type="semantic">
    <doc href="http://schema.org/alcoholWarning" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="availableStrength" type="semantic">
    <doc href="http://schema.org/availableStrength" />
@@ -32,15 +26,9 @@
    <doc href="http://schema.org/clincalPharmacology" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#contraindication"/>
-
   <descriptor id="cost" type="semantic">
    <doc href="http://schema.org/cost" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="dosageForm" type="semantic">
    <doc href="http://schema.org/dosageForm" />
@@ -54,17 +42,9 @@
    <doc href="http://schema.org/drugClass" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
-
   <descriptor id="foodWarning" type="semantic">
    <doc href="http://schema.org/foodWarning" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
 
   <descriptor id="interactingDrug" type="semantic">
    <doc href="http://schema.org/interactingDrug" />
@@ -94,10 +74,6 @@
    <doc href="http://schema.org/mechanismOfAction" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="nonProprietaryName" type="semantic">
    <doc href="http://schema.org/nonProprietaryName" />
   </descriptor>
@@ -122,19 +98,9 @@
    <doc href="http://schema.org/prescriptionStatus" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
   <descriptor id="relatedDrug" type="semantic">
    <doc href="http://schema.org/relatedDrug" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="warning" type="semantic">
    <doc href="http://schema.org/warning" />

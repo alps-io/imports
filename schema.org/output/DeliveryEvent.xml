@@ -6,12 +6,6 @@
    <doc href="http://schema.org/accessCode" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#attendee"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#attendees"/>
-
   <descriptor id="availableFrom" type="semantic">
    <doc href="http://schema.org/availableFrom" />
   </descriptor>
@@ -20,37 +14,9 @@
    <doc href="http://schema.org/availableThrough" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#duration"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#endDate"/>
-
   <descriptor id="hasDeliveryMethod" type="semantic">
    <doc href="http://schema.org/hasDeliveryMethod" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#location"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#offers"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#performer"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#performers"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#startDate"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#subEvent"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#subEvents"/>
-
-  <descriptor href="http://alps.io/schema.org/Event.xml#superEvent"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -2,13 +2,9 @@
  <descriptor id="ContactPoint" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/ContactPoint" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="contactType" type="semantic">
    <doc href="http://schema.org/contactType" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="email" type="semantic">
    <doc href="http://schema.org/email" />
@@ -18,15 +14,9 @@
    <doc href="http://schema.org/faxNumber" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="telephone" type="semantic">
    <doc href="http://schema.org/telephone" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -6,8 +6,6 @@
    <doc href="http://schema.org/accountId" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="billingPeriod" type="semantic">
    <doc href="http://schema.org/billingPeriod" />
   </descriptor>
@@ -28,15 +26,9 @@
    <doc href="http://schema.org/customer" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="minimumPaymentDue" type="semantic">
    <doc href="http://schema.org/minimumPaymentDue" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="paymentDueDate" type="semantic">
    <doc href="http://schema.org/paymentDueDate" />
@@ -69,8 +61,6 @@
   <descriptor id="totalPaymentDue" type="semantic">
    <doc href="http://schema.org/totalPaymentDue" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

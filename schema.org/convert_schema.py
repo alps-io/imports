@@ -73,17 +73,8 @@ class RDFClass(object):
 
     @property
     def all_properties(self):
-        # Yield all properties defined in this class or superclasses,
-        # in alphabetical order.
+        # Yield all properties defined in this class in alphabetical order.
         unsorted = [(self, property) for property in self.properties]
-        already_present = set(self.properties)
-
-        for superclass_uri in self.superclasses:
-            c = classes_by_uri[superclass_uri]
-            for defined_by, property in c.all_properties:
-                if property not in already_present:
-                    already_present.add(property)
-                    unsorted.append((defined_by, property))
         for c, p in sorted(unsorted, key=lambda x: x[1].label):
             yield c, p
 

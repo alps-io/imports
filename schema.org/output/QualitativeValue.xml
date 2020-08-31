@@ -2,10 +2,6 @@
  <descriptor id="QualitativeValue" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
   <doc href="http://schema.org/QualitativeValue" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="equal" type="semantic">
    <doc href="http://schema.org/equal" />
   </descriptor>
@@ -18,8 +14,6 @@
    <doc href="http://schema.org/greaterOrEqual" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="lesser" type="semantic">
    <doc href="http://schema.org/lesser" />
   </descriptor>
@@ -28,13 +22,9 @@
    <doc href="http://schema.org/lesserOrEqual" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="nonEqual" type="semantic">
    <doc href="http://schema.org/nonEqual" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="valueReference" type="semantic">
    <doc href="http://schema.org/valueReference" />

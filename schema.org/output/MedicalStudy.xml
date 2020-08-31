@@ -2,22 +2,6 @@
  <descriptor id="MedicalStudy" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc href="http://schema.org/MedicalStudy" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="outcome" type="semantic">
    <doc href="http://schema.org/outcome" />
   </descriptor>
@@ -25,10 +9,6 @@
   <descriptor id="population" type="semantic">
    <doc href="http://schema.org/population" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="sponsor" type="semantic">
    <doc href="http://schema.org/sponsor" />
@@ -38,8 +18,6 @@
    <doc href="http://schema.org/status" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
   <descriptor id="studyLocation" type="semantic">
    <doc href="http://schema.org/studyLocation" />
   </descriptor>
@@ -47,8 +25,6 @@
   <descriptor id="studySubject" type="semantic">
    <doc href="http://schema.org/studySubject" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

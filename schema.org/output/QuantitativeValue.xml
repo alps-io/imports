@@ -2,12 +2,6 @@
  <descriptor id="QuantitativeValue" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/QuantitativeValue" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="maxValue" type="semantic">
    <doc href="http://schema.org/maxValue" />
   </descriptor>
@@ -16,13 +10,9 @@
    <doc href="http://schema.org/minValue" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="unitCode" type="semantic">
    <doc href="http://schema.org/unitCode" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="value" type="semantic">
    <doc href="http://schema.org/value" />

@@ -6,8 +6,6 @@
    <doc href="http://schema.org/acceptedOffer" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="billingAddress" type="semantic">
    <doc href="http://schema.org/billingAddress" />
   </descriptor>
@@ -24,8 +22,6 @@
    <doc href="http://schema.org/customer" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="discount" type="semantic">
    <doc href="http://schema.org/discount" />
   </descriptor>
@@ -38,13 +34,9 @@
    <doc href="http://schema.org/discountCurrency" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="isGift" type="semantic">
    <doc href="http://schema.org/isGift" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="orderDate" type="semantic">
    <doc href="http://schema.org/orderDate" />
@@ -89,8 +81,6 @@
   <descriptor id="seller" type="semantic">
    <doc href="http://schema.org/seller" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

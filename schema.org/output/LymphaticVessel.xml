@@ -2,59 +2,17 @@
  <descriptor id="LymphaticVessel" type="semantic" href="http://alps.io/schema.org/Vessel.xml#Vessel">
   <doc href="http://schema.org/LymphaticVessel" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#connectedTo"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="originatesFrom" type="semantic">
    <doc href="http://schema.org/originatesFrom" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="regionDrained" type="semantic">
    <doc href="http://schema.org/regionDrained" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedTherapy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
   <descriptor id="runsTo" type="semantic">
    <doc href="http://schema.org/runsTo" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

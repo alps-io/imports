@@ -2,33 +2,17 @@
  <descriptor id="AggregateRating" type="semantic" href="http://alps.io/schema.org/Rating.xml#Rating">
   <doc href="http://schema.org/AggregateRating" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Rating.xml#bestRating"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="itemReviewed" type="semantic">
    <doc href="http://schema.org/itemReviewed" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="ratingCount" type="semantic">
    <doc href="http://schema.org/ratingCount" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Rating.xml#ratingValue"/>
-
   <descriptor id="reviewCount" type="semantic">
    <doc href="http://schema.org/reviewCount" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/Rating.xml#worstRating"/>
 
  </descriptor>
 </alps>

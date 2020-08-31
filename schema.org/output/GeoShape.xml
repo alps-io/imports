@@ -2,8 +2,6 @@
  <descriptor id="GeoShape" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/GeoShape" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="box" type="semantic">
    <doc href="http://schema.org/box" />
   </descriptor>
@@ -12,25 +10,17 @@
    <doc href="http://schema.org/circle" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="elevation" type="semantic">
    <doc href="http://schema.org/elevation" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="line" type="semantic">
    <doc href="http://schema.org/line" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="polygon" type="semantic">
    <doc href="http://schema.org/polygon" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

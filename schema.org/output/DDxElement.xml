@@ -2,14 +2,6 @@
  <descriptor id="DDxElement" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
   <doc href="http://schema.org/DDxElement" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="diagnosis" type="semantic">
    <doc href="http://schema.org/diagnosis" />
   </descriptor>
@@ -17,22 +9,6 @@
   <descriptor id="distinguishingSign" type="semantic">
    <doc href="http://schema.org/distinguishingSign" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -2,37 +2,6 @@
  <descriptor id="MedicalGuidelineContraindication" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml#MedicalGuideline">
   <doc href="http://schema.org/MedicalGuidelineContraindication" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#evidenceLevel"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#evidenceOrigin"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#guidelineDate"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#guidelineSubject"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

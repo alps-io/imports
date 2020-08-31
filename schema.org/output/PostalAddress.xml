@@ -2,8 +2,6 @@
  <descriptor id="PostalAddress" type="semantic" href="http://alps.io/schema.org/ContactPoint.xml#ContactPoint">
   <doc href="http://schema.org/PostalAddress" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="addressCountry" type="semantic">
    <doc href="http://schema.org/addressCountry" />
   </descriptor>
@@ -16,18 +14,6 @@
    <doc href="http://schema.org/addressRegion" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/ContactPoint.xml#contactType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/ContactPoint.xml#email"/>
-
-  <descriptor href="http://alps.io/schema.org/ContactPoint.xml#faxNumber"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="postOfficeBoxNumber" type="semantic">
    <doc href="http://schema.org/postOfficeBoxNumber" />
   </descriptor>
@@ -39,10 +25,6 @@
   <descriptor id="streetAddress" type="semantic">
    <doc href="http://schema.org/streetAddress" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/ContactPoint.xml#telephone"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

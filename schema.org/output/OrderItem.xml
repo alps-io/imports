@@ -2,14 +2,6 @@
  <descriptor id="OrderItem" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc href="http://schema.org/OrderItem" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="orderDelivery" type="semantic">
    <doc href="http://schema.org/orderDelivery" />
   </descriptor>
@@ -29,8 +21,6 @@
   <descriptor id="orderedItem" type="semantic">
    <doc href="http://schema.org/orderedItem" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

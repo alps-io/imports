@@ -2,15 +2,9 @@
  <descriptor id="GeoCoordinates" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/GeoCoordinates" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="elevation" type="semantic">
    <doc href="http://schema.org/elevation" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="latitude" type="semantic">
    <doc href="http://schema.org/latitude" />
@@ -19,10 +13,6 @@
   <descriptor id="longitude" type="semantic">
    <doc href="http://schema.org/longitude" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -2,15 +2,9 @@
  <descriptor id="MonetaryAmount" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/MonetaryAmount" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="currency" type="semantic">
    <doc href="http://schema.org/currency" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="maxValue" type="semantic">
    <doc href="http://schema.org/maxValue" />
@@ -19,10 +13,6 @@
   <descriptor id="minValue" type="semantic">
    <doc href="http://schema.org/minValue" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
    <doc href="http://schema.org/validFrom" />

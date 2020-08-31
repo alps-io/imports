@@ -2,8 +2,6 @@
  <descriptor id="Product" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc href="http://schema.org/Product" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="aggregateRating" type="semantic">
    <doc href="http://schema.org/aggregateRating" />
   </descriptor>
@@ -24,8 +22,6 @@
    <doc href="http://schema.org/depth" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="gtin13" type="semantic">
    <doc href="http://schema.org/gtin13" />
   </descriptor>
@@ -41,8 +37,6 @@
   <descriptor id="height" type="semantic">
    <doc href="http://schema.org/height" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="isAccessoryOrSparePartFor" type="semantic">
    <doc href="http://schema.org/isAccessoryOrSparePartFor" />
@@ -80,8 +74,6 @@
    <doc href="http://schema.org/mpn" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="offers" type="semantic">
    <doc href="http://schema.org/offers" />
   </descriptor>
@@ -105,8 +97,6 @@
   <descriptor id="sku" type="semantic">
    <doc href="http://schema.org/sku" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="weight" type="semantic">
    <doc href="http://schema.org/weight" />

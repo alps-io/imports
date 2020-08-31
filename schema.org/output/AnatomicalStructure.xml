@@ -2,10 +2,6 @@
  <descriptor id="AnatomicalStructure" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc href="http://schema.org/AnatomicalStructure" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
   <descriptor id="associatedPathophysiology" type="semantic">
    <doc href="http://schema.org/associatedPathophysiology" />
   </descriptor>
@@ -14,13 +10,9 @@
    <doc href="http://schema.org/bodyLocation" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
   <descriptor id="connectedTo" type="semantic">
    <doc href="http://schema.org/connectedTo" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="diagram" type="semantic">
    <doc href="http://schema.org/diagram" />
@@ -30,19 +22,9 @@
    <doc href="http://schema.org/function" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="partOfSystem" type="semantic">
    <doc href="http://schema.org/partOfSystem" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="relatedCondition" type="semantic">
    <doc href="http://schema.org/relatedCondition" />
@@ -52,15 +34,9 @@
    <doc href="http://schema.org/relatedTherapy" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
   <descriptor id="subStructure" type="semantic">
    <doc href="http://schema.org/subStructure" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -2,8 +2,6 @@
  <descriptor id="Place" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc href="http://schema.org/Place" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="address" type="semantic">
    <doc href="http://schema.org/address" />
   </descriptor>
@@ -15,8 +13,6 @@
   <descriptor id="containedIn" type="semantic">
    <doc href="http://schema.org/containedIn" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="event" type="semantic">
    <doc href="http://schema.org/event" />
@@ -38,8 +34,6 @@
    <doc href="http://schema.org/globalLocationNumber" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="interactionCount" type="semantic">
    <doc href="http://schema.org/interactionCount" />
   </descriptor>
@@ -59,8 +53,6 @@
   <descriptor id="maps" type="safe" rt="http://alps.io/schema.org/URL.xml">
    <doc href="http://schema.org/maps" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="openingHoursSpecification" type="semantic">
    <doc href="http://schema.org/openingHoursSpecification" />
@@ -85,8 +77,6 @@
   <descriptor id="telephone" type="semantic">
    <doc href="http://schema.org/telephone" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

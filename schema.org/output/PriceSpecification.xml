@@ -2,10 +2,6 @@
  <descriptor id="PriceSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/PriceSpecification" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="eligibleQuantity" type="semantic">
    <doc href="http://schema.org/eligibleQuantity" />
   </descriptor>
@@ -13,8 +9,6 @@
   <descriptor id="eligibleTransactionVolume" type="semantic">
    <doc href="http://schema.org/eligibleTransactionVolume" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="maxPrice" type="semantic">
    <doc href="http://schema.org/maxPrice" />
@@ -24,8 +18,6 @@
    <doc href="http://schema.org/minPrice" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="price" type="semantic">
    <doc href="http://schema.org/price" />
   </descriptor>
@@ -33,8 +25,6 @@
   <descriptor id="priceCurrency" type="semantic">
    <doc href="http://schema.org/priceCurrency" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
    <doc href="http://schema.org/validFrom" />

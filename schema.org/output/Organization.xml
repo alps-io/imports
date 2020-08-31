@@ -2,8 +2,6 @@
  <descriptor id="Organization" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc href="http://schema.org/Organization" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="address" type="semantic">
    <doc href="http://schema.org/address" />
   </descriptor>
@@ -23,8 +21,6 @@
   <descriptor id="contactPoints" type="semantic">
    <doc href="http://schema.org/contactPoints" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="duns" type="semantic">
    <doc href="http://schema.org/duns" />
@@ -74,8 +70,6 @@
    <doc href="http://schema.org/hasPOS" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="interactionCount" type="semantic">
    <doc href="http://schema.org/interactionCount" />
   </descriptor>
@@ -112,8 +106,6 @@
    <doc href="http://schema.org/naics" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="owns" type="semantic">
    <doc href="http://schema.org/owns" />
   </descriptor>
@@ -137,8 +129,6 @@
   <descriptor id="telephone" type="semantic">
    <doc href="http://schema.org/telephone" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="vatID" type="semantic">
    <doc href="http://schema.org/vatID" />

@@ -2,29 +2,9 @@
  <descriptor id="UnitPriceSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification.xml#PriceSpecification">
   <doc href="http://schema.org/UnitPriceSpecification" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
   <descriptor id="billingIncrement" type="semantic">
    <doc href="http://schema.org/billingIncrement" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleQuantity"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleTransactionVolume"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#maxPrice"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#minPrice"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#price"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#priceCurrency"/>
 
   <descriptor id="priceType" type="semantic">
    <doc href="http://schema.org/priceType" />
@@ -33,14 +13,6 @@
   <descriptor id="unitCode" type="semantic">
    <doc href="http://schema.org/unitCode" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#validFrom"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#validThrough"/>
-
-  <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#valueAddedTaxIncluded"/>
 
  </descriptor>
 </alps>

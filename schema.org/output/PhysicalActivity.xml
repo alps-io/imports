@@ -2,12 +2,6 @@
  <descriptor id="PhysicalActivity" type="semantic" href="http://alps.io/schema.org/LifestyleModification.xml#LifestyleModification">
   <doc href="http://schema.org/PhysicalActivity" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#adverseOutcome"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
   <descriptor id="associatedAnatomy" type="semantic">
    <doc href="http://schema.org/associatedAnatomy" />
   </descriptor>
@@ -16,41 +10,13 @@
    <doc href="http://schema.org/category" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#contraindication"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
-
   <descriptor id="epidemiology" type="semantic">
    <doc href="http://schema.org/epidemiology" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="pathophysiology" type="semantic">
    <doc href="http://schema.org/pathophysiology" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

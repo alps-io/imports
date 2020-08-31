@@ -2,19 +2,9 @@
  <descriptor id="WarrantyPromise" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc href="http://schema.org/WarrantyPromise" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="durationOfWarranty" type="semantic">
    <doc href="http://schema.org/durationOfWarranty" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="warrantyScope" type="semantic">
    <doc href="http://schema.org/warrantyScope" />
