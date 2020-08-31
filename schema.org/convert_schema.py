@@ -23,9 +23,6 @@ ALPS_PROPERTY_BASE_LINK = """  <descriptor id="%(label)s" type="%(type)s"%(href)
   </descriptor>
 """
 
-ALPS_PROPERTY_REFERENCE = """  <descriptor%(href)s/>
-"""
-
 def with_property(tag, property):
     return tag.find(property=property)
 
@@ -110,17 +107,10 @@ class RDFProperty(object):
             rt=" ".join(base_url + range_class.label + ".xml" for range_class in self.range_classes),
             doc=self.uri)
 
-        if defined_in_class == for_class:
-            if self.type == "semantic":
-                template = ALPS_PROPERTY_BASE_SEMANTIC
-            else:
-                template = ALPS_PROPERTY_BASE_LINK
+        if self.type == "semantic":
+            template = ALPS_PROPERTY_BASE_SEMANTIC
         else:
-            template = ALPS_PROPERTY_REFERENCE
-            # This is being included in a subclass of one of its
-            # domain classes.  We need to link to the original
-            # definition.
-            values['href'] = ' href="%s"' % self.url(defined_in_class)
+            template = ALPS_PROPERTY_BASE_LINK
         return template % values
 
 input = open("schema_org_rdfa.html").read()
