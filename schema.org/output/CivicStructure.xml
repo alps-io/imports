@@ -1,62 +1,10 @@
 <alps>
- <descriptor id="CivicStructure" type="semantic" href="http://alps.io/schema.org/Place.xml">
-  <doc format="html">
-   A public structure, such as a town hall or concert hall.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#address"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#aggregateRating"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#containedIn"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#event"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#events"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#faxNumber"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#geo"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#globalLocationNumber"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#interactionCount"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#isicV4"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#logo"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#map"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#maps"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
+ <descriptor id="CivicStructure" type="semantic" href="http://alps.io/schema.org/Place.xml#Place">
+  <doc href="http://schema.org/CivicStructure" />
 
   <descriptor id="openingHours" type="semantic">
-   <doc format="html">
-    The opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.<br />- Days are specified using the following two-letter combinations: <code>Mo</code>, <code>Tu</code>, <code>We</code>, <code>Th</code>, <code>Fr</code>, <code>Sa</code>, <code>Su</code>.<br />- Times are specified using 24:00 time. For example, 3pm is specified as <code>15:00</code>. <br />- Here is an example: <code><time itemprop="openingHours" datetime="Tu,Th 16:00-20:00">Tuesdays and Thursdays 4-8pm</time></code>. <br />- If a business is open 7 days a week, then it can be specified as <code><time itemprop="openingHours" datetime="Mo-Su">Monday through Sunday, all day</time></code>.
-   </doc>
+   <doc href="http://schema.org/openingHours" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#openingHoursSpecification"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#photo"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#photos"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#review"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#reviews"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#telephone"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

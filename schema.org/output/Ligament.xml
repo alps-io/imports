@@ -1,50 +1,7 @@
 <alps>
- <descriptor id="Ligament" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml">
-  <doc format="html">
-   A short band of tough, flexible, fibrous connective tissue that functions to connect multiple bones, cartilages, and structurally support joints.
-  </doc>
+ <descriptor id="Ligament" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
+  <doc href="http://schema.org/Ligament" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#connectedTo"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedTherapy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

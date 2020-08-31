@@ -1,132 +1,82 @@
 <alps>
- <descriptor id="Place" type="semantic" href="http://alps.io/schema.org/Thing.xml">
-  <doc format="html">
-   Entities that have a somewhat fixed, physical extension.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+ <descriptor id="Place" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
+  <doc href="http://schema.org/Place" />
 
   <descriptor id="address" type="semantic">
-   <doc format="html">
-    Physical address of the item.
-   </doc>
+   <doc href="http://schema.org/address" />
   </descriptor>
 
   <descriptor id="aggregateRating" type="semantic">
-   <doc format="html">
-    The overall rating, based on a collection of reviews or ratings, of the item.
-   </doc>
+   <doc href="http://schema.org/aggregateRating" />
   </descriptor>
 
   <descriptor id="containedIn" type="semantic">
-   <doc format="html">
-    The basic containment relation between places.
-   </doc>
+   <doc href="http://schema.org/containedIn" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="event" type="semantic">
-   <doc format="html">
-    Upcoming or past event associated with this place or organization.
-   </doc>
+   <doc href="http://schema.org/event" />
   </descriptor>
 
   <descriptor id="events" type="semantic">
-   <doc format="html">
-    Upcoming or past events associated with this place or organization (legacy spelling; see singular form, event).
-   </doc>
+   <doc href="http://schema.org/events" />
   </descriptor>
 
   <descriptor id="faxNumber" type="semantic">
-   <doc format="html">
-    The fax number.
-   </doc>
+   <doc href="http://schema.org/faxNumber" />
   </descriptor>
 
   <descriptor id="geo" type="semantic">
-   <doc format="html">
-    The geo coordinates of the place.
-   </doc>
+   <doc href="http://schema.org/geo" />
   </descriptor>
 
   <descriptor id="globalLocationNumber" type="semantic">
-   <doc format="html">
-    The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
-   </doc>
+   <doc href="http://schema.org/globalLocationNumber" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
   <descriptor id="interactionCount" type="semantic">
-   <doc format="html">
-    A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction'>UserInteraction</a>.
-   </doc>
+   <doc href="http://schema.org/interactionCount" />
   </descriptor>
 
   <descriptor id="isicV4" type="semantic">
-   <doc format="html">
-    The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
-   </doc>
+   <doc href="http://schema.org/isicV4" />
   </descriptor>
 
   <descriptor id="logo" type="semantic">
-   <doc format="html">
-    URL of an image for the logo of the item.
-   </doc>
+   <doc href="http://schema.org/logo" />
   </descriptor>
 
   <descriptor id="map" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    A URL to a map of the place.
-   </doc>
+   <doc href="http://schema.org/map" />
   </descriptor>
 
   <descriptor id="maps" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    A URL to a map of the place (legacy spelling; see singular form, map).
-   </doc>
+   <doc href="http://schema.org/maps" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="openingHoursSpecification" type="semantic">
-   <doc format="html">
-    The opening hours of a certain place.
-   </doc>
+   <doc href="http://schema.org/openingHoursSpecification" />
   </descriptor>
 
   <descriptor id="photo" type="semantic">
-   <doc format="html">
-    A photograph of this place.
-   </doc>
+   <doc href="http://schema.org/photo" />
   </descriptor>
 
   <descriptor id="photos" type="semantic">
-   <doc format="html">
-    Photographs of this place (legacy spelling; see singular form, photo).
-   </doc>
+   <doc href="http://schema.org/photos" />
   </descriptor>
 
   <descriptor id="review" type="semantic">
-   <doc format="html">
-    A review of the item.
-   </doc>
+   <doc href="http://schema.org/review" />
   </descriptor>
 
   <descriptor id="reviews" type="semantic">
-   <doc format="html">
-    Review of the item (legacy spelling; see singular form, review).
-   </doc>
+   <doc href="http://schema.org/reviews" />
   </descriptor>
 
   <descriptor id="telephone" type="semantic">
-   <doc format="html">
-    The telephone number.
-   </doc>
+   <doc href="http://schema.org/telephone" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

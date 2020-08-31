@@ -1,37 +1,25 @@
 <alps>
  <descriptor id="Thing" type="semantic">
-  <doc format="html">
-   The most generic type of item.
-  </doc>
+  <doc href="http://schema.org/Thing" />
 
   <descriptor id="additionalType" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.
-   </doc>
+   <doc href="http://schema.org/additionalType" />
   </descriptor>
 
   <descriptor id="description" type="semantic">
-   <doc format="html">
-    A short description of the item.
-   </doc>
+   <doc href="http://schema.org/description" />
   </descriptor>
 
   <descriptor id="image" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    URL of an image of the item.
-   </doc>
+   <doc href="http://schema.org/image" />
   </descriptor>
 
   <descriptor id="name" type="semantic">
-   <doc format="html">
-    The name of the item.
-   </doc>
+   <doc href="http://schema.org/name" />
   </descriptor>
 
   <descriptor id="url" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    URL of the item.
-   </doc>
+   <doc href="http://schema.org/url" />
   </descriptor>
 
  </descriptor>

@@ -7,29 +7,20 @@ output_dir = "output/"
 
 ALPS_CLASS_BASE = """<alps>
  <descriptor id="%(label)s" type="semantic"%(href)s>
-  <doc format="html">
-   %(doc)s
-  </doc>
+  <doc href="%(doc)s" />
 
 %(properties)s
  </descriptor>
 </alps>"""
 
 ALPS_PROPERTY_BASE_SEMANTIC = """  <descriptor id="%(label)s" type="%(type)s"%(href)s>
-   <doc format="html">
-    %(doc)s
-   </doc>
+   <doc href="%(doc)s" />
   </descriptor>
 """
 
 ALPS_PROPERTY_BASE_LINK = """  <descriptor id="%(label)s" type="%(type)s"%(href)s rt="%(rt)s">
-   <doc format="html">
-    %(doc)s
-   </doc>
+   <doc href="%(doc)s" />
   </descriptor>
-"""
-
-ALPS_PROPERTY_REFERENCE = """  <descriptor%(href)s/>
 """
 
 def with_property(tag, property):
@@ -37,9 +28,6 @@ def with_property(tag, property):
 
 def all_with_property(tag, property):
     return tag.find_all(property=property)
-
-def fix_doc(doc):
-    return doc.strip().replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"').replace("& ", " &amp; ")
 
 classes = []
 properties = []
@@ -66,12 +54,11 @@ class RDFClass(object):
 
     @property
     def as_alps(self):
-        values = dict(label=self.label, doc=fix_doc(self.comment), href="",
-                      properties='')
+        values = dict(label=self.label, doc=self.uri, href="", properties='')
         superclass_urls = []
         for superclass_uri in self.superclasses:
             c = classes_by_uri[superclass_uri]
-            superclass_urls.append(c.url)
+            superclass_urls.append(c.url + "#" + c.label)
         if len(superclass_urls) > 0:
             values['href'] = ' href="%s"' % (" ".join(superclass_urls))
         values['properties'] = '\n'.join(
@@ -80,17 +67,8 @@ class RDFClass(object):
 
     @property
     def all_properties(self):
-        # Yield all properties defined in this class or superclasses,
-        # in alphabetical order.
+        # Yield all properties defined in this class in alphabetical order.
         unsorted = [(self, property) for property in self.properties]
-        already_present = set(self.properties)
-
-        for superclass_uri in self.superclasses:
-            c = classes_by_uri[superclass_uri]
-            for defined_by, property in c.all_properties:
-                if property not in already_present:
-                    already_present.add(property)
-                    unsorted.append((defined_by, property))
         for c, p in sorted(unsorted, key=lambda x: x[1].label):
             yield c, p
 
@@ -113,6 +91,7 @@ class RDFProperty(object):
         self.range_classes = [classes_by_uri[range] for range in self.ranges]
         self.comment = with_property(div, 'rdfs:comment').string
         self.label = with_property(div, 'rdfs:label').string
+        self.uri = div['resource']
 
     def url(self, domain_class):
         return domain_class.url + "#" + self.label
@@ -123,19 +102,12 @@ class RDFProperty(object):
             label=self.label,
             href="",
             rt=" ".join(base_url + range_class.label + ".xml" for range_class in self.range_classes),
-            doc=fix_doc(self.comment))
+            doc=self.uri)
 
-        if defined_in_class == for_class:
-            if self.type == "semantic":
-                template = ALPS_PROPERTY_BASE_SEMANTIC
-            else:
-                template = ALPS_PROPERTY_BASE_LINK
+        if self.type == "semantic":
+            template = ALPS_PROPERTY_BASE_SEMANTIC
         else:
-            template = ALPS_PROPERTY_REFERENCE
-            # This is being included in a subclass of one of its
-            # domain classes.  We need to link to the original
-            # definition.
-            values['href'] = ' href="%s"' % self.url(defined_in_class)
+            template = ALPS_PROPERTY_BASE_LINK
         return template % values
 
 input = open("schema_org_rdfa.html").read()

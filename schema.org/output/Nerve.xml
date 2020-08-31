@@ -1,74 +1,22 @@
 <alps>
- <descriptor id="Nerve" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml">
-  <doc format="html">
-   A common pathway for the electrochemical nerve impulses that are transmitted along each of the axons.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
+ <descriptor id="Nerve" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
+  <doc href="http://schema.org/Nerve" />
 
   <descriptor id="branch" type="semantic">
-   <doc format="html">
-    The branches that delineate from the nerve bundle.
-   </doc>
+   <doc href="http://schema.org/branch" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#connectedTo"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nerveMotor" type="semantic">
-   <doc format="html">
-    The neurological pathway extension that involves muscle control.
-   </doc>
+   <doc href="http://schema.org/nerveMotor" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedTherapy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
   <descriptor id="sensoryUnit" type="semantic">
-   <doc format="html">
-    The neurological pathway extension that inputs and sends information to the brain or spinal cord.
-   </doc>
+   <doc href="http://schema.org/sensoryUnit" />
   </descriptor>
 
   <descriptor id="sourcedFrom" type="semantic">
-   <doc format="html">
-    The neurological pathway that originates the neurons.
-   </doc>
+   <doc href="http://schema.org/sourcedFrom" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

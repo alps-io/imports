@@ -1,186 +1,62 @@
 <alps>
- <descriptor id="TVSeries" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
-  <doc format="html">
-   A television series.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#accountablePerson"/>
+ <descriptor id="TVSeries" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
+  <doc href="http://schema.org/TVSeries" />
 
   <descriptor id="actor" type="semantic">
-   <doc format="html">
-    A cast member of the movie, TV series, season, or episode, or video.
-   </doc>
+   <doc href="http://schema.org/actor" />
   </descriptor>
 
   <descriptor id="actors" type="semantic">
-   <doc format="html">
-    A cast member of the movie, TV series, season, or episode, or video. (legacy spelling; see singular form, actor)
-   </doc>
+   <doc href="http://schema.org/actors" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#aggregateRating"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#alternativeHeadline"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#associatedMedia"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#audience"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#audio"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#author"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#award"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contentLocation"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contentRating"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contributor"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightHolder"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightYear"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#creator"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#dateCreated"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#dateModified"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#datePublished"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="director" type="semantic">
-   <doc format="html">
-    The director of the movie, TV episode, or series.
-   </doc>
+   <doc href="http://schema.org/director" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#discussionUrl"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#editor"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encoding"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encodings"/>
-
   <descriptor id="endDate" type="semantic">
-   <doc format="html">
-    The end date and time of the event (in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>).
-   </doc>
+   <doc href="http://schema.org/endDate" />
   </descriptor>
 
   <descriptor id="episode" type="semantic">
-   <doc format="html">
-    An episode of a TV series or season.
-   </doc>
+   <doc href="http://schema.org/episode" />
   </descriptor>
 
   <descriptor id="episodes" type="semantic">
-   <doc format="html">
-    The episode of a TV series or season (legacy spelling; see singular form, episode).
-   </doc>
+   <doc href="http://schema.org/episodes" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#genre"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#headline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#inLanguage"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#interactionCount"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#isFamilyFriendly"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#keywords"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#mentions"/>
 
   <descriptor id="musicBy" type="semantic">
-   <doc format="html">
-    The composer of the movie or TV soundtrack.
-   </doc>
+   <doc href="http://schema.org/musicBy" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="numberOfEpisodes" type="semantic">
-   <doc format="html">
-    The number of episodes in this season or series.
-   </doc>
+   <doc href="http://schema.org/numberOfEpisodes" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
-
   <descriptor id="producer" type="semantic">
-   <doc format="html">
-    The producer of the movie, TV series, season, or episode, or video.
-   </doc>
+   <doc href="http://schema.org/producer" />
   </descriptor>
 
   <descriptor id="productionCompany" type="semantic">
-   <doc format="html">
-    The production company or studio that made the movie, TV series, season, or episode, or video.
-   </doc>
+   <doc href="http://schema.org/productionCompany" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publisher"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publishingPrinciples"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#review"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#reviews"/>
-
   <descriptor id="season" type="semantic">
-   <doc format="html">
-    A season of a TV series.
-   </doc>
+   <doc href="http://schema.org/season" />
   </descriptor>
 
   <descriptor id="seasons" type="semantic">
-   <doc format="html">
-    The seasons of the TV series (legacy spelling; see singular form, season).
-   </doc>
+   <doc href="http://schema.org/seasons" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#sourceOrganization"/>
 
   <descriptor id="startDate" type="semantic">
-   <doc format="html">
-    The start date and time of the event (in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>).
-   </doc>
+   <doc href="http://schema.org/startDate" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#text"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
 
   <descriptor id="trailer" type="semantic">
-   <doc format="html">
-    The trailer of the movie or TV series, season, or episode.
-   </doc>
+   <doc href="http://schema.org/trailer" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#version"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#video"/>
 
  </descriptor>
 </alps>

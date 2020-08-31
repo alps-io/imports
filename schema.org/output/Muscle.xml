@@ -1,86 +1,30 @@
 <alps>
- <descriptor id="Muscle" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml">
-  <doc format="html">
-   A muscle is an anatomical structure consisting of a contractile form of tissue that animals use to effect movement.
-  </doc>
+ <descriptor id="Muscle" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
+  <doc href="http://schema.org/Muscle" />
 
   <descriptor id="action" type="semantic">
-   <doc format="html">
-    The movement the muscle generates.
-   </doc>
+   <doc href="http://schema.org/action" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="antagonist" type="semantic">
-   <doc format="html">
-    The muscle whose action counteracts the specified muscle.
-   </doc>
+   <doc href="http://schema.org/antagonist" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
 
   <descriptor id="bloodSupply" type="semantic">
-   <doc format="html">
-    The blood vessel that carries blood from the heart to the muscle.
-   </doc>
+   <doc href="http://schema.org/bloodSupply" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#connectedTo"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="insertion" type="semantic">
-   <doc format="html">
-    The place of attachment of a muscle, or what the muscle moves.
-   </doc>
+   <doc href="http://schema.org/insertion" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="nerve" type="semantic">
-   <doc format="html">
-    The underlying innervation associated with the muscle.
-   </doc>
+   <doc href="http://schema.org/nerve" />
   </descriptor>
 
   <descriptor id="origin" type="semantic">
-   <doc format="html">
-    The place or point where a muscle arises.
-   </doc>
+   <doc href="http://schema.org/origin" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedTherapy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -1,56 +1,22 @@
 <alps>
- <descriptor id="DoseSchedule" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml">
-  <doc format="html">
-   A specific dosing schedule for a drug or supplement.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
+ <descriptor id="DoseSchedule" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
+  <doc href="http://schema.org/DoseSchedule" />
 
   <descriptor id="doseUnit" type="semantic">
-   <doc format="html">
-    The unit of the dose, e.g. 'mg'.
-   </doc>
+   <doc href="http://schema.org/doseUnit" />
   </descriptor>
 
   <descriptor id="doseValue" type="semantic">
-   <doc format="html">
-    The value of the dose, e.g. 500.
-   </doc>
+   <doc href="http://schema.org/doseValue" />
   </descriptor>
 
   <descriptor id="frequency" type="semantic">
-   <doc format="html">
-    How often the dose is taken, e.g. 'daily'.
-   </doc>
+   <doc href="http://schema.org/frequency" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="targetPopulation" type="semantic">
-   <doc format="html">
-    Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.
-   </doc>
+   <doc href="http://schema.org/targetPopulation" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -1,8 +1,6 @@
 <alps>
- <descriptor id="URL" type="semantic" href="http://alps.io/schema.org/Text.xml">
-  <doc format="html">
-   Data type: URL.
-  </doc>
+ <descriptor id="URL" type="semantic" href="http://alps.io/schema.org/Text.xml#Text">
+  <doc href="http://schema.org/URL" />
 
 
  </descriptor>

@@ -1,46 +1,10 @@
 <alps>
- <descriptor id="MedicalGuidelineRecommendation" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml">
-  <doc format="html">
-   A guideline recommendation that is regarded as efficacious and where quality of the data supporting the recommendation is sound.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#evidenceLevel"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#evidenceOrigin"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#guidelineDate"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalGuideline.xml#guidelineSubject"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
+ <descriptor id="MedicalGuidelineRecommendation" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml#MedicalGuideline">
+  <doc href="http://schema.org/MedicalGuidelineRecommendation" />
 
   <descriptor id="recommendationStrength" type="semantic">
-   <doc format="html">
-    Strength of the guideline's recommendation (e.g. 'class I').
-   </doc>
+   <doc href="http://schema.org/recommendationStrength" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

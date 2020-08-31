@@ -1,44 +1,14 @@
 <alps>
- <descriptor id="DDxElement" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml">
-  <doc format="html">
-   An alternative, closely-related condition typically considered later in the differential diagnosis process along with the signs that are used to distinguish it.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
+ <descriptor id="DDxElement" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
+  <doc href="http://schema.org/DDxElement" />
 
   <descriptor id="diagnosis" type="semantic">
-   <doc format="html">
-    One or more alternative conditions considered in the differential diagnosis process.
-   </doc>
+   <doc href="http://schema.org/diagnosis" />
   </descriptor>
 
   <descriptor id="distinguishingSign" type="semantic">
-   <doc format="html">
-    One of a set of signs and symptoms that can be used to distinguish this diagnosis from others in the differential diagnosis.
-   </doc>
+   <doc href="http://schema.org/distinguishingSign" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

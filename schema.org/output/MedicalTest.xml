@@ -1,61 +1,25 @@
 <alps>
- <descriptor id="MedicalTest" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
-  <doc format="html">
-   Any medical test, typically performed for diagnostic purposes.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+ <descriptor id="MedicalTest" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
+  <doc href="http://schema.org/MedicalTest" />
 
   <descriptor id="affectedBy" type="semantic">
-   <doc format="html">
-    Drugs that affect the test's results.
-   </doc>
+   <doc href="http://schema.org/affectedBy" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="normalRange" type="semantic">
-   <doc format="html">
-    Range of acceptable values for a typical patient, when applicable.
-   </doc>
+   <doc href="http://schema.org/normalRange" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="signDetected" type="semantic">
-   <doc format="html">
-    A sign detected by the test.
-   </doc>
+   <doc href="http://schema.org/signDetected" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
   <descriptor id="usedToDiagnose" type="semantic">
-   <doc format="html">
-    A condition the test is used to diagnose.
-   </doc>
+   <doc href="http://schema.org/usedToDiagnose" />
   </descriptor>
 
   <descriptor id="usesDevice" type="semantic">
-   <doc format="html">
-    Device used to perform the test.
-   </doc>
+   <doc href="http://schema.org/usesDevice" />
   </descriptor>
 
  </descriptor>

@@ -1,90 +1,54 @@
 <alps>
- <descriptor id="NutritionInformation" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
-  <doc format="html">
-   Nutritional information about the recipe.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+ <descriptor id="NutritionInformation" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
+  <doc href="http://schema.org/NutritionInformation" />
 
   <descriptor id="calories" type="semantic">
-   <doc format="html">
-    The number of calories
-   </doc>
+   <doc href="http://schema.org/calories" />
   </descriptor>
 
   <descriptor id="carbohydrateContent" type="semantic">
-   <doc format="html">
-    The number of grams of carbohydrates.
-   </doc>
+   <doc href="http://schema.org/carbohydrateContent" />
   </descriptor>
 
   <descriptor id="cholesterolContent" type="semantic">
-   <doc format="html">
-    The number of milligrams of cholesterol.
-   </doc>
+   <doc href="http://schema.org/cholesterolContent" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="fatContent" type="semantic">
-   <doc format="html">
-    The number of grams of fat.
-   </doc>
+   <doc href="http://schema.org/fatContent" />
   </descriptor>
 
   <descriptor id="fiberContent" type="semantic">
-   <doc format="html">
-    The number of grams of fiber.
-   </doc>
+   <doc href="http://schema.org/fiberContent" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
   <descriptor id="proteinContent" type="semantic">
-   <doc format="html">
-    The number of grams of protein.
-   </doc>
+   <doc href="http://schema.org/proteinContent" />
   </descriptor>
 
   <descriptor id="saturatedFatContent" type="semantic">
-   <doc format="html">
-    The number of grams of saturated fat.
-   </doc>
+   <doc href="http://schema.org/saturatedFatContent" />
   </descriptor>
 
   <descriptor id="servingSize" type="semantic">
-   <doc format="html">
-    The serving size, in terms of the number of volume or mass
-   </doc>
+   <doc href="http://schema.org/servingSize" />
   </descriptor>
 
   <descriptor id="sodiumContent" type="semantic">
-   <doc format="html">
-    The number of milligrams of sodium.
-   </doc>
+   <doc href="http://schema.org/sodiumContent" />
   </descriptor>
 
   <descriptor id="sugarContent" type="semantic">
-   <doc format="html">
-    The number of grams of sugar.
-   </doc>
+   <doc href="http://schema.org/sugarContent" />
   </descriptor>
 
   <descriptor id="transFatContent" type="semantic">
-   <doc format="html">
-    The number of grams of trans fat.
-   </doc>
+   <doc href="http://schema.org/transFatContent" />
   </descriptor>
 
   <descriptor id="unsaturatedFatContent" type="semantic">
-   <doc format="html">
-    The number of grams of unsaturated fat.
-   </doc>
+   <doc href="http://schema.org/unsaturatedFatContent" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

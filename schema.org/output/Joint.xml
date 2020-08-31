@@ -1,68 +1,18 @@
 <alps>
- <descriptor id="Joint" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml">
-  <doc format="html">
-   The anatomical location at which two or more bones make contact.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
+ <descriptor id="Joint" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
+  <doc href="http://schema.org/Joint" />
 
   <descriptor id="biomechnicalClass" type="semantic">
-   <doc format="html">
-    The biomechanical properties of the bone.
-   </doc>
+   <doc href="http://schema.org/biomechnicalClass" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#connectedTo"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
 
   <descriptor id="functionalClass" type="semantic">
-   <doc format="html">
-    The degree of mobility the joint allows.
-   </doc>
+   <doc href="http://schema.org/functionalClass" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedTherapy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="structuralClass" type="semantic">
-   <doc format="html">
-    The name given to how bone physically connects to each other.
-   </doc>
+   <doc href="http://schema.org/structuralClass" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

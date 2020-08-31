@@ -1,42 +1,22 @@
 <alps>
- <descriptor id="ContactPoint" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
-  <doc format="html">
-   A contact point&#x2014;for example, a Customer Complaints department.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+ <descriptor id="ContactPoint" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
+  <doc href="http://schema.org/ContactPoint" />
 
   <descriptor id="contactType" type="semantic">
-   <doc format="html">
-    A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point.
-   </doc>
+   <doc href="http://schema.org/contactType" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
   <descriptor id="email" type="semantic">
-   <doc format="html">
-    Email address.
-   </doc>
+   <doc href="http://schema.org/email" />
   </descriptor>
 
   <descriptor id="faxNumber" type="semantic">
-   <doc format="html">
-    The fax number.
-   </doc>
+   <doc href="http://schema.org/faxNumber" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="telephone" type="semantic">
-   <doc format="html">
-    The telephone number.
-   </doc>
+   <doc href="http://schema.org/telephone" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

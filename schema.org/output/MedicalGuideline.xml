@@ -1,56 +1,22 @@
 <alps>
- <descriptor id="MedicalGuideline" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
-  <doc format="html">
-   Any recommendation made by a standard society (e.g. ACC/AHA) or consensus statement that denotes how to diagnose and treat a particular condition. Note: this type should be used to tag the actual guideline recommendation; if the guideline recommendation occurs in a larger scholarly article, use MedicalScholarlyArticle to tag the overall article, not this type. Note also: the organization making the recommendation should be captured in the recognizingAuthority base property of MedicalEntity.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
+ <descriptor id="MedicalGuideline" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
+  <doc href="http://schema.org/MedicalGuideline" />
 
   <descriptor id="evidenceLevel" type="semantic">
-   <doc format="html">
-    Strength of evidence of the data used to formulate the guideline (enumerated).
-   </doc>
+   <doc href="http://schema.org/evidenceLevel" />
   </descriptor>
 
   <descriptor id="evidenceOrigin" type="semantic">
-   <doc format="html">
-    Source of the data used to formulate the guidance, e.g. RCT, consensus opinion, etc.
-   </doc>
+   <doc href="http://schema.org/evidenceOrigin" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
   <descriptor id="guidelineDate" type="semantic">
-   <doc format="html">
-    Date on which this guideline's recommendation was made.
-   </doc>
+   <doc href="http://schema.org/guidelineDate" />
   </descriptor>
 
   <descriptor id="guidelineSubject" type="semantic">
-   <doc format="html">
-    The medical conditions, treatments, etc. that are the subject of the guideline.
-   </doc>
+   <doc href="http://schema.org/guidelineSubject" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

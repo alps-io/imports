@@ -1,56 +1,7 @@
 <alps>
- <descriptor id="Canal" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml">
-  <doc format="html">
-   A canal, like the Panama Canal
-  </doc>
+ <descriptor id="Canal" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml#BodyOfWater">
+  <doc href="http://schema.org/Canal" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#address"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#aggregateRating"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#containedIn"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#event"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#events"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#faxNumber"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#geo"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#globalLocationNumber"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#interactionCount"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#isicV4"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#logo"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#map"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#maps"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#openingHoursSpecification"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#photo"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#photos"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#review"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#reviews"/>
-
-  <descriptor href="http://alps.io/schema.org/Place.xml#telephone"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

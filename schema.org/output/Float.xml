@@ -1,8 +1,6 @@
 <alps>
- <descriptor id="Float" type="semantic" href="http://alps.io/schema.org/Number.xml">
-  <doc format="html">
-   Data type: Floating number.
-  </doc>
+ <descriptor id="Float" type="semantic" href="http://alps.io/schema.org/Number.xml#Number">
+  <doc href="http://schema.org/Float" />
 
 
  </descriptor>

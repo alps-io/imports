@@ -1,48 +1,10 @@
 <alps>
- <descriptor id="ImagingTest" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml">
-  <doc format="html">
-   Any medical imaging modality typically used for diagnostic purposes.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#affectedBy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
+ <descriptor id="ImagingTest" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
+  <doc href="http://schema.org/ImagingTest" />
 
   <descriptor id="imagingTechnique" type="semantic">
-   <doc format="html">
-    Imaging technique used.
-   </doc>
+   <doc href="http://schema.org/imagingTechnique" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#normalRange"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#signDetected"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#usedToDiagnose"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#usesDevice"/>
 
  </descriptor>
 </alps>

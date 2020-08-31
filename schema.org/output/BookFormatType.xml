@@ -1,18 +1,7 @@
 <alps>
- <descriptor id="BookFormatType" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
-  <doc format="html">
-   The publication format of the book.
-  </doc>
+ <descriptor id="BookFormatType" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
+  <doc href="http://schema.org/BookFormatType" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

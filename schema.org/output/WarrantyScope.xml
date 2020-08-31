@@ -1,24 +1,7 @@
 <alps>
- <descriptor id="WarrantyScope" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
-  <doc format="html">
-   A range of of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.
+ <descriptor id="WarrantyScope" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
+  <doc href="http://schema.org/WarrantyScope" />
 
-    Commonly used values:
-
-    http://purl.org/goodrelations/v1#Labor-BringIn
-    http://purl.org/goodrelations/v1#PartsAndLabor-BringIn
-    http://purl.org/goodrelations/v1#PartsAndLabor-PickUp
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

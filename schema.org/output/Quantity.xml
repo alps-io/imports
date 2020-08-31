@@ -1,18 +1,7 @@
 <alps>
- <descriptor id="Quantity" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
-  <doc format="html">
-   Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like '3 Kg' or '4 milligrams'.
-  </doc>
+ <descriptor id="Quantity" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
+  <doc href="http://schema.org/Quantity" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

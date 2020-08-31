@@ -1,42 +1,18 @@
 <alps>
- <descriptor id="AggregateRating" type="semantic" href="http://alps.io/schema.org/Rating.xml">
-  <doc format="html">
-   The average rating based on multiple ratings or reviews.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Rating.xml#bestRating"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
+ <descriptor id="AggregateRating" type="semantic" href="http://alps.io/schema.org/Rating.xml#Rating">
+  <doc href="http://schema.org/AggregateRating" />
 
   <descriptor id="itemReviewed" type="semantic">
-   <doc format="html">
-    The item that is being reviewed/rated.
-   </doc>
+   <doc href="http://schema.org/itemReviewed" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="ratingCount" type="semantic">
-   <doc format="html">
-    The count of total number of ratings.
-   </doc>
+   <doc href="http://schema.org/ratingCount" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Rating.xml#ratingValue"/>
 
   <descriptor id="reviewCount" type="semantic">
-   <doc format="html">
-    The count of total number of reviews.
-   </doc>
+   <doc href="http://schema.org/reviewCount" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/Rating.xml#worstRating"/>
 
  </descriptor>
 </alps>

@@ -1,48 +1,26 @@
 <alps>
- <descriptor id="OrderItem" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
-  <doc format="html">
-   An order item is a line of an order. It includes the quantity and shipping details of a bought offer.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
+ <descriptor id="OrderItem" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
+  <doc href="http://schema.org/OrderItem" />
 
   <descriptor id="orderDelivery" type="semantic">
-   <doc format="html">
-    The delivery of the parcel related to this order or order item.
-   </doc>
+   <doc href="http://schema.org/orderDelivery" />
   </descriptor>
 
   <descriptor id="orderItemNumber" type="semantic">
-   <doc format="html">
-    The identifier of the order item.
-   </doc>
+   <doc href="http://schema.org/orderItemNumber" />
   </descriptor>
 
   <descriptor id="orderItemStatus" type="semantic">
-   <doc format="html">
-    The current status of the order item.
-   </doc>
+   <doc href="http://schema.org/orderItemStatus" />
   </descriptor>
 
   <descriptor id="orderQuantity" type="semantic">
-   <doc format="html">
-    The number of the item ordered. If the property is not set, assume the quantity is one.
-   </doc>
+   <doc href="http://schema.org/orderQuantity" />
   </descriptor>
 
   <descriptor id="orderedItem" type="semantic">
-   <doc format="html">
-    The item ordered.
-   </doc>
+   <doc href="http://schema.org/orderedItem" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

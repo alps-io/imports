@@ -1,24 +1,7 @@
 <alps>
- <descriptor id="ParcelService" type="semantic" href="http://alps.io/schema.org/DeliveryMethod.xml">
-  <doc format="html">
-   A private parcel service as the delivery mode available for a certain offer.
+ <descriptor id="ParcelService" type="semantic" href="http://alps.io/schema.org/DeliveryMethod.xml#DeliveryMethod">
+  <doc href="http://schema.org/ParcelService" />
 
-    Commonly used values:
-
-    http://purl.org/goodrelations/v1#DHL
-    http://purl.org/goodrelations/v1#FederalExpress
-    http://purl.org/goodrelations/v1#UPS
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

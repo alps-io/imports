@@ -1,42 +1,10 @@
 <alps>
- <descriptor id="MedicalRiskScore" type="semantic" href="http://alps.io/schema.org/MedicalRiskEstimator.xml">
-  <doc format="html">
-   A simple system that adds up the number of risk factors to yield a score that is associated with prognosis, e.g. CHAD score, TIMI risk score.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
+ <descriptor id="MedicalRiskScore" type="semantic" href="http://alps.io/schema.org/MedicalRiskEstimator.xml#MedicalRiskEstimator">
+  <doc href="http://schema.org/MedicalRiskScore" />
 
   <descriptor id="algorithm" type="semantic">
-   <doc format="html">
-    The algorithm or rules to follow to compute the score.
-   </doc>
+   <doc href="http://schema.org/algorithm" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalRiskEstimator.xml#estimatesRiskOf"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalRiskEstimator.xml#includedRiskFactor"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

@@ -1,18 +1,7 @@
 <alps>
- <descriptor id="Mass" type="semantic" href="http://alps.io/schema.org/Quantity.xml">
-  <doc format="html">
-   Properties that take Mass as values are of the form '<Number> <Mass unit of measure>'. E.g., '7 kg'
-  </doc>
+ <descriptor id="Mass" type="semantic" href="http://alps.io/schema.org/Quantity.xml#Quantity">
+  <doc href="http://schema.org/Mass" />
 
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

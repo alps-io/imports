@@ -1,162 +1,46 @@
 <alps>
- <descriptor id="WebPage" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
-  <doc format="html">
-   A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#accountablePerson"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#aggregateRating"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#alternativeHeadline"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#associatedMedia"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#audience"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#audio"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#author"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#award"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
+ <descriptor id="WebPage" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
+  <doc href="http://schema.org/WebPage" />
 
   <descriptor id="breadcrumb" type="semantic">
-   <doc format="html">
-    A set of links that can help a user understand and navigate a website hierarchy.
-   </doc>
+   <doc href="http://schema.org/breadcrumb" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contentLocation"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contentRating"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contributor"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightHolder"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightYear"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#creator"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#dateCreated"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#dateModified"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#datePublished"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#discussionUrl"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#editor"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encoding"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encodings"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#genre"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#headline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#inLanguage"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#interactionCount"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#isFamilyFriendly"/>
 
   <descriptor id="isPartOf" type="semantic">
-   <doc format="html">
-    Indicates the collection or gallery to which the item belongs.
-   </doc>
+   <doc href="http://schema.org/isPartOf" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#keywords"/>
-
   <descriptor id="lastReviewed" type="semantic">
-   <doc format="html">
-    Date on which the content on this web page was last reviewed for accuracy and/or completeness.
-   </doc>
+   <doc href="http://schema.org/lastReviewed" />
   </descriptor>
 
   <descriptor id="mainContentOfPage" type="semantic">
-   <doc format="html">
-    Indicates if this web page element is the main subject of the page.
-   </doc>
+   <doc href="http://schema.org/mainContentOfPage" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#mentions"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
 
   <descriptor id="primaryImageOfPage" type="semantic">
-   <doc format="html">
-    Indicates the main image on the page
-   </doc>
+   <doc href="http://schema.org/primaryImageOfPage" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publisher"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publishingPrinciples"/>
 
   <descriptor id="relatedLink" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    A link related to this web page, for example to other related web pages.
-   </doc>
+   <doc href="http://schema.org/relatedLink" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#review"/>
 
   <descriptor id="reviewedBy" type="semantic">
-   <doc format="html">
-    People or organizations that have reviewed the content on this web page for accuracy and/or completeness.
-   </doc>
+   <doc href="http://schema.org/reviewedBy" />
   </descriptor>
 
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#reviews"/>
-
   <descriptor id="significantLink" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    One of the more significant URLs on the page. Typically, these are the non-navigation links that are clicked on the most.
-   </doc>
+   <doc href="http://schema.org/significantLink" />
   </descriptor>
 
   <descriptor id="significantLinks" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    The most significant URLs on the page. Typically, these are the non-navigation links that are clicked on the most (legacy spelling; see singular form, significantLink).
-   </doc>
+   <doc href="http://schema.org/significantLinks" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#sourceOrganization"/>
 
   <descriptor id="specialty" type="semantic">
-   <doc format="html">
-    One of the domain specialities to which this web page's content applies.
-   </doc>
+   <doc href="http://schema.org/specialty" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#text"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#version"/>
-
-  <descriptor href="http://alps.io/schema.org/CreativeWork.xml#video"/>
 
  </descriptor>
 </alps>

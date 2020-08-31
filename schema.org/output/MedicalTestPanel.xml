@@ -1,48 +1,10 @@
 <alps>
- <descriptor id="MedicalTestPanel" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml">
-  <doc format="html">
-   Any collection of tests commonly ordered together.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#affectedBy"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#normalRange"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#signDetected"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
+ <descriptor id="MedicalTestPanel" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
+  <doc href="http://schema.org/MedicalTestPanel" />
 
   <descriptor id="subTest" type="semantic">
-   <doc format="html">
-    A component test of the panel.
-   </doc>
+   <doc href="http://schema.org/subTest" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#usedToDiagnose"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalTest.xml#usesDevice"/>
 
  </descriptor>
 </alps>

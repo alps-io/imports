@@ -1,38 +1,10 @@
 <alps>
- <descriptor id="DrugLegalStatus" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml">
-  <doc format="html">
-   The legal availability status of a medical drug.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
+ <descriptor id="DrugLegalStatus" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
+  <doc href="http://schema.org/DrugLegalStatus" />
 
   <descriptor id="applicableLocation" type="semantic">
-   <doc format="html">
-    The location in which the status applies.
-   </doc>
+   <doc href="http://schema.org/applicableLocation" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>

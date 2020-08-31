@@ -1,38 +1,10 @@
 <alps>
- <descriptor id="MedicalRiskFactor" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
-  <doc format="html">
-   A risk factor is anything that increases a person's likelihood of developing or contracting a disease, medical condition, or complication.
-  </doc>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
+ <descriptor id="MedicalRiskFactor" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
+  <doc href="http://schema.org/MedicalRiskFactor" />
 
   <descriptor id="increasesRiskOf" type="semantic">
-   <doc format="html">
-    The condition, complication, etc. influenced by this factor.
-   </doc>
+   <doc href="http://schema.org/increasesRiskOf" />
   </descriptor>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
-
-  <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
-
-  <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
  </descriptor>
 </alps>
