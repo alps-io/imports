@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="InsuranceAgency" type="semantic" href="http://alps.io/schema.org/FinancialService.xml#FinancialService">
-  <doc format="html">
-   Insurance agency.
-  </doc>
+  <doc href="http://schema.org/InsuranceAgency" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

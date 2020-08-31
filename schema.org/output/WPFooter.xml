@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="WPFooter" type="semantic" href="http://alps.io/schema.org/WebPageElement.xml#WebPageElement">
-  <doc format="html">
-   The footer section of the page.
-  </doc>
+  <doc href="http://schema.org/WPFooter" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 

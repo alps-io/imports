@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PerformingGroup" type="semantic" href="http://alps.io/schema.org/Organization.xml#Organization">
-  <doc format="html">
-   A performance group, such as a band, an orchestra, or a circus.
-  </doc>
+  <doc href="http://schema.org/PerformingGroup" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

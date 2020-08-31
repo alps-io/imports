@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="DiagnosticLab" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
-  <doc format="html">
-   A medical laboratory that offers on-site or off-site diagnostic services.
-  </doc>
+  <doc href="http://schema.org/DiagnosticLab" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,9 +9,7 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#aggregateRating"/>
 
   <descriptor id="availableTest" type="semantic">
-   <doc format="html">
-    A diagnostic test or procedure offered by this lab.
-   </doc>
+   <doc href="http://schema.org/availableTest" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#branchOf"/>

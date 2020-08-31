@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="ComedyClub" type="semantic" href="http://alps.io/schema.org/EntertainmentBusiness.xml#EntertainmentBusiness">
-  <doc format="html">
-   A comedy club.
-  </doc>
+  <doc href="http://schema.org/ComedyClub" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

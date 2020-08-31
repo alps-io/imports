@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="City" type="semantic" href="http://alps.io/schema.org/AdministrativeArea.xml#AdministrativeArea">
-  <doc format="html">
-   A city or town.
-  </doc>
+  <doc href="http://schema.org/City" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

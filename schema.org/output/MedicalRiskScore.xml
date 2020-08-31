@@ -1,15 +1,11 @@
 <alps>
  <descriptor id="MedicalRiskScore" type="semantic" href="http://alps.io/schema.org/MedicalRiskEstimator.xml#MedicalRiskEstimator">
-  <doc format="html">
-   A simple system that adds up the number of risk factors to yield a score that is associated with prognosis, e.g. CHAD score, TIMI risk score.
-  </doc>
+  <doc href="http://schema.org/MedicalRiskScore" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="algorithm" type="semantic">
-   <doc format="html">
-    The algorithm or rules to follow to compute the score.
-   </doc>
+   <doc href="http://schema.org/algorithm" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>

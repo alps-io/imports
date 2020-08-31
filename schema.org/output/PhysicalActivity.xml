@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PhysicalActivity" type="semantic" href="http://alps.io/schema.org/LifestyleModification.xml#LifestyleModification">
-  <doc format="html">
-   Any bodily activity that enhances or maintains physical fitness and overall health and wellness. Includes activity that is part of daily living and routine, structured exercise, and exercise prescribed as part of a medical treatment or recovery plan.
-  </doc>
+  <doc href="http://schema.org/PhysicalActivity" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,15 +9,11 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="associatedAnatomy" type="semantic">
-   <doc format="html">
-    The anatomy of the underlying organ system or structures associated with this entity.
-   </doc>
+   <doc href="http://schema.org/associatedAnatomy" />
   </descriptor>
 
   <descriptor id="category" type="semantic">
-   <doc format="html">
-    A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
-   </doc>
+   <doc href="http://schema.org/category" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
@@ -31,9 +25,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
 
   <descriptor id="epidemiology" type="semantic">
-   <doc format="html">
-    The characteristics of associated patients, such as age, gender, race etc.
-   </doc>
+   <doc href="http://schema.org/epidemiology" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
@@ -47,9 +39,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="pathophysiology" type="semantic">
-   <doc format="html">
-    Changes in the normal mechanical, physical, and biochemical functions that are associated with this activity or condition.
-   </doc>
+   <doc href="http://schema.org/pathophysiology" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>

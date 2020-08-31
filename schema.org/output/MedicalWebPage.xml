@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalWebPage" type="semantic" href="http://alps.io/schema.org/WebPage.xml#WebPage">
-  <doc format="html">
-   A web page that provides medical information.
-  </doc>
+  <doc href="http://schema.org/MedicalWebPage" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -15,9 +13,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#alternativeHeadline"/>
 
   <descriptor id="aspect" type="semantic">
-   <doc format="html">
-    An aspect of medical practice that is considered on the page, such as 'diagnosis', 'treatment', 'causes', 'prognosis', 'etiology', 'epidemiology', etc.
-   </doc>
+   <doc href="http://schema.org/aspect" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#associatedMedia"/>

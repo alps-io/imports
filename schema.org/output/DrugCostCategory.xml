@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="DrugCostCategory" type="semantic" href="http://alps.io/schema.org/MedicalEnumeration.xml#MedicalEnumeration">
-  <doc format="html">
-   Enumerated categories of medical drug costs.
-  </doc>
+  <doc href="http://schema.org/DrugCostCategory" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

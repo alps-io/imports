@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Hospital" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure http://alps.io/schema.org/EmergencyService.xml#EmergencyService http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
-  <doc format="html">
-   A hospital.
-  </doc>
+  <doc href="http://schema.org/Hospital" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,9 +9,7 @@
   <descriptor href="http://alps.io/schema.org/Place.xml#aggregateRating"/>
 
   <descriptor id="availableService" type="semantic">
-   <doc format="html">
-    A medical service available from this provider.
-   </doc>
+   <doc href="http://schema.org/availableService" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#branchOf"/>
@@ -75,9 +71,7 @@
   <descriptor href="http://alps.io/schema.org/Place.xml#maps"/>
 
   <descriptor id="medicalSpecialty" type="semantic">
-   <doc format="html">
-    A medical specialty of the provider.
-   </doc>
+   <doc href="http://schema.org/medicalSpecialty" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Organization.xml#member"/>

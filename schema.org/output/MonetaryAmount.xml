@@ -1,17 +1,11 @@
 <alps>
  <descriptor id="MonetaryAmount" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
-  <doc format="html">
-   A monetary value or range. This type can be used to describe an amount of money such as $50 USD, or a range as in describing a bank account being suitable for a balance between £1,000 and £1,000,000 GBP, or the value of a salary, etc. It is recommended to use PriceSpecification Types to describe the price of an Offer, Invoice, etc.
-  </doc>
+  <doc href="http://schema.org/MonetaryAmount" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="currency" type="semantic">
-   <doc format="html">
-    The currency in which the monetary amount is expressed.
-
-        Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker symbol for cryptocurrencies e.g. "BTC"; well known names for Local Exchange Tradings Systems (LETS) and other currency types e.g. "Ithaca HOUR".
-   </doc>
+   <doc href="http://schema.org/currency" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
@@ -19,15 +13,11 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="maxValue" type="semantic">
-   <doc format="html">
-    The upper value of some characteristic or property.
-   </doc>
+   <doc href="http://schema.org/maxValue" />
   </descriptor>
 
   <descriptor id="minValue" type="semantic">
-   <doc format="html">
-    The lower value of some characteristic or property.
-   </doc>
+   <doc href="http://schema.org/minValue" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
@@ -35,26 +25,15 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
-   <doc format="html">
-    The date when the item becomes valid.
-   </doc>
+   <doc href="http://schema.org/validFrom" />
   </descriptor>
 
   <descriptor id="validThrough" type="semantic">
-   <doc format="html">
-    The end of the validity of offer, price specification, or opening hours data.
-   </doc>
+   <doc href="http://schema.org/validThrough" />
   </descriptor>
 
   <descriptor id="value" type="semantic">
-   <doc format="html">
-    The value of the quantitative value or property value node.
-
-        For QuantitativeValue and MonetaryAmount, the recommended type for values is 'Number'.
-        For PropertyValue, it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.
-        Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.
-        Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.
-   </doc>
+   <doc href="http://schema.org/value" />
   </descriptor>
 
  </descriptor>

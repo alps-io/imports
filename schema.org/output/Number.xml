@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Number" type="semantic" href="http://alps.io/schema.org/DataType.xml#DataType">
-  <doc format="html">
-   Data type: Number.
-  </doc>
+  <doc href="http://schema.org/Number" />
 
 
  </descriptor>

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Hotel" type="semantic" href="http://alps.io/schema.org/LodgingBusiness.xml#LodgingBusiness">
-  <doc format="html">
-   A hotel.
-  </doc>
+  <doc href="http://schema.org/Hotel" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="UserTweets" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml#UserInteraction">
-  <doc format="html">
-   User interaction: Tweets.
-  </doc>
+  <doc href="http://schema.org/UserTweets" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

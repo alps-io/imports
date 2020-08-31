@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Article" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.
-  </doc>
+  <doc href="http://schema.org/Article" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -15,15 +13,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#alternativeHeadline"/>
 
   <descriptor id="articleBody" type="semantic">
-   <doc format="html">
-    The actual body of the article.
-   </doc>
+   <doc href="http://schema.org/articleBody" />
   </descriptor>
 
   <descriptor id="articleSection" type="semantic">
-   <doc format="html">
-    Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.
-   </doc>
+   <doc href="http://schema.org/articleSection" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#associatedMedia"/>
@@ -111,9 +105,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#video"/>
 
   <descriptor id="wordCount" type="semantic">
-   <doc format="html">
-    The number of words in the text of the Article.
-   </doc>
+   <doc href="http://schema.org/wordCount" />
   </descriptor>
 
  </descriptor>

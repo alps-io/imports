@@ -1,59 +1,43 @@
 <alps>
  <descriptor id="QualitativeValue" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
-  <doc format="html">
-   A predefined value for a product characteristic, e.g. the the power cord plug type "US" or the garment sizes "S", "M", "L", and "XL"
-  </doc>
+  <doc href="http://schema.org/QualitativeValue" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="equal" type="semantic">
-   <doc format="html">
-    This ordering relation for qualitative values indicates that the subject is equal to the object.
-   </doc>
+   <doc href="http://schema.org/equal" />
   </descriptor>
 
   <descriptor id="greater" type="semantic">
-   <doc format="html">
-    This ordering relation for qualitative values indicates that the subject is greater than the object.
-   </doc>
+   <doc href="http://schema.org/greater" />
   </descriptor>
 
   <descriptor id="greaterOrEqual" type="semantic">
-   <doc format="html">
-    This ordering relation for qualitative values indicates that the subject is greater than or equal to the object.
-   </doc>
+   <doc href="http://schema.org/greaterOrEqual" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="lesser" type="semantic">
-   <doc format="html">
-    This ordering relation for qualitative values indicates that the subject is lesser than the object.
-   </doc>
+   <doc href="http://schema.org/lesser" />
   </descriptor>
 
   <descriptor id="lesserOrEqual" type="semantic">
-   <doc format="html">
-    This ordering relation for qualitative values indicates that the subject is lesser than or equal to the object.
-   </doc>
+   <doc href="http://schema.org/lesserOrEqual" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nonEqual" type="semantic">
-   <doc format="html">
-    This ordering relation for qualitative values indicates that the subject is not equal to the object.
-   </doc>
+   <doc href="http://schema.org/nonEqual" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="valueReference" type="semantic">
-   <doc format="html">
-    A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.
-   </doc>
+   <doc href="http://schema.org/valueReference" />
   </descriptor>
 
  </descriptor>

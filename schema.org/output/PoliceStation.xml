@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PoliceStation" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure http://alps.io/schema.org/EmergencyService.xml#EmergencyService">
-  <doc format="html">
-   A police station.
-  </doc>
+  <doc href="http://schema.org/PoliceStation" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

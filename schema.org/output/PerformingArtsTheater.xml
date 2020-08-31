@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PerformingArtsTheater" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
-  <doc format="html">
-   A theatre or other performing art center.
-  </doc>
+  <doc href="http://schema.org/PerformingArtsTheater" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

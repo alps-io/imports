@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Attorney" type="semantic" href="http://alps.io/schema.org/ProfessionalService.xml#ProfessionalService">
-  <doc format="html">
-   Professional service: Attorney.
-  </doc>
+  <doc href="http://schema.org/Attorney" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

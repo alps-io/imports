@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PlaceOfWorship" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
-  <doc format="html">
-   Place of worship, such as a church, synagogue, or mosque.
-  </doc>
+  <doc href="http://schema.org/PlaceOfWorship" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

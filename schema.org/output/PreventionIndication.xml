@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PreventionIndication" type="semantic" href="http://alps.io/schema.org/MedicalIndication.xml#MedicalIndication">
-  <doc format="html">
-   An indication for preventing an underlying condition, symptom, etc.
-  </doc>
+  <doc href="http://schema.org/PreventionIndication" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

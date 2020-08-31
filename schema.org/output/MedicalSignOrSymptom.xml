@@ -1,17 +1,13 @@
 <alps>
  <descriptor id="MedicalSignOrSymptom" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
-  <doc format="html">
-   Any indication of the existence of a medical condition or disease.
-  </doc>
+  <doc href="http://schema.org/MedicalSignOrSymptom" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="cause" type="semantic">
-   <doc format="html">
-    An underlying cause. More specifically, one of the causative agent(s) that are most directly responsible for the pathophysiologic process that eventually results in the occurrence.
-   </doc>
+   <doc href="http://schema.org/cause" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
@@ -27,9 +23,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="possibleTreatment" type="semantic">
-   <doc format="html">
-    A possible treatment to address this condition, sign or symptom.
-   </doc>
+   <doc href="http://schema.org/possibleTreatment" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>

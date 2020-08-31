@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicineSystem" type="semantic" href="http://alps.io/schema.org/MedicalEnumeration.xml#MedicalEnumeration">
-  <doc format="html">
-   Systems of medical practice.
-  </doc>
+  <doc href="http://schema.org/MedicineSystem" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

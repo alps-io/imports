@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="LymphaticVessel" type="semantic" href="http://alps.io/schema.org/Vessel.xml#Vessel">
-  <doc format="html">
-   A type of blood vessel that specifically carries lymph fluid unidirectionally toward the heart.
-  </doc>
+  <doc href="http://schema.org/LymphaticVessel" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -31,9 +29,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="originatesFrom" type="semantic">
-   <doc format="html">
-    The vasculature the lymphatic structure originates, or afferents, from.
-   </doc>
+   <doc href="http://schema.org/originatesFrom" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#partOfSystem"/>
@@ -41,9 +37,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="regionDrained" type="semantic">
-   <doc format="html">
-    The anatomical or organ system drained by this vessel; generally refers to a specific part of an organ.
-   </doc>
+   <doc href="http://schema.org/regionDrained" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
@@ -53,9 +47,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="runsTo" type="semantic">
-   <doc format="html">
-    The vasculature the lymphatic structure runs, or efferents, to.
-   </doc>
+   <doc href="http://schema.org/runsTo" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>

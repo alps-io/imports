@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="OceanBodyOfWater" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml#BodyOfWater">
-  <doc format="html">
-   An ocean (for example, the Pacific).
-  </doc>
+  <doc href="http://schema.org/OceanBodyOfWater" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

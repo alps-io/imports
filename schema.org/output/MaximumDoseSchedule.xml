@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MaximumDoseSchedule" type="semantic" href="http://alps.io/schema.org/DoseSchedule.xml#DoseSchedule">
-  <doc format="html">
-   The maximum dosing schedule considered safe for a drug or supplement as recommended by an authority or by the drug/supplement's manufacturer. Capture the recommending authority in the recognizingAuthority property of MedicalEntity.
-  </doc>
+  <doc href="http://schema.org/MaximumDoseSchedule" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

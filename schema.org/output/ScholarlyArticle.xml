@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="ScholarlyArticle" type="semantic" href="http://alps.io/schema.org/Article.xml#Article">
-  <doc format="html">
-   A scholarly article.
-  </doc>
+  <doc href="http://schema.org/ScholarlyArticle" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="SkiResort" type="semantic" href="http://alps.io/schema.org/SportsActivityLocation.xml#SportsActivityLocation">
-  <doc format="html">
-   A ski resort.
-  </doc>
+  <doc href="http://schema.org/SkiResort" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

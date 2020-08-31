@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MovieRentalStore" type="semantic" href="http://alps.io/schema.org/Store.xml#Store">
-  <doc format="html">
-   A movie rental store.
-  </doc>
+  <doc href="http://schema.org/MovieRentalStore" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

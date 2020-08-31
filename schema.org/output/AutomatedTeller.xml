@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="AutomatedTeller" type="semantic" href="http://alps.io/schema.org/FinancialService.xml#FinancialService">
-  <doc format="html">
-   ATM/cash machine.
-  </doc>
+  <doc href="http://schema.org/AutomatedTeller" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

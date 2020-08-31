@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalProcedure" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
-  <doc format="html">
-   A process of care used in either a diagnostic, therapeutic, or palliative capacity that relies on invasive (surgical), non-invasive, or percutaneous techniques.
-  </doc>
+  <doc href="http://schema.org/MedicalProcedure" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -13,17 +11,13 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="followup" type="semantic">
-   <doc format="html">
-    Typical or recommended followup care after the procedure is performed.
-   </doc>
+   <doc href="http://schema.org/followup" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
   <descriptor id="howPerformed" type="semantic">
-   <doc format="html">
-    How the procedure is performed.
-   </doc>
+   <doc href="http://schema.org/howPerformed" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
@@ -33,15 +27,11 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="preparation" type="semantic">
-   <doc format="html">
-    Typical preparation that a patient must undergo before having the procedure performed.
-   </doc>
+   <doc href="http://schema.org/preparation" />
   </descriptor>
 
   <descriptor id="procedureType" type="semantic">
-   <doc format="html">
-    The type of procedure, for example Surgical, Noninvasive, or Percutaneous.
-   </doc>
+   <doc href="http://schema.org/procedureType" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>

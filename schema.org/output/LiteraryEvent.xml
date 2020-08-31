@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="LiteraryEvent" type="semantic" href="http://alps.io/schema.org/Event.xml#Event">
-  <doc format="html">
-   Event type: Literary event.
-  </doc>
+  <doc href="http://schema.org/LiteraryEvent" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

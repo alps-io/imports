@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="HVACBusiness" type="semantic" href="http://alps.io/schema.org/HomeAndConstructionBusiness.xml#HomeAndConstructionBusiness">
-  <doc format="html">
-   An HVAC service.
-  </doc>
+  <doc href="http://schema.org/HVACBusiness" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

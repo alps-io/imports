@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="HousePainter" type="semantic" href="http://alps.io/schema.org/HomeAndConstructionBusiness.xml#HomeAndConstructionBusiness http://alps.io/schema.org/ProfessionalService.xml#ProfessionalService">
-  <doc format="html">
-   A house painting service.
-  </doc>
+  <doc href="http://schema.org/HousePainter" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

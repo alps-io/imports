@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalTrialDesign" type="semantic" href="http://alps.io/schema.org/MedicalEnumeration.xml#MedicalEnumeration">
-  <doc format="html">
-   Design models for medical trials. Enumerated type.
-  </doc>
+  <doc href="http://schema.org/MedicalTrialDesign" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

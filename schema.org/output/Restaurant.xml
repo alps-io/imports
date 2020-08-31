@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Restaurant" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml#FoodEstablishment">
-  <doc format="html">
-   A restaurant.
-  </doc>
+  <doc href="http://schema.org/Restaurant" />
 
   <descriptor href="http://alps.io/schema.org/FoodEstablishment.xml#acceptsReservations"/>
 

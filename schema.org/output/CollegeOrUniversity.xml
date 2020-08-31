@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="CollegeOrUniversity" type="semantic" href="http://alps.io/schema.org/EducationalOrganization.xml#EducationalOrganization">
-  <doc format="html">
-   A college, university, or other third-level educational institution.
-  </doc>
+  <doc href="http://schema.org/CollegeOrUniversity" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

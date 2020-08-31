@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Dentist" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization http://alps.io/schema.org/ProfessionalService.xml#ProfessionalService">
-  <doc format="html">
-   A dentist.
-  </doc>
+  <doc href="http://schema.org/Dentist" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

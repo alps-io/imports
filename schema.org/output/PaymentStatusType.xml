@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PaymentStatusType" type="semantic" href="http://alps.io/schema.org/StatusEnumeration.xml#StatusEnumeration">
-  <doc format="html">
-   A specific payment status. For example, PaymentDue, PaymentComplete, etc.
-  </doc>
+  <doc href="http://schema.org/PaymentStatusType" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

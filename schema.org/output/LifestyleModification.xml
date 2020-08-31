@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="LifestyleModification" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml#MedicalTherapy">
-  <doc format="html">
-   A process of care involving exercise, changes to diet, fitness routines, and other lifestyle changes aimed at improving a health condition.
-  </doc>
+  <doc href="http://schema.org/LifestyleModification" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Country" type="semantic" href="http://alps.io/schema.org/AdministrativeArea.xml#AdministrativeArea">
-  <doc format="html">
-   A country.
-  </doc>
+  <doc href="http://schema.org/Country" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

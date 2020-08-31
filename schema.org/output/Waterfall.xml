@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Waterfall" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml#BodyOfWater">
-  <doc format="html">
-   A waterfall, like Niagara
-  </doc>
+  <doc href="http://schema.org/Waterfall" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

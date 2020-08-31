@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Language" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
-  <doc format="html">
-   Natural languages such as Spanish, Tamil, Hindi, English, etc. and programming languages such as Scheme and Lisp.
-  </doc>
+  <doc href="http://schema.org/Language" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

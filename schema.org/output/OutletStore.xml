@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="OutletStore" type="semantic" href="http://alps.io/schema.org/Store.xml#Store">
-  <doc format="html">
-   An outlet store.
-  </doc>
+  <doc href="http://schema.org/OutletStore" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

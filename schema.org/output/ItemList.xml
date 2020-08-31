@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="ItemList" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.
-  </doc>
+  <doc href="http://schema.org/ItemList" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -69,15 +67,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#isFamilyFriendly"/>
 
   <descriptor id="itemListElement" type="semantic">
-   <doc format="html">
-    A single list item.
-   </doc>
+   <doc href="http://schema.org/itemListElement" />
   </descriptor>
 
   <descriptor id="itemListOrder" type="semantic">
-   <doc format="html">
-    Type of ordering (e.g. Ascending, Descending, Unordered).
-   </doc>
+   <doc href="http://schema.org/itemListOrder" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#keywords"/>

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MusicAlbum" type="semantic" href="http://alps.io/schema.org/MusicPlaylist.xml#MusicPlaylist">
-  <doc format="html">
-   A collection of music tracks.
-  </doc>
+  <doc href="http://schema.org/MusicAlbum" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -27,9 +25,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
 
   <descriptor id="byArtist" type="semantic">
-   <doc format="html">
-    The artist that performed this album or recording.
-   </doc>
+   <doc href="http://schema.org/byArtist" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>

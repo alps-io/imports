@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MusicPlaylist" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A collection of music tracks in playlist form.
-  </doc>
+  <doc href="http://schema.org/MusicPlaylist" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -75,9 +73,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="numTracks" type="semantic">
-   <doc format="html">
-    The number of tracks in this album or playlist.
-   </doc>
+   <doc href="http://schema.org/numTracks" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
@@ -99,15 +95,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
 
   <descriptor id="track" type="semantic">
-   <doc format="html">
-    A music recording (track)&#x2014;usually a single song.
-   </doc>
+   <doc href="http://schema.org/track" />
   </descriptor>
 
   <descriptor id="tracks" type="semantic">
-   <doc format="html">
-    A music recording (track)&#x2014;usually a single song (legacy spelling; see singular form, track).
-   </doc>
+   <doc href="http://schema.org/tracks" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

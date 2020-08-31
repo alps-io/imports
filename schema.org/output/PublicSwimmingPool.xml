@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PublicSwimmingPool" type="semantic" href="http://alps.io/schema.org/SportsActivityLocation.xml#SportsActivityLocation">
-  <doc format="html">
-   A public swimming pool.
-  </doc>
+  <doc href="http://schema.org/PublicSwimmingPool" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

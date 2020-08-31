@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="WebApplication" type="semantic" href="http://alps.io/schema.org/SoftwareApplication.xml#SoftwareApplication">
-  <doc format="html">
-   Web applications.
-  </doc>
+  <doc href="http://schema.org/WebApplication" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -33,9 +31,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
 
   <descriptor id="browserRequirements" type="semantic">
-   <doc format="html">
-    Specifies browser requirements in human-readable text. For example,"requires HTML5 support".
-   </doc>
+   <doc href="http://schema.org/browserRequirements" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="TVSeason" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A TV season.
-  </doc>
+  <doc href="http://schema.org/TVSeason" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -57,21 +55,15 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encodings"/>
 
   <descriptor id="endDate" type="semantic">
-   <doc format="html">
-    The end date and time of the event (in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>).
-   </doc>
+   <doc href="http://schema.org/endDate" />
   </descriptor>
 
   <descriptor id="episode" type="semantic">
-   <doc format="html">
-    An episode of a TV series or season.
-   </doc>
+   <doc href="http://schema.org/episode" />
   </descriptor>
 
   <descriptor id="episodes" type="semantic">
-   <doc format="html">
-    The episode of a TV series or season (legacy spelling; see singular form, episode).
-   </doc>
+   <doc href="http://schema.org/episodes" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#genre"/>
@@ -93,17 +85,13 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="numberOfEpisodes" type="semantic">
-   <doc format="html">
-    The number of episodes in this season or series.
-   </doc>
+   <doc href="http://schema.org/numberOfEpisodes" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
 
   <descriptor id="partOfTVSeries" type="semantic">
-   <doc format="html">
-    The TV series to which this episode or season belongs.
-   </doc>
+   <doc href="http://schema.org/partOfTVSeries" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
@@ -117,17 +105,13 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#reviews"/>
 
   <descriptor id="seasonNumber" type="semantic">
-   <doc format="html">
-    The season number.
-   </doc>
+   <doc href="http://schema.org/seasonNumber" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#sourceOrganization"/>
 
   <descriptor id="startDate" type="semantic">
-   <doc format="html">
-    The start date and time of the event (in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>).
-   </doc>
+   <doc href="http://schema.org/startDate" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#text"/>
@@ -135,9 +119,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
 
   <descriptor id="trailer" type="semantic">
-   <doc format="html">
-    The trailer of the movie or TV series, season, or episode.
-   </doc>
+   <doc href="http://schema.org/trailer" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

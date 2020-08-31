@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Aquarium" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
-  <doc format="html">
-   Aquarium.
-  </doc>
+  <doc href="http://schema.org/Aquarium" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

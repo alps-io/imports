@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Embassy" type="semantic" href="http://alps.io/schema.org/GovernmentBuilding.xml#GovernmentBuilding">
-  <doc format="html">
-   An embassy.
-  </doc>
+  <doc href="http://schema.org/Embassy" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

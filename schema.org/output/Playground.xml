@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Playground" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
-  <doc format="html">
-   A playground.
-  </doc>
+  <doc href="http://schema.org/Playground" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

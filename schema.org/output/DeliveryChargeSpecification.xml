@@ -1,15 +1,11 @@
 <alps>
  <descriptor id="DeliveryChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification.xml#PriceSpecification">
-  <doc format="html">
-   The price for the delivery of an offer using a particular delivery method.
-  </doc>
+  <doc href="http://schema.org/DeliveryChargeSpecification" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="appliesToDeliveryMethod" type="semantic">
-   <doc format="html">
-    The delivery method(s) to which the delivery charge or payment charge specification applies.
-   </doc>
+   <doc href="http://schema.org/appliesToDeliveryMethod" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
@@ -17,9 +13,7 @@
   <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleQuantity"/>
 
   <descriptor id="eligibleRegion" type="semantic">
-   <doc format="html">
-    The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
-   </doc>
+   <doc href="http://schema.org/eligibleRegion" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/PriceSpecification.xml#eligibleTransactionVolume"/>

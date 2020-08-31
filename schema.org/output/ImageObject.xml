@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="ImageObject" type="semantic" href="http://alps.io/schema.org/MediaObject.xml#MediaObject">
-  <doc format="html">
-   An image file.
-  </doc>
+  <doc href="http://schema.org/ImageObject" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -31,9 +29,7 @@
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#bitrate"/>
 
   <descriptor id="caption" type="semantic">
-   <doc format="html">
-    The caption for this object.
-   </doc>
+   <doc href="http://schema.org/caption" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>
@@ -79,9 +75,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encodings"/>
 
   <descriptor id="exifData" type="semantic">
-   <doc format="html">
-    exif data for this object.
-   </doc>
+   <doc href="http://schema.org/exifData" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#expires"/>
@@ -119,9 +113,7 @@
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#regionsAllowed"/>
 
   <descriptor id="representativeOfPage" type="semantic">
-   <doc format="html">
-    Indicates whether this image is representative of the content of the page.
-   </doc>
+   <doc href="http://schema.org/representativeOfPage" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#requiresSubscription"/>
@@ -135,9 +127,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#text"/>
 
   <descriptor id="thumbnail" type="semantic">
-   <doc format="html">
-    Thumbnail image for an image or video.
-   </doc>
+   <doc href="http://schema.org/thumbnail" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>

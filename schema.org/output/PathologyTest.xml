@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="PathologyTest" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
-  <doc format="html">
-   A medical test performed by a laboratory that typically involves examination of a tissue sample by a pathologist.
-  </doc>
+  <doc href="http://schema.org/PathologyTest" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -33,9 +31,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="tissueSample" type="semantic">
-   <doc format="html">
-    The type of tissue sample required for the test.
-   </doc>
+   <doc href="http://schema.org/tissueSample" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

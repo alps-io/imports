@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Specialty" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
-  <doc format="html">
-   Any branch of a field in which people typically develop specific expertise, usually after significant study, time, and effort.
-  </doc>
+  <doc href="http://schema.org/Specialty" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

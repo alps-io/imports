@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MusicGroup" type="semantic" href="http://alps.io/schema.org/PerformingGroup.xml#PerformingGroup">
-  <doc format="html">
-   A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician.
-  </doc>
+  <doc href="http://schema.org/MusicGroup" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,15 +9,11 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#aggregateRating"/>
 
   <descriptor id="album" type="semantic">
-   <doc format="html">
-    A music album.
-   </doc>
+   <doc href="http://schema.org/album" />
   </descriptor>
 
   <descriptor id="albums" type="semantic">
-   <doc format="html">
-    A collection of music albums (legacy spelling; see singular form, album).
-   </doc>
+   <doc href="http://schema.org/albums" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Organization.xml#brand"/>
@@ -73,9 +67,7 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#members"/>
 
   <descriptor id="musicGroupMember" type="semantic">
-   <doc format="html">
-    A member of the music group&#x2014;for example, John, Paul, George, or Ringo.
-   </doc>
+   <doc href="http://schema.org/musicGroupMember" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Organization.xml#naics"/>
@@ -95,15 +87,11 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#telephone"/>
 
   <descriptor id="track" type="semantic">
-   <doc format="html">
-    A music recording (track)&#x2014;usually a single song.
-   </doc>
+   <doc href="http://schema.org/track" />
   </descriptor>
 
   <descriptor id="tracks" type="semantic">
-   <doc format="html">
-    A music recording (track)&#x2014;usually a single song (legacy spelling; see singular form, track).
-   </doc>
+   <doc href="http://schema.org/tracks" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

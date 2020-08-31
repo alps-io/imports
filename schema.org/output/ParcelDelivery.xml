@@ -1,81 +1,57 @@
 <alps>
  <descriptor id="ParcelDelivery" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
-  <doc format="html">
-   The delivery of a parcel either via the postal service or a commercial service.
-  </doc>
+  <doc href="http://schema.org/ParcelDelivery" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="deliveryAddress" type="semantic">
-   <doc format="html">
-    Destination address.
-   </doc>
+   <doc href="http://schema.org/deliveryAddress" />
   </descriptor>
 
   <descriptor id="deliveryStatus" type="semantic">
-   <doc format="html">
-    New entry added as the package passes through each leg of its journey (from shipment to final delivery).
-   </doc>
+   <doc href="http://schema.org/deliveryStatus" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="expectedArrivalFrom" type="semantic">
-   <doc format="html">
-    The earliest date the package may arrive.
-   </doc>
+   <doc href="http://schema.org/expectedArrivalFrom" />
   </descriptor>
 
   <descriptor id="expectedArrivalUntil" type="semantic">
-   <doc format="html">
-    The latest date the package may arrive.
-   </doc>
+   <doc href="http://schema.org/expectedArrivalUntil" />
   </descriptor>
 
   <descriptor id="hasDeliveryMethod" type="semantic">
-   <doc format="html">
-    Method used for delivery or shipping.
-   </doc>
+   <doc href="http://schema.org/hasDeliveryMethod" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="itemShipped" type="semantic">
-   <doc format="html">
-    Item(s) being shipped.
-   </doc>
+   <doc href="http://schema.org/itemShipped" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="originAddress" type="semantic">
-   <doc format="html">
-    Shipper's address.
-   </doc>
+   <doc href="http://schema.org/originAddress" />
   </descriptor>
 
   <descriptor id="partOfOrder" type="semantic">
-   <doc format="html">
-    The overall order the items in this delivery were included in.
-   </doc>
+   <doc href="http://schema.org/partOfOrder" />
   </descriptor>
 
   <descriptor id="provider" type="semantic">
-   <doc format="html">
-    The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.
-   </doc>
+   <doc href="http://schema.org/provider" />
   </descriptor>
 
   <descriptor id="trackingNumber" type="semantic">
-   <doc format="html">
-    Shipper tracking number.
-   </doc>
+   <doc href="http://schema.org/trackingNumber" />
   </descriptor>
 
   <descriptor id="trackingUrl" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    Shipper tracking number.
-   </doc>
+   <doc href="http://schema.org/trackingUrl" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

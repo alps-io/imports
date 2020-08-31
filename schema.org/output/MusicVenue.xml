@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MusicVenue" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
-  <doc format="html">
-   A music venue.
-  </doc>
+  <doc href="http://schema.org/MusicVenue" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

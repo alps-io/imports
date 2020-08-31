@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="DataType" type="semantic">
-  <doc format="html">
-   The basic data types such as Integers, Strings, etc.
-  </doc>
+  <doc href="http://schema.org/DataType" />
 
 
  </descriptor>

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="RadioStation" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
-  <doc format="html">
-   A radio station.
-  </doc>
+  <doc href="http://schema.org/RadioStation" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

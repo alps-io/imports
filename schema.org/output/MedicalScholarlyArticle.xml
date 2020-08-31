@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalScholarlyArticle" type="semantic" href="http://alps.io/schema.org/ScholarlyArticle.xml#ScholarlyArticle">
-  <doc format="html">
-   A scholarly article in the medical domain.
-  </doc>
+  <doc href="http://schema.org/MedicalScholarlyArticle" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -31,9 +29,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
 
   <descriptor id="citation" type="semantic">
-   <doc format="html">
-    A citation or reference to another creative work, such as another publication, web page, scholarly article, etc. NOTE: Candidate for promotion to ScholarlyArticle.
-   </doc>
+   <doc href="http://schema.org/citation" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>
@@ -89,9 +85,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
 
   <descriptor id="publicationType" type="semantic">
-   <doc format="html">
-    The type of the medical article, taken from the US NLM MeSH <a href=http://www.nlm.nih.gov/mesh/pubtypes.html>publication type catalog.
-   </doc>
+   <doc href="http://schema.org/publicationType" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publisher"/>

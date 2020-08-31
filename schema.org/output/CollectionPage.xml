@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="CollectionPage" type="semantic" href="http://alps.io/schema.org/WebPage.xml#WebPage">
-  <doc format="html">
-   Web page type: Collection page.
-  </doc>
+  <doc href="http://schema.org/CollectionPage" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 

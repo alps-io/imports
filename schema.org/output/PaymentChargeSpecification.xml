@@ -1,21 +1,15 @@
 <alps>
  <descriptor id="PaymentChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification.xml#PriceSpecification">
-  <doc format="html">
-   The costs of settling the payment using a particular payment method.
-  </doc>
+  <doc href="http://schema.org/PaymentChargeSpecification" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="appliesToDeliveryMethod" type="semantic">
-   <doc format="html">
-    The delivery method(s) to which the delivery charge or payment charge specification applies.
-   </doc>
+   <doc href="http://schema.org/appliesToDeliveryMethod" />
   </descriptor>
 
   <descriptor id="appliesToPaymentMethod" type="semantic">
-   <doc format="html">
-    The payment method(s) to which the payment charge specification applies.
-   </doc>
+   <doc href="http://schema.org/appliesToPaymentMethod" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>

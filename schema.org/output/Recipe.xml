@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Recipe" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A recipe.
-  </doc>
+  <doc href="http://schema.org/Recipe" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -35,15 +33,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#contributor"/>
 
   <descriptor id="cookTime" type="semantic">
-   <doc format="html">
-    The time it takes to actually cook the dish, in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 duration format</a>.
-   </doc>
+   <doc href="http://schema.org/cookTime" />
   </descriptor>
 
   <descriptor id="cookingMethod" type="semantic">
-   <doc format="html">
-    The method of cooking, such as Frying, Steaming, ...
-   </doc>
+   <doc href="http://schema.org/cookingMethod" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightHolder"/>
@@ -77,9 +71,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#inLanguage"/>
 
   <descriptor id="ingredients" type="semantic">
-   <doc format="html">
-    An ingredient used in the recipe.
-   </doc>
+   <doc href="http://schema.org/ingredients" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#interactionCount"/>
@@ -93,17 +85,13 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nutrition" type="semantic">
-   <doc format="html">
-    Nutrition information about the recipe.
-   </doc>
+   <doc href="http://schema.org/nutrition" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
 
   <descriptor id="prepTime" type="semantic">
-   <doc format="html">
-    The length of time it takes to prepare the recipe, in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 duration format</a>.
-   </doc>
+   <doc href="http://schema.org/prepTime" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
@@ -113,27 +101,19 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publishingPrinciples"/>
 
   <descriptor id="recipeCategory" type="semantic">
-   <doc format="html">
-    The category of the recipe&#x2014;for example, appetizer, entree, etc.
-   </doc>
+   <doc href="http://schema.org/recipeCategory" />
   </descriptor>
 
   <descriptor id="recipeCuisine" type="semantic">
-   <doc format="html">
-    The cuisine of the recipe (for example, French or Ethopian).
-   </doc>
+   <doc href="http://schema.org/recipeCuisine" />
   </descriptor>
 
   <descriptor id="recipeInstructions" type="semantic">
-   <doc format="html">
-    The steps to make the dish.
-   </doc>
+   <doc href="http://schema.org/recipeInstructions" />
   </descriptor>
 
   <descriptor id="recipeYield" type="semantic">
-   <doc format="html">
-    The quantity produced by the recipe (for example, number of people served, number of servings, etc).
-   </doc>
+   <doc href="http://schema.org/recipeYield" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#review"/>
@@ -147,9 +127,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
 
   <descriptor id="totalTime" type="semantic">
-   <doc format="html">
-    The total time it takes to prepare and cook the recipe, in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 duration format</a>.
-   </doc>
+   <doc href="http://schema.org/totalTime" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

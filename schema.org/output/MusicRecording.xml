@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MusicRecording" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A music recording (track), usually a single song.
-  </doc>
+  <doc href="http://schema.org/MusicRecording" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -27,9 +25,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
 
   <descriptor id="byArtist" type="semantic">
-   <doc format="html">
-    The artist that performed this album or recording.
-   </doc>
+   <doc href="http://schema.org/byArtist" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>
@@ -57,9 +53,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#discussionUrl"/>
 
   <descriptor id="duration" type="semantic">
-   <doc format="html">
-    The duration of the item (movie, audio recording, event, etc.) in <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 date format</a>.
-   </doc>
+   <doc href="http://schema.org/duration" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#editor"/>
@@ -75,17 +69,13 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="inAlbum" type="semantic">
-   <doc format="html">
-    The album to which this recording belongs.
-   </doc>
+   <doc href="http://schema.org/inAlbum" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#inLanguage"/>
 
   <descriptor id="inPlaylist" type="semantic">
-   <doc format="html">
-    The playlist to which this recording belongs.
-   </doc>
+   <doc href="http://schema.org/inPlaylist" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#interactionCount"/>

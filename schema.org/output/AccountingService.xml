@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="AccountingService" type="semantic" href="http://alps.io/schema.org/FinancialService.xml#FinancialService http://alps.io/schema.org/ProfessionalService.xml#ProfessionalService">
-  <doc format="html">
-   Accountancy business.
-  </doc>
+  <doc href="http://schema.org/AccountingService" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

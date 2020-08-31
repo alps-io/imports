@@ -1,21 +1,15 @@
 <alps>
  <descriptor id="TypeAndQuantityNode" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
-  <doc format="html">
-   A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer.
-  </doc>
+  <doc href="http://schema.org/TypeAndQuantityNode" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="amountOfThisGood" type="semantic">
-   <doc format="html">
-    The quantity of the goods included in the offer.
-   </doc>
+   <doc href="http://schema.org/amountOfThisGood" />
   </descriptor>
 
   <descriptor id="businessFunction" type="semantic">
-   <doc format="html">
-    The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell.
-   </doc>
+   <doc href="http://schema.org/businessFunction" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
@@ -25,15 +19,11 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="typeOfGood" type="semantic">
-   <doc format="html">
-    The product that this structured value is referring to.
-   </doc>
+   <doc href="http://schema.org/typeOfGood" />
   </descriptor>
 
   <descriptor id="unitCode" type="semantic">
-   <doc format="html">
-    The unit of measurement given using the UN/CEFACT Common Code (3 characters).
-   </doc>
+   <doc href="http://schema.org/unitCode" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Photograph" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A photograph.
-  </doc>
+  <doc href="http://schema.org/Photograph" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="TravelAgency" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
-  <doc format="html">
-   A travel agency.
-  </doc>
+  <doc href="http://schema.org/TravelAgency" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

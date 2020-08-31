@@ -1,25 +1,19 @@
 <alps>
  <descriptor id="AnatomicalSystem" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
-  <doc format="html">
-   An anatomical system is a group of anatomical structures that work together to perform a certain task. Anatomical systems, such as organ systems, are one organizing principle of anatomy, and can includes circulatory, digestive, endocrine, integumentary, immune, lymphatic, muscular, nervous, reproductive, respiratory, skeletal, urinary, vestibular, and other systems.
-  </doc>
+  <doc href="http://schema.org/AnatomicalSystem" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="associatedPathophysiology" type="semantic">
-   <doc format="html">
-    If applicable, a description of the pathophysiology associated with the anatomical system, including potential abnormal changes in the mechanical, physical, and biochemical functions of the system.
-   </doc>
+   <doc href="http://schema.org/associatedPathophysiology" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
   <descriptor id="comprisedOf" type="semantic">
-   <doc format="html">
-    The underlying anatomical structures, such as organs, that comprise the anatomical system.
-   </doc>
+   <doc href="http://schema.org/comprisedOf" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
@@ -35,21 +29,15 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="relatedCondition" type="semantic">
-   <doc format="html">
-    A medical condition associated with this anatomy.
-   </doc>
+   <doc href="http://schema.org/relatedCondition" />
   </descriptor>
 
   <descriptor id="relatedStructure" type="semantic">
-   <doc format="html">
-    Related anatomical structure(s) that are not part of the system but relate or connect to it, such as vascular bundles associated with an organ system.
-   </doc>
+   <doc href="http://schema.org/relatedStructure" />
   </descriptor>
 
   <descriptor id="relatedTherapy" type="semantic">
-   <doc format="html">
-    A medical therapy related to this anatomy.
-   </doc>
+   <doc href="http://schema.org/relatedTherapy" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>

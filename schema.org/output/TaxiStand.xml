@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="TaxiStand" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
-  <doc format="html">
-   A taxi stand.
-  </doc>
+  <doc href="http://schema.org/TaxiStand" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

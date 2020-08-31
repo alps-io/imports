@@ -1,13 +1,9 @@
 <alps>
  <descriptor id="FoodEstablishment" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
-  <doc format="html">
-   A food-related business.
-  </doc>
+  <doc href="http://schema.org/FoodEstablishment" />
 
   <descriptor id="acceptsReservations" type="semantic">
-   <doc format="html">
-    Either <code>Yes/No</code>, or a URL at which reservations can be made.
-   </doc>
+   <doc href="http://schema.org/acceptsReservations" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
@@ -79,9 +75,7 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#members"/>
 
   <descriptor id="menu" type="semantic">
-   <doc format="html">
-    Either the actual menu or a URL of the menu.
-   </doc>
+   <doc href="http://schema.org/menu" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Organization.xml#naics"/>
@@ -109,9 +103,7 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#seeks"/>
 
   <descriptor id="servesCuisine" type="semantic">
-   <doc format="html">
-    The cuisine of the restaurant.
-   </doc>
+   <doc href="http://schema.org/servesCuisine" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Organization.xml#taxID"/>

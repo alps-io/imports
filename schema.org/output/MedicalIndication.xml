@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalIndication" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
-  <doc format="html">
-   A condition or factor that indicates use of a medical therapy, including signs, symptoms, risk factors, anatomical states, etc.
-  </doc>
+  <doc href="http://schema.org/MedicalIndication" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

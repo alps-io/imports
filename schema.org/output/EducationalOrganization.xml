@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="EducationalOrganization" type="semantic" href="http://alps.io/schema.org/Organization.xml#Organization">
-  <doc format="html">
-   An educational organization.
-  </doc>
+  <doc href="http://schema.org/EducationalOrganization" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,9 +9,7 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#aggregateRating"/>
 
   <descriptor id="alumni" type="semantic">
-   <doc format="html">
-    Alumni of educational organization.
-   </doc>
+   <doc href="http://schema.org/alumni" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Organization.xml#brand"/>

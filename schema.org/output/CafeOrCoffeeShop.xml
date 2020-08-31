@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="CafeOrCoffeeShop" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml#FoodEstablishment">
-  <doc format="html">
-   A cafe or coffee shop.
-  </doc>
+  <doc href="http://schema.org/CafeOrCoffeeShop" />
 
   <descriptor href="http://alps.io/schema.org/FoodEstablishment.xml#acceptsReservations"/>
 

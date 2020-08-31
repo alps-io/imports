@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="BusStop" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
-  <doc format="html">
-   A bus stop.
-  </doc>
+  <doc href="http://schema.org/BusStop" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

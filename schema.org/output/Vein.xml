@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Vein" type="semantic" href="http://alps.io/schema.org/Vessel.xml#Vessel">
-  <doc format="html">
-   A type of blood vessel that specifically carries blood to the heart.
-  </doc>
+  <doc href="http://schema.org/Vein" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -21,9 +19,7 @@
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#diagram"/>
 
   <descriptor id="drainsTo" type="semantic">
-   <doc format="html">
-    The vasculature that the vein drains into.
-   </doc>
+   <doc href="http://schema.org/drainsTo" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
@@ -41,9 +37,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="regionDrained" type="semantic">
-   <doc format="html">
-    The anatomical or organ system drained by this vessel; generally refers to a specific part of an organ.
-   </doc>
+   <doc href="http://schema.org/regionDrained" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#relatedCondition"/>
@@ -57,9 +51,7 @@
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#subStructure"/>
 
   <descriptor id="tributary" type="semantic">
-   <doc format="html">
-    The anatomical or organ system that the vein flows into; a larger structure that the vein connects to.
-   </doc>
+   <doc href="http://schema.org/tributary" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

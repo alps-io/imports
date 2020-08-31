@@ -1,23 +1,17 @@
 <alps>
  <descriptor id="TVEpisode" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   An episode of a TV series or season.
-  </doc>
+  <doc href="http://schema.org/TVEpisode" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#accountablePerson"/>
 
   <descriptor id="actor" type="semantic">
-   <doc format="html">
-    A cast member of the movie, TV series, season, or episode, or video.
-   </doc>
+   <doc href="http://schema.org/actor" />
   </descriptor>
 
   <descriptor id="actors" type="semantic">
-   <doc format="html">
-    A cast member of the movie, TV series, season, or episode, or video. (legacy spelling; see singular form, actor)
-   </doc>
+   <doc href="http://schema.org/actors" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
@@ -61,9 +55,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="director" type="semantic">
-   <doc format="html">
-    The director of the movie, TV episode, or series.
-   </doc>
+   <doc href="http://schema.org/director" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#discussionUrl"/>
@@ -75,9 +67,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encodings"/>
 
   <descriptor id="episodeNumber" type="semantic">
-   <doc format="html">
-    The episode number.
-   </doc>
+   <doc href="http://schema.org/episodeNumber" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#genre"/>
@@ -97,9 +87,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#mentions"/>
 
   <descriptor id="musicBy" type="semantic">
-   <doc format="html">
-    The composer of the movie or TV soundtrack.
-   </doc>
+   <doc href="http://schema.org/musicBy" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
@@ -107,27 +95,19 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
 
   <descriptor id="partOfSeason" type="semantic">
-   <doc format="html">
-    The season to which this episode belongs.
-   </doc>
+   <doc href="http://schema.org/partOfSeason" />
   </descriptor>
 
   <descriptor id="partOfTVSeries" type="semantic">
-   <doc format="html">
-    The TV series to which this episode or season belongs.
-   </doc>
+   <doc href="http://schema.org/partOfTVSeries" />
   </descriptor>
 
   <descriptor id="producer" type="semantic">
-   <doc format="html">
-    The producer of the movie, TV series, season, or episode, or video.
-   </doc>
+   <doc href="http://schema.org/producer" />
   </descriptor>
 
   <descriptor id="productionCompany" type="semantic">
-   <doc format="html">
-    The production company or studio that made the movie, TV series, season, or episode, or video.
-   </doc>
+   <doc href="http://schema.org/productionCompany" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
@@ -147,9 +127,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
 
   <descriptor id="trailer" type="semantic">
-   <doc format="html">
-    The trailer of the movie or TV series, season, or episode.
-   </doc>
+   <doc href="http://schema.org/trailer" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

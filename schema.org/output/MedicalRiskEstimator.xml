@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalRiskEstimator" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
-  <doc format="html">
-   Any rule set or interactive tool for estimating the risk of developing a complication or condition.
-  </doc>
+  <doc href="http://schema.org/MedicalRiskEstimator" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -13,9 +11,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="estimatesRiskOf" type="semantic">
-   <doc format="html">
-    The condition, complication, or symptom whose risk is being estimated.
-   </doc>
+   <doc href="http://schema.org/estimatesRiskOf" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
@@ -23,9 +19,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="includedRiskFactor" type="semantic">
-   <doc format="html">
-    A modifiable or non-modifiable risk factor included in the calculation, e.g. age, coexisting condition.
-   </doc>
+   <doc href="http://schema.org/includedRiskFactor" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>

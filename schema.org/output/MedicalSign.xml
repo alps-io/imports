@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalSign" type="semantic" href="http://alps.io/schema.org/MedicalSignOrSymptom.xml#MedicalSignOrSymptom">
-  <doc format="html">
-   Any physical manifestation of a person's medical condition discoverable by objective diagnostic tests or physical examination.
-  </doc>
+  <doc href="http://schema.org/MedicalSign" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -17,15 +15,11 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
 
   <descriptor id="identifyingExam" type="semantic">
-   <doc format="html">
-    A physical examination that can identify this sign.
-   </doc>
+   <doc href="http://schema.org/identifyingExam" />
   </descriptor>
 
   <descriptor id="identifyingTest" type="semantic">
-   <doc format="html">
-    A diagnostic test that can identify this sign.
-   </doc>
+   <doc href="http://schema.org/identifyingTest" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>

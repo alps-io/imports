@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="BookFormatType" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
-  <doc format="html">
-   The publication format of the book.
-  </doc>
+  <doc href="http://schema.org/BookFormatType" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

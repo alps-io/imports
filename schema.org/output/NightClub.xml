@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="NightClub" type="semantic" href="http://alps.io/schema.org/EntertainmentBusiness.xml#EntertainmentBusiness">
-  <doc format="html">
-   A nightclub or discotheque.
-  </doc>
+  <doc href="http://schema.org/NightClub" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

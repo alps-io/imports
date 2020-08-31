@@ -1,13 +1,9 @@
 <alps>
  <descriptor id="DietarySupplement" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml#MedicalTherapy">
-  <doc format="html">
-   A product taken by mouth that contains a dietary ingredient intended to supplement the diet. Dietary ingredients may include vitamins, minerals, herbs or other botanicals, amino acids, and substances such as enzymes, organ tissues, glandulars and metabolites.
-  </doc>
+  <doc href="http://schema.org/DietarySupplement" />
 
   <descriptor id="activeIngredient" type="semantic">
-   <doc format="html">
-    An active ingredient, typically chemical compounds and/or biologic substances.
-   </doc>
+   <doc href="http://schema.org/activeIngredient" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
@@ -17,9 +13,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#alternateName"/>
 
   <descriptor id="background" type="semantic">
-   <doc format="html">
-    Descriptive information establishing a historical perspective on the supplement. May include the rationale for the name, the population where the supplement first came to prominence, etc.
-   </doc>
+   <doc href="http://schema.org/background" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
@@ -29,9 +23,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="dosageForm" type="semantic">
-   <doc format="html">
-    A dosage form in which this drug/supplement is available, e.g. 'tablet', 'suspension', 'injection'.
-   </doc>
+   <doc href="http://schema.org/dosageForm" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#duplicateTherapy"/>
@@ -43,33 +35,23 @@
   <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#indication"/>
 
   <descriptor id="isProprietary" type="semantic">
-   <doc format="html">
-    True if this item's name is a proprietary/brand name (vs. generic name).
-   </doc>
+   <doc href="http://schema.org/isProprietary" />
   </descriptor>
 
   <descriptor id="legalStatus" type="semantic">
-   <doc format="html">
-    The drug or supplement's legal status, including any controlled substance schedules that apply.
-   </doc>
+   <doc href="http://schema.org/legalStatus" />
   </descriptor>
 
   <descriptor id="manufacturer" type="semantic">
-   <doc format="html">
-    The manufacturer of the product.
-   </doc>
+   <doc href="http://schema.org/manufacturer" />
   </descriptor>
 
   <descriptor id="maximumIntake" type="semantic">
-   <doc format="html">
-    Recommended intake of this supplement for a given population as defined by a specific recommending authority.
-   </doc>
+   <doc href="http://schema.org/maximumIntake" />
   </descriptor>
 
   <descriptor id="mechanismOfAction" type="semantic">
-   <doc format="html">
-    The specific biochemical interaction through which this drug or supplement produces its pharmacological effect.
-   </doc>
+   <doc href="http://schema.org/mechanismOfAction" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>
@@ -77,25 +59,19 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nonProprietaryName" type="semantic">
-   <doc format="html">
-    The generic name of this drug or supplement.
-   </doc>
+   <doc href="http://schema.org/nonProprietaryName" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="recommendedIntake" type="semantic">
-   <doc format="html">
-    Recommended intake of this supplement for a given population as defined by a specific recommending authority.
-   </doc>
+   <doc href="http://schema.org/recommendedIntake" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="safetyConsideration" type="semantic">
-   <doc format="html">
-    Any potential safety concern associated with the supplement. May include interactions with other drugs and foods, pregnancy, breastfeeding, known adverse reactions, and documented efficacy of the supplement.
-   </doc>
+   <doc href="http://schema.org/safetyConsideration" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalTherapy.xml#seriousAdverseOutcome"/>
@@ -103,9 +79,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="targetPopulation" type="semantic">
-   <doc format="html">
-    Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.
-   </doc>
+   <doc href="http://schema.org/targetPopulation" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

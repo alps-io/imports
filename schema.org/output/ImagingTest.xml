@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="ImagingTest" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
-  <doc format="html">
-   Any medical imaging modality typically used for diagnostic purposes.
-  </doc>
+  <doc href="http://schema.org/ImagingTest" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -19,9 +17,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="imagingTechnique" type="semantic">
-   <doc format="html">
-    Imaging technique used.
-   </doc>
+   <doc href="http://schema.org/imagingTechnique" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#medicineSystem"/>

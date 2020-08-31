@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="SomeProducts" type="semantic" href="http://alps.io/schema.org/Product.xml#Product">
-  <doc format="html">
-   A placeholder for multiple similar products of the same kind.
-  </doc>
+  <doc href="http://schema.org/SomeProducts" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -29,9 +27,7 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="inventoryLevel" type="semantic">
-   <doc format="html">
-    The current approximate inventory level for the item or items.
-   </doc>
+   <doc href="http://schema.org/inventoryLevel" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Product.xml#isAccessoryOrSparePartFor"/>

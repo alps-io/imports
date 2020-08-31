@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalIntangible" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
-  <doc format="html">
-   A utility class that serves as the umbrella for a number of 'intangible' things in the medical space.
-  </doc>
+  <doc href="http://schema.org/MedicalIntangible" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

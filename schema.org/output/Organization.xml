@@ -1,215 +1,147 @@
 <alps>
  <descriptor id="Organization" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
-  <doc format="html">
-   An organization such as a school, NGO, corporation, club, etc.
-  </doc>
+  <doc href="http://schema.org/Organization" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="address" type="semantic">
-   <doc format="html">
-    Physical address of the item.
-   </doc>
+   <doc href="http://schema.org/address" />
   </descriptor>
 
   <descriptor id="aggregateRating" type="semantic">
-   <doc format="html">
-    The overall rating, based on a collection of reviews or ratings, of the item.
-   </doc>
+   <doc href="http://schema.org/aggregateRating" />
   </descriptor>
 
   <descriptor id="brand" type="semantic">
-   <doc format="html">
-    The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.
-   </doc>
+   <doc href="http://schema.org/brand" />
   </descriptor>
 
   <descriptor id="contactPoint" type="semantic">
-   <doc format="html">
-    A contact point for a person or organization.
-   </doc>
+   <doc href="http://schema.org/contactPoint" />
   </descriptor>
 
   <descriptor id="contactPoints" type="semantic">
-   <doc format="html">
-    A contact point for a person or organization (legacy spelling; see singular form, contactPoint).
-   </doc>
+   <doc href="http://schema.org/contactPoints" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="duns" type="semantic">
-   <doc format="html">
-    The Dun  &amp; Bradstreet DUNS number for identifying an organization or business person.
-   </doc>
+   <doc href="http://schema.org/duns" />
   </descriptor>
 
   <descriptor id="email" type="semantic">
-   <doc format="html">
-    Email address.
-   </doc>
+   <doc href="http://schema.org/email" />
   </descriptor>
 
   <descriptor id="employee" type="semantic">
-   <doc format="html">
-    Someone working for this organization.
-   </doc>
+   <doc href="http://schema.org/employee" />
   </descriptor>
 
   <descriptor id="employees" type="semantic">
-   <doc format="html">
-    People working for this organization. (legacy spelling; see singular form, employee)
-   </doc>
+   <doc href="http://schema.org/employees" />
   </descriptor>
 
   <descriptor id="event" type="semantic">
-   <doc format="html">
-    Upcoming or past event associated with this place or organization.
-   </doc>
+   <doc href="http://schema.org/event" />
   </descriptor>
 
   <descriptor id="events" type="semantic">
-   <doc format="html">
-    Upcoming or past events associated with this place or organization (legacy spelling; see singular form, event).
-   </doc>
+   <doc href="http://schema.org/events" />
   </descriptor>
 
   <descriptor id="faxNumber" type="semantic">
-   <doc format="html">
-    The fax number.
-   </doc>
+   <doc href="http://schema.org/faxNumber" />
   </descriptor>
 
   <descriptor id="founder" type="semantic">
-   <doc format="html">
-    A person who founded this organization.
-   </doc>
+   <doc href="http://schema.org/founder" />
   </descriptor>
 
   <descriptor id="founders" type="semantic">
-   <doc format="html">
-    A person who founded this organization (legacy spelling; see singular form, founder).
-   </doc>
+   <doc href="http://schema.org/founders" />
   </descriptor>
 
   <descriptor id="foundingDate" type="semantic">
-   <doc format="html">
-    The date that this organization was founded.
-   </doc>
+   <doc href="http://schema.org/foundingDate" />
   </descriptor>
 
   <descriptor id="globalLocationNumber" type="semantic">
-   <doc format="html">
-    The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
-   </doc>
+   <doc href="http://schema.org/globalLocationNumber" />
   </descriptor>
 
   <descriptor id="hasPOS" type="semantic">
-   <doc format="html">
-    Points-of-Sales operated by the organization or person.
-   </doc>
+   <doc href="http://schema.org/hasPOS" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="interactionCount" type="semantic">
-   <doc format="html">
-    A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction'>UserInteraction</a>.
-   </doc>
+   <doc href="http://schema.org/interactionCount" />
   </descriptor>
 
   <descriptor id="isicV4" type="semantic">
-   <doc format="html">
-    The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
-   </doc>
+   <doc href="http://schema.org/isicV4" />
   </descriptor>
 
   <descriptor id="legalName" type="semantic">
-   <doc format="html">
-    The official name of the organization, e.g. the registered company name.
-   </doc>
+   <doc href="http://schema.org/legalName" />
   </descriptor>
 
   <descriptor id="location" type="semantic">
-   <doc format="html">
-    The location of the event or organization.
-   </doc>
+   <doc href="http://schema.org/location" />
   </descriptor>
 
   <descriptor id="logo" type="semantic">
-   <doc format="html">
-    URL of an image for the logo of the item.
-   </doc>
+   <doc href="http://schema.org/logo" />
   </descriptor>
 
   <descriptor id="makesOffer" type="semantic">
-   <doc format="html">
-    A pointer to products or services offered by the organization or person.
-   </doc>
+   <doc href="http://schema.org/makesOffer" />
   </descriptor>
 
   <descriptor id="member" type="semantic">
-   <doc format="html">
-    A member of this organization.
-   </doc>
+   <doc href="http://schema.org/member" />
   </descriptor>
 
   <descriptor id="members" type="semantic">
-   <doc format="html">
-    A member of this organization (legacy spelling; see singular form, member).
-   </doc>
+   <doc href="http://schema.org/members" />
   </descriptor>
 
   <descriptor id="naics" type="semantic">
-   <doc format="html">
-    The North American Industry Classification System (NAICS) code for a particular organization or business person.
-   </doc>
+   <doc href="http://schema.org/naics" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="owns" type="semantic">
-   <doc format="html">
-    Products owned by the organization or person.
-   </doc>
+   <doc href="http://schema.org/owns" />
   </descriptor>
 
   <descriptor id="review" type="semantic">
-   <doc format="html">
-    A review of the item.
-   </doc>
+   <doc href="http://schema.org/review" />
   </descriptor>
 
   <descriptor id="reviews" type="semantic">
-   <doc format="html">
-    Review of the item (legacy spelling; see singular form, review).
-   </doc>
+   <doc href="http://schema.org/reviews" />
   </descriptor>
 
   <descriptor id="seeks" type="semantic">
-   <doc format="html">
-    A pointer to products or services sought by the organization or person (demand).
-   </doc>
+   <doc href="http://schema.org/seeks" />
   </descriptor>
 
   <descriptor id="taxID" type="semantic">
-   <doc format="html">
-    The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.
-   </doc>
+   <doc href="http://schema.org/taxID" />
   </descriptor>
 
   <descriptor id="telephone" type="semantic">
-   <doc format="html">
-    The telephone number.
-   </doc>
+   <doc href="http://schema.org/telephone" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="vatID" type="semantic">
-   <doc format="html">
-    The Value-added Tax ID of the organisation or person.
-   </doc>
+   <doc href="http://schema.org/vatID" />
   </descriptor>
 
  </descriptor>

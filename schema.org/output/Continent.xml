@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Continent" type="semantic" href="http://alps.io/schema.org/Landform.xml#Landform">
-  <doc format="html">
-   One of the continents (for example, Europe or Africa).
-  </doc>
+  <doc href="http://schema.org/Continent" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

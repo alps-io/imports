@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalTestPanel" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
-  <doc format="html">
-   Any collection of tests commonly ordered together.
-  </doc>
+  <doc href="http://schema.org/MedicalTestPanel" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -33,9 +31,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="subTest" type="semantic">
-   <doc format="html">
-    A component test of the panel.
-   </doc>
+   <doc href="http://schema.org/subTest" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

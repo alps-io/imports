@@ -1,305 +1,207 @@
 <alps>
  <descriptor id="Person" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
-  <doc format="html">
-   A person (alive, dead, undead, or fictional).
-  </doc>
+  <doc href="http://schema.org/Person" />
 
   <descriptor id="additionalName" type="semantic">
-   <doc format="html">
-    An additional name for a Person, can be used for a middle name.
-   </doc>
+   <doc href="http://schema.org/additionalName" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="address" type="semantic">
-   <doc format="html">
-    Physical address of the item.
-   </doc>
+   <doc href="http://schema.org/address" />
   </descriptor>
 
   <descriptor id="affiliation" type="semantic">
-   <doc format="html">
-    An organization that this person is affiliated with. For example, a school/university, a club, or a team.
-   </doc>
+   <doc href="http://schema.org/affiliation" />
   </descriptor>
 
   <descriptor id="alumniOf" type="semantic">
-   <doc format="html">
-    An educational organizations that the person is an alumni of.
-   </doc>
+   <doc href="http://schema.org/alumniOf" />
   </descriptor>
 
   <descriptor id="award" type="semantic">
-   <doc format="html">
-    An award won by this person or for this creative work.
-   </doc>
+   <doc href="http://schema.org/award" />
   </descriptor>
 
   <descriptor id="awards" type="semantic">
-   <doc format="html">
-    Awards won by this person or for this creative work. (legacy spelling; see singular form, award)
-   </doc>
+   <doc href="http://schema.org/awards" />
   </descriptor>
 
   <descriptor id="birthDate" type="semantic">
-   <doc format="html">
-    Date of birth.
-   </doc>
+   <doc href="http://schema.org/birthDate" />
   </descriptor>
 
   <descriptor id="brand" type="semantic">
-   <doc format="html">
-    The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.
-   </doc>
+   <doc href="http://schema.org/brand" />
   </descriptor>
 
   <descriptor id="children" type="semantic">
-   <doc format="html">
-    A child of the person.
-   </doc>
+   <doc href="http://schema.org/children" />
   </descriptor>
 
   <descriptor id="colleague" type="semantic">
-   <doc format="html">
-    A colleague of the person.
-   </doc>
+   <doc href="http://schema.org/colleague" />
   </descriptor>
 
   <descriptor id="colleagues" type="semantic">
-   <doc format="html">
-    A colleague of the person (legacy spelling; see singular form, colleague).
-   </doc>
+   <doc href="http://schema.org/colleagues" />
   </descriptor>
 
   <descriptor id="contactPoint" type="semantic">
-   <doc format="html">
-    A contact point for a person or organization.
-   </doc>
+   <doc href="http://schema.org/contactPoint" />
   </descriptor>
 
   <descriptor id="contactPoints" type="semantic">
-   <doc format="html">
-    A contact point for a person or organization (legacy spelling; see singular form, contactPoint).
-   </doc>
+   <doc href="http://schema.org/contactPoints" />
   </descriptor>
 
   <descriptor id="deathDate" type="semantic">
-   <doc format="html">
-    Date of death.
-   </doc>
+   <doc href="http://schema.org/deathDate" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="duns" type="semantic">
-   <doc format="html">
-    The Dun  &amp; Bradstreet DUNS number for identifying an organization or business person.
-   </doc>
+   <doc href="http://schema.org/duns" />
   </descriptor>
 
   <descriptor id="email" type="semantic">
-   <doc format="html">
-    Email address.
-   </doc>
+   <doc href="http://schema.org/email" />
   </descriptor>
 
   <descriptor id="familyName" type="semantic">
-   <doc format="html">
-    Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the Name property.
-   </doc>
+   <doc href="http://schema.org/familyName" />
   </descriptor>
 
   <descriptor id="faxNumber" type="semantic">
-   <doc format="html">
-    The fax number.
-   </doc>
+   <doc href="http://schema.org/faxNumber" />
   </descriptor>
 
   <descriptor id="follows" type="semantic">
-   <doc format="html">
-    The most generic uni-directional social relation.
-   </doc>
+   <doc href="http://schema.org/follows" />
   </descriptor>
 
   <descriptor id="gender" type="semantic">
-   <doc format="html">
-    Gender of the person.
-   </doc>
+   <doc href="http://schema.org/gender" />
   </descriptor>
 
   <descriptor id="givenName" type="semantic">
-   <doc format="html">
-    Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the Name property.
-   </doc>
+   <doc href="http://schema.org/givenName" />
   </descriptor>
 
   <descriptor id="globalLocationNumber" type="semantic">
-   <doc format="html">
-    The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
-   </doc>
+   <doc href="http://schema.org/globalLocationNumber" />
   </descriptor>
 
   <descriptor id="hasPOS" type="semantic">
-   <doc format="html">
-    Points-of-Sales operated by the organization or person.
-   </doc>
+   <doc href="http://schema.org/hasPOS" />
   </descriptor>
 
   <descriptor id="homeLocation" type="semantic">
-   <doc format="html">
-    A contact location for a person's residence.
-   </doc>
+   <doc href="http://schema.org/homeLocation" />
   </descriptor>
 
   <descriptor id="honorificPrefix" type="semantic">
-   <doc format="html">
-    An honorific prefix preceding a Person's name such as Dr/Mrs/Mr.
-   </doc>
+   <doc href="http://schema.org/honorificPrefix" />
   </descriptor>
 
   <descriptor id="honorificSuffix" type="semantic">
-   <doc format="html">
-    An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW.
-   </doc>
+   <doc href="http://schema.org/honorificSuffix" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="interactionCount" type="semantic">
-   <doc format="html">
-    A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction'>UserInteraction</a>.
-   </doc>
+   <doc href="http://schema.org/interactionCount" />
   </descriptor>
 
   <descriptor id="isicV4" type="semantic">
-   <doc format="html">
-    The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
-   </doc>
+   <doc href="http://schema.org/isicV4" />
   </descriptor>
 
   <descriptor id="jobTitle" type="semantic">
-   <doc format="html">
-    The job title of the person (for example, Financial Manager).
-   </doc>
+   <doc href="http://schema.org/jobTitle" />
   </descriptor>
 
   <descriptor id="knows" type="semantic">
-   <doc format="html">
-    The most generic bi-directional social/work relation.
-   </doc>
+   <doc href="http://schema.org/knows" />
   </descriptor>
 
   <descriptor id="makesOffer" type="semantic">
-   <doc format="html">
-    A pointer to products or services offered by the organization or person.
-   </doc>
+   <doc href="http://schema.org/makesOffer" />
   </descriptor>
 
   <descriptor id="memberOf" type="semantic">
-   <doc format="html">
-    An organization to which the person belongs.
-   </doc>
+   <doc href="http://schema.org/memberOf" />
   </descriptor>
 
   <descriptor id="naics" type="semantic">
-   <doc format="html">
-    The North American Industry Classification System (NAICS) code for a particular organization or business person.
-   </doc>
+   <doc href="http://schema.org/naics" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="nationality" type="semantic">
-   <doc format="html">
-    Nationality of the person.
-   </doc>
+   <doc href="http://schema.org/nationality" />
   </descriptor>
 
   <descriptor id="owns" type="semantic">
-   <doc format="html">
-    Products owned by the organization or person.
-   </doc>
+   <doc href="http://schema.org/owns" />
   </descriptor>
 
   <descriptor id="parent" type="semantic">
-   <doc format="html">
-    A parent of this person.
-   </doc>
+   <doc href="http://schema.org/parent" />
   </descriptor>
 
   <descriptor id="parents" type="semantic">
-   <doc format="html">
-    A parents of the person (legacy spelling; see singular form, parent).
-   </doc>
+   <doc href="http://schema.org/parents" />
   </descriptor>
 
   <descriptor id="performerIn" type="semantic">
-   <doc format="html">
-    Event that this person is a performer or participant in.
-   </doc>
+   <doc href="http://schema.org/performerIn" />
   </descriptor>
 
   <descriptor id="relatedTo" type="semantic">
-   <doc format="html">
-    The most generic familial relation.
-   </doc>
+   <doc href="http://schema.org/relatedTo" />
   </descriptor>
 
   <descriptor id="seeks" type="semantic">
-   <doc format="html">
-    A pointer to products or services sought by the organization or person (demand).
-   </doc>
+   <doc href="http://schema.org/seeks" />
   </descriptor>
 
   <descriptor id="sibling" type="semantic">
-   <doc format="html">
-    A sibling of the person.
-   </doc>
+   <doc href="http://schema.org/sibling" />
   </descriptor>
 
   <descriptor id="siblings" type="semantic">
-   <doc format="html">
-    A sibling of the person (legacy spelling; see singular form, sibling).
-   </doc>
+   <doc href="http://schema.org/siblings" />
   </descriptor>
 
   <descriptor id="spouse" type="semantic">
-   <doc format="html">
-    The person's spouse.
-   </doc>
+   <doc href="http://schema.org/spouse" />
   </descriptor>
 
   <descriptor id="taxID" type="semantic">
-   <doc format="html">
-    The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.
-   </doc>
+   <doc href="http://schema.org/taxID" />
   </descriptor>
 
   <descriptor id="telephone" type="semantic">
-   <doc format="html">
-    The telephone number.
-   </doc>
+   <doc href="http://schema.org/telephone" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="vatID" type="semantic">
-   <doc format="html">
-    The Value-added Tax ID of the organisation or person.
-   </doc>
+   <doc href="http://schema.org/vatID" />
   </descriptor>
 
   <descriptor id="workLocation" type="semantic">
-   <doc format="html">
-    A contact location for a person's place of work.
-   </doc>
+   <doc href="http://schema.org/workLocation" />
   </descriptor>
 
   <descriptor id="worksFor" type="semantic">
-   <doc format="html">
-    Organizations that the person works for.
-   </doc>
+   <doc href="http://schema.org/worksFor" />
   </descriptor>
 
  </descriptor>

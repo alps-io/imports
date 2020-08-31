@@ -7,25 +7,19 @@ output_dir = "output/"
 
 ALPS_CLASS_BASE = """<alps>
  <descriptor id="%(label)s" type="semantic"%(href)s>
-  <doc format="html">
-   %(doc)s
-  </doc>
+  <doc href="%(doc)s" />
 
 %(properties)s
  </descriptor>
 </alps>"""
 
 ALPS_PROPERTY_BASE_SEMANTIC = """  <descriptor id="%(label)s" type="%(type)s"%(href)s>
-   <doc format="html">
-    %(doc)s
-   </doc>
+   <doc href="%(doc)s" />
   </descriptor>
 """
 
 ALPS_PROPERTY_BASE_LINK = """  <descriptor id="%(label)s" type="%(type)s"%(href)s rt="%(rt)s">
-   <doc format="html">
-    %(doc)s
-   </doc>
+   <doc href="%(doc)s" />
   </descriptor>
 """
 
@@ -66,8 +60,7 @@ class RDFClass(object):
 
     @property
     def as_alps(self):
-        values = dict(label=self.label, doc=fix_doc(self.comment), href="",
-                      properties='')
+        values = dict(label=self.label, doc=self.uri, href="", properties='')
         superclass_urls = []
         for superclass_uri in self.superclasses:
             c = classes_by_uri[superclass_uri]
@@ -113,6 +106,7 @@ class RDFProperty(object):
         self.range_classes = [classes_by_uri[range] for range in self.ranges]
         self.comment = with_property(div, 'rdfs:comment').string
         self.label = with_property(div, 'rdfs:label').string
+        self.uri = div['resource']
 
     def url(self, domain_class):
         return domain_class.url + "#" + self.label
@@ -123,7 +117,7 @@ class RDFProperty(object):
             label=self.label,
             href="",
             rt=" ".join(base_url + range_class.label + ".xml" for range_class in self.range_classes),
-            doc=fix_doc(self.comment))
+            doc=self.uri)
 
         if defined_in_class == for_class:
             if self.type == "semantic":

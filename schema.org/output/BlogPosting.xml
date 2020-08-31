@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="BlogPosting" type="semantic" href="http://alps.io/schema.org/Article.xml#Article">
-  <doc format="html">
-   A blog post.
-  </doc>
+  <doc href="http://schema.org/BlogPosting" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 

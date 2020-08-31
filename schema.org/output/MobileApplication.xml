@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MobileApplication" type="semantic" href="http://alps.io/schema.org/SoftwareApplication.xml#SoftwareApplication">
-  <doc format="html">
-   A mobile software application.
-  </doc>
+  <doc href="http://schema.org/MobileApplication" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -33,9 +31,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
 
   <descriptor id="carrierRequirements" type="semantic">
-   <doc format="html">
-    Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).
-   </doc>
+   <doc href="http://schema.org/carrierRequirements" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>

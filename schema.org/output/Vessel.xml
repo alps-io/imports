@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Vessel" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
-  <doc format="html">
-   A component of the human body circulatory system comprised of an intricate network of hollow tubes that transport blood throughout the entire body.
-  </doc>
+  <doc href="http://schema.org/Vessel" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

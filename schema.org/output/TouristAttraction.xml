@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="TouristAttraction" type="semantic" href="http://alps.io/schema.org/Place.xml#Place">
-  <doc format="html">
-   A tourist attraction.
-  </doc>
+  <doc href="http://schema.org/TouristAttraction" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

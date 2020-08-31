@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="NailSalon" type="semantic" href="http://alps.io/schema.org/HealthAndBeautyBusiness.xml#HealthAndBeautyBusiness">
-  <doc format="html">
-   A nail salon.
-  </doc>
+  <doc href="http://schema.org/NailSalon" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

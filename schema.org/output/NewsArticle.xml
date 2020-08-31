@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="NewsArticle" type="semantic" href="http://alps.io/schema.org/Article.xml#Article">
-  <doc format="html">
-   A news article
-  </doc>
+  <doc href="http://schema.org/NewsArticle" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -51,9 +49,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#datePublished"/>
 
   <descriptor id="dateline" type="semantic">
-   <doc format="html">
-    The location where the NewsArticle was produced.
-   </doc>
+   <doc href="http://schema.org/dateline" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
@@ -87,27 +83,19 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
 
   <descriptor id="printColumn" type="semantic">
-   <doc format="html">
-    The number of the column in which the NewsArticle appears in the print edition.
-   </doc>
+   <doc href="http://schema.org/printColumn" />
   </descriptor>
 
   <descriptor id="printEdition" type="semantic">
-   <doc format="html">
-    The edition of the print product in which the NewsArticle appears.
-   </doc>
+   <doc href="http://schema.org/printEdition" />
   </descriptor>
 
   <descriptor id="printPage" type="semantic">
-   <doc format="html">
-    If this NewsArticle appears in print, this field indicates the name of the page on which the article is found. Please note that this field is intended for the exact page name (e.g. A5, B18).
-   </doc>
+   <doc href="http://schema.org/printPage" />
   </descriptor>
 
   <descriptor id="printSection" type="semantic">
-   <doc format="html">
-    If this NewsArticle appears in print, this field indicates the print section in which the article appeared.
-   </doc>
+   <doc href="http://schema.org/printSection" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>

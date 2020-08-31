@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Plumber" type="semantic" href="http://alps.io/schema.org/HomeAndConstructionBusiness.xml#HomeAndConstructionBusiness http://alps.io/schema.org/ProfessionalService.xml#ProfessionalService">
-  <doc format="html">
-   A plumbing service.
-  </doc>
+  <doc href="http://schema.org/Plumber" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

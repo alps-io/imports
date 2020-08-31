@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Joint" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
-  <doc format="html">
-   The anatomical location at which two or more bones make contact.
-  </doc>
+  <doc href="http://schema.org/Joint" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,9 +9,7 @@
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#associatedPathophysiology"/>
 
   <descriptor id="biomechnicalClass" type="semantic">
-   <doc format="html">
-    The biomechanical properties of the bone.
-   </doc>
+   <doc href="http://schema.org/biomechnicalClass" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#bodyLocation"/>
@@ -29,9 +25,7 @@
   <descriptor href="http://alps.io/schema.org/AnatomicalStructure.xml#function"/>
 
   <descriptor id="functionalClass" type="semantic">
-   <doc format="html">
-    The degree of mobility the joint allows.
-   </doc>
+   <doc href="http://schema.org/functionalClass" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#guideline"/>
@@ -53,9 +47,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="structuralClass" type="semantic">
-   <doc format="html">
-    The name given to how bone physically connects to each other.
-   </doc>
+   <doc href="http://schema.org/structuralClass" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>

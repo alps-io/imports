@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Boolean" type="semantic" href="http://alps.io/schema.org/DataType.xml#DataType">
-  <doc format="html">
-   Boolean: True or False.
-  </doc>
+  <doc href="http://schema.org/Boolean" />
 
 
  </descriptor>

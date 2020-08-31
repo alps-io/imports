@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="AutoPartsStore" type="semantic" href="http://alps.io/schema.org/AutomotiveBusiness.xml#AutomotiveBusiness http://alps.io/schema.org/Store.xml#Store">
-  <doc format="html">
-   An auto parts store.
-  </doc>
+  <doc href="http://schema.org/AutoPartsStore" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="SoftwareApplication" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A software application.
-  </doc>
+  <doc href="http://schema.org/SoftwareApplication" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -15,21 +13,15 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#alternativeHeadline"/>
 
   <descriptor id="applicationCategory" type="semantic">
-   <doc format="html">
-    Type of software application, e.g. "Game, Multimedia".
-   </doc>
+   <doc href="http://schema.org/applicationCategory" />
   </descriptor>
 
   <descriptor id="applicationSubCategory" type="semantic">
-   <doc format="html">
-    Subcategory of the application, e.g. "Arcade Game".
-   </doc>
+   <doc href="http://schema.org/applicationSubCategory" />
   </descriptor>
 
   <descriptor id="applicationSuite" type="semantic">
-   <doc format="html">
-    The name of the application suite to which the application belongs (e.g. Excel belongs to Office)
-   </doc>
+   <doc href="http://schema.org/applicationSuite" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#associatedMedia"/>
@@ -57,15 +49,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#copyrightYear"/>
 
   <descriptor id="countriesNotSupported" type="semantic">
-   <doc format="html">
-    Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
-   </doc>
+   <doc href="http://schema.org/countriesNotSupported" />
   </descriptor>
 
   <descriptor id="countriesSupported" type="semantic">
-   <doc format="html">
-    Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
-   </doc>
+   <doc href="http://schema.org/countriesSupported" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#creator"/>
@@ -79,17 +67,13 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="device" type="semantic">
-   <doc format="html">
-    Device required to run the application. Used in cases where a specific make/model is required to run the application.
-   </doc>
+   <doc href="http://schema.org/device" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#discussionUrl"/>
 
   <descriptor id="downloadUrl" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    If the file can be downloaded, URL to download the binary.
-   </doc>
+   <doc href="http://schema.org/downloadUrl" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#editor"/>
@@ -99,21 +83,15 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#encodings"/>
 
   <descriptor id="featureList" type="semantic">
-   <doc format="html">
-    Features or modules provided by this application (and possibly required by other applications).
-   </doc>
+   <doc href="http://schema.org/featureList" />
   </descriptor>
 
   <descriptor id="fileFormat" type="semantic">
-   <doc format="html">
-    MIME format of the binary (e.g. application/zip).
-   </doc>
+   <doc href="http://schema.org/fileFormat" />
   </descriptor>
 
   <descriptor id="fileSize" type="semantic">
-   <doc format="html">
-    Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.
-   </doc>
+   <doc href="http://schema.org/fileSize" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#genre"/>
@@ -125,9 +103,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#inLanguage"/>
 
   <descriptor id="installUrl" type="safe" rt="http://alps.io/schema.org/URL.xml">
-   <doc format="html">
-    URL at which the app may be installed, if different from the URL of the item.
-   </doc>
+   <doc href="http://schema.org/installUrl" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#interactionCount"/>
@@ -137,9 +113,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#keywords"/>
 
   <descriptor id="memoryRequirements" type="semantic">
-   <doc format="html">
-    Minimum memory requirements.
-   </doc>
+   <doc href="http://schema.org/memoryRequirements" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#mentions"/>
@@ -149,21 +123,15 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#offers"/>
 
   <descriptor id="operatingSystem" type="semantic">
-   <doc format="html">
-    Operating systems supported (Windows 7, OSX 10.6, Android 1.6).
-   </doc>
+   <doc href="http://schema.org/operatingSystem" />
   </descriptor>
 
   <descriptor id="permissions" type="semantic">
-   <doc format="html">
-    Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi).
-   </doc>
+   <doc href="http://schema.org/permissions" />
   </descriptor>
 
   <descriptor id="processorRequirements" type="semantic">
-   <doc format="html">
-    Processor architecture required to run the application (e.g. IA64).
-   </doc>
+   <doc href="http://schema.org/processorRequirements" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
@@ -173,15 +141,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#publishingPrinciples"/>
 
   <descriptor id="releaseNotes" type="semantic">
-   <doc format="html">
-    Description of what changed in this version.
-   </doc>
+   <doc href="http://schema.org/releaseNotes" />
   </descriptor>
 
   <descriptor id="requirements" type="semantic">
-   <doc format="html">
-    Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).
-   </doc>
+   <doc href="http://schema.org/requirements" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#review"/>
@@ -189,23 +153,17 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#reviews"/>
 
   <descriptor id="screenshot" type="semantic">
-   <doc format="html">
-    A link to a screenshot image of the app.
-   </doc>
+   <doc href="http://schema.org/screenshot" />
   </descriptor>
 
   <descriptor id="softwareVersion" type="semantic">
-   <doc format="html">
-    Version of the software instance.
-   </doc>
+   <doc href="http://schema.org/softwareVersion" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#sourceOrganization"/>
 
   <descriptor id="storageRequirements" type="semantic">
-   <doc format="html">
-    Storage requirements (free space required).
-   </doc>
+   <doc href="http://schema.org/storageRequirements" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#text"/>

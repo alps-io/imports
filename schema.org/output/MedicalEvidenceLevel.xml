@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalEvidenceLevel" type="semantic" href="http://alps.io/schema.org/MedicalEnumeration.xml#MedicalEnumeration">
-  <doc format="html">
-   Level of evidence for a medical guideline. Enumerated type.
-  </doc>
+  <doc href="http://schema.org/MedicalEvidenceLevel" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

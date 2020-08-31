@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Volcano" type="semantic" href="http://alps.io/schema.org/Landform.xml#Landform">
-  <doc format="html">
-   A volcano, like Fuji san
-  </doc>
+  <doc href="http://schema.org/Volcano" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

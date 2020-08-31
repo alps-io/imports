@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Painting" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A painting.
-  </doc>
+  <doc href="http://schema.org/Painting" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 

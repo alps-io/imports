@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="QuantitativeValue" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
-  <doc format="html">
-   A point value or interval for product characteristics and other purposes.
-  </doc>
+  <doc href="http://schema.org/QuantitativeValue" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,42 +9,27 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="maxValue" type="semantic">
-   <doc format="html">
-    The upper value of some characteristic or property.
-   </doc>
+   <doc href="http://schema.org/maxValue" />
   </descriptor>
 
   <descriptor id="minValue" type="semantic">
-   <doc format="html">
-    The lower value of some characteristic or property.
-   </doc>
+   <doc href="http://schema.org/minValue" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="unitCode" type="semantic">
-   <doc format="html">
-    The unit of measurement given using the UN/CEFACT Common Code (3 characters).
-   </doc>
+   <doc href="http://schema.org/unitCode" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="value" type="semantic">
-   <doc format="html">
-    The value of the quantitative value or property value node.
-
-        For QuantitativeValue and MonetaryAmount, the recommended type for values is 'Number'.
-        For PropertyValue, it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.
-        Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.
-        Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.
-   </doc>
+   <doc href="http://schema.org/value" />
   </descriptor>
 
   <descriptor id="valueReference" type="semantic">
-   <doc format="html">
-    A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.
-   </doc>
+   <doc href="http://schema.org/valueReference" />
   </descriptor>
 
  </descriptor>

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalConditionStage" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
-  <doc format="html">
-   A stage of a medical condition, such as 'Stage IIIa'.
-  </doc>
+  <doc href="http://schema.org/MedicalConditionStage" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -25,17 +23,13 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>
 
   <descriptor id="stageAsNumber" type="semantic">
-   <doc format="html">
-    The stage represented as a number, e.g. 3.
-   </doc>
+   <doc href="http://schema.org/stageAsNumber" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#study"/>
 
   <descriptor id="subStageSuffix" type="semantic">
-   <doc format="html">
-    The substage, e.g. 'a' for Stage IIIa.
-   </doc>
+   <doc href="http://schema.org/subStageSuffix" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

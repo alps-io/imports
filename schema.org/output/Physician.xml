@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Physician" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
-  <doc format="html">
-   A doctor's office.
-  </doc>
+  <doc href="http://schema.org/Physician" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,9 +9,7 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#aggregateRating"/>
 
   <descriptor id="availableService" type="semantic">
-   <doc format="html">
-    A medical service available from this provider.
-   </doc>
+   <doc href="http://schema.org/availableService" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/LocalBusiness.xml#branchOf"/>
@@ -57,9 +53,7 @@
   <descriptor href="http://alps.io/schema.org/Organization.xml#hasPOS"/>
 
   <descriptor id="hospitalAffiliation" type="semantic">
-   <doc format="html">
-    A hospital with which the physician or office is affiliated.
-   </doc>
+   <doc href="http://schema.org/hospitalAffiliation" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
@@ -81,9 +75,7 @@
   <descriptor href="http://alps.io/schema.org/Place.xml#maps"/>
 
   <descriptor id="medicalSpecialty" type="semantic">
-   <doc format="html">
-    A medical specialty of the provider.
-   </doc>
+   <doc href="http://schema.org/medicalSpecialty" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Organization.xml#member"/>

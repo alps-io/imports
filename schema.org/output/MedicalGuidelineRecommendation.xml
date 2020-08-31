@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalGuidelineRecommendation" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml#MedicalGuideline">
-  <doc format="html">
-   A guideline recommendation that is regarded as efficacious and where quality of the data supporting the recommendation is sound.
-  </doc>
+  <doc href="http://schema.org/MedicalGuidelineRecommendation" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -31,9 +29,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#recognizingAuthority"/>
 
   <descriptor id="recommendationStrength" type="semantic">
-   <doc format="html">
-    Strength of the guideline's recommendation (e.g. 'class I').
-   </doc>
+   <doc href="http://schema.org/recommendationStrength" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#relevantSpecialty"/>

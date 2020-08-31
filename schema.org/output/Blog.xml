@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Blog" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
-  <doc format="html">
-   A blog
-  </doc>
+  <doc href="http://schema.org/Blog" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -27,15 +25,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#awards"/>
 
   <descriptor id="blogPost" type="semantic">
-   <doc format="html">
-    A posting that is part of this blog.
-   </doc>
+   <doc href="http://schema.org/blogPost" />
   </descriptor>
 
   <descriptor id="blogPosts" type="semantic">
-   <doc format="html">
-    The postings that are part of this blog (legacy spelling; see singular form, blogPost).
-   </doc>
+   <doc href="http://schema.org/blogPosts" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>

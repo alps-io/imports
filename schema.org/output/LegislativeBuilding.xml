@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="LegislativeBuilding" type="semantic" href="http://alps.io/schema.org/GovernmentBuilding.xml#GovernmentBuilding">
-  <doc format="html">
-   A legislative building&#x2014;for example, the state capitol.
-  </doc>
+  <doc href="http://schema.org/LegislativeBuilding" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

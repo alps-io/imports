@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="AudioObject" type="semantic" href="http://alps.io/schema.org/MediaObject.xml#MediaObject">
-  <doc format="html">
-   An audio file.
-  </doc>
+  <doc href="http://schema.org/AudioObject" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -119,9 +117,7 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
 
   <descriptor id="transcript" type="semantic">
-   <doc format="html">
-    If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
-   </doc>
+   <doc href="http://schema.org/transcript" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#uploadDate"/>

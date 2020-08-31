@@ -1,21 +1,15 @@
 <alps>
  <descriptor id="OpeningHoursSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
-  <doc format="html">
-   A structured value providing information about the opening hours of a place or a certain service inside a place.
-  </doc>
+  <doc href="http://schema.org/OpeningHoursSpecification" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="closes" type="semantic">
-   <doc format="html">
-    The closing hour of the place or service on the given day(s) of the week.
-   </doc>
+   <doc href="http://schema.org/closes" />
   </descriptor>
 
   <descriptor id="dayOfWeek" type="semantic">
-   <doc format="html">
-    The day of the week for which these opening hours are valid.
-   </doc>
+   <doc href="http://schema.org/dayOfWeek" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
@@ -25,23 +19,17 @@
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="opens" type="semantic">
-   <doc format="html">
-    The opening hour of the place or service on the given day(s) of the week.
-   </doc>
+   <doc href="http://schema.org/opens" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
-   <doc format="html">
-    The date when the item becomes valid.
-   </doc>
+   <doc href="http://schema.org/validFrom" />
   </descriptor>
 
   <descriptor id="validThrough" type="semantic">
-   <doc format="html">
-    The end of the validity of offer, price specification, or opening hours data.
-   </doc>
+   <doc href="http://schema.org/validThrough" />
   </descriptor>
 
  </descriptor>

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalCode" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
-  <doc format="html">
-   A code for a medical entity.
-  </doc>
+  <doc href="http://schema.org/MedicalCode" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -11,15 +9,11 @@
   <descriptor href="http://alps.io/schema.org/MedicalEntity.xml#code"/>
 
   <descriptor id="codeValue" type="semantic">
-   <doc format="html">
-    The actual code.
-   </doc>
+   <doc href="http://schema.org/codeValue" />
   </descriptor>
 
   <descriptor id="codingSystem" type="semantic">
-   <doc format="html">
-    The coding system, e.g. 'ICD-10'.
-   </doc>
+   <doc href="http://schema.org/codingSystem" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>

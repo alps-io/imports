@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="VideoObject" type="semantic" href="http://alps.io/schema.org/MediaObject.xml#MediaObject">
-  <doc format="html">
-   A video file.
-  </doc>
+  <doc href="http://schema.org/VideoObject" />
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#about"/>
 
@@ -31,9 +29,7 @@
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#bitrate"/>
 
   <descriptor id="caption" type="semantic">
-   <doc format="html">
-    The caption for this object.
-   </doc>
+   <doc href="http://schema.org/caption" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#comment"/>
@@ -105,9 +101,7 @@
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#playerType"/>
 
   <descriptor id="productionCompany" type="semantic">
-   <doc format="html">
-    The production company or studio that made the movie, TV series, season, or episode, or video.
-   </doc>
+   <doc href="http://schema.org/productionCompany" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#provider"/>
@@ -129,17 +123,13 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#text"/>
 
   <descriptor id="thumbnail" type="semantic">
-   <doc format="html">
-    Thumbnail image for an image or video.
-   </doc>
+   <doc href="http://schema.org/thumbnail" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#thumbnailUrl"/>
 
   <descriptor id="transcript" type="semantic">
-   <doc format="html">
-    If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
-   </doc>
+   <doc href="http://schema.org/transcript" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#uploadDate"/>
@@ -151,15 +141,11 @@
   <descriptor href="http://alps.io/schema.org/CreativeWork.xml#video"/>
 
   <descriptor id="videoFrameSize" type="semantic">
-   <doc format="html">
-    The frame size of the video.
-   </doc>
+   <doc href="http://schema.org/videoFrameSize" />
   </descriptor>
 
   <descriptor id="videoQuality" type="semantic">
-   <doc format="html">
-    The quality of the video.
-   </doc>
+   <doc href="http://schema.org/videoQuality" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MediaObject.xml#width"/>

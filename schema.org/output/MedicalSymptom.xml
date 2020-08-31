@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalSymptom" type="semantic" href="http://alps.io/schema.org/MedicalSignOrSymptom.xml#MedicalSignOrSymptom">
-  <doc format="html">
-   Any indication of the existence of a medical condition or disease that is apparent to the patient.
-  </doc>
+  <doc href="http://schema.org/MedicalSymptom" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

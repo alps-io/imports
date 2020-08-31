@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Ligament" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
-  <doc format="html">
-   A short band of tough, flexible, fibrous connective tissue that functions to connect multiple bones, cartilages, and structurally support joints.
-  </doc>
+  <doc href="http://schema.org/Ligament" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

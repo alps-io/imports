@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="SingleFamilyResidence" type="semantic" href="http://alps.io/schema.org/Residence.xml#Residence">
-  <doc format="html">
-   Residence type: Single-family home.
-  </doc>
+  <doc href="http://schema.org/SingleFamilyResidence" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

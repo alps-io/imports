@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalTrial" type="semantic" href="http://alps.io/schema.org/MedicalStudy.xml#MedicalStudy">
-  <doc format="html">
-   A medical trial is a type of medical study that uses scientific process used to compare the safety and efficacy of medical therapies or medical procedures. In general, medical trials are controlled and subjects are allocated at random to the different treatment and/or control groups.
-  </doc>
+  <doc href="http://schema.org/MedicalTrial" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
@@ -23,9 +21,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#outcome"/>
 
   <descriptor id="phase" type="semantic">
-   <doc format="html">
-    The phase of the trial.
-   </doc>
+   <doc href="http://schema.org/phase" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#population"/>
@@ -45,9 +41,7 @@
   <descriptor href="http://alps.io/schema.org/MedicalStudy.xml#studySubject"/>
 
   <descriptor id="trialDesign" type="semantic">
-   <doc format="html">
-    Specifics about the trial design (enumerated).
-   </doc>
+   <doc href="http://schema.org/trialDesign" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>

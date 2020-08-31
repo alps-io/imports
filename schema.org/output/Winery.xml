@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Winery" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml#FoodEstablishment">
-  <doc format="html">
-   A winery.
-  </doc>
+  <doc href="http://schema.org/Winery" />
 
   <descriptor href="http://alps.io/schema.org/FoodEstablishment.xml#acceptsReservations"/>
 

@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="MedicalRiskCalculator" type="semantic" href="http://alps.io/schema.org/MedicalRiskEstimator.xml#MedicalRiskEstimator">
-  <doc format="html">
-   A complex mathematical calculation requiring an online calculator, used to assess prognosis. Note: use the url property of Thing to record any URLs for online calculators.
-  </doc>
+  <doc href="http://schema.org/MedicalRiskCalculator" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 

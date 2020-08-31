@@ -1,239 +1,163 @@
 <alps>
  <descriptor id="Offer" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
-  <doc format="html">
-   An offer to sell an item&#x2014;for example, an offer to sell a product, the DVD of a movie, or tickets to an event.
-  </doc>
+  <doc href="http://schema.org/Offer" />
 
   <descriptor id="acceptedPaymentMethod" type="semantic">
-   <doc format="html">
-    The payment method(s) accepted by seller for this offer.
-   </doc>
+   <doc href="http://schema.org/acceptedPaymentMethod" />
   </descriptor>
 
   <descriptor id="addOn" type="semantic">
-   <doc format="html">
-    An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge).
-   </doc>
+   <doc href="http://schema.org/addOn" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
   <descriptor id="advanceBookingRequirement" type="semantic">
-   <doc format="html">
-    The amount of time that is required between accepting the offer and the actual usage of the resource or service.
-   </doc>
+   <doc href="http://schema.org/advanceBookingRequirement" />
   </descriptor>
 
   <descriptor id="aggregateRating" type="semantic">
-   <doc format="html">
-    The overall rating, based on a collection of reviews or ratings, of the item.
-   </doc>
+   <doc href="http://schema.org/aggregateRating" />
   </descriptor>
 
   <descriptor id="availability" type="semantic">
-   <doc format="html">
-    The availability of this item&#x2014;for example In stock, Out of stock, Pre-order, etc.
-   </doc>
+   <doc href="http://schema.org/availability" />
   </descriptor>
 
   <descriptor id="availabilityEnds" type="semantic">
-   <doc format="html">
-    The end of the availability of the product or service included in the offer.
-   </doc>
+   <doc href="http://schema.org/availabilityEnds" />
   </descriptor>
 
   <descriptor id="availabilityStarts" type="semantic">
-   <doc format="html">
-    The beginning of the availability of the product or service included in the offer.
-   </doc>
+   <doc href="http://schema.org/availabilityStarts" />
   </descriptor>
 
   <descriptor id="availableAtOrFrom" type="semantic">
-   <doc format="html">
-    The place(s) from which the offer can be obtained (e.g. store locations).
-   </doc>
+   <doc href="http://schema.org/availableAtOrFrom" />
   </descriptor>
 
   <descriptor id="availableDeliveryMethod" type="semantic">
-   <doc format="html">
-    The delivery method(s) available for this offer.
-   </doc>
+   <doc href="http://schema.org/availableDeliveryMethod" />
   </descriptor>
 
   <descriptor id="businessFunction" type="semantic">
-   <doc format="html">
-    The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell.
-   </doc>
+   <doc href="http://schema.org/businessFunction" />
   </descriptor>
 
   <descriptor id="category" type="semantic">
-   <doc format="html">
-    A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
-   </doc>
+   <doc href="http://schema.org/category" />
   </descriptor>
 
   <descriptor id="deliveryLeadTime" type="semantic">
-   <doc format="html">
-    The typical delay between the receipt of the order and the goods leaving the warehouse.
-   </doc>
+   <doc href="http://schema.org/deliveryLeadTime" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#description"/>
 
   <descriptor id="eligibleCustomerType" type="semantic">
-   <doc format="html">
-    The type(s) of customers for which the given offer is valid.
-   </doc>
+   <doc href="http://schema.org/eligibleCustomerType" />
   </descriptor>
 
   <descriptor id="eligibleDuration" type="semantic">
-   <doc format="html">
-    The duration for which the given offer is valid.
-   </doc>
+   <doc href="http://schema.org/eligibleDuration" />
   </descriptor>
 
   <descriptor id="eligibleQuantity" type="semantic">
-   <doc format="html">
-    The interval and unit of measurement of ordering quantities for which the offer or price specification is valid. This allows e.g. specifying that a certain freight charge is valid only for a certain quantity.
-   </doc>
+   <doc href="http://schema.org/eligibleQuantity" />
   </descriptor>
 
   <descriptor id="eligibleRegion" type="semantic">
-   <doc format="html">
-    The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
-   </doc>
+   <doc href="http://schema.org/eligibleRegion" />
   </descriptor>
 
   <descriptor id="eligibleTransactionVolume" type="semantic">
-   <doc format="html">
-    The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.
-   </doc>
+   <doc href="http://schema.org/eligibleTransactionVolume" />
   </descriptor>
 
   <descriptor id="gtin13" type="semantic">
-   <doc format="html">
-    The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero.
-   </doc>
+   <doc href="http://schema.org/gtin13" />
   </descriptor>
 
   <descriptor id="gtin14" type="semantic">
-   <doc format="html">
-    The GTIN-14 code of the product, or the product to which the offer refers.
-   </doc>
+   <doc href="http://schema.org/gtin14" />
   </descriptor>
 
   <descriptor id="gtin8" type="semantic">
-   <doc format="html">
-    The GTIN-8 code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN.
-   </doc>
+   <doc href="http://schema.org/gtin8" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#image"/>
 
   <descriptor id="includesObject" type="semantic">
-   <doc format="html">
-    This links to a node or nodes indicating the exact quantity of the products included in the offer.
-   </doc>
+   <doc href="http://schema.org/includesObject" />
   </descriptor>
 
   <descriptor id="inventoryLevel" type="semantic">
-   <doc format="html">
-    The current approximate inventory level for the item or items.
-   </doc>
+   <doc href="http://schema.org/inventoryLevel" />
   </descriptor>
 
   <descriptor id="itemCondition" type="semantic">
-   <doc format="html">
-    A predefined value from OfferItemCondition or a textual description of the condition of the product or service, or the products or services included in the offer.
-   </doc>
+   <doc href="http://schema.org/itemCondition" />
   </descriptor>
 
   <descriptor id="itemOffered" type="semantic">
-   <doc format="html">
-    The item being sold.
-   </doc>
+   <doc href="http://schema.org/itemOffered" />
   </descriptor>
 
   <descriptor id="mpn" type="semantic">
-   <doc format="html">
-    The Manufacturer Part Number (MPN) of the product, or the product to which the offer refers.
-   </doc>
+   <doc href="http://schema.org/mpn" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#name"/>
 
   <descriptor id="price" type="semantic">
-   <doc format="html">
-    The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
-   </doc>
+   <doc href="http://schema.org/price" />
   </descriptor>
 
   <descriptor id="priceCurrency" type="semantic">
-   <doc format="html">
-    The currency (in 3-letter ISO 4217 format) of the offer price or a price component, when attached to PriceSpecification and its subtypes.
-   </doc>
+   <doc href="http://schema.org/priceCurrency" />
   </descriptor>
 
   <descriptor id="priceSpecification" type="semantic">
-   <doc format="html">
-    One or more detailed price specifications, indicating the unit price and delivery or payment charges.
-   </doc>
+   <doc href="http://schema.org/priceSpecification" />
   </descriptor>
 
   <descriptor id="priceValidUntil" type="semantic">
-   <doc format="html">
-    The date after which the price is no longer available.
-   </doc>
+   <doc href="http://schema.org/priceValidUntil" />
   </descriptor>
 
   <descriptor id="review" type="semantic">
-   <doc format="html">
-    A review of the item.
-   </doc>
+   <doc href="http://schema.org/review" />
   </descriptor>
 
   <descriptor id="reviews" type="semantic">
-   <doc format="html">
-    Review of the item (legacy spelling; see singular form, review).
-   </doc>
+   <doc href="http://schema.org/reviews" />
   </descriptor>
 
   <descriptor id="seller" type="semantic">
-   <doc format="html">
-    An entity which offers (sells / leases / lends / loans) the services / goods. A seller may also be a provider.
-   </doc>
+   <doc href="http://schema.org/seller" />
   </descriptor>
 
   <descriptor id="serialNumber" type="semantic">
-   <doc format="html">
-    The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.
-   </doc>
+   <doc href="http://schema.org/serialNumber" />
   </descriptor>
 
   <descriptor id="sku" type="semantic">
-   <doc format="html">
-    The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.
-   </doc>
+   <doc href="http://schema.org/sku" />
   </descriptor>
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#url"/>
 
   <descriptor id="validFrom" type="semantic">
-   <doc format="html">
-    The date when the item becomes valid.
-   </doc>
+   <doc href="http://schema.org/validFrom" />
   </descriptor>
 
   <descriptor id="validThrough" type="semantic">
-   <doc format="html">
-    The end of the validity of offer, price specification, or opening hours data.
-   </doc>
+   <doc href="http://schema.org/validThrough" />
   </descriptor>
 
   <descriptor id="warranty" type="semantic">
-   <doc format="html">
-    The warranty promise(s) included in the offer.
-   </doc>
+   <doc href="http://schema.org/warranty" />
   </descriptor>
 
  </descriptor>

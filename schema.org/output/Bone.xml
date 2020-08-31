@@ -1,8 +1,6 @@
 <alps>
  <descriptor id="Bone" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
-  <doc format="html">
-   Rigid connective tissue that comprises up the skeletal structure of the human body.
-  </doc>
+  <doc href="http://schema.org/Bone" />
 
   <descriptor href="http://alps.io/schema.org/Thing.xml#additionalType"/>
 
