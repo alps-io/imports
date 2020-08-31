@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="PostOffice" type="semantic" href="http://alps.io/schema.org/GovernmentOffice.xml">
+ <descriptor id="PostOffice" type="semantic" href="http://alps.io/schema.org/GovernmentOffice.xml#GovernmentOffice">
   <doc format="html">
    A post office.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DryCleaningOrLaundry" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="DryCleaningOrLaundry" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A dry-cleaning business.
   </doc>

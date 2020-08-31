@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="SelfStorage" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="SelfStorage" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    Self-storage facility.
   </doc>

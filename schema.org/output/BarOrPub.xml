@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="BarOrPub" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml">
+ <descriptor id="BarOrPub" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml#FoodEstablishment">
   <doc format="html">
    A bar or pub.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DiagnosticProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml http://alps.io/schema.org/MedicalTest.xml">
+ <descriptor id="DiagnosticProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml#MedicalProcedure http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
   <doc format="html">
    A medical procedure intended primarily for diagnostic, as opposed to therapeutic, purposes.
   </doc>

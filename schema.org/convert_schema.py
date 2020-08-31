@@ -71,7 +71,7 @@ class RDFClass(object):
         superclass_urls = []
         for superclass_uri in self.superclasses:
             c = classes_by_uri[superclass_uri]
-            superclass_urls.append(c.url)
+            superclass_urls.append(c.url + "#" + c.label)
         if len(superclass_urls) > 0:
             values['href'] = ' href="%s"' % (" ".join(superclass_urls))
         values['properties'] = '\n'.join(

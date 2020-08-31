@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="EmploymentAgency" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="EmploymentAgency" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    An employment agency.
   </doc>

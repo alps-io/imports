@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="WebPageElement" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
+ <descriptor id="WebPageElement" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
   <doc format="html">
    A web page element, like a table or an image
   </doc>

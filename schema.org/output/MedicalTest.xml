@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalTest" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
+ <descriptor id="MedicalTest" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc format="html">
    Any medical test, typically performed for diagnostic purposes.
   </doc>

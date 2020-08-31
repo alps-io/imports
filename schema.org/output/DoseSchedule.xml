@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DoseSchedule" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml">
+ <descriptor id="DoseSchedule" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
   <doc format="html">
    A specific dosing schedule for a drug or supplement.
   </doc>

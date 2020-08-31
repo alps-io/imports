@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Pharmacy" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml">
+ <descriptor id="Pharmacy" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
   <doc format="html">
    A pharmacy or drugstore.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalSign" type="semantic" href="http://alps.io/schema.org/MedicalSignOrSymptom.xml">
+ <descriptor id="MedicalSign" type="semantic" href="http://alps.io/schema.org/MedicalSignOrSymptom.xml#MedicalSignOrSymptom">
   <doc format="html">
    Any physical manifestation of a person's medical condition discoverable by objective diagnostic tests or physical examination.
   </doc>

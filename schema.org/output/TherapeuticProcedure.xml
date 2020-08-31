@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="TherapeuticProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml http://alps.io/schema.org/MedicalTherapy.xml">
+ <descriptor id="TherapeuticProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml#MedicalProcedure http://alps.io/schema.org/MedicalTherapy.xml#MedicalTherapy">
   <doc format="html">
    A medical procedure intended primarily for therapeutic purposes, aimed at improving a health condition.
   </doc>

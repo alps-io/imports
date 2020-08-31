@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="AdministrativeArea" type="semantic" href="http://alps.io/schema.org/Place.xml">
+ <descriptor id="AdministrativeArea" type="semantic" href="http://alps.io/schema.org/Place.xml#Place">
   <doc format="html">
    A geographical region under the jurisdiction of a particular government.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="WPHeader" type="semantic" href="http://alps.io/schema.org/WebPageElement.xml">
+ <descriptor id="WPHeader" type="semantic" href="http://alps.io/schema.org/WebPageElement.xml#WebPageElement">
   <doc format="html">
    The header section of the page.
   </doc>

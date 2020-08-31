@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ParcelDelivery" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="ParcelDelivery" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    The delivery of a parcel either via the postal service or a commercial service.
   </doc>

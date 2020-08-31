@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MusicRecording" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
+ <descriptor id="MusicRecording" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
   <doc format="html">
    A music recording (track), usually a single song.
   </doc>

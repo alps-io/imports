@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="WarrantyScope" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+ <descriptor id="WarrantyScope" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
   <doc format="html">
    A range of of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.
 

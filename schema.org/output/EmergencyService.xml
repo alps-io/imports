@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="EmergencyService" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="EmergencyService" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    An emergency service, such as a fire station or ER.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Brand" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Brand" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    A brand is a name used by an organization or business person for labeling a product, product group, or similar.
   </doc>

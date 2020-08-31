@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Airport" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml">
+ <descriptor id="Airport" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
   <doc format="html">
    An airport.
   </doc>

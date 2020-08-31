@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="GovernmentOffice" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="GovernmentOffice" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A government office&#x2014;for example, an IRS or DMV office.
   </doc>

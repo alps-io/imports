@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="BodyOfWater" type="semantic" href="http://alps.io/schema.org/Landform.xml">
+ <descriptor id="BodyOfWater" type="semantic" href="http://alps.io/schema.org/Landform.xml#Landform">
   <doc format="html">
    A body of water, such as a sea, ocean, or lake.
   </doc>

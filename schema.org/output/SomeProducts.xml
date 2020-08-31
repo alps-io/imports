@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="SomeProducts" type="semantic" href="http://alps.io/schema.org/Product.xml">
+ <descriptor id="SomeProducts" type="semantic" href="http://alps.io/schema.org/Product.xml#Product">
   <doc format="html">
    A placeholder for multiple similar products of the same kind.
   </doc>

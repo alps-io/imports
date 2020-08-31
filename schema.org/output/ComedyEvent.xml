@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ComedyEvent" type="semantic" href="http://alps.io/schema.org/Event.xml">
+ <descriptor id="ComedyEvent" type="semantic" href="http://alps.io/schema.org/Event.xml#Event">
   <doc format="html">
    Event type: Comedy event.
   </doc>

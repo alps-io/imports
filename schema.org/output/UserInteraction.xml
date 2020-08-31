@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="UserInteraction" type="semantic" href="http://alps.io/schema.org/Event.xml">
+ <descriptor id="UserInteraction" type="semantic" href="http://alps.io/schema.org/Event.xml#Event">
   <doc format="html">
    A user interacting with a page
   </doc>

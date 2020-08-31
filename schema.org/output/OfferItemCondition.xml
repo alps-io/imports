@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="OfferItemCondition" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+ <descriptor id="OfferItemCondition" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
   <doc format="html">
    A list of possible conditions for the item for sale.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="PriceSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="PriceSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    A structured value representing a monetary amount. Typically, only the subclasses of this type are used for markup.
   </doc>

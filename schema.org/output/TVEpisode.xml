@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="TVEpisode" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
+ <descriptor id="TVEpisode" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
   <doc format="html">
    An episode of a TV series or season.
   </doc>

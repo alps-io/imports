@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalScholarlyArticle" type="semantic" href="http://alps.io/schema.org/ScholarlyArticle.xml">
+ <descriptor id="MedicalScholarlyArticle" type="semantic" href="http://alps.io/schema.org/ScholarlyArticle.xml#ScholarlyArticle">
   <doc format="html">
    A scholarly article in the medical domain.
   </doc>

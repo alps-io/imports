@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MusicVideoObject" type="semantic" href="http://alps.io/schema.org/MediaObject.xml">
+ <descriptor id="MusicVideoObject" type="semantic" href="http://alps.io/schema.org/MediaObject.xml#MediaObject">
   <doc format="html">
    A music video file.
   </doc>

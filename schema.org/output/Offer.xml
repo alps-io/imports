@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Offer" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Offer" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    An offer to sell an item&#x2014;for example, an offer to sell a product, the DVD of a movie, or tickets to an event.
   </doc>

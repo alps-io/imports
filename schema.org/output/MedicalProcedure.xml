@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalProcedure" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
+ <descriptor id="MedicalProcedure" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc format="html">
    A process of care used in either a diagnostic, therapeutic, or palliative capacity that relies on invasive (surgical), non-invasive, or percutaneous techniques.
   </doc>

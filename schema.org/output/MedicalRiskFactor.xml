@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalRiskFactor" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
+ <descriptor id="MedicalRiskFactor" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc format="html">
    A risk factor is anything that increases a person's likelihood of developing or contracting a disease, medical condition, or complication.
   </doc>

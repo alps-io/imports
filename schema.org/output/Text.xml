@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Text" type="semantic" href="http://alps.io/schema.org/DataType.xml">
+ <descriptor id="Text" type="semantic" href="http://alps.io/schema.org/DataType.xml#DataType">
   <doc format="html">
    Data type: Text.
   </doc>

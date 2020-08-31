@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MobileApplication" type="semantic" href="http://alps.io/schema.org/SoftwareApplication.xml">
+ <descriptor id="MobileApplication" type="semantic" href="http://alps.io/schema.org/SoftwareApplication.xml#SoftwareApplication">
   <doc format="html">
    A mobile software application.
   </doc>

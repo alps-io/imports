@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalGuidelineContraindication" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml">
+ <descriptor id="MedicalGuidelineContraindication" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml#MedicalGuideline">
   <doc format="html">
    A guideline contraindication that designates a process as harmful and where quality of the data supporting the contraindication is sound.
   </doc>

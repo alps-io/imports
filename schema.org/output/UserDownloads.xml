@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="UserDownloads" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml">
+ <descriptor id="UserDownloads" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml#UserInteraction">
   <doc format="html">
    User interaction: Download of an item.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MusicAlbum" type="semantic" href="http://alps.io/schema.org/MusicPlaylist.xml">
+ <descriptor id="MusicAlbum" type="semantic" href="http://alps.io/schema.org/MusicPlaylist.xml#MusicPlaylist">
   <doc format="html">
    A collection of music tracks.
   </doc>

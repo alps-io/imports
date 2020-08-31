@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="VeterinaryCare" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml">
+ <descriptor id="VeterinaryCare" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
   <doc format="html">
    A vet's office.
   </doc>

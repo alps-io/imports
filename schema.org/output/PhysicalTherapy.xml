@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="PhysicalTherapy" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml">
+ <descriptor id="PhysicalTherapy" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml#MedicalTherapy">
   <doc format="html">
    A process of progressive physical care and rehabilitation aimed at improving a health condition.
   </doc>

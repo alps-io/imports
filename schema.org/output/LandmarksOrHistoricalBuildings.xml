@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="LandmarksOrHistoricalBuildings" type="semantic" href="http://alps.io/schema.org/Place.xml">
+ <descriptor id="LandmarksOrHistoricalBuildings" type="semantic" href="http://alps.io/schema.org/Place.xml#Place">
   <doc format="html">
    An historical landmark or building.
   </doc>

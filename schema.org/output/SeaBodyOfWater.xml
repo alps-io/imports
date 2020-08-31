@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="SeaBodyOfWater" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml">
+ <descriptor id="SeaBodyOfWater" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml#BodyOfWater">
   <doc format="html">
    A sea (for example, the Caspian sea).
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ParkingFacility" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml">
+ <descriptor id="ParkingFacility" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
   <doc format="html">
    A parking lot or other parking facility.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ContactPage" type="semantic" href="http://alps.io/schema.org/WebPage.xml">
+ <descriptor id="ContactPage" type="semantic" href="http://alps.io/schema.org/WebPage.xml#WebPage">
   <doc format="html">
    Web page type: Contact page.
   </doc>

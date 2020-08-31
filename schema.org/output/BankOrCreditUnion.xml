@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="BankOrCreditUnion" type="semantic" href="http://alps.io/schema.org/FinancialService.xml">
+ <descriptor id="BankOrCreditUnion" type="semantic" href="http://alps.io/schema.org/FinancialService.xml#FinancialService">
   <doc format="html">
    Bank or credit union.
   </doc>

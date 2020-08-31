@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Residence" type="semantic" href="http://alps.io/schema.org/Place.xml">
+ <descriptor id="Residence" type="semantic" href="http://alps.io/schema.org/Place.xml#Place">
   <doc format="html">
    The place where a person lives.
   </doc>

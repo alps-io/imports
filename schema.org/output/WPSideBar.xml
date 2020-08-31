@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="WPSideBar" type="semantic" href="http://alps.io/schema.org/WebPageElement.xml">
+ <descriptor id="WPSideBar" type="semantic" href="http://alps.io/schema.org/WebPageElement.xml#WebPageElement">
   <doc format="html">
    A sidebar section of the page.
   </doc>

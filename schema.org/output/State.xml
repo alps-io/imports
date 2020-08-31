@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="State" type="semantic" href="http://alps.io/schema.org/AdministrativeArea.xml">
+ <descriptor id="State" type="semantic" href="http://alps.io/schema.org/AdministrativeArea.xml#AdministrativeArea">
   <doc format="html">
    A state or province.
   </doc>

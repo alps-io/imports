@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="GeoCoordinates" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="GeoCoordinates" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    The geographic coordinates of a place or event.
   </doc>

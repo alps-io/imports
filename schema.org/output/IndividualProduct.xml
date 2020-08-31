@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="IndividualProduct" type="semantic" href="http://alps.io/schema.org/Product.xml">
+ <descriptor id="IndividualProduct" type="semantic" href="http://alps.io/schema.org/Product.xml#Product">
   <doc format="html">
    A single, identifiable product instance (e.g. a laptop with a particular serial number).
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="RealEstateAgent" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="RealEstateAgent" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A real-estate agent.
   </doc>

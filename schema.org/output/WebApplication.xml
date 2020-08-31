@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="WebApplication" type="semantic" href="http://alps.io/schema.org/SoftwareApplication.xml">
+ <descriptor id="WebApplication" type="semantic" href="http://alps.io/schema.org/SoftwareApplication.xml#SoftwareApplication">
   <doc format="html">
    Web applications.
   </doc>

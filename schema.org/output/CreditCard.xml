@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="CreditCard" type="semantic" href="http://alps.io/schema.org/PaymentMethod.xml">
+ <descriptor id="CreditCard" type="semantic" href="http://alps.io/schema.org/PaymentMethod.xml#PaymentMethod">
   <doc format="html">
    A credit or debit card type as a standardized procedure for transferring the monetary amount for a purchase.
 

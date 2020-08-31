@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="GeoShape" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="GeoShape" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    The geographic shape of a place.
   </doc>

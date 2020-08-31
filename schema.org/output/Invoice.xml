@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Invoice" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Invoice" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    A statement of the money due for goods or services; a bill.
   </doc>

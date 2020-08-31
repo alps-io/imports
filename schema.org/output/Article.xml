@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Article" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
+ <descriptor id="Article" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
   <doc format="html">
    An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.
   </doc>

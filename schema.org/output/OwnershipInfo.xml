@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="OwnershipInfo" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="OwnershipInfo" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    A structured value providing information about when a certain organization or person owned a certain product.
   </doc>

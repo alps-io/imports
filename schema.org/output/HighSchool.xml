@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="HighSchool" type="semantic" href="http://alps.io/schema.org/EducationalOrganization.xml">
+ <descriptor id="HighSchool" type="semantic" href="http://alps.io/schema.org/EducationalOrganization.xml#EducationalOrganization">
   <doc format="html">
    A high school.
   </doc>

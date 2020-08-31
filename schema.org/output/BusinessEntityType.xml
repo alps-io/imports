@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="BusinessEntityType" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+ <descriptor id="BusinessEntityType" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
   <doc format="html">
    A business entity type is a conceptual entity representing the legal form, the size, the main line of business, the position in the value chain, or any combination thereof, of an organization or business person.
 

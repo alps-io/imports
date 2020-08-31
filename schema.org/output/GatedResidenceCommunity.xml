@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="GatedResidenceCommunity" type="semantic" href="http://alps.io/schema.org/Residence.xml">
+ <descriptor id="GatedResidenceCommunity" type="semantic" href="http://alps.io/schema.org/Residence.xml#Residence">
   <doc format="html">
    Residence type: Gated community.
   </doc>

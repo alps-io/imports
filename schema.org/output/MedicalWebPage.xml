@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalWebPage" type="semantic" href="http://alps.io/schema.org/WebPage.xml">
+ <descriptor id="MedicalWebPage" type="semantic" href="http://alps.io/schema.org/WebPage.xml#WebPage">
   <doc format="html">
    A web page that provides medical information.
   </doc>

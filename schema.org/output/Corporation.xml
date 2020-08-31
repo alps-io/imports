@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Corporation" type="semantic" href="http://alps.io/schema.org/Organization.xml">
+ <descriptor id="Corporation" type="semantic" href="http://alps.io/schema.org/Organization.xml#Organization">
   <doc format="html">
    Organization: A business corporation.
   </doc>

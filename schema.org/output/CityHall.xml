@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="CityHall" type="semantic" href="http://alps.io/schema.org/GovernmentBuilding.xml">
+ <descriptor id="CityHall" type="semantic" href="http://alps.io/schema.org/GovernmentBuilding.xml#GovernmentBuilding">
   <doc format="html">
    A city hall.
   </doc>

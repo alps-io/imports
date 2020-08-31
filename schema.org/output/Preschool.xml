@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Preschool" type="semantic" href="http://alps.io/schema.org/EducationalOrganization.xml">
+ <descriptor id="Preschool" type="semantic" href="http://alps.io/schema.org/EducationalOrganization.xml#EducationalOrganization">
   <doc format="html">
    A preschool.
   </doc>

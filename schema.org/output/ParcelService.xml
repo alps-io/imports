@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ParcelService" type="semantic" href="http://alps.io/schema.org/DeliveryMethod.xml">
+ <descriptor id="ParcelService" type="semantic" href="http://alps.io/schema.org/DeliveryMethod.xml#DeliveryMethod">
   <doc format="html">
    A private parcel service as the delivery mode available for a certain offer.
 

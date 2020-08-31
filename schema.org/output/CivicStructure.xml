@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="CivicStructure" type="semantic" href="http://alps.io/schema.org/Place.xml">
+ <descriptor id="CivicStructure" type="semantic" href="http://alps.io/schema.org/Place.xml#Place">
   <doc format="html">
    A public structure, such as a town hall or concert hall.
   </doc>

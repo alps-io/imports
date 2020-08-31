@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="UserComments" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml">
+ <descriptor id="UserComments" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml#UserInteraction">
   <doc format="html">
    The UserInteraction event in which a user comments on an item.
   </doc>

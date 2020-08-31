@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalProcedureType" type="semantic" href="http://alps.io/schema.org/MedicalEnumeration.xml">
+ <descriptor id="MedicalProcedureType" type="semantic" href="http://alps.io/schema.org/MedicalEnumeration.xml#MedicalEnumeration">
   <doc format="html">
    An enumeration that describes different types of medical procedures.
   </doc>

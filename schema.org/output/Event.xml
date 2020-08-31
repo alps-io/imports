@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Event" type="semantic" href="http://alps.io/schema.org/Thing.xml">
+ <descriptor id="Event" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc format="html">
    An event happening at a certain time at a certain location.
   </doc>

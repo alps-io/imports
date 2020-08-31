@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="LocalBusiness" type="semantic" href="http://alps.io/schema.org/Organization.xml http://alps.io/schema.org/Place.xml">
+ <descriptor id="LocalBusiness" type="semantic" href="http://alps.io/schema.org/Organization.xml#Organization http://alps.io/schema.org/Place.xml#Place">
   <doc format="html">
    A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc.
   </doc>

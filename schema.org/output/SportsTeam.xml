@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="SportsTeam" type="semantic" href="http://alps.io/schema.org/Organization.xml">
+ <descriptor id="SportsTeam" type="semantic" href="http://alps.io/schema.org/Organization.xml#Organization">
   <doc format="html">
    Organization: Sports team.
   </doc>

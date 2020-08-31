@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ContactPoint" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="ContactPoint" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    A contact point&#x2014;for example, a Customer Complaints department.
   </doc>

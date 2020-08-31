@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DDxElement" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml">
+ <descriptor id="DDxElement" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
   <doc format="html">
    An alternative, closely-related condition typically considered later in the differential diagnosis process along with the signs that are used to distinguish it.
   </doc>

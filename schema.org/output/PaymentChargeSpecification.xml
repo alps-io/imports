@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="PaymentChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification.xml">
+ <descriptor id="PaymentChargeSpecification" type="semantic" href="http://alps.io/schema.org/PriceSpecification.xml#PriceSpecification">
   <doc format="html">
    The costs of settling the payment using a particular payment method.
   </doc>

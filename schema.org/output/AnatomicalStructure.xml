@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="AnatomicalStructure" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
+ <descriptor id="AnatomicalStructure" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc format="html">
    Any part of the human body, typically a component of an anatomical system. Organs, tissues, and cells are all anatomical structures.
   </doc>

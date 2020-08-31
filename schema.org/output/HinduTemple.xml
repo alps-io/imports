@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="HinduTemple" type="semantic" href="http://alps.io/schema.org/PlaceOfWorship.xml">
+ <descriptor id="HinduTemple" type="semantic" href="http://alps.io/schema.org/PlaceOfWorship.xml#PlaceOfWorship">
   <doc format="html">
    A Hindu temple.
   </doc>

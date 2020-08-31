@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Map" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
+ <descriptor id="Map" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
   <doc format="html">
    A map.
   </doc>

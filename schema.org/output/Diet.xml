@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Diet" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml http://alps.io/schema.org/LifestyleModification.xml">
+ <descriptor id="Diet" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork http://alps.io/schema.org/LifestyleModification.xml#LifestyleModification">
   <doc format="html">
    A strategy of regulating the intake of food to achieve or maintain a specific health-related goal.
   </doc>

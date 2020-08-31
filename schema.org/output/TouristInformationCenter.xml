@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="TouristInformationCenter" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="TouristInformationCenter" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A tourist information center.
   </doc>

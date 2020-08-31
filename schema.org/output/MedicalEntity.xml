@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalEntity" type="semantic" href="http://alps.io/schema.org/Thing.xml">
+ <descriptor id="MedicalEntity" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc format="html">
    The most generic type of entity related to health and the practice of medicine.
   </doc>

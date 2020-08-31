@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="AutoRental" type="semantic" href="http://alps.io/schema.org/AutomotiveBusiness.xml">
+ <descriptor id="AutoRental" type="semantic" href="http://alps.io/schema.org/AutomotiveBusiness.xml#AutomotiveBusiness">
   <doc format="html">
    A car rental business.
   </doc>

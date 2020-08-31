@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalSignOrSymptom" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
+ <descriptor id="MedicalSignOrSymptom" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc format="html">
    Any indication of the existence of a medical condition or disease.
   </doc>

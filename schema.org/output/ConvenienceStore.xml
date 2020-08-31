@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ConvenienceStore" type="semantic" href="http://alps.io/schema.org/Store.xml">
+ <descriptor id="ConvenienceStore" type="semantic" href="http://alps.io/schema.org/Store.xml#Store">
   <doc format="html">
    A convenience store.
   </doc>

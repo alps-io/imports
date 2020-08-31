@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="PostalAddress" type="semantic" href="http://alps.io/schema.org/ContactPoint.xml">
+ <descriptor id="PostalAddress" type="semantic" href="http://alps.io/schema.org/ContactPoint.xml#ContactPoint">
   <doc format="html">
    The mailing address.
   </doc>

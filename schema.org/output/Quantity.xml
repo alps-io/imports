@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Quantity" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Quantity" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like '3 Kg' or '4 milligrams'.
   </doc>

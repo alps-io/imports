@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ArtGallery" type="semantic" href="http://alps.io/schema.org/EntertainmentBusiness.xml">
+ <descriptor id="ArtGallery" type="semantic" href="http://alps.io/schema.org/EntertainmentBusiness.xml#EntertainmentBusiness">
   <doc format="html">
    An art gallery.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Product" type="semantic" href="http://alps.io/schema.org/Thing.xml">
+ <descriptor id="Product" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc format="html">
    A product is anything that is made available for sale—for example, a pair of shoes, a concert ticket, or a car. Commodity services, like haircuts, can also be represented using this type.
   </doc>

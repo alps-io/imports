@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="TheaterGroup" type="semantic" href="http://alps.io/schema.org/PerformingGroup.xml">
+ <descriptor id="TheaterGroup" type="semantic" href="http://alps.io/schema.org/PerformingGroup.xml#PerformingGroup">
   <doc format="html">
    A theater group or company&#x2014;for example, the Royal Shakespeare Company or Druid Theatre.
   </doc>

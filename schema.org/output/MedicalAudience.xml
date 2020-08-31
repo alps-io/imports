@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalAudience" type="semantic" href="http://alps.io/schema.org/Audience.xml http://alps.io/schema.org/MedicalEnumeration.xml">
+ <descriptor id="MedicalAudience" type="semantic" href="http://alps.io/schema.org/Audience.xml#Audience http://alps.io/schema.org/MedicalEnumeration.xml#MedicalEnumeration">
   <doc format="html">
    Target audiences for medical web pages. Enumerated type.
   </doc>

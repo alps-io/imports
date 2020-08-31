@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="PhysicalActivity" type="semantic" href="http://alps.io/schema.org/LifestyleModification.xml">
+ <descriptor id="PhysicalActivity" type="semantic" href="http://alps.io/schema.org/LifestyleModification.xml#LifestyleModification">
   <doc format="html">
    Any bodily activity that enhances or maintains physical fitness and overall health and wellness. Includes activity that is part of daily living and routine, structured exercise, and exercise prescribed as part of a medical treatment or recovery plan.
   </doc>

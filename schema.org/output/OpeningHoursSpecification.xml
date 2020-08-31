@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="OpeningHoursSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="OpeningHoursSpecification" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    A structured value providing information about the opening hours of a place or a certain service inside a place.
   </doc>

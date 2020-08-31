@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Muscle" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml">
+ <descriptor id="Muscle" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
   <doc format="html">
    A muscle is an anatomical structure consisting of a contractile form of tissue that animals use to effect movement.
   </doc>

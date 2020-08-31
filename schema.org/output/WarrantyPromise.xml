@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="WarrantyPromise" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="WarrantyPromise" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.
   </doc>

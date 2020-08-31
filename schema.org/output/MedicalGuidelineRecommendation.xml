@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalGuidelineRecommendation" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml">
+ <descriptor id="MedicalGuidelineRecommendation" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml#MedicalGuideline">
   <doc format="html">
    A guideline recommendation that is regarded as efficacious and where quality of the data supporting the recommendation is sound.
   </doc>

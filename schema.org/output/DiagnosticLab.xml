@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DiagnosticLab" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml">
+ <descriptor id="DiagnosticLab" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
   <doc format="html">
    A medical laboratory that offers on-site or off-site diagnostic services.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="RecyclingCenter" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="RecyclingCenter" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A recycling center.
   </doc>

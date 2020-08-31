@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Rating" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Rating" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    The rating of the video.
   </doc>

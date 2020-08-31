@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Library" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="Library" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A library.
   </doc>

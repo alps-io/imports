@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Place" type="semantic" href="http://alps.io/schema.org/Thing.xml">
+ <descriptor id="Place" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc format="html">
    Entities that have a somewhat fixed, physical extension.
   </doc>

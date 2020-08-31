@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="QualitativeValue" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+ <descriptor id="QualitativeValue" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
   <doc format="html">
    A predefined value for a product characteristic, e.g. the the power cord plug type "US" or the garment sizes "S", "M", "L", and "XL"
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalDevice" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
+ <descriptor id="MedicalDevice" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc format="html">
    Any object used in a medical capacity, such as to diagnose or treat a patient.
   </doc>

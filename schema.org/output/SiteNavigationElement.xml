@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="SiteNavigationElement" type="semantic" href="http://alps.io/schema.org/WebPageElement.xml">
+ <descriptor id="SiteNavigationElement" type="semantic" href="http://alps.io/schema.org/WebPageElement.xml#WebPageElement">
   <doc format="html">
    A navigation element of the page.
   </doc>

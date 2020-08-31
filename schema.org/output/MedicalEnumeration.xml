@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalEnumeration" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml">
+ <descriptor id="MedicalEnumeration" type="semantic" href="http://alps.io/schema.org/MedicalIntangible.xml#MedicalIntangible">
   <doc format="html">
    Enumerations related to health and the practice of medicine.
   </doc>

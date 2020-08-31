@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="AdultEntertainment" type="semantic" href="http://alps.io/schema.org/EntertainmentBusiness.xml">
+ <descriptor id="AdultEntertainment" type="semantic" href="http://alps.io/schema.org/EntertainmentBusiness.xml#EntertainmentBusiness">
   <doc format="html">
    An adult entertainment establishment.
   </doc>

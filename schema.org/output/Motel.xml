@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Motel" type="semantic" href="http://alps.io/schema.org/LodgingBusiness.xml">
+ <descriptor id="Motel" type="semantic" href="http://alps.io/schema.org/LodgingBusiness.xml#LodgingBusiness">
   <doc format="html">
    A motel.
   </doc>

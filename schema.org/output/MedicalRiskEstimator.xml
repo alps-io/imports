@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalRiskEstimator" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml">
+ <descriptor id="MedicalRiskEstimator" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
   <doc format="html">
    Any rule set or interactive tool for estimating the risk of developing a complication or condition.
   </doc>

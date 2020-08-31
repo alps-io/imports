@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="DrugClass" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml">
+ <descriptor id="DrugClass" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml#MedicalTherapy">
   <doc format="html">
    A class of medical drugs, e.g., statins. Classes can represent general pharmacological class, common mechanisms of action, common physiological effects, etc.
   </doc>

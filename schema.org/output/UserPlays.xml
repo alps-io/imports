@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="UserPlays" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml">
+ <descriptor id="UserPlays" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml#UserInteraction">
   <doc format="html">
    User interaction: Play count of an item, for example a video or a song.
   </doc>

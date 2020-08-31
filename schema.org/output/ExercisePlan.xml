@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ExercisePlan" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml http://alps.io/schema.org/PhysicalActivity.xml">
+ <descriptor id="ExercisePlan" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork http://alps.io/schema.org/PhysicalActivity.xml#PhysicalActivity">
   <doc format="html">
    Fitness-related activity designed for a specific health-related purpose, including defined exercise routines as well as activity prescribed by a clinician.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Enumeration" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Enumeration" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    Lists or enumerations&#x2014;for example, a list of cuisines or music genres, etc.
   </doc>

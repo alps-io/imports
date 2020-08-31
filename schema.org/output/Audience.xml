@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Audience" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Audience" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    Intended audience for a creative work, i.e. the group for whom the work was created.
   </doc>

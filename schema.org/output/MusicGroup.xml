@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MusicGroup" type="semantic" href="http://alps.io/schema.org/PerformingGroup.xml">
+ <descriptor id="MusicGroup" type="semantic" href="http://alps.io/schema.org/PerformingGroup.xml#PerformingGroup">
   <doc format="html">
    A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician.
   </doc>

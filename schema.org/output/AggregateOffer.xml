@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="AggregateOffer" type="semantic" href="http://alps.io/schema.org/Offer.xml">
+ <descriptor id="AggregateOffer" type="semantic" href="http://alps.io/schema.org/Offer.xml#Offer">
   <doc format="html">
    When a single product that has different offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used.
   </doc>

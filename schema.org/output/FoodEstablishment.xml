@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="FoodEstablishment" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="FoodEstablishment" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A food-related business.
   </doc>

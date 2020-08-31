@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MedicalTestPanel" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml">
+ <descriptor id="MedicalTestPanel" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
   <doc format="html">
    Any collection of tests commonly ordered together.
   </doc>

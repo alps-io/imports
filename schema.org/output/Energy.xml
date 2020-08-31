@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Energy" type="semantic" href="http://alps.io/schema.org/Quantity.xml">
+ <descriptor id="Energy" type="semantic" href="http://alps.io/schema.org/Quantity.xml#Quantity">
   <doc format="html">
    Properties that take Energy as values are of the form '<Number> <Energy unit of measure>'
   </doc>

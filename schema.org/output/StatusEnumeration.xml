@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="StatusEnumeration" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+ <descriptor id="StatusEnumeration" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
   <doc format="html">
    Lists or enumerations dealing with status types.
   </doc>

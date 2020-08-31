@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MovingCompany" type="semantic" href="http://alps.io/schema.org/HomeAndConstructionBusiness.xml">
+ <descriptor id="MovingCompany" type="semantic" href="http://alps.io/schema.org/HomeAndConstructionBusiness.xml#HomeAndConstructionBusiness">
   <doc format="html">
    A moving company.
   </doc>

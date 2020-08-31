@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Zoo" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml">
+ <descriptor id="Zoo" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure">
   <doc format="html">
    A zoo.
   </doc>

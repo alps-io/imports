@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="MobilePhoneStore" type="semantic" href="http://alps.io/schema.org/Store.xml">
+ <descriptor id="MobilePhoneStore" type="semantic" href="http://alps.io/schema.org/Store.xml#Store">
   <doc format="html">
    A mobile-phone store.
   </doc>

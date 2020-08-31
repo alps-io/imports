@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="UserPlusOnes" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml">
+ <descriptor id="UserPlusOnes" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml#UserInteraction">
   <doc format="html">
    User interaction: +1.
   </doc>

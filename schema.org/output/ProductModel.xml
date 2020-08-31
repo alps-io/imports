@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="ProductModel" type="semantic" href="http://alps.io/schema.org/Product.xml">
+ <descriptor id="ProductModel" type="semantic" href="http://alps.io/schema.org/Product.xml#Product">
   <doc format="html">
    A datasheet or vendor specification of a product (in the sense of a prototypical description).
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Reservoir" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml">
+ <descriptor id="Reservoir" type="semantic" href="http://alps.io/schema.org/BodyOfWater.xml#BodyOfWater">
   <doc format="html">
    A reservoir, like the Lake Kariba reservoir.
   </doc>

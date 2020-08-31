@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Duration" type="semantic" href="http://alps.io/schema.org/Quantity.xml">
+ <descriptor id="Duration" type="semantic" href="http://alps.io/schema.org/Quantity.xml#Quantity">
   <doc format="html">
    Quantity: Duration (use  <a href='http://en.wikipedia.org/wiki/ISO_8601'>ISO 8601 duration format</a>).
   </doc>

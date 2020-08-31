@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="LodgingBusiness" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml">
+ <descriptor id="LodgingBusiness" type="semantic" href="http://alps.io/schema.org/LocalBusiness.xml#LocalBusiness">
   <doc format="html">
    A lodging business, such as a motel, hotel, or inn.
   </doc>

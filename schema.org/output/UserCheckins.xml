@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="UserCheckins" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml">
+ <descriptor id="UserCheckins" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml#UserInteraction">
   <doc format="html">
    User interaction: Check-in at a place.
   </doc>

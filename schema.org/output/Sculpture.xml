@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Sculpture" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml">
+ <descriptor id="Sculpture" type="semantic" href="http://alps.io/schema.org/CreativeWork.xml#CreativeWork">
   <doc format="html">
    A piece of sculpture.
   </doc>

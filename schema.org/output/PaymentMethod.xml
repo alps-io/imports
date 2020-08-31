@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="PaymentMethod" type="semantic" href="http://alps.io/schema.org/Enumeration.xml">
+ <descriptor id="PaymentMethod" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
   <doc format="html">
    A payment method is a standardized procedure for transferring the monetary amount for a purchase. Payment methods are characterized by the legal and technical structures used, and by the organization or group carrying out the transaction.
 

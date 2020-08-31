@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Optician" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml">
+ <descriptor id="Optician" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
   <doc format="html">
    An optician's store.
   </doc>

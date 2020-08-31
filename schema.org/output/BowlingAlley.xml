@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="BowlingAlley" type="semantic" href="http://alps.io/schema.org/SportsActivityLocation.xml">
+ <descriptor id="BowlingAlley" type="semantic" href="http://alps.io/schema.org/SportsActivityLocation.xml#SportsActivityLocation">
   <doc format="html">
    A bowling alley.
   </doc>

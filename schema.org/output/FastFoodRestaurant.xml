@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="FastFoodRestaurant" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml">
+ <descriptor id="FastFoodRestaurant" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml#FoodEstablishment">
   <doc format="html">
    A fast-food restaurant.
   </doc>

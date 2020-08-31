@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Person" type="semantic" href="http://alps.io/schema.org/Thing.xml">
+ <descriptor id="Person" type="semantic" href="http://alps.io/schema.org/Thing.xml#Thing">
   <doc format="html">
    A person (alive, dead, undead, or fictional).
   </doc>

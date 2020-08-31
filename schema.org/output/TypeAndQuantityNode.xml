@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="TypeAndQuantityNode" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="TypeAndQuantityNode" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer.
   </doc>

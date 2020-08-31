@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="QuantitativeValue" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml">
+ <descriptor id="QuantitativeValue" type="semantic" href="http://alps.io/schema.org/StructuredValue.xml#StructuredValue">
   <doc format="html">
    A point value or interval for product characteristics and other purposes.
   </doc>

@@ -1,5 +1,5 @@
 <alps>
- <descriptor id="Order" type="semantic" href="http://alps.io/schema.org/Intangible.xml">
+ <descriptor id="Order" type="semantic" href="http://alps.io/schema.org/Intangible.xml#Intangible">
   <doc format="html">
    An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.
   </doc>
