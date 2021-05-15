@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="Integer" type="semantic" href="http://alps.io/schema.org/Number.xml#Number">
-  <doc href="http://schema.org/Integer" />
-
-
- </descriptor>
-</alps>

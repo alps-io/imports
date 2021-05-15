@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "isBasedOnUrlCreativeWork",
+        "def": "https://schema.org/isBasedOnUrl",
+        "name": "isBasedOnUrl",
+        "type": "semantic"
+      },
+      {
+        "id": "isBasedOnUrlProduct",
+        "def": "https://schema.org/isBasedOnUrl",
+        "name": "isBasedOnUrl",
+        "type": "semantic"
+      },
+      {
+        "id": "isBasedOnUrlURL",
+        "def": "https://schema.org/isBasedOnUrl",
+        "name": "isBasedOnUrl",
+        "type": "semantic"
+      }
+    ]
+  }
+}

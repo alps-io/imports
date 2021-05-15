@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "departureTimeDateTime",
+        "def": "https://schema.org/departureTime",
+        "name": "departureTime",
+        "type": "semantic"
+      },
+      {
+        "id": "departureTimeTime",
+        "def": "https://schema.org/departureTime",
+        "name": "departureTime",
+        "type": "semantic"
+      }
+    ]
+  }
+}

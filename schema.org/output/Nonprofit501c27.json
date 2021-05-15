@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Nonprofit501c27",
+        "def": "https://schema.org/Nonprofit501c27",
+        "descriptor": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "MedicalDevice",
+        "def": "https://schema.org/MedicalDevice",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./adverseOutcome.json#adverseOutcome"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./code.json#code"
+          },
+          {
+            "href": "./contraindication.json#contraindication"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./guideline.json#guideline"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./legalStatus.json#legalStatus"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./medicineSystem.json#medicineSystem"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./postOp.json#postOp"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./preOp.json#preOp"
+          },
+          {
+            "href": "./procedure.json#procedure"
+          },
+          {
+            "href": "./recognizingAuthority.json#recognizingAuthority"
+          },
+          {
+            "href": "./relevantSpecialty.json#relevantSpecialty"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./seriousAdverseOutcome.json#seriousAdverseOutcome"
+          },
+          {
+            "href": "./study.json#study"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

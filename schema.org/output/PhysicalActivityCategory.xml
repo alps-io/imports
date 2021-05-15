@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="PhysicalActivityCategory" type="semantic" href="http://alps.io/schema.org/MedicalEnumeration.xml#MedicalEnumeration">
-  <doc href="http://schema.org/PhysicalActivityCategory" />
-
-
- </descriptor>
-</alps>

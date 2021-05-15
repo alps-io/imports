@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "screenshotImageObject",
+        "def": "https://schema.org/screenshot",
+        "name": "screenshot",
+        "type": "semantic"
+      },
+      {
+        "id": "screenshotURL",
+        "def": "https://schema.org/screenshot",
+        "name": "screenshot",
+        "type": "semantic"
+      }
+    ]
+  }
+}

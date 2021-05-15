@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "publicTransportClosuresInfoURL",
+        "def": "https://schema.org/publicTransportClosuresInfo",
+        "name": "publicTransportClosuresInfo",
+        "type": "semantic"
+      },
+      {
+        "id": "publicTransportClosuresInfoWebContent",
+        "def": "https://schema.org/publicTransportClosuresInfo",
+        "name": "publicTransportClosuresInfo",
+        "type": "semantic"
+      }
+    ]
+  }
+}

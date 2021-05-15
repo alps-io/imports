@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "monthlyMinimumRepaymentAmountMonetaryAmount",
+        "def": "https://schema.org/monthlyMinimumRepaymentAmount",
+        "name": "monthlyMinimumRepaymentAmount",
+        "type": "semantic"
+      },
+      {
+        "id": "monthlyMinimumRepaymentAmountNumber",
+        "def": "https://schema.org/monthlyMinimumRepaymentAmount",
+        "name": "monthlyMinimumRepaymentAmount",
+        "type": "semantic"
+      }
+    ]
+  }
+}

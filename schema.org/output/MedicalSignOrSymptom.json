@@ -1,0 +1,119 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "MedicalSignOrSymptom",
+        "def": "https://schema.org/MedicalSignOrSymptom",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./associatedAnatomy.json#associatedAnatomy"
+          },
+          {
+            "href": "./code.json#code"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./differentialDiagnosis.json#differentialDiagnosis"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./drug.json#drug"
+          },
+          {
+            "href": "./epidemiology.json#epidemiology"
+          },
+          {
+            "href": "./expectedPrognosis.json#expectedPrognosis"
+          },
+          {
+            "href": "./guideline.json#guideline"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./legalStatus.json#legalStatus"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./medicineSystem.json#medicineSystem"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./naturalProgression.json#naturalProgression"
+          },
+          {
+            "href": "./pathophysiology.json#pathophysiology"
+          },
+          {
+            "href": "./possibleComplication.json#possibleComplication"
+          },
+          {
+            "href": "./possibleTreatment.json#possibleTreatment"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./primaryPrevention.json#primaryPrevention"
+          },
+          {
+            "href": "./recognizingAuthority.json#recognizingAuthority"
+          },
+          {
+            "href": "./relevantSpecialty.json#relevantSpecialty"
+          },
+          {
+            "href": "./riskFactor.json#riskFactor"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./secondaryPrevention.json#secondaryPrevention"
+          },
+          {
+            "href": "./signOrSymptom.json#signOrSymptom"
+          },
+          {
+            "href": "./stage.json#stage"
+          },
+          {
+            "href": "./status.json#status"
+          },
+          {
+            "href": "./study.json#study"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./typicalTest.json#typicalTest"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

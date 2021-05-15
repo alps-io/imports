@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "gtin14",
+        "def": "https://schema.org/gtin14",
+        "type": "semantic"
+      }
+    ]
+  }
+}

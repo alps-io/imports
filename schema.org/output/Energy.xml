@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="Energy" type="semantic" href="http://alps.io/schema.org/Quantity.xml#Quantity">
-  <doc href="http://schema.org/Energy" />
-
-
- </descriptor>
-</alps>

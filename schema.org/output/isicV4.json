@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "isicV4",
+        "def": "https://schema.org/isicV4",
+        "type": "semantic"
+      }
+    ]
+  }
+}

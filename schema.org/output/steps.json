@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "stepsCreativeWork",
+        "def": "https://schema.org/steps",
+        "name": "steps",
+        "type": "semantic"
+      },
+      {
+        "id": "stepsItemList",
+        "def": "https://schema.org/steps",
+        "name": "steps",
+        "type": "semantic"
+      },
+      {
+        "id": "stepsText",
+        "def": "https://schema.org/steps",
+        "name": "steps",
+        "type": "semantic"
+      }
+    ]
+  }
+}

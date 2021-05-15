@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="BlogPosting" type="semantic" href="http://alps.io/schema.org/Article.xml#Article">
-  <doc href="http://schema.org/BlogPosting" />
-
-
- </descriptor>
-</alps>

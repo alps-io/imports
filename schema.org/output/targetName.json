@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "targetName",
+        "def": "https://schema.org/targetName",
+        "type": "semantic"
+      }
+    ]
+  }
+}

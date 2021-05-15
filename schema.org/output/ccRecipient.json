@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "ccRecipientContactPoint",
+        "def": "https://schema.org/ccRecipient",
+        "name": "ccRecipient",
+        "type": "semantic"
+      },
+      {
+        "id": "ccRecipientOrganization",
+        "def": "https://schema.org/ccRecipient",
+        "name": "ccRecipient",
+        "type": "semantic"
+      },
+      {
+        "id": "ccRecipientPerson",
+        "def": "https://schema.org/ccRecipient",
+        "name": "ccRecipient",
+        "type": "semantic"
+      }
+    ]
+  }
+}

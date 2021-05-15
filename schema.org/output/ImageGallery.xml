@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="ImageGallery" type="semantic" href="http://alps.io/schema.org/CollectionPage.xml#CollectionPage">
-  <doc href="http://schema.org/ImageGallery" />
-
-
- </descriptor>
-</alps>

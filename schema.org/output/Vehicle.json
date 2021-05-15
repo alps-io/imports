@@ -1,0 +1,299 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Vehicle",
+        "def": "https://schema.org/Vehicle",
+        "descriptor": [
+          {
+            "href": "./accelerationTime.json#accelerationTime"
+          },
+          {
+            "href": "./additionalProperty.json#additionalProperty"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./aggregateRating.json#aggregateRating"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./audience.json#audience"
+          },
+          {
+            "href": "./award.json#award"
+          },
+          {
+            "href": "./awards.json#awards"
+          },
+          {
+            "href": "./bodyType.json#bodyType"
+          },
+          {
+            "href": "./brand.json#brand"
+          },
+          {
+            "href": "./callSign.json#callSign"
+          },
+          {
+            "href": "./cargoVolume.json#cargoVolume"
+          },
+          {
+            "href": "./category.json#category"
+          },
+          {
+            "href": "./color.json#color"
+          },
+          {
+            "href": "./dateVehicleFirstRegistered.json#dateVehicleFirstRegistered"
+          },
+          {
+            "href": "./depth.json#depth"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./driveWheelConfiguration.json#driveWheelConfiguration"
+          },
+          {
+            "href": "./emissionsCO2.json#emissionsCO2"
+          },
+          {
+            "href": "./fuelCapacity.json#fuelCapacity"
+          },
+          {
+            "href": "./fuelConsumption.json#fuelConsumption"
+          },
+          {
+            "href": "./fuelEfficiency.json#fuelEfficiency"
+          },
+          {
+            "href": "./fuelType.json#fuelType"
+          },
+          {
+            "href": "./gtin.json#gtin"
+          },
+          {
+            "href": "./gtin12.json#gtin12"
+          },
+          {
+            "href": "./gtin13.json#gtin13"
+          },
+          {
+            "href": "./gtin14.json#gtin14"
+          },
+          {
+            "href": "./gtin8.json#gtin8"
+          },
+          {
+            "href": "./hasEnergyConsumptionDetails.json#hasEnergyConsumptionDetails"
+          },
+          {
+            "href": "./hasMeasurement.json#hasMeasurement"
+          },
+          {
+            "href": "./hasMerchantReturnPolicy.json#hasMerchantReturnPolicy"
+          },
+          {
+            "href": "./hasProductReturnPolicy.json#hasProductReturnPolicy"
+          },
+          {
+            "href": "./height.json#height"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./inProductGroupWithID.json#inProductGroupWithID"
+          },
+          {
+            "href": "./isAccessoryOrSparePartFor.json#isAccessoryOrSparePartFor"
+          },
+          {
+            "href": "./isConsumableFor.json#isConsumableFor"
+          },
+          {
+            "href": "./isRelatedTo.json#isRelatedTo"
+          },
+          {
+            "href": "./isSimilarTo.json#isSimilarTo"
+          },
+          {
+            "href": "./isVariantOf.json#isVariantOf"
+          },
+          {
+            "href": "./itemCondition.json#itemCondition"
+          },
+          {
+            "href": "./knownVehicleDamages.json#knownVehicleDamages"
+          },
+          {
+            "href": "./logo.json#logo"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./manufacturer.json#manufacturer"
+          },
+          {
+            "href": "./material.json#material"
+          },
+          {
+            "href": "./meetsEmissionStandard.json#meetsEmissionStandard"
+          },
+          {
+            "href": "./mileageFromOdometer.json#mileageFromOdometer"
+          },
+          {
+            "href": "./model.json#model"
+          },
+          {
+            "href": "./modelDate.json#modelDate"
+          },
+          {
+            "href": "./mpn.json#mpn"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./nsn.json#nsn"
+          },
+          {
+            "href": "./numberOfAirbags.json#numberOfAirbags"
+          },
+          {
+            "href": "./numberOfAxles.json#numberOfAxles"
+          },
+          {
+            "href": "./numberOfDoors.json#numberOfDoors"
+          },
+          {
+            "href": "./numberOfForwardGears.json#numberOfForwardGears"
+          },
+          {
+            "href": "./numberOfPreviousOwners.json#numberOfPreviousOwners"
+          },
+          {
+            "href": "./offers.json#offers"
+          },
+          {
+            "href": "./pattern.json#pattern"
+          },
+          {
+            "href": "./payload.json#payload"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./productID.json#productID"
+          },
+          {
+            "href": "./productionDate.json#productionDate"
+          },
+          {
+            "href": "./purchaseDate.json#purchaseDate"
+          },
+          {
+            "href": "./releaseDate.json#releaseDate"
+          },
+          {
+            "href": "./review.json#review"
+          },
+          {
+            "href": "./reviews.json#reviews"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./seatingCapacity.json#seatingCapacity"
+          },
+          {
+            "href": "./size.json#size"
+          },
+          {
+            "href": "./sku.json#sku"
+          },
+          {
+            "href": "./slogan.json#slogan"
+          },
+          {
+            "href": "./speed.json#speed"
+          },
+          {
+            "href": "./steeringPosition.json#steeringPosition"
+          },
+          {
+            "href": "./stupidProperty.json#stupidProperty"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./tongueWeight.json#tongueWeight"
+          },
+          {
+            "href": "./trailerWeight.json#trailerWeight"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./vehicleConfiguration.json#vehicleConfiguration"
+          },
+          {
+            "href": "./vehicleEngine.json#vehicleEngine"
+          },
+          {
+            "href": "./vehicleIdentificationNumber.json#vehicleIdentificationNumber"
+          },
+          {
+            "href": "./vehicleInteriorColor.json#vehicleInteriorColor"
+          },
+          {
+            "href": "./vehicleInteriorType.json#vehicleInteriorType"
+          },
+          {
+            "href": "./vehicleModelDate.json#vehicleModelDate"
+          },
+          {
+            "href": "./vehicleSeatingCapacity.json#vehicleSeatingCapacity"
+          },
+          {
+            "href": "./vehicleSpecialUsage.json#vehicleSpecialUsage"
+          },
+          {
+            "href": "./vehicleTransmission.json#vehicleTransmission"
+          },
+          {
+            "href": "./weight.json#weight"
+          },
+          {
+            "href": "./weightTotal.json#weightTotal"
+          },
+          {
+            "href": "./wheelbase.json#wheelbase"
+          },
+          {
+            "href": "./width.json#width"
+          }
+        ]
+      }
+    ]
+  }
+}

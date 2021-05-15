@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "endTimeDateTime",
+        "def": "https://schema.org/endTime",
+        "name": "endTime",
+        "type": "semantic"
+      },
+      {
+        "id": "endTimeTime",
+        "def": "https://schema.org/endTime",
+        "name": "endTime",
+        "type": "semantic"
+      }
+    ]
+  }
+}

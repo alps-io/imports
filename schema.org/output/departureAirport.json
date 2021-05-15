@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "departureAirport",
+        "def": "https://schema.org/departureAirport",
+        "type": "semantic"
+      }
+    ]
+  }
+}

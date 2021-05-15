@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "publishingPrinciplesCreativeWork",
+        "def": "https://schema.org/publishingPrinciples",
+        "name": "publishingPrinciples",
+        "type": "semantic"
+      },
+      {
+        "id": "publishingPrinciplesURL",
+        "def": "https://schema.org/publishingPrinciples",
+        "name": "publishingPrinciples",
+        "type": "semantic"
+      }
+    ]
+  }
+}

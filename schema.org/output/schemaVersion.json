@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "schemaVersionText",
+        "def": "https://schema.org/schemaVersion",
+        "name": "schemaVersion",
+        "type": "semantic"
+      },
+      {
+        "id": "schemaVersionURL",
+        "def": "https://schema.org/schemaVersion",
+        "name": "schemaVersion",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "doseValueNumber",
+        "def": "https://schema.org/doseValue",
+        "name": "doseValue",
+        "type": "semantic"
+      },
+      {
+        "id": "doseValueQualitativeValue",
+        "def": "https://schema.org/doseValue",
+        "name": "doseValue",
+        "type": "semantic"
+      }
+    ]
+  }
+}

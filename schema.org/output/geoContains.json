@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "geoContainsGeospatialGeometry",
+        "def": "https://schema.org/geoContains",
+        "name": "geoContains",
+        "type": "semantic"
+      },
+      {
+        "id": "geoContainsPlace",
+        "def": "https://schema.org/geoContains",
+        "name": "geoContains",
+        "type": "semantic"
+      }
+    ]
+  }
+}

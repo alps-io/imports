@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "mastheadCreativeWork",
+        "def": "https://schema.org/masthead",
+        "name": "masthead",
+        "type": "semantic"
+      },
+      {
+        "id": "mastheadURL",
+        "def": "https://schema.org/masthead",
+        "name": "masthead",
+        "type": "semantic"
+      }
+    ]
+  }
+}

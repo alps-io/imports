@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "materialProduct",
+        "def": "https://schema.org/material",
+        "name": "material",
+        "type": "semantic"
+      },
+      {
+        "id": "materialText",
+        "def": "https://schema.org/material",
+        "name": "material",
+        "type": "semantic"
+      },
+      {
+        "id": "materialURL",
+        "def": "https://schema.org/material",
+        "name": "material",
+        "type": "semantic"
+      }
+    ]
+  }
+}

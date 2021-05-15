@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "ratingValueNumber",
+        "def": "https://schema.org/ratingValue",
+        "name": "ratingValue",
+        "type": "semantic"
+      },
+      {
+        "id": "ratingValueText",
+        "def": "https://schema.org/ratingValue",
+        "name": "ratingValue",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "billingDurationDuration",
+        "def": "https://schema.org/billingDuration",
+        "name": "billingDuration",
+        "type": "semantic"
+      },
+      {
+        "id": "billingDurationNumber",
+        "def": "https://schema.org/billingDuration",
+        "name": "billingDuration",
+        "type": "semantic"
+      },
+      {
+        "id": "billingDurationQuantitativeValue",
+        "def": "https://schema.org/billingDuration",
+        "name": "billingDuration",
+        "type": "semantic"
+      }
+    ]
+  }
+}

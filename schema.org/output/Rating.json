@@ -1,0 +1,68 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Rating",
+        "def": "https://schema.org/Rating",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./author.json#author"
+          },
+          {
+            "href": "./bestRating.json#bestRating"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./ratingExplanation.json#ratingExplanation"
+          },
+          {
+            "href": "./ratingValue.json#ratingValue"
+          },
+          {
+            "href": "./reviewAspect.json#reviewAspect"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./worstRating.json#worstRating"
+          }
+        ]
+      }
+    ]
+  }
+}

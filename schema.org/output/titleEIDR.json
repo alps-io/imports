@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "titleEIDRText",
+        "def": "https://schema.org/titleEIDR",
+        "name": "titleEIDR",
+        "type": "semantic"
+      },
+      {
+        "id": "titleEIDRURL",
+        "def": "https://schema.org/titleEIDR",
+        "name": "titleEIDR",
+        "type": "semantic"
+      }
+    ]
+  }
+}

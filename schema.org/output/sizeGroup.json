@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "sizeGroupSizeGroupEnumeration",
+        "def": "https://schema.org/sizeGroup",
+        "name": "sizeGroup",
+        "type": "semantic"
+      },
+      {
+        "id": "sizeGroupText",
+        "def": "https://schema.org/sizeGroup",
+        "name": "sizeGroup",
+        "type": "semantic"
+      }
+    ]
+  }
+}

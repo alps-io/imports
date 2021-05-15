@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "activityDurationDuration",
+        "def": "https://schema.org/activityDuration",
+        "name": "activityDuration",
+        "type": "semantic"
+      },
+      {
+        "id": "activityDurationQuantitativeValue",
+        "def": "https://schema.org/activityDuration",
+        "name": "activityDuration",
+        "type": "semantic"
+      }
+    ]
+  }
+}

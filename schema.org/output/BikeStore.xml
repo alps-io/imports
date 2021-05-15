@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="BikeStore" type="semantic" href="http://alps.io/schema.org/Store.xml#Store">
-  <doc href="http://schema.org/BikeStore" />
-
-
- </descriptor>
-</alps>

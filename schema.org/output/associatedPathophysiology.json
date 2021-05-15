@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "associatedPathophysiology",
+        "def": "https://schema.org/associatedPathophysiology",
+        "type": "semantic"
+      }
+    ]
+  }
+}

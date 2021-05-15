@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="PreventionIndication" type="semantic" href="http://alps.io/schema.org/MedicalIndication.xml#MedicalIndication">
-  <doc href="http://schema.org/PreventionIndication" />
-
-
- </descriptor>
-</alps>

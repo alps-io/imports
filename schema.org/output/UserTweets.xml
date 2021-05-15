@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="UserTweets" type="semantic" href="http://alps.io/schema.org/UserInteraction.xml#UserInteraction">
-  <doc href="http://schema.org/UserTweets" />
-
-
- </descriptor>
-</alps>

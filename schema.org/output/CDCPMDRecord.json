@@ -1,0 +1,101 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "CDCPMDRecord",
+        "def": "https://schema.org/CDCPMDRecord",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./cvdCollectionDate.json#cvdCollectionDate"
+          },
+          {
+            "href": "./cvdFacilityCounty.json#cvdFacilityCounty"
+          },
+          {
+            "href": "./cvdFacilityId.json#cvdFacilityId"
+          },
+          {
+            "href": "./cvdNumBeds.json#cvdNumBeds"
+          },
+          {
+            "href": "./cvdNumBedsOcc.json#cvdNumBedsOcc"
+          },
+          {
+            "href": "./cvdNumC19Died.json#cvdNumC19Died"
+          },
+          {
+            "href": "./cvdNumC19HOPats.json#cvdNumC19HOPats"
+          },
+          {
+            "href": "./cvdNumC19HospPats.json#cvdNumC19HospPats"
+          },
+          {
+            "href": "./cvdNumC19MechVentPats.json#cvdNumC19MechVentPats"
+          },
+          {
+            "href": "./cvdNumC19OFMechVentPats.json#cvdNumC19OFMechVentPats"
+          },
+          {
+            "href": "./cvdNumC19OverflowPats.json#cvdNumC19OverflowPats"
+          },
+          {
+            "href": "./cvdNumICUBeds.json#cvdNumICUBeds"
+          },
+          {
+            "href": "./cvdNumICUBedsOcc.json#cvdNumICUBedsOcc"
+          },
+          {
+            "href": "./cvdNumTotBeds.json#cvdNumTotBeds"
+          },
+          {
+            "href": "./cvdNumVent.json#cvdNumVent"
+          },
+          {
+            "href": "./cvdNumVentUse.json#cvdNumVentUse"
+          },
+          {
+            "href": "./datePosted.json#datePosted"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

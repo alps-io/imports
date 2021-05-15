@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "totalPriceNumber",
+        "def": "https://schema.org/totalPrice",
+        "name": "totalPrice",
+        "type": "semantic"
+      },
+      {
+        "id": "totalPricePriceSpecification",
+        "def": "https://schema.org/totalPrice",
+        "name": "totalPrice",
+        "type": "semantic"
+      },
+      {
+        "id": "totalPriceText",
+        "def": "https://schema.org/totalPrice",
+        "name": "totalPrice",
+        "type": "semantic"
+      }
+    ]
+  }
+}

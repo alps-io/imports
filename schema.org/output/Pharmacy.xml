@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="Pharmacy" type="semantic" href="http://alps.io/schema.org/MedicalOrganization.xml#MedicalOrganization">
-  <doc href="http://schema.org/Pharmacy" />
-
-
- </descriptor>
-</alps>

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "inLanguageLanguage",
+        "def": "https://schema.org/inLanguage",
+        "name": "inLanguage",
+        "type": "semantic"
+      },
+      {
+        "id": "inLanguageText",
+        "def": "https://schema.org/inLanguage",
+        "name": "inLanguage",
+        "type": "semantic"
+      }
+    ]
+  }
+}

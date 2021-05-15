@@ -1,0 +1,71 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "EntryPoint",
+        "def": "https://schema.org/EntryPoint",
+        "descriptor": [
+          {
+            "href": "./actionApplication.json#actionApplication"
+          },
+          {
+            "href": "./actionPlatform.json#actionPlatform"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./application.json#application"
+          },
+          {
+            "href": "./contentType.json#contentType"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./encodingType.json#encodingType"
+          },
+          {
+            "href": "./httpMethod.json#httpMethod"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./urlTemplate.json#urlTemplate"
+          }
+        ]
+      }
+    ]
+  }
+}

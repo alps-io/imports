@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="DiagnosticProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml#MedicalProcedure http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
-  <doc href="http://schema.org/DiagnosticProcedure" />
-
-
- </descriptor>
-</alps>

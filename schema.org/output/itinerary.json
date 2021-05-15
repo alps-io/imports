@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "itineraryItemList",
+        "def": "https://schema.org/itinerary",
+        "name": "itinerary",
+        "type": "semantic"
+      },
+      {
+        "id": "itineraryPlace",
+        "def": "https://schema.org/itinerary",
+        "name": "itinerary",
+        "type": "semantic"
+      }
+    ]
+  }
+}

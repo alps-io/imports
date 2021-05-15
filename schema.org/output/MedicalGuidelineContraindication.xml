@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="MedicalGuidelineContraindication" type="semantic" href="http://alps.io/schema.org/MedicalGuideline.xml#MedicalGuideline">
-  <doc href="http://schema.org/MedicalGuidelineContraindication" />
-
-
- </descriptor>
-</alps>

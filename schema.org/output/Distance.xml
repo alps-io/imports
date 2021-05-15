@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="Distance" type="semantic" href="http://alps.io/schema.org/Quantity.xml#Quantity">
-  <doc href="http://schema.org/Distance" />
-
-
- </descriptor>
-</alps>

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "preparationMedicalEntity",
+        "def": "https://schema.org/preparation",
+        "name": "preparation",
+        "type": "semantic"
+      },
+      {
+        "id": "preparationText",
+        "def": "https://schema.org/preparation",
+        "name": "preparation",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "elevationNumber",
+        "def": "https://schema.org/elevation",
+        "name": "elevation",
+        "type": "semantic"
+      },
+      {
+        "id": "elevationText",
+        "def": "https://schema.org/elevation",
+        "name": "elevation",
+        "type": "semantic"
+      }
+    ]
+  }
+}

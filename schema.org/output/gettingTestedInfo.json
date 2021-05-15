@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "gettingTestedInfoURL",
+        "def": "https://schema.org/gettingTestedInfo",
+        "name": "gettingTestedInfo",
+        "type": "semantic"
+      },
+      {
+        "id": "gettingTestedInfoWebContent",
+        "def": "https://schema.org/gettingTestedInfo",
+        "name": "gettingTestedInfo",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "contentRatingRating",
+        "def": "https://schema.org/contentRating",
+        "name": "contentRating",
+        "type": "semantic"
+      },
+      {
+        "id": "contentRatingText",
+        "def": "https://schema.org/contentRating",
+        "name": "contentRating",
+        "type": "semantic"
+      }
+    ]
+  }
+}

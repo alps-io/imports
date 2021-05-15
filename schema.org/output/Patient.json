@@ -1,0 +1,275 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Patient",
+        "def": "https://schema.org/Patient",
+        "descriptor": [
+          {
+            "href": "./additionalName.json#additionalName"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./address.json#address"
+          },
+          {
+            "href": "./affiliation.json#affiliation"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./alumniOf.json#alumniOf"
+          },
+          {
+            "href": "./audienceType.json#audienceType"
+          },
+          {
+            "href": "./award.json#award"
+          },
+          {
+            "href": "./awards.json#awards"
+          },
+          {
+            "href": "./birthDate.json#birthDate"
+          },
+          {
+            "href": "./birthPlace.json#birthPlace"
+          },
+          {
+            "href": "./brand.json#brand"
+          },
+          {
+            "href": "./callSign.json#callSign"
+          },
+          {
+            "href": "./children.json#children"
+          },
+          {
+            "href": "./colleague.json#colleague"
+          },
+          {
+            "href": "./colleagues.json#colleagues"
+          },
+          {
+            "href": "./contactPoint.json#contactPoint"
+          },
+          {
+            "href": "./contactPoints.json#contactPoints"
+          },
+          {
+            "href": "./deathDate.json#deathDate"
+          },
+          {
+            "href": "./deathPlace.json#deathPlace"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./diagnosis.json#diagnosis"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./drug.json#drug"
+          },
+          {
+            "href": "./duns.json#duns"
+          },
+          {
+            "href": "./email.json#email"
+          },
+          {
+            "href": "./familyName.json#familyName"
+          },
+          {
+            "href": "./faxNumber.json#faxNumber"
+          },
+          {
+            "href": "./follows.json#follows"
+          },
+          {
+            "href": "./funder.json#funder"
+          },
+          {
+            "href": "./gender.json#gender"
+          },
+          {
+            "href": "./geographicArea.json#geographicArea"
+          },
+          {
+            "href": "./givenName.json#givenName"
+          },
+          {
+            "href": "./globalLocationNumber.json#globalLocationNumber"
+          },
+          {
+            "href": "./hasCredential.json#hasCredential"
+          },
+          {
+            "href": "./hasOccupation.json#hasOccupation"
+          },
+          {
+            "href": "./hasOfferCatalog.json#hasOfferCatalog"
+          },
+          {
+            "href": "./hasPOS.json#hasPOS"
+          },
+          {
+            "href": "./healthCondition.json#healthCondition"
+          },
+          {
+            "href": "./height.json#height"
+          },
+          {
+            "href": "./homeLocation.json#homeLocation"
+          },
+          {
+            "href": "./honorificPrefix.json#honorificPrefix"
+          },
+          {
+            "href": "./honorificSuffix.json#honorificSuffix"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./interactionStatistic.json#interactionStatistic"
+          },
+          {
+            "href": "./isicV4.json#isicV4"
+          },
+          {
+            "href": "./jobTitle.json#jobTitle"
+          },
+          {
+            "href": "./knows.json#knows"
+          },
+          {
+            "href": "./knowsAbout.json#knowsAbout"
+          },
+          {
+            "href": "./knowsLanguage.json#knowsLanguage"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./makesOffer.json#makesOffer"
+          },
+          {
+            "href": "./memberOf.json#memberOf"
+          },
+          {
+            "href": "./naics.json#naics"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./nationality.json#nationality"
+          },
+          {
+            "href": "./netWorth.json#netWorth"
+          },
+          {
+            "href": "./owns.json#owns"
+          },
+          {
+            "href": "./parent.json#parent"
+          },
+          {
+            "href": "./parents.json#parents"
+          },
+          {
+            "href": "./performerIn.json#performerIn"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./publishingPrinciples.json#publishingPrinciples"
+          },
+          {
+            "href": "./relatedTo.json#relatedTo"
+          },
+          {
+            "href": "./requiredGender.json#requiredGender"
+          },
+          {
+            "href": "./requiredMaxAge.json#requiredMaxAge"
+          },
+          {
+            "href": "./requiredMinAge.json#requiredMinAge"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./seeks.json#seeks"
+          },
+          {
+            "href": "./sibling.json#sibling"
+          },
+          {
+            "href": "./siblings.json#siblings"
+          },
+          {
+            "href": "./sponsor.json#sponsor"
+          },
+          {
+            "href": "./spouse.json#spouse"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./suggestedAge.json#suggestedAge"
+          },
+          {
+            "href": "./suggestedGender.json#suggestedGender"
+          },
+          {
+            "href": "./suggestedMaxAge.json#suggestedMaxAge"
+          },
+          {
+            "href": "./suggestedMeasurement.json#suggestedMeasurement"
+          },
+          {
+            "href": "./suggestedMinAge.json#suggestedMinAge"
+          },
+          {
+            "href": "./taxID.json#taxID"
+          },
+          {
+            "href": "./telephone.json#telephone"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./vatID.json#vatID"
+          },
+          {
+            "href": "./weight.json#weight"
+          },
+          {
+            "href": "./workLocation.json#workLocation"
+          },
+          {
+            "href": "./worksFor.json#worksFor"
+          }
+        ]
+      }
+    ]
+  }
+}

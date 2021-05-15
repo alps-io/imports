@@ -1,0 +1,77 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "HealthInsurancePlan",
+        "def": "https://schema.org/HealthInsurancePlan",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./benefitsSummaryUrl.json#benefitsSummaryUrl"
+          },
+          {
+            "href": "./contactPoint.json#contactPoint"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./healthPlanDrugOption.json#healthPlanDrugOption"
+          },
+          {
+            "href": "./healthPlanDrugTier.json#healthPlanDrugTier"
+          },
+          {
+            "href": "./healthPlanId.json#healthPlanId"
+          },
+          {
+            "href": "./healthPlanMarketingUrl.json#healthPlanMarketingUrl"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./includesHealthPlanFormulary.json#includesHealthPlanFormulary"
+          },
+          {
+            "href": "./includesHealthPlanNetwork.json#includesHealthPlanNetwork"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./usesHealthPlanIdStandard.json#usesHealthPlanIdStandard"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "cvdCollectionDateDateTime",
+        "def": "https://schema.org/cvdCollectionDate",
+        "name": "cvdCollectionDate",
+        "type": "semantic"
+      },
+      {
+        "id": "cvdCollectionDateText",
+        "def": "https://schema.org/cvdCollectionDate",
+        "name": "cvdCollectionDate",
+        "type": "semantic"
+      }
+    ]
+  }
+}

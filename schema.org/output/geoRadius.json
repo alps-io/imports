@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "geoRadiusDistance",
+        "def": "https://schema.org/geoRadius",
+        "name": "geoRadius",
+        "type": "semantic"
+      },
+      {
+        "id": "geoRadiusNumber",
+        "def": "https://schema.org/geoRadius",
+        "name": "geoRadius",
+        "type": "semantic"
+      },
+      {
+        "id": "geoRadiusText",
+        "def": "https://schema.org/geoRadius",
+        "name": "geoRadius",
+        "type": "semantic"
+      }
+    ]
+  }
+}

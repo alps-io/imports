@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "agentOrganization",
+        "def": "https://schema.org/agent",
+        "name": "agent",
+        "type": "semantic"
+      },
+      {
+        "id": "agentPerson",
+        "def": "https://schema.org/agent",
+        "name": "agent",
+        "type": "semantic"
+      }
+    ]
+  }
+}

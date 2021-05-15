@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="Continent" type="semantic" href="http://alps.io/schema.org/Landform.xml#Landform">
-  <doc href="http://schema.org/Continent" />
-
-
- </descriptor>
-</alps>

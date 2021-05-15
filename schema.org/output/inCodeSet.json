@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "inCodeSetCategoryCodeSet",
+        "def": "https://schema.org/inCodeSet",
+        "name": "inCodeSet",
+        "type": "semantic"
+      },
+      {
+        "id": "inCodeSetURL",
+        "def": "https://schema.org/inCodeSet",
+        "name": "inCodeSet",
+        "type": "semantic"
+      }
+    ]
+  }
+}

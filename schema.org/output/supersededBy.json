@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "supersededByClass",
+        "def": "https://schema.org/supersededBy",
+        "name": "supersededBy",
+        "type": "semantic"
+      },
+      {
+        "id": "supersededByEnumeration",
+        "def": "https://schema.org/supersededBy",
+        "name": "supersededBy",
+        "type": "semantic"
+      },
+      {
+        "id": "supersededByProperty",
+        "def": "https://schema.org/supersededBy",
+        "name": "supersededBy",
+        "type": "semantic"
+      }
+    ]
+  }
+}

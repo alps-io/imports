@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "patternDefinedTerm",
+        "def": "https://schema.org/pattern",
+        "name": "pattern",
+        "type": "semantic"
+      },
+      {
+        "id": "patternText",
+        "def": "https://schema.org/pattern",
+        "name": "pattern",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "acquireLicensePageCreativeWork",
+        "def": "https://schema.org/acquireLicensePage",
+        "name": "acquireLicensePage",
+        "type": "semantic"
+      },
+      {
+        "id": "acquireLicensePageURL",
+        "def": "https://schema.org/acquireLicensePage",
+        "name": "acquireLicensePage",
+        "type": "semantic"
+      }
+    ]
+  }
+}

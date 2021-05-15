@@ -1,0 +1,128 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "ExerciseAction",
+        "def": "https://schema.org/ExerciseAction",
+        "descriptor": [
+          {
+            "href": "./actionStatus.json#actionStatus"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./agent.json#agent"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./audience.json#audience"
+          },
+          {
+            "href": "./course.json#course"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./diet.json#diet"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./distance.json#distance"
+          },
+          {
+            "href": "./endTime.json#endTime"
+          },
+          {
+            "href": "./error.json#error"
+          },
+          {
+            "href": "./event.json#event"
+          },
+          {
+            "href": "./exerciseCourse.json#exerciseCourse"
+          },
+          {
+            "href": "./exercisePlan.json#exercisePlan"
+          },
+          {
+            "href": "./exerciseRelatedDiet.json#exerciseRelatedDiet"
+          },
+          {
+            "href": "./exerciseType.json#exerciseType"
+          },
+          {
+            "href": "./fromLocation.json#fromLocation"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./instrument.json#instrument"
+          },
+          {
+            "href": "./location.json#location"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./object.json#object"
+          },
+          {
+            "href": "./opponent.json#opponent"
+          },
+          {
+            "href": "./participant.json#participant"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./result.json#result"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./sportsActivityLocation.json#sportsActivityLocation"
+          },
+          {
+            "href": "./sportsEvent.json#sportsEvent"
+          },
+          {
+            "href": "./sportsTeam.json#sportsTeam"
+          },
+          {
+            "href": "./startTime.json#startTime"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./target.json#target"
+          },
+          {
+            "href": "./toLocation.json#toLocation"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

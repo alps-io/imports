@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="PalliativeProcedure" type="semantic" href="http://alps.io/schema.org/MedicalProcedure.xml#MedicalProcedure http://alps.io/schema.org/MedicalTherapy.xml#MedicalTherapy">
-  <doc href="http://schema.org/PalliativeProcedure" />
-
-
- </descriptor>
-</alps>

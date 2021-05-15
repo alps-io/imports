@@ -1,0 +1,155 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "BroadcastService",
+        "def": "https://schema.org/BroadcastService",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./aggregateRating.json#aggregateRating"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./area.json#area"
+          },
+          {
+            "href": "./areaServed.json#areaServed"
+          },
+          {
+            "href": "./audience.json#audience"
+          },
+          {
+            "href": "./availableChannel.json#availableChannel"
+          },
+          {
+            "href": "./award.json#award"
+          },
+          {
+            "href": "./brand.json#brand"
+          },
+          {
+            "href": "./broadcastAffiliateOf.json#broadcastAffiliateOf"
+          },
+          {
+            "href": "./broadcastDisplayName.json#broadcastDisplayName"
+          },
+          {
+            "href": "./broadcastFrequency.json#broadcastFrequency"
+          },
+          {
+            "href": "./broadcastTimezone.json#broadcastTimezone"
+          },
+          {
+            "href": "./broadcaster.json#broadcaster"
+          },
+          {
+            "href": "./broker.json#broker"
+          },
+          {
+            "href": "./callSign.json#callSign"
+          },
+          {
+            "href": "./category.json#category"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./hasBroadcastChannel.json#hasBroadcastChannel"
+          },
+          {
+            "href": "./hasOfferCatalog.json#hasOfferCatalog"
+          },
+          {
+            "href": "./hoursAvailable.json#hoursAvailable"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./inLanguage.json#inLanguage"
+          },
+          {
+            "href": "./isRelatedTo.json#isRelatedTo"
+          },
+          {
+            "href": "./isSimilarTo.json#isSimilarTo"
+          },
+          {
+            "href": "./logo.json#logo"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./offers.json#offers"
+          },
+          {
+            "href": "./parentService.json#parentService"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./produces.json#produces"
+          },
+          {
+            "href": "./provider.json#provider"
+          },
+          {
+            "href": "./providerMobility.json#providerMobility"
+          },
+          {
+            "href": "./review.json#review"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./serviceArea.json#serviceArea"
+          },
+          {
+            "href": "./serviceAudience.json#serviceAudience"
+          },
+          {
+            "href": "./serviceOutput.json#serviceOutput"
+          },
+          {
+            "href": "./serviceType.json#serviceType"
+          },
+          {
+            "href": "./slogan.json#slogan"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./termsOfService.json#termsOfService"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./videoFormat.json#videoFormat"
+          }
+        ]
+      }
+    ]
+  }
+}

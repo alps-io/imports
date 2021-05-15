@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "priceNumber",
+        "def": "https://schema.org/price",
+        "name": "price",
+        "type": "semantic"
+      },
+      {
+        "id": "priceText",
+        "def": "https://schema.org/price",
+        "name": "price",
+        "type": "semantic"
+      }
+    ]
+  }
+}

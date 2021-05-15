@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "optionText",
+        "def": "https://schema.org/option",
+        "name": "option",
+        "type": "semantic"
+      },
+      {
+        "id": "optionThing",
+        "def": "https://schema.org/option",
+        "name": "option",
+        "type": "semantic"
+      }
+    ]
+  }
+}

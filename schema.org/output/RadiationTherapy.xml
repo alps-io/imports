@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="RadiationTherapy" type="semantic" href="http://alps.io/schema.org/MedicalTherapy.xml#MedicalTherapy">
-  <doc href="http://schema.org/RadiationTherapy" />
-
-
- </descriptor>
-</alps>

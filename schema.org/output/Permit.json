@@ -1,0 +1,71 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Permit",
+        "def": "https://schema.org/Permit",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./issuedBy.json#issuedBy"
+          },
+          {
+            "href": "./issuedThrough.json#issuedThrough"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./permitAudience.json#permitAudience"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./validFor.json#validFor"
+          },
+          {
+            "href": "./validFrom.json#validFrom"
+          },
+          {
+            "href": "./validIn.json#validIn"
+          },
+          {
+            "href": "./validUntil.json#validUntil"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "geoEqualsGeospatialGeometry",
+        "def": "https://schema.org/geoEquals",
+        "name": "geoEquals",
+        "type": "semantic"
+      },
+      {
+        "id": "geoEqualsPlace",
+        "def": "https://schema.org/geoEquals",
+        "name": "geoEquals",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "PronounceableText",
+        "def": "https://schema.org/PronounceableText",
+        "descriptor": [
+          {
+            "href": "./inLanguage.json#inLanguage"
+          },
+          {
+            "href": "./phoneticText.json#phoneticText"
+          },
+          {
+            "href": "./speechToTextMarkup.json#speechToTextMarkup"
+          },
+          {
+            "href": "./textValue.json#textValue"
+          }
+        ]
+      }
+    ]
+  }
+}

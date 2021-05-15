@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "applicableLocation",
+        "def": "https://schema.org/applicableLocation",
+        "type": "semantic"
+      }
+    ]
+  }
+}

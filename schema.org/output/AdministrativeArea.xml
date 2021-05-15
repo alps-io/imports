@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="AdministrativeArea" type="semantic" href="http://alps.io/schema.org/Place.xml#Place">
-  <doc href="http://schema.org/AdministrativeArea" />
-
-
- </descriptor>
-</alps>

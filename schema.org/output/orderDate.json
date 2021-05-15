@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "orderDateDate",
+        "def": "https://schema.org/orderDate",
+        "name": "orderDate",
+        "type": "semantic"
+      },
+      {
+        "id": "orderDateDateTime",
+        "def": "https://schema.org/orderDate",
+        "name": "orderDate",
+        "type": "semantic"
+      }
+    ]
+  }
+}

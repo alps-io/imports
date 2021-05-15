@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "serviceOutput",
+        "def": "https://schema.org/serviceOutput",
+        "type": "semantic"
+      }
+    ]
+  }
+}

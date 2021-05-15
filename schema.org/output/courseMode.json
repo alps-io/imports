@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "courseModeText",
+        "def": "https://schema.org/courseMode",
+        "name": "courseMode",
+        "type": "semantic"
+      },
+      {
+        "id": "courseModeURL",
+        "def": "https://schema.org/courseMode",
+        "name": "courseMode",
+        "type": "semantic"
+      }
+    ]
+  }
+}

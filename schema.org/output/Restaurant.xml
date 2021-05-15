@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="Restaurant" type="semantic" href="http://alps.io/schema.org/FoodEstablishment.xml#FoodEstablishment">
-  <doc href="http://schema.org/Restaurant" />
-
-
- </descriptor>
-</alps>
