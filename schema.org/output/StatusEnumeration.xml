@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="StatusEnumeration" type="semantic" href="http://alps.io/schema.org/Enumeration.xml#Enumeration">
-  <doc href="http://schema.org/StatusEnumeration" />
-
-
- </descriptor>
-</alps>

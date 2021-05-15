@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "weightTotal",
+        "def": "https://schema.org/weightTotal",
+        "type": "semantic"
+      }
+    ]
+  }
+}

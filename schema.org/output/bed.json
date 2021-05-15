@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "bedBedDetails",
+        "def": "https://schema.org/bed",
+        "name": "bed",
+        "type": "semantic"
+      },
+      {
+        "id": "bedBedType",
+        "def": "https://schema.org/bed",
+        "name": "bed",
+        "type": "semantic"
+      },
+      {
+        "id": "bedText",
+        "def": "https://schema.org/bed",
+        "name": "bed",
+        "type": "semantic"
+      }
+    ]
+  }
+}

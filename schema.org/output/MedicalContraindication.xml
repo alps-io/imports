@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="MedicalContraindication" type="semantic" href="http://alps.io/schema.org/MedicalEntity.xml#MedicalEntity">
-  <doc href="http://schema.org/MedicalContraindication" />
-
-
- </descriptor>
-</alps>

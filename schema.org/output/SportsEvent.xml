@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="SportsEvent" type="semantic" href="http://alps.io/schema.org/Event.xml#Event">
-  <doc href="http://schema.org/SportsEvent" />
-
-
- </descriptor>
-</alps>

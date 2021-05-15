@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="ApprovedIndication" type="semantic" href="http://alps.io/schema.org/MedicalIndication.xml#MedicalIndication">
-  <doc href="http://schema.org/ApprovedIndication" />
-
-
- </descriptor>
-</alps>

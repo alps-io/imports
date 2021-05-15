@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="StadiumOrArena" type="semantic" href="http://alps.io/schema.org/CivicStructure.xml#CivicStructure http://alps.io/schema.org/SportsActivityLocation.xml#SportsActivityLocation">
-  <doc href="http://schema.org/StadiumOrArena" />
-
-
- </descriptor>
-</alps>

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "ethicsPolicyCreativeWork",
+        "def": "https://schema.org/ethicsPolicy",
+        "name": "ethicsPolicy",
+        "type": "semantic"
+      },
+      {
+        "id": "ethicsPolicyURL",
+        "def": "https://schema.org/ethicsPolicy",
+        "name": "ethicsPolicy",
+        "type": "semantic"
+      }
+    ]
+  }
+}

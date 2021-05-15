@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "freeShippingThresholdDeliveryChargeSpecification",
+        "def": "https://schema.org/freeShippingThreshold",
+        "name": "freeShippingThreshold",
+        "type": "semantic"
+      },
+      {
+        "id": "freeShippingThresholdMonetaryAmount",
+        "def": "https://schema.org/freeShippingThreshold",
+        "name": "freeShippingThreshold",
+        "type": "semantic"
+      }
+    ]
+  }
+}

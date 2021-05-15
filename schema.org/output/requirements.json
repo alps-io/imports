@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "requirementsText",
+        "def": "https://schema.org/requirements",
+        "name": "requirements",
+        "type": "semantic"
+      },
+      {
+        "id": "requirementsURL",
+        "def": "https://schema.org/requirements",
+        "name": "requirements",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "dataFeedElementDataFeedItem",
+        "def": "https://schema.org/dataFeedElement",
+        "name": "dataFeedElement",
+        "type": "semantic"
+      },
+      {
+        "id": "dataFeedElementText",
+        "def": "https://schema.org/dataFeedElement",
+        "name": "dataFeedElement",
+        "type": "semantic"
+      },
+      {
+        "id": "dataFeedElementThing",
+        "def": "https://schema.org/dataFeedElement",
+        "name": "dataFeedElement",
+        "type": "semantic"
+      }
+    ]
+  }
+}

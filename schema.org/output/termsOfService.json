@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "termsOfServiceText",
+        "def": "https://schema.org/termsOfService",
+        "name": "termsOfService",
+        "type": "semantic"
+      },
+      {
+        "id": "termsOfServiceURL",
+        "def": "https://schema.org/termsOfService",
+        "name": "termsOfService",
+        "type": "semantic"
+      }
+    ]
+  }
+}

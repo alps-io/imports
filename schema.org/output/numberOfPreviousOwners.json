@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "numberOfPreviousOwnersNumber",
+        "def": "https://schema.org/numberOfPreviousOwners",
+        "name": "numberOfPreviousOwners",
+        "type": "semantic"
+      },
+      {
+        "id": "numberOfPreviousOwnersQuantitativeValue",
+        "def": "https://schema.org/numberOfPreviousOwners",
+        "name": "numberOfPreviousOwners",
+        "type": "semantic"
+      }
+    ]
+  }
+}

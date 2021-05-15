@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "suggestedAnswerAnswer",
+        "def": "https://schema.org/suggestedAnswer",
+        "name": "suggestedAnswer",
+        "type": "semantic"
+      },
+      {
+        "id": "suggestedAnswerItemList",
+        "def": "https://schema.org/suggestedAnswer",
+        "name": "suggestedAnswer",
+        "type": "semantic"
+      }
+    ]
+  }
+}

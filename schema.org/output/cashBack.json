@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "cashBackBoolean",
+        "def": "https://schema.org/cashBack",
+        "name": "cashBack",
+        "type": "semantic"
+      },
+      {
+        "id": "cashBackNumber",
+        "def": "https://schema.org/cashBack",
+        "name": "cashBack",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "copyrightHolderOrganization",
+        "def": "https://schema.org/copyrightHolder",
+        "name": "copyrightHolder",
+        "type": "semantic"
+      },
+      {
+        "id": "copyrightHolderPerson",
+        "def": "https://schema.org/copyrightHolder",
+        "name": "copyrightHolder",
+        "type": "semantic"
+      }
+    ]
+  }
+}

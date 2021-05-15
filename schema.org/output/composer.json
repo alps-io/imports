@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "composerOrganization",
+        "def": "https://schema.org/composer",
+        "name": "composer",
+        "type": "semantic"
+      },
+      {
+        "id": "composerPerson",
+        "def": "https://schema.org/composer",
+        "name": "composer",
+        "type": "semantic"
+      }
+    ]
+  }
+}

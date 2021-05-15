@@ -1,0 +1,83 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "RecommendedDoseSchedule",
+        "def": "https://schema.org/RecommendedDoseSchedule",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./code.json#code"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./doseUnit.json#doseUnit"
+          },
+          {
+            "href": "./doseValue.json#doseValue"
+          },
+          {
+            "href": "./frequency.json#frequency"
+          },
+          {
+            "href": "./guideline.json#guideline"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./legalStatus.json#legalStatus"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./medicineSystem.json#medicineSystem"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./recognizingAuthority.json#recognizingAuthority"
+          },
+          {
+            "href": "./relevantSpecialty.json#relevantSpecialty"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./study.json#study"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./targetPopulation.json#targetPopulation"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

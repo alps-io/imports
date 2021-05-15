@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "artEditionInteger",
+        "def": "https://schema.org/artEdition",
+        "name": "artEdition",
+        "type": "semantic"
+      },
+      {
+        "id": "artEditionText",
+        "def": "https://schema.org/artEdition",
+        "name": "artEdition",
+        "type": "semantic"
+      }
+    ]
+  }
+}

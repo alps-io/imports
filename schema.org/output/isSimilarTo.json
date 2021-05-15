@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "isSimilarToProduct",
+        "def": "https://schema.org/isSimilarTo",
+        "name": "isSimilarTo",
+        "type": "semantic"
+      },
+      {
+        "id": "isSimilarToService",
+        "def": "https://schema.org/isSimilarTo",
+        "name": "isSimilarTo",
+        "type": "semantic"
+      }
+    ]
+  }
+}

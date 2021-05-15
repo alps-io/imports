@@ -1,0 +1,62 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "ShippingDeliveryTime",
+        "def": "https://schema.org/ShippingDeliveryTime",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./businessDays.json#businessDays"
+          },
+          {
+            "href": "./cutoffTime.json#cutoffTime"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./handlingTime.json#handlingTime"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./transitTime.json#transitTime"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

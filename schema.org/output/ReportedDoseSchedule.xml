@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="ReportedDoseSchedule" type="semantic" href="http://alps.io/schema.org/DoseSchedule.xml#DoseSchedule">
-  <doc href="http://schema.org/ReportedDoseSchedule" />
-
-
- </descriptor>
-</alps>

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "feesAndCommissionsSpecificationText",
+        "def": "https://schema.org/feesAndCommissionsSpecification",
+        "name": "feesAndCommissionsSpecification",
+        "type": "semantic"
+      },
+      {
+        "id": "feesAndCommissionsSpecificationURL",
+        "def": "https://schema.org/feesAndCommissionsSpecification",
+        "name": "feesAndCommissionsSpecification",
+        "type": "semantic"
+      }
+    ]
+  }
+}

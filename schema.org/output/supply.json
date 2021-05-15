@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "supplyHowToSupply",
+        "def": "https://schema.org/supply",
+        "name": "supply",
+        "type": "semantic"
+      },
+      {
+        "id": "supplyText",
+        "def": "https://schema.org/supply",
+        "name": "supply",
+        "type": "semantic"
+      }
+    ]
+  }
+}

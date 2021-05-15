@@ -1,0 +1,74 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Ticket",
+        "def": "https://schema.org/Ticket",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./dateIssued.json#dateIssued"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./issuedBy.json#issuedBy"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./priceCurrency.json#priceCurrency"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./ticketNumber.json#ticketNumber"
+          },
+          {
+            "href": "./ticketToken.json#ticketToken"
+          },
+          {
+            "href": "./ticketedSeat.json#ticketedSeat"
+          },
+          {
+            "href": "./totalPrice.json#totalPrice"
+          },
+          {
+            "href": "./underName.json#underName"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "GeneralContractor",
+        "def": "https://schema.org/GeneralContractor",
+        "descriptor": [
+          {
+            "href": "./actionableFeedbackPolicy.json#actionableFeedbackPolicy"
+          },
+          {
+            "href": "./additionalProperty.json#additionalProperty"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./address.json#address"
+          },
+          {
+            "href": "./aggregateRating.json#aggregateRating"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./alumni.json#alumni"
+          },
+          {
+            "href": "./amenityFeature.json#amenityFeature"
+          },
+          {
+            "href": "./areaServed.json#areaServed"
+          },
+          {
+            "href": "./award.json#award"
+          },
+          {
+            "href": "./awards.json#awards"
+          },
+          {
+            "href": "./branchCode.json#branchCode"
+          },
+          {
+            "href": "./branchOf.json#branchOf"
+          },
+          {
+            "href": "./brand.json#brand"
+          },
+          {
+            "href": "./contactPoint.json#contactPoint"
+          },
+          {
+            "href": "./contactPoints.json#contactPoints"
+          },
+          {
+            "href": "./containedIn.json#containedIn"
+          },
+          {
+            "href": "./containedInPlace.json#containedInPlace"
+          },
+          {
+            "href": "./containsPlace.json#containsPlace"
+          },
+          {
+            "href": "./correctionsPolicy.json#correctionsPolicy"
+          },
+          {
+            "href": "./currenciesAccepted.json#currenciesAccepted"
+          },
+          {
+            "href": "./department.json#department"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./dissolutionDate.json#dissolutionDate"
+          },
+          {
+            "href": "./diversityPolicy.json#diversityPolicy"
+          },
+          {
+            "href": "./diversityStaffingReport.json#diversityStaffingReport"
+          },
+          {
+            "href": "./duns.json#duns"
+          },
+          {
+            "href": "./email.json#email"
+          },
+          {
+            "href": "./employee.json#employee"
+          },
+          {
+            "href": "./employees.json#employees"
+          },
+          {
+            "href": "./ethicsPolicy.json#ethicsPolicy"
+          },
+          {
+            "href": "./event.json#event"
+          },
+          {
+            "href": "./events.json#events"
+          },
+          {
+            "href": "./faxNumber.json#faxNumber"
+          },
+          {
+            "href": "./founder.json#founder"
+          },
+          {
+            "href": "./founders.json#founders"
+          },
+          {
+            "href": "./foundingDate.json#foundingDate"
+          },
+          {
+            "href": "./foundingLocation.json#foundingLocation"
+          },
+          {
+            "href": "./funder.json#funder"
+          },
+          {
+            "href": "./geo.json#geo"
+          },
+          {
+            "href": "./geoContains.json#geoContains"
+          },
+          {
+            "href": "./geoCoveredBy.json#geoCoveredBy"
+          },
+          {
+            "href": "./geoCovers.json#geoCovers"
+          },
+          {
+            "href": "./geoCrosses.json#geoCrosses"
+          },
+          {
+            "href": "./geoDisjoint.json#geoDisjoint"
+          },
+          {
+            "href": "./geoEquals.json#geoEquals"
+          },
+          {
+            "href": "./geoIntersects.json#geoIntersects"
+          },
+          {
+            "href": "./geoOverlaps.json#geoOverlaps"
+          },
+          {
+            "href": "./geoTouches.json#geoTouches"
+          },
+          {
+            "href": "./geoWithin.json#geoWithin"
+          },
+          {
+            "href": "./globalLocationNumber.json#globalLocationNumber"
+          },
+          {
+            "href": "./hasCredential.json#hasCredential"
+          },
+          {
+            "href": "./hasDriveThroughService.json#hasDriveThroughService"
+          },
+          {
+            "href": "./hasMap.json#hasMap"
+          },
+          {
+            "href": "./hasMerchantReturnPolicy.json#hasMerchantReturnPolicy"
+          },
+          {
+            "href": "./hasOfferCatalog.json#hasOfferCatalog"
+          },
+          {
+            "href": "./hasPOS.json#hasPOS"
+          },
+          {
+            "href": "./hasProductReturnPolicy.json#hasProductReturnPolicy"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./interactionStatistic.json#interactionStatistic"
+          },
+          {
+            "href": "./isAccessibleForFree.json#isAccessibleForFree"
+          },
+          {
+            "href": "./isicV4.json#isicV4"
+          },
+          {
+            "href": "./knowsAbout.json#knowsAbout"
+          },
+          {
+            "href": "./knowsLanguage.json#knowsLanguage"
+          },
+          {
+            "href": "./latitude.json#latitude"
+          },
+          {
+            "href": "./legalName.json#legalName"
+          },
+          {
+            "href": "./leiCode.json#leiCode"
+          },
+          {
+            "href": "./location.json#location"
+          },
+          {
+            "href": "./logo.json#logo"
+          },
+          {
+            "href": "./longitude.json#longitude"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./makesOffer.json#makesOffer"
+          },
+          {
+            "href": "./map.json#map"
+          },
+          {
+            "href": "./maps.json#maps"
+          },
+          {
+            "href": "./maximumAttendeeCapacity.json#maximumAttendeeCapacity"
+          },
+          {
+            "href": "./member.json#member"
+          },
+          {
+            "href": "./memberOf.json#memberOf"
+          },
+          {
+            "href": "./members.json#members"
+          },
+          {
+            "href": "./naics.json#naics"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./nonprofitStatus.json#nonprofitStatus"
+          },
+          {
+            "href": "./numberOfEmployees.json#numberOfEmployees"
+          },
+          {
+            "href": "./openingHours.json#openingHours"
+          },
+          {
+            "href": "./openingHoursSpecification.json#openingHoursSpecification"
+          },
+          {
+            "href": "./ownershipFundingInfo.json#ownershipFundingInfo"
+          },
+          {
+            "href": "./owns.json#owns"
+          },
+          {
+            "href": "./parentOrganization.json#parentOrganization"
+          },
+          {
+            "href": "./paymentAccepted.json#paymentAccepted"
+          },
+          {
+            "href": "./photo.json#photo"
+          },
+          {
+            "href": "./photos.json#photos"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./priceRange.json#priceRange"
+          },
+          {
+            "href": "./publicAccess.json#publicAccess"
+          },
+          {
+            "href": "./publishingPrinciples.json#publishingPrinciples"
+          },
+          {
+            "href": "./review.json#review"
+          },
+          {
+            "href": "./reviews.json#reviews"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./seeks.json#seeks"
+          },
+          {
+            "href": "./serviceArea.json#serviceArea"
+          },
+          {
+            "href": "./slogan.json#slogan"
+          },
+          {
+            "href": "./smokingAllowed.json#smokingAllowed"
+          },
+          {
+            "href": "./specialOpeningHoursSpecification.json#specialOpeningHoursSpecification"
+          },
+          {
+            "href": "./sponsor.json#sponsor"
+          },
+          {
+            "href": "./subOrganization.json#subOrganization"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./taxID.json#taxID"
+          },
+          {
+            "href": "./telephone.json#telephone"
+          },
+          {
+            "href": "./tourBookingPage.json#tourBookingPage"
+          },
+          {
+            "href": "./unnamedSourcesPolicy.json#unnamedSourcesPolicy"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./vatID.json#vatID"
+          }
+        ]
+      }
+    ]
+  }
+}

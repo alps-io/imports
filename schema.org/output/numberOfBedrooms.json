@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "numberOfBedroomsNumber",
+        "def": "https://schema.org/numberOfBedrooms",
+        "name": "numberOfBedrooms",
+        "type": "semantic"
+      },
+      {
+        "id": "numberOfBedroomsQuantitativeValue",
+        "def": "https://schema.org/numberOfBedrooms",
+        "name": "numberOfBedrooms",
+        "type": "semantic"
+      }
+    ]
+  }
+}

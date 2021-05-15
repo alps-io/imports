@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "worstRatingNumber",
+        "def": "https://schema.org/worstRating",
+        "name": "worstRating",
+        "type": "semantic"
+      },
+      {
+        "id": "worstRatingText",
+        "def": "https://schema.org/worstRating",
+        "name": "worstRating",
+        "type": "semantic"
+      }
+    ]
+  }
+}

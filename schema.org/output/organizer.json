@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "organizerOrganization",
+        "def": "https://schema.org/organizer",
+        "name": "organizer",
+        "type": "semantic"
+      },
+      {
+        "id": "organizerPerson",
+        "def": "https://schema.org/organizer",
+        "name": "organizer",
+        "type": "semantic"
+      }
+    ]
+  }
+}

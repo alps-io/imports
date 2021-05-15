@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "industryDefinedTerm",
+        "def": "https://schema.org/industry",
+        "name": "industry",
+        "type": "semantic"
+      },
+      {
+        "id": "industryText",
+        "def": "https://schema.org/industry",
+        "name": "industry",
+        "type": "semantic"
+      }
+    ]
+  }
+}

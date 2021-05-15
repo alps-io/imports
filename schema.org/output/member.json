@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "memberOrganization",
+        "def": "https://schema.org/member",
+        "name": "member",
+        "type": "semantic"
+      },
+      {
+        "id": "memberPerson",
+        "def": "https://schema.org/member",
+        "name": "member",
+        "type": "semantic"
+      }
+    ]
+  }
+}

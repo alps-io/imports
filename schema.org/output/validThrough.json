@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "validThroughDate",
+        "def": "https://schema.org/validThrough",
+        "name": "validThrough",
+        "type": "semantic"
+      },
+      {
+        "id": "validThroughDateTime",
+        "def": "https://schema.org/validThrough",
+        "name": "validThrough",
+        "type": "semantic"
+      }
+    ]
+  }
+}

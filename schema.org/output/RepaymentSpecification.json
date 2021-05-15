@@ -1,0 +1,65 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "RepaymentSpecification",
+        "def": "https://schema.org/RepaymentSpecification",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./downPayment.json#downPayment"
+          },
+          {
+            "href": "./earlyPrepaymentPenalty.json#earlyPrepaymentPenalty"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./loanPaymentAmount.json#loanPaymentAmount"
+          },
+          {
+            "href": "./loanPaymentFrequency.json#loanPaymentFrequency"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./numberOfLoanPayments.json#numberOfLoanPayments"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

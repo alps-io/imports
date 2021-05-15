@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "underNameOrganization",
+        "def": "https://schema.org/underName",
+        "name": "underName",
+        "type": "semantic"
+      },
+      {
+        "id": "underNamePerson",
+        "def": "https://schema.org/underName",
+        "name": "underName",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="PostOffice" type="semantic" href="http://alps.io/schema.org/GovernmentOffice.xml#GovernmentOffice">
-  <doc href="http://schema.org/PostOffice" />
-
-
- </descriptor>
-</alps>

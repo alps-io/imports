@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "interestRateNumber",
+        "def": "https://schema.org/interestRate",
+        "name": "interestRate",
+        "type": "semantic"
+      },
+      {
+        "id": "interestRateQuantitativeValue",
+        "def": "https://schema.org/interestRate",
+        "name": "interestRate",
+        "type": "semantic"
+      }
+    ]
+  }
+}

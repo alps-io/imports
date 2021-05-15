@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "orderedItemOrderItem",
+        "def": "https://schema.org/orderedItem",
+        "name": "orderedItem",
+        "type": "semantic"
+      },
+      {
+        "id": "orderedItemProduct",
+        "def": "https://schema.org/orderedItem",
+        "name": "orderedItem",
+        "type": "semantic"
+      },
+      {
+        "id": "orderedItemService",
+        "def": "https://schema.org/orderedItem",
+        "name": "orderedItem",
+        "type": "semantic"
+      }
+    ]
+  }
+}

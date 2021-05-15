@@ -1,0 +1,65 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "OrderItem",
+        "def": "https://schema.org/OrderItem",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./orderDelivery.json#orderDelivery"
+          },
+          {
+            "href": "./orderItemNumber.json#orderItemNumber"
+          },
+          {
+            "href": "./orderItemStatus.json#orderItemStatus"
+          },
+          {
+            "href": "./orderQuantity.json#orderQuantity"
+          },
+          {
+            "href": "./orderedItem.json#orderedItem"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="MaximumDoseSchedule" type="semantic" href="http://alps.io/schema.org/DoseSchedule.xml#DoseSchedule">
-  <doc href="http://schema.org/MaximumDoseSchedule" />
-
-
- </descriptor>
-</alps>

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "duringMediaMediaObject",
+        "def": "https://schema.org/duringMedia",
+        "name": "duringMedia",
+        "type": "semantic"
+      },
+      {
+        "id": "duringMediaURL",
+        "def": "https://schema.org/duringMedia",
+        "name": "duringMedia",
+        "type": "semantic"
+      }
+    ]
+  }
+}

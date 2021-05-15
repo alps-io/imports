@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "seasonNumberInteger",
+        "def": "https://schema.org/seasonNumber",
+        "name": "seasonNumber",
+        "type": "semantic"
+      },
+      {
+        "id": "seasonNumberText",
+        "def": "https://schema.org/seasonNumber",
+        "name": "seasonNumber",
+        "type": "semantic"
+      }
+    ]
+  }
+}

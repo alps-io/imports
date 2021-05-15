@@ -1,0 +1,32 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "valueBoolean",
+        "def": "https://schema.org/value",
+        "name": "value",
+        "type": "semantic"
+      },
+      {
+        "id": "valueNumber",
+        "def": "https://schema.org/value",
+        "name": "value",
+        "type": "semantic"
+      },
+      {
+        "id": "valueStructuredValue",
+        "def": "https://schema.org/value",
+        "name": "value",
+        "type": "semantic"
+      },
+      {
+        "id": "valueText",
+        "def": "https://schema.org/value",
+        "name": "value",
+        "type": "semantic"
+      }
+    ]
+  }
+}

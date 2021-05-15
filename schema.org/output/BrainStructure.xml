@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="BrainStructure" type="semantic" href="http://alps.io/schema.org/AnatomicalStructure.xml#AnatomicalStructure">
-  <doc href="http://schema.org/BrainStructure" />
-
-
- </descriptor>
-</alps>

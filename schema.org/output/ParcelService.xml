@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="ParcelService" type="semantic" href="http://alps.io/schema.org/DeliveryMethod.xml#DeliveryMethod">
-  <doc href="http://schema.org/ParcelService" />
-
-
- </descriptor>
-</alps>

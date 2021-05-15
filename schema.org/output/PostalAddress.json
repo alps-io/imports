@@ -1,0 +1,98 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "PostalAddress",
+        "def": "https://schema.org/PostalAddress",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./addressCountry.json#addressCountry"
+          },
+          {
+            "href": "./addressLocality.json#addressLocality"
+          },
+          {
+            "href": "./addressRegion.json#addressRegion"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./areaServed.json#areaServed"
+          },
+          {
+            "href": "./availableLanguage.json#availableLanguage"
+          },
+          {
+            "href": "./contactOption.json#contactOption"
+          },
+          {
+            "href": "./contactType.json#contactType"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./email.json#email"
+          },
+          {
+            "href": "./faxNumber.json#faxNumber"
+          },
+          {
+            "href": "./hoursAvailable.json#hoursAvailable"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./postOfficeBoxNumber.json#postOfficeBoxNumber"
+          },
+          {
+            "href": "./postalCode.json#postalCode"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./productSupported.json#productSupported"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./serviceArea.json#serviceArea"
+          },
+          {
+            "href": "./streetAddress.json#streetAddress"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./telephone.json#telephone"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

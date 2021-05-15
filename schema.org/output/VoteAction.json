@@ -1,0 +1,92 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "VoteAction",
+        "def": "https://schema.org/VoteAction",
+        "descriptor": [
+          {
+            "href": "./actionOption.json#actionOption"
+          },
+          {
+            "href": "./actionStatus.json#actionStatus"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./agent.json#agent"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./candidate.json#candidate"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./endTime.json#endTime"
+          },
+          {
+            "href": "./error.json#error"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./instrument.json#instrument"
+          },
+          {
+            "href": "./location.json#location"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./object.json#object"
+          },
+          {
+            "href": "./option.json#option"
+          },
+          {
+            "href": "./participant.json#participant"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./result.json#result"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./startTime.json#startTime"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./target.json#target"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

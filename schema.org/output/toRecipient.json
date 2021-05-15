@@ -1,0 +1,32 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "toRecipientAudience",
+        "def": "https://schema.org/toRecipient",
+        "name": "toRecipient",
+        "type": "semantic"
+      },
+      {
+        "id": "toRecipientContactPoint",
+        "def": "https://schema.org/toRecipient",
+        "name": "toRecipient",
+        "type": "semantic"
+      },
+      {
+        "id": "toRecipientOrganization",
+        "def": "https://schema.org/toRecipient",
+        "name": "toRecipient",
+        "type": "semantic"
+      },
+      {
+        "id": "toRecipientPerson",
+        "def": "https://schema.org/toRecipient",
+        "name": "toRecipient",
+        "type": "semantic"
+      }
+    ]
+  }
+}

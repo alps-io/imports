@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "photosImageObject",
+        "def": "https://schema.org/photos",
+        "name": "photos",
+        "type": "semantic"
+      },
+      {
+        "id": "photosPhotograph",
+        "def": "https://schema.org/photos",
+        "name": "photos",
+        "type": "semantic"
+      }
+    ]
+  }
+}

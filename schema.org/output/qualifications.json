@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "qualificationsEducationalOccupationalCredential",
+        "def": "https://schema.org/qualifications",
+        "name": "qualifications",
+        "type": "semantic"
+      },
+      {
+        "id": "qualificationsText",
+        "def": "https://schema.org/qualifications",
+        "name": "qualifications",
+        "type": "semantic"
+      }
+    ]
+  }
+}

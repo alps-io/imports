@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "numberOfDoorsNumber",
+        "def": "https://schema.org/numberOfDoors",
+        "name": "numberOfDoors",
+        "type": "semantic"
+      },
+      {
+        "id": "numberOfDoorsQuantitativeValue",
+        "def": "https://schema.org/numberOfDoors",
+        "name": "numberOfDoors",
+        "type": "semantic"
+      }
+    ]
+  }
+}

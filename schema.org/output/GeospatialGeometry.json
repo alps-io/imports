@@ -1,0 +1,80 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "GeospatialGeometry",
+        "def": "https://schema.org/GeospatialGeometry",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./geoContains.json#geoContains"
+          },
+          {
+            "href": "./geoCoveredBy.json#geoCoveredBy"
+          },
+          {
+            "href": "./geoCovers.json#geoCovers"
+          },
+          {
+            "href": "./geoCrosses.json#geoCrosses"
+          },
+          {
+            "href": "./geoDisjoint.json#geoDisjoint"
+          },
+          {
+            "href": "./geoEquals.json#geoEquals"
+          },
+          {
+            "href": "./geoIntersects.json#geoIntersects"
+          },
+          {
+            "href": "./geoOverlaps.json#geoOverlaps"
+          },
+          {
+            "href": "./geoTouches.json#geoTouches"
+          },
+          {
+            "href": "./geoWithin.json#geoWithin"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

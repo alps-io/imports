@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "diseasePreventionInfoURL",
+        "def": "https://schema.org/diseasePreventionInfo",
+        "name": "diseasePreventionInfo",
+        "type": "semantic"
+      },
+      {
+        "id": "diseasePreventionInfoWebContent",
+        "def": "https://schema.org/diseasePreventionInfo",
+        "name": "diseasePreventionInfo",
+        "type": "semantic"
+      }
+    ]
+  }
+}

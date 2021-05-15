@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "availabilityStartsDate",
+        "def": "https://schema.org/availabilityStarts",
+        "name": "availabilityStarts",
+        "type": "semantic"
+      },
+      {
+        "id": "availabilityStartsDateTime",
+        "def": "https://schema.org/availabilityStarts",
+        "name": "availabilityStarts",
+        "type": "semantic"
+      },
+      {
+        "id": "availabilityStartsTime",
+        "def": "https://schema.org/availabilityStarts",
+        "name": "availabilityStarts",
+        "type": "semantic"
+      }
+    ]
+  }
+}

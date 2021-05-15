@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="BloodTest" type="semantic" href="http://alps.io/schema.org/MedicalTest.xml#MedicalTest">
-  <doc href="http://schema.org/BloodTest" />
-
-
- </descriptor>
-</alps>

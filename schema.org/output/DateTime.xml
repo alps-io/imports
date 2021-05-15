@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="DateTime" type="semantic" href="http://alps.io/schema.org/DataType.xml#DataType">
-  <doc href="http://schema.org/DateTime" />
-
-
- </descriptor>
-</alps>

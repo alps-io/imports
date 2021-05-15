@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "geoTouchesGeospatialGeometry",
+        "def": "https://schema.org/geoTouches",
+        "name": "geoTouches",
+        "type": "semantic"
+      },
+      {
+        "id": "geoTouchesPlace",
+        "def": "https://schema.org/geoTouches",
+        "name": "geoTouches",
+        "type": "semantic"
+      }
+    ]
+  }
+}

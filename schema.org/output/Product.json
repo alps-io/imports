@@ -1,0 +1,185 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Product",
+        "def": "https://schema.org/Product",
+        "descriptor": [
+          {
+            "href": "./additionalProperty.json#additionalProperty"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./aggregateRating.json#aggregateRating"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./audience.json#audience"
+          },
+          {
+            "href": "./award.json#award"
+          },
+          {
+            "href": "./awards.json#awards"
+          },
+          {
+            "href": "./brand.json#brand"
+          },
+          {
+            "href": "./category.json#category"
+          },
+          {
+            "href": "./color.json#color"
+          },
+          {
+            "href": "./depth.json#depth"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./gtin.json#gtin"
+          },
+          {
+            "href": "./gtin12.json#gtin12"
+          },
+          {
+            "href": "./gtin13.json#gtin13"
+          },
+          {
+            "href": "./gtin14.json#gtin14"
+          },
+          {
+            "href": "./gtin8.json#gtin8"
+          },
+          {
+            "href": "./hasEnergyConsumptionDetails.json#hasEnergyConsumptionDetails"
+          },
+          {
+            "href": "./hasMeasurement.json#hasMeasurement"
+          },
+          {
+            "href": "./hasMerchantReturnPolicy.json#hasMerchantReturnPolicy"
+          },
+          {
+            "href": "./hasProductReturnPolicy.json#hasProductReturnPolicy"
+          },
+          {
+            "href": "./height.json#height"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./inProductGroupWithID.json#inProductGroupWithID"
+          },
+          {
+            "href": "./isAccessoryOrSparePartFor.json#isAccessoryOrSparePartFor"
+          },
+          {
+            "href": "./isConsumableFor.json#isConsumableFor"
+          },
+          {
+            "href": "./isRelatedTo.json#isRelatedTo"
+          },
+          {
+            "href": "./isSimilarTo.json#isSimilarTo"
+          },
+          {
+            "href": "./isVariantOf.json#isVariantOf"
+          },
+          {
+            "href": "./itemCondition.json#itemCondition"
+          },
+          {
+            "href": "./logo.json#logo"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./manufacturer.json#manufacturer"
+          },
+          {
+            "href": "./material.json#material"
+          },
+          {
+            "href": "./model.json#model"
+          },
+          {
+            "href": "./mpn.json#mpn"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./nsn.json#nsn"
+          },
+          {
+            "href": "./offers.json#offers"
+          },
+          {
+            "href": "./pattern.json#pattern"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./productID.json#productID"
+          },
+          {
+            "href": "./productionDate.json#productionDate"
+          },
+          {
+            "href": "./purchaseDate.json#purchaseDate"
+          },
+          {
+            "href": "./releaseDate.json#releaseDate"
+          },
+          {
+            "href": "./review.json#review"
+          },
+          {
+            "href": "./reviews.json#reviews"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./size.json#size"
+          },
+          {
+            "href": "./sku.json#sku"
+          },
+          {
+            "href": "./slogan.json#slogan"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./weight.json#weight"
+          },
+          {
+            "href": "./width.json#width"
+          }
+        ]
+      }
+    ]
+  }
+}

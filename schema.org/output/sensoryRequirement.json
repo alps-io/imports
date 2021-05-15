@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "sensoryRequirementDefinedTerm",
+        "def": "https://schema.org/sensoryRequirement",
+        "name": "sensoryRequirement",
+        "type": "semantic"
+      },
+      {
+        "id": "sensoryRequirementText",
+        "def": "https://schema.org/sensoryRequirement",
+        "name": "sensoryRequirement",
+        "type": "semantic"
+      },
+      {
+        "id": "sensoryRequirementURL",
+        "def": "https://schema.org/sensoryRequirement",
+        "name": "sensoryRequirement",
+        "type": "semantic"
+      }
+    ]
+  }
+}

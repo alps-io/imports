@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "knowsAboutText",
+        "def": "https://schema.org/knowsAbout",
+        "name": "knowsAbout",
+        "type": "semantic"
+      },
+      {
+        "id": "knowsAboutThing",
+        "def": "https://schema.org/knowsAbout",
+        "name": "knowsAbout",
+        "type": "semantic"
+      },
+      {
+        "id": "knowsAboutURL",
+        "def": "https://schema.org/knowsAbout",
+        "name": "knowsAbout",
+        "type": "semantic"
+      }
+    ]
+  }
+}

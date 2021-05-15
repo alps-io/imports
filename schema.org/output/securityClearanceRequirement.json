@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "securityClearanceRequirementText",
+        "def": "https://schema.org/securityClearanceRequirement",
+        "name": "securityClearanceRequirement",
+        "type": "semantic"
+      },
+      {
+        "id": "securityClearanceRequirementURL",
+        "def": "https://schema.org/securityClearanceRequirement",
+        "name": "securityClearanceRequirement",
+        "type": "semantic"
+      }
+    ]
+  }
+}

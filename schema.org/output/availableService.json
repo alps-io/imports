@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "availableServiceMedicalProcedure",
+        "def": "https://schema.org/availableService",
+        "name": "availableService",
+        "type": "semantic"
+      },
+      {
+        "id": "availableServiceMedicalTest",
+        "def": "https://schema.org/availableService",
+        "name": "availableService",
+        "type": "semantic"
+      },
+      {
+        "id": "availableServiceMedicalTherapy",
+        "def": "https://schema.org/availableService",
+        "name": "availableService",
+        "type": "semantic"
+      }
+    ]
+  }
+}

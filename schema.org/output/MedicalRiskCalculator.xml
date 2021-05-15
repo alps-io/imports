@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="MedicalRiskCalculator" type="semantic" href="http://alps.io/schema.org/MedicalRiskEstimator.xml#MedicalRiskEstimator">
-  <doc href="http://schema.org/MedicalRiskCalculator" />
-
-
- </descriptor>
-</alps>

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "MedicalAudience",
+        "def": "https://schema.org/MedicalAudience",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./audienceType.json#audienceType"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./geographicArea.json#geographicArea"
+          },
+          {
+            "href": "./healthCondition.json#healthCondition"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./requiredGender.json#requiredGender"
+          },
+          {
+            "href": "./requiredMaxAge.json#requiredMaxAge"
+          },
+          {
+            "href": "./requiredMinAge.json#requiredMinAge"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./suggestedAge.json#suggestedAge"
+          },
+          {
+            "href": "./suggestedGender.json#suggestedGender"
+          },
+          {
+            "href": "./suggestedMaxAge.json#suggestedMaxAge"
+          },
+          {
+            "href": "./suggestedMeasurement.json#suggestedMeasurement"
+          },
+          {
+            "href": "./suggestedMinAge.json#suggestedMinAge"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

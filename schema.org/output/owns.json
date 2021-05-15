@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "ownsOwnershipInfo",
+        "def": "https://schema.org/owns",
+        "name": "owns",
+        "type": "semantic"
+      },
+      {
+        "id": "ownsProduct",
+        "def": "https://schema.org/owns",
+        "name": "owns",
+        "type": "semantic"
+      }
+    ]
+  }
+}

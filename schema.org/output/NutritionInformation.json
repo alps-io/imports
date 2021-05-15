@@ -1,0 +1,86 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "NutritionInformation",
+        "def": "https://schema.org/NutritionInformation",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./calories.json#calories"
+          },
+          {
+            "href": "./carbohydrateContent.json#carbohydrateContent"
+          },
+          {
+            "href": "./cholesterolContent.json#cholesterolContent"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./fatContent.json#fatContent"
+          },
+          {
+            "href": "./fiberContent.json#fiberContent"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./proteinContent.json#proteinContent"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./saturatedFatContent.json#saturatedFatContent"
+          },
+          {
+            "href": "./servingSize.json#servingSize"
+          },
+          {
+            "href": "./sodiumContent.json#sodiumContent"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./sugarContent.json#sugarContent"
+          },
+          {
+            "href": "./transFatContent.json#transFatContent"
+          },
+          {
+            "href": "./unsaturatedFatContent.json#unsaturatedFatContent"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "correctionCorrectionComment",
+        "def": "https://schema.org/correction",
+        "name": "correction",
+        "type": "semantic"
+      },
+      {
+        "id": "correctionText",
+        "def": "https://schema.org/correction",
+        "name": "correction",
+        "type": "semantic"
+      },
+      {
+        "id": "correctionURL",
+        "def": "https://schema.org/correction",
+        "name": "correction",
+        "type": "semantic"
+      }
+    ]
+  }
+}

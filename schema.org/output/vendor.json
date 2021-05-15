@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "vendorOrganization",
+        "def": "https://schema.org/vendor",
+        "name": "vendor",
+        "type": "semantic"
+      },
+      {
+        "id": "vendorPerson",
+        "def": "https://schema.org/vendor",
+        "name": "vendor",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "numberOfAxlesNumber",
+        "def": "https://schema.org/numberOfAxles",
+        "name": "numberOfAxles",
+        "type": "semantic"
+      },
+      {
+        "id": "numberOfAxlesQuantitativeValue",
+        "def": "https://schema.org/numberOfAxles",
+        "name": "numberOfAxles",
+        "type": "semantic"
+      }
+    ]
+  }
+}

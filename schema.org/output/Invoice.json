@@ -1,0 +1,98 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "Invoice",
+        "def": "https://schema.org/Invoice",
+        "descriptor": [
+          {
+            "href": "./accountId.json#accountId"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./billingPeriod.json#billingPeriod"
+          },
+          {
+            "href": "./broker.json#broker"
+          },
+          {
+            "href": "./category.json#category"
+          },
+          {
+            "href": "./confirmationNumber.json#confirmationNumber"
+          },
+          {
+            "href": "./customer.json#customer"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./minimumPaymentDue.json#minimumPaymentDue"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./paymentDue.json#paymentDue"
+          },
+          {
+            "href": "./paymentDueDate.json#paymentDueDate"
+          },
+          {
+            "href": "./paymentMethod.json#paymentMethod"
+          },
+          {
+            "href": "./paymentMethodId.json#paymentMethodId"
+          },
+          {
+            "href": "./paymentStatus.json#paymentStatus"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./provider.json#provider"
+          },
+          {
+            "href": "./referencesOrder.json#referencesOrder"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./scheduledPaymentDate.json#scheduledPaymentDate"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./totalPaymentDue.json#totalPaymentDue"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

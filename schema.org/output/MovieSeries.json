@@ -1,0 +1,404 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "MovieSeries",
+        "def": "https://schema.org/MovieSeries",
+        "descriptor": [
+          {
+            "href": "./about.json#about"
+          },
+          {
+            "href": "./abstract.json#abstract"
+          },
+          {
+            "href": "./accessMode.json#accessMode"
+          },
+          {
+            "href": "./accessModeSufficient.json#accessModeSufficient"
+          },
+          {
+            "href": "./accessibilityAPI.json#accessibilityAPI"
+          },
+          {
+            "href": "./accessibilityControl.json#accessibilityControl"
+          },
+          {
+            "href": "./accessibilityFeature.json#accessibilityFeature"
+          },
+          {
+            "href": "./accessibilityHazard.json#accessibilityHazard"
+          },
+          {
+            "href": "./accessibilitySummary.json#accessibilitySummary"
+          },
+          {
+            "href": "./accountablePerson.json#accountablePerson"
+          },
+          {
+            "href": "./acquireLicensePage.json#acquireLicensePage"
+          },
+          {
+            "href": "./actor.json#actor"
+          },
+          {
+            "href": "./actors.json#actors"
+          },
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./aggregateRating.json#aggregateRating"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./alternativeHeadline.json#alternativeHeadline"
+          },
+          {
+            "href": "./assesses.json#assesses"
+          },
+          {
+            "href": "./associatedMedia.json#associatedMedia"
+          },
+          {
+            "href": "./audience.json#audience"
+          },
+          {
+            "href": "./audio.json#audio"
+          },
+          {
+            "href": "./author.json#author"
+          },
+          {
+            "href": "./award.json#award"
+          },
+          {
+            "href": "./awards.json#awards"
+          },
+          {
+            "href": "./character.json#character"
+          },
+          {
+            "href": "./citation.json#citation"
+          },
+          {
+            "href": "./comment.json#comment"
+          },
+          {
+            "href": "./commentCount.json#commentCount"
+          },
+          {
+            "href": "./conditionsOfAccess.json#conditionsOfAccess"
+          },
+          {
+            "href": "./contentLocation.json#contentLocation"
+          },
+          {
+            "href": "./contentRating.json#contentRating"
+          },
+          {
+            "href": "./contentReferenceTime.json#contentReferenceTime"
+          },
+          {
+            "href": "./contributor.json#contributor"
+          },
+          {
+            "href": "./copyrightHolder.json#copyrightHolder"
+          },
+          {
+            "href": "./copyrightNotice.json#copyrightNotice"
+          },
+          {
+            "href": "./copyrightYear.json#copyrightYear"
+          },
+          {
+            "href": "./correction.json#correction"
+          },
+          {
+            "href": "./creativeWorkStatus.json#creativeWorkStatus"
+          },
+          {
+            "href": "./creator.json#creator"
+          },
+          {
+            "href": "./creditText.json#creditText"
+          },
+          {
+            "href": "./dateCreated.json#dateCreated"
+          },
+          {
+            "href": "./dateModified.json#dateModified"
+          },
+          {
+            "href": "./datePublished.json#datePublished"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./director.json#director"
+          },
+          {
+            "href": "./directors.json#directors"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./discussionUrl.json#discussionUrl"
+          },
+          {
+            "href": "./editEIDR.json#editEIDR"
+          },
+          {
+            "href": "./editor.json#editor"
+          },
+          {
+            "href": "./educationalAlignment.json#educationalAlignment"
+          },
+          {
+            "href": "./educationalLevel.json#educationalLevel"
+          },
+          {
+            "href": "./educationalUse.json#educationalUse"
+          },
+          {
+            "href": "./encoding.json#encoding"
+          },
+          {
+            "href": "./encodingFormat.json#encodingFormat"
+          },
+          {
+            "href": "./encodings.json#encodings"
+          },
+          {
+            "href": "./endDate.json#endDate"
+          },
+          {
+            "href": "./exampleOfWork.json#exampleOfWork"
+          },
+          {
+            "href": "./expires.json#expires"
+          },
+          {
+            "href": "./fileFormat.json#fileFormat"
+          },
+          {
+            "href": "./funder.json#funder"
+          },
+          {
+            "href": "./genre.json#genre"
+          },
+          {
+            "href": "./hasPart.json#hasPart"
+          },
+          {
+            "href": "./headline.json#headline"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./inLanguage.json#inLanguage"
+          },
+          {
+            "href": "./interactionStatistic.json#interactionStatistic"
+          },
+          {
+            "href": "./interactivityType.json#interactivityType"
+          },
+          {
+            "href": "./isAccessibleForFree.json#isAccessibleForFree"
+          },
+          {
+            "href": "./isBasedOn.json#isBasedOn"
+          },
+          {
+            "href": "./isBasedOnUrl.json#isBasedOnUrl"
+          },
+          {
+            "href": "./isFamilyFriendly.json#isFamilyFriendly"
+          },
+          {
+            "href": "./isPartOf.json#isPartOf"
+          },
+          {
+            "href": "./issn.json#issn"
+          },
+          {
+            "href": "./keywords.json#keywords"
+          },
+          {
+            "href": "./learningResourceType.json#learningResourceType"
+          },
+          {
+            "href": "./license.json#license"
+          },
+          {
+            "href": "./locationCreated.json#locationCreated"
+          },
+          {
+            "href": "./mainEntity.json#mainEntity"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./maintainer.json#maintainer"
+          },
+          {
+            "href": "./material.json#material"
+          },
+          {
+            "href": "./materialExtent.json#materialExtent"
+          },
+          {
+            "href": "./mentions.json#mentions"
+          },
+          {
+            "href": "./musicBy.json#musicBy"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./offers.json#offers"
+          },
+          {
+            "href": "./pattern.json#pattern"
+          },
+          {
+            "href": "./position.json#position"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./producer.json#producer"
+          },
+          {
+            "href": "./productionCompany.json#productionCompany"
+          },
+          {
+            "href": "./provider.json#provider"
+          },
+          {
+            "href": "./publication.json#publication"
+          },
+          {
+            "href": "./publisher.json#publisher"
+          },
+          {
+            "href": "./publisherImprint.json#publisherImprint"
+          },
+          {
+            "href": "./publishingPrinciples.json#publishingPrinciples"
+          },
+          {
+            "href": "./recordedAt.json#recordedAt"
+          },
+          {
+            "href": "./releasedEvent.json#releasedEvent"
+          },
+          {
+            "href": "./review.json#review"
+          },
+          {
+            "href": "./reviews.json#reviews"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./schemaVersion.json#schemaVersion"
+          },
+          {
+            "href": "./sdDatePublished.json#sdDatePublished"
+          },
+          {
+            "href": "./sdLicense.json#sdLicense"
+          },
+          {
+            "href": "./sdPublisher.json#sdPublisher"
+          },
+          {
+            "href": "./size.json#size"
+          },
+          {
+            "href": "./sourceOrganization.json#sourceOrganization"
+          },
+          {
+            "href": "./spatial.json#spatial"
+          },
+          {
+            "href": "./spatialCoverage.json#spatialCoverage"
+          },
+          {
+            "href": "./sponsor.json#sponsor"
+          },
+          {
+            "href": "./startDate.json#startDate"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./teaches.json#teaches"
+          },
+          {
+            "href": "./temporal.json#temporal"
+          },
+          {
+            "href": "./temporalCoverage.json#temporalCoverage"
+          },
+          {
+            "href": "./text.json#text"
+          },
+          {
+            "href": "./thumbnailUrl.json#thumbnailUrl"
+          },
+          {
+            "href": "./timeRequired.json#timeRequired"
+          },
+          {
+            "href": "./trailer.json#trailer"
+          },
+          {
+            "href": "./translationOfWork.json#translationOfWork"
+          },
+          {
+            "href": "./translator.json#translator"
+          },
+          {
+            "href": "./typicalAgeRange.json#typicalAgeRange"
+          },
+          {
+            "href": "./url.json#url"
+          },
+          {
+            "href": "./usageInfo.json#usageInfo"
+          },
+          {
+            "href": "./version.json#version"
+          },
+          {
+            "href": "./video.json#video"
+          },
+          {
+            "href": "./workExample.json#workExample"
+          },
+          {
+            "href": "./workTranslation.json#workTranslation"
+          }
+        ]
+      }
+    ]
+  }
+}

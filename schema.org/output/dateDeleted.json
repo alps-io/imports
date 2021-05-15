@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "dateDeletedDate",
+        "def": "https://schema.org/dateDeleted",
+        "name": "dateDeleted",
+        "type": "semantic"
+      },
+      {
+        "id": "dateDeletedDateTime",
+        "def": "https://schema.org/dateDeleted",
+        "name": "dateDeleted",
+        "type": "semantic"
+      }
+    ]
+  }
+}

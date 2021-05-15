@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "fuelTypeQualitativeValue",
+        "def": "https://schema.org/fuelType",
+        "name": "fuelType",
+        "type": "semantic"
+      },
+      {
+        "id": "fuelTypeText",
+        "def": "https://schema.org/fuelType",
+        "name": "fuelType",
+        "type": "semantic"
+      },
+      {
+        "id": "fuelTypeURL",
+        "def": "https://schema.org/fuelType",
+        "name": "fuelType",
+        "type": "semantic"
+      }
+    ]
+  }
+}

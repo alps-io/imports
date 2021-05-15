@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="CreditCard" type="semantic" href="http://alps.io/schema.org/PaymentMethod.xml#PaymentMethod">
-  <doc href="http://schema.org/CreditCard" />
-
-
- </descriptor>
-</alps>

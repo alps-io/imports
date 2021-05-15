@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "eligibleRegionGeoShape",
+        "def": "https://schema.org/eligibleRegion",
+        "name": "eligibleRegion",
+        "type": "semantic"
+      },
+      {
+        "id": "eligibleRegionPlace",
+        "def": "https://schema.org/eligibleRegion",
+        "name": "eligibleRegion",
+        "type": "semantic"
+      },
+      {
+        "id": "eligibleRegionText",
+        "def": "https://schema.org/eligibleRegion",
+        "name": "eligibleRegion",
+        "type": "semantic"
+      }
+    ]
+  }
+}

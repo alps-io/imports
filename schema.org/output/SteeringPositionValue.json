@@ -1,0 +1,38 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "SteeringPositionValue",
+        "def": "https://schema.org/SteeringPositionValue",
+        "descriptor": [
+          {
+            "href": "./additionalProperty.json#additionalProperty"
+          },
+          {
+            "href": "./equal.json#equal"
+          },
+          {
+            "href": "./greater.json#greater"
+          },
+          {
+            "href": "./greaterOrEqual.json#greaterOrEqual"
+          },
+          {
+            "href": "./lesser.json#lesser"
+          },
+          {
+            "href": "./lesserOrEqual.json#lesserOrEqual"
+          },
+          {
+            "href": "./nonEqual.json#nonEqual"
+          },
+          {
+            "href": "./valueReference.json#valueReference"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "typicalCreditsPerTermInteger",
+        "def": "https://schema.org/typicalCreditsPerTerm",
+        "name": "typicalCreditsPerTerm",
+        "type": "semantic"
+      },
+      {
+        "id": "typicalCreditsPerTermStructuredValue",
+        "def": "https://schema.org/typicalCreditsPerTerm",
+        "name": "typicalCreditsPerTerm",
+        "type": "semantic"
+      }
+    ]
+  }
+}

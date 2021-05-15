@@ -1,0 +1,122 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "EducationalOccupationalProgram",
+        "def": "https://schema.org/EducationalOccupationalProgram",
+        "descriptor": [
+          {
+            "href": "./additionalType.json#additionalType"
+          },
+          {
+            "href": "./alternateName.json#alternateName"
+          },
+          {
+            "href": "./applicationDeadline.json#applicationDeadline"
+          },
+          {
+            "href": "./applicationStartDate.json#applicationStartDate"
+          },
+          {
+            "href": "./dayOfWeek.json#dayOfWeek"
+          },
+          {
+            "href": "./description.json#description"
+          },
+          {
+            "href": "./disambiguatingDescription.json#disambiguatingDescription"
+          },
+          {
+            "href": "./educationalCredentialAwarded.json#educationalCredentialAwarded"
+          },
+          {
+            "href": "./educationalProgramMode.json#educationalProgramMode"
+          },
+          {
+            "href": "./endDate.json#endDate"
+          },
+          {
+            "href": "./financialAidEligible.json#financialAidEligible"
+          },
+          {
+            "href": "./hasCourse.json#hasCourse"
+          },
+          {
+            "href": "./identifier.json#identifier"
+          },
+          {
+            "href": "./image.json#image"
+          },
+          {
+            "href": "./mainEntityOfPage.json#mainEntityOfPage"
+          },
+          {
+            "href": "./maximumEnrollment.json#maximumEnrollment"
+          },
+          {
+            "href": "./name.json#name"
+          },
+          {
+            "href": "./numberOfCredits.json#numberOfCredits"
+          },
+          {
+            "href": "./occupationalCategory.json#occupationalCategory"
+          },
+          {
+            "href": "./occupationalCredentialAwarded.json#occupationalCredentialAwarded"
+          },
+          {
+            "href": "./offers.json#offers"
+          },
+          {
+            "href": "./potentialAction.json#potentialAction"
+          },
+          {
+            "href": "./programPrerequisites.json#programPrerequisites"
+          },
+          {
+            "href": "./programType.json#programType"
+          },
+          {
+            "href": "./provider.json#provider"
+          },
+          {
+            "href": "./salaryUponCompletion.json#salaryUponCompletion"
+          },
+          {
+            "href": "./sameAs.json#sameAs"
+          },
+          {
+            "href": "./startDate.json#startDate"
+          },
+          {
+            "href": "./subjectOf.json#subjectOf"
+          },
+          {
+            "href": "./termDuration.json#termDuration"
+          },
+          {
+            "href": "./termsPerYear.json#termsPerYear"
+          },
+          {
+            "href": "./timeOfDay.json#timeOfDay"
+          },
+          {
+            "href": "./timeToComplete.json#timeToComplete"
+          },
+          {
+            "href": "./trainingSalary.json#trainingSalary"
+          },
+          {
+            "href": "./typicalCreditsPerTerm.json#typicalCreditsPerTerm"
+          },
+          {
+            "href": "./url.json#url"
+          }
+        ]
+      }
+    ]
+  }
+}

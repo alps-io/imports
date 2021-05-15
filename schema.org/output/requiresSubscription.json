@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "requiresSubscriptionBoolean",
+        "def": "https://schema.org/requiresSubscription",
+        "name": "requiresSubscription",
+        "type": "semantic"
+      },
+      {
+        "id": "requiresSubscriptionMediaSubscription",
+        "def": "https://schema.org/requiresSubscription",
+        "name": "requiresSubscription",
+        "type": "semantic"
+      }
+    ]
+  }
+}

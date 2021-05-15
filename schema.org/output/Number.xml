@@ -1,7 +1,0 @@
-<alps>
- <descriptor id="Number" type="semantic" href="http://alps.io/schema.org/DataType.xml#DataType">
-  <doc href="http://schema.org/Number" />
-
-
- </descriptor>
-</alps>

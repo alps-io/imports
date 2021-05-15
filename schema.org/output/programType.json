@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "programTypeDefinedTerm",
+        "def": "https://schema.org/programType",
+        "name": "programType",
+        "type": "semantic"
+      },
+      {
+        "id": "programTypeText",
+        "def": "https://schema.org/programType",
+        "name": "programType",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "relevantSpecialty",
+        "def": "https://schema.org/relevantSpecialty",
+        "type": "semantic"
+      }
+    ]
+  }
+}

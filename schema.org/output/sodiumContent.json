@@ -1,0 +1,13 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "sodiumContent",
+        "def": "https://schema.org/sodiumContent",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "featureListText",
+        "def": "https://schema.org/featureList",
+        "name": "featureList",
+        "type": "semantic"
+      },
+      {
+        "id": "featureListURL",
+        "def": "https://schema.org/featureList",
+        "name": "featureList",
+        "type": "semantic"
+      }
+    ]
+  }
+}
