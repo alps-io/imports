@@ -10,9 +10,7 @@ fs.mkdirSync(outputDir);
 
 function writeAlpsDoc(doc: Alps.Doc) {
   const filePath = path.join(outputDir, `${doc.fileName}.json`);
-  fs.writeFile(filePath, JSON.stringify(doc, null, 2), (err) => {
-    if (err) throw err;
-  });
+  fs.writeFileSync(filePath, JSON.stringify(doc, null, 2));
 }
 
 readProps().map(convert.propToAlpsDoc).forEach(writeAlpsDoc);
