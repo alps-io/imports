@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "value",
+        "def": "https://schema.org/value",
+        "name": "value",
+        "type": "semantic"
+      },
+      {
         "id": "valueBoolean",
         "def": "https://schema.org/value",
         "name": "value",

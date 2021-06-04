@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "legislationResponsible",
+        "def": "https://schema.org/legislationResponsible",
+        "name": "legislationResponsible",
+        "type": "semantic"
+      },
+      {
         "id": "legislationResponsibleOrganization",
         "def": "https://schema.org/legislationResponsible",
         "name": "legislationResponsible",

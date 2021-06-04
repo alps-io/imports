@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "highPrice",
+        "def": "https://schema.org/highPrice",
+        "name": "highPrice",
+        "type": "semantic"
+      },
+      {
         "id": "highPriceNumber",
         "def": "https://schema.org/highPrice",
         "name": "highPrice",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "acceptsReservations",
+        "def": "https://schema.org/acceptsReservations",
+        "name": "acceptsReservations",
+        "type": "semantic"
+      },
+      {
         "id": "acceptsReservationsBoolean",
         "def": "https://schema.org/acceptsReservations",
         "name": "acceptsReservations",

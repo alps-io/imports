@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "expectedArrivalUntil",
+        "def": "https://schema.org/expectedArrivalUntil",
+        "name": "expectedArrivalUntil",
+        "type": "semantic"
+      },
+      {
         "id": "expectedArrivalUntilDate",
         "def": "https://schema.org/expectedArrivalUntil",
         "name": "expectedArrivalUntil",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "educationalLevel",
+        "def": "https://schema.org/educationalLevel",
+        "name": "educationalLevel",
+        "type": "semantic"
+      },
+      {
         "id": "educationalLevelDefinedTerm",
         "def": "https://schema.org/educationalLevel",
         "name": "educationalLevel",

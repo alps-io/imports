@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "actionPlatform",
+        "def": "https://schema.org/actionPlatform",
+        "name": "actionPlatform",
+        "type": "semantic"
+      },
+      {
         "id": "actionPlatformText",
         "def": "https://schema.org/actionPlatform",
         "name": "actionPlatform",

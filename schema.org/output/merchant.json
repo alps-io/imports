@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "merchant",
+        "def": "https://schema.org/merchant",
+        "name": "merchant",
+        "type": "semantic"
+      },
+      {
         "id": "merchantOrganization",
         "def": "https://schema.org/merchant",
         "name": "merchant",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoCoveredBy",
+        "def": "https://schema.org/geoCoveredBy",
+        "name": "geoCoveredBy",
+        "type": "semantic"
+      },
+      {
         "id": "geoCoveredByGeospatialGeometry",
         "def": "https://schema.org/geoCoveredBy",
         "name": "geoCoveredBy",

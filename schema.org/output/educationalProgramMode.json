@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "educationalProgramMode",
+        "def": "https://schema.org/educationalProgramMode",
+        "name": "educationalProgramMode",
+        "type": "semantic"
+      },
+      {
         "id": "educationalProgramModeText",
         "def": "https://schema.org/educationalProgramMode",
         "name": "educationalProgramMode",

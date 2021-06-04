@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "longitude",
+        "def": "https://schema.org/longitude",
+        "name": "longitude",
+        "type": "semantic"
+      },
+      {
         "id": "longitudeNumber",
         "def": "https://schema.org/longitude",
         "name": "longitude",

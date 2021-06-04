@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "programType",
+        "def": "https://schema.org/programType",
+        "name": "programType",
+        "type": "semantic"
+      },
+      {
         "id": "programTypeDefinedTerm",
         "def": "https://schema.org/programType",
         "name": "programType",

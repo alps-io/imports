@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "itemListOrder",
+        "def": "https://schema.org/itemListOrder",
+        "name": "itemListOrder",
+        "type": "semantic"
+      },
+      {
         "id": "itemListOrderItemListOrderType",
         "def": "https://schema.org/itemListOrder",
         "name": "itemListOrder",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "vehicleSeatingCapacity",
+        "def": "https://schema.org/vehicleSeatingCapacity",
+        "name": "vehicleSeatingCapacity",
+        "type": "semantic"
+      },
+      {
         "id": "vehicleSeatingCapacityNumber",
         "def": "https://schema.org/vehicleSeatingCapacity",
         "name": "vehicleSeatingCapacity",

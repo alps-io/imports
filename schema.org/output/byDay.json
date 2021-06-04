@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "byDay",
+        "def": "https://schema.org/byDay",
+        "name": "byDay",
+        "type": "semantic"
+      },
+      {
         "id": "byDayDayOfWeek",
         "def": "https://schema.org/byDay",
         "name": "byDay",

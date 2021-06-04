@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "bookingAgent",
+        "def": "https://schema.org/bookingAgent",
+        "name": "bookingAgent",
+        "type": "semantic"
+      },
+      {
         "id": "bookingAgentOrganization",
         "def": "https://schema.org/bookingAgent",
         "name": "bookingAgent",

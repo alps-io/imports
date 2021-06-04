@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoWithin",
+        "def": "https://schema.org/geoWithin",
+        "name": "geoWithin",
+        "type": "semantic"
+      },
+      {
         "id": "geoWithinGeospatialGeometry",
         "def": "https://schema.org/geoWithin",
         "name": "geoWithin",

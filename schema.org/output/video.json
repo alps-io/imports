@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "video",
+        "def": "https://schema.org/video",
+        "name": "video",
+        "type": "semantic"
+      },
+      {
         "id": "videoClip",
         "def": "https://schema.org/video",
         "name": "video",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoTouches",
+        "def": "https://schema.org/geoTouches",
+        "name": "geoTouches",
+        "type": "semantic"
+      },
+      {
         "id": "geoTouchesGeospatialGeometry",
         "def": "https://schema.org/geoTouches",
         "name": "geoTouches",

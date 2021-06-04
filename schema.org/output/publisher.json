@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "publisher",
+        "def": "https://schema.org/publisher",
+        "name": "publisher",
+        "type": "semantic"
+      },
+      {
         "id": "publisherOrganization",
         "def": "https://schema.org/publisher",
         "name": "publisher",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "bestRating",
+        "def": "https://schema.org/bestRating",
+        "name": "bestRating",
+        "type": "semantic"
+      },
+      {
         "id": "bestRatingNumber",
         "def": "https://schema.org/bestRating",
         "name": "bestRating",

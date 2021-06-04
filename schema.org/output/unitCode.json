@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "unitCode",
+        "def": "https://schema.org/unitCode",
+        "name": "unitCode",
+        "type": "semantic"
+      },
+      {
         "id": "unitCodeText",
         "def": "https://schema.org/unitCode",
         "name": "unitCode",

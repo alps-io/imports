@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "costPerUnit",
+        "def": "https://schema.org/costPerUnit",
+        "name": "costPerUnit",
+        "type": "semantic"
+      },
+      {
         "id": "costPerUnitNumber",
         "def": "https://schema.org/costPerUnit",
         "name": "costPerUnit",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "ticketToken",
+        "def": "https://schema.org/ticketToken",
+        "name": "ticketToken",
+        "type": "semantic"
+      },
+      {
         "id": "ticketTokenText",
         "def": "https://schema.org/ticketToken",
         "name": "ticketToken",

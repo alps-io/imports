@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoCovers",
+        "def": "https://schema.org/geoCovers",
+        "name": "geoCovers",
+        "type": "semantic"
+      },
+      {
         "id": "geoCoversGeospatialGeometry",
         "def": "https://schema.org/geoCovers",
         "name": "geoCovers",

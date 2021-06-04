@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "experienceRequirements",
+        "def": "https://schema.org/experienceRequirements",
+        "name": "experienceRequirements",
+        "type": "semantic"
+      },
+      {
         "id": "experienceRequirementsOccupationalExperienceRequirements",
         "def": "https://schema.org/experienceRequirements",
         "name": "experienceRequirements",

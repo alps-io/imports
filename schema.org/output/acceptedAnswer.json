@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "acceptedAnswer",
+        "def": "https://schema.org/acceptedAnswer",
+        "name": "acceptedAnswer",
+        "type": "semantic"
+      },
+      {
         "id": "acceptedAnswerAnswer",
         "def": "https://schema.org/acceptedAnswer",
         "name": "acceptedAnswer",

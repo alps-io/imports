@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "educationRequirements",
+        "def": "https://schema.org/educationRequirements",
+        "name": "educationRequirements",
+        "type": "semantic"
+      },
+      {
         "id": "educationRequirementsEducationalOccupationalCredential",
         "def": "https://schema.org/educationRequirements",
         "name": "educationRequirements",

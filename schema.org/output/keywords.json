@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "keywords",
+        "def": "https://schema.org/keywords",
+        "name": "keywords",
+        "type": "semantic"
+      },
+      {
         "id": "keywordsDefinedTerm",
         "def": "https://schema.org/keywords",
         "name": "keywords",

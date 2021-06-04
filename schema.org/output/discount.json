@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "discount",
+        "def": "https://schema.org/discount",
+        "name": "discount",
+        "type": "semantic"
+      },
+      {
         "id": "discountNumber",
         "def": "https://schema.org/discount",
         "name": "discount",

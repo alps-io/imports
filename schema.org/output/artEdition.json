@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "artEdition",
+        "def": "https://schema.org/artEdition",
+        "name": "artEdition",
+        "type": "semantic"
+      },
+      {
         "id": "artEditionInteger",
         "def": "https://schema.org/artEdition",
         "name": "artEdition",

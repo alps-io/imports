@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "restPeriods",
+        "def": "https://schema.org/restPeriods",
+        "name": "restPeriods",
+        "type": "semantic"
+      },
+      {
         "id": "restPeriodsQuantitativeValue",
         "def": "https://schema.org/restPeriods",
         "name": "restPeriods",

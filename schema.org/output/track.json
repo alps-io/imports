@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "track",
+        "def": "https://schema.org/track",
+        "name": "track",
+        "type": "semantic"
+      },
+      {
         "id": "trackItemList",
         "def": "https://schema.org/track",
         "name": "track",

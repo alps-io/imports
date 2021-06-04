@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "contraindication",
+        "def": "https://schema.org/contraindication",
+        "name": "contraindication",
+        "type": "semantic"
+      },
+      {
         "id": "contraindicationMedicalContraindication",
         "def": "https://schema.org/contraindication",
         "name": "contraindication",

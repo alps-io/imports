@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "activityDuration",
+        "def": "https://schema.org/activityDuration",
+        "name": "activityDuration",
+        "type": "semantic"
+      },
+      {
         "id": "activityDurationDuration",
         "def": "https://schema.org/activityDuration",
         "name": "activityDuration",

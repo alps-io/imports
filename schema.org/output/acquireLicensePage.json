@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "acquireLicensePage",
+        "def": "https://schema.org/acquireLicensePage",
+        "name": "acquireLicensePage",
+        "type": "semantic"
+      },
+      {
         "id": "acquireLicensePageCreativeWork",
         "def": "https://schema.org/acquireLicensePage",
         "name": "acquireLicensePage",

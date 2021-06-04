@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "skills",
+        "def": "https://schema.org/skills",
+        "name": "skills",
+        "type": "semantic"
+      },
+      {
         "id": "skillsDefinedTerm",
         "def": "https://schema.org/skills",
         "name": "skills",

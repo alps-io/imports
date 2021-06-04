@@ -10,7 +10,12 @@
       }
     ]
   }
-}
+}": "semantic"
+      },
+      {
+        "id": "downPaymentMonetaryAmount",
+        "def": "https://schema.org/downPayment",
+        "name": "downPayment",
         "type": "semantic"
       },
       {

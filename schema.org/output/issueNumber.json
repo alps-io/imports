@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "issueNumber",
+        "def": "https://schema.org/issueNumber",
+        "name": "issueNumber",
+        "type": "semantic"
+      },
+      {
         "id": "issueNumberInteger",
         "def": "https://schema.org/issueNumber",
         "name": "issueNumber",

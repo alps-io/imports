@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "eligibleRegion",
+        "def": "https://schema.org/eligibleRegion",
+        "name": "eligibleRegion",
+        "type": "semantic"
+      },
+      {
         "id": "eligibleRegionGeoShape",
         "def": "https://schema.org/eligibleRegion",
         "name": "eligibleRegion",

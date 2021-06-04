@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "vehicleTransmission",
+        "def": "https://schema.org/vehicleTransmission",
+        "name": "vehicleTransmission",
+        "type": "semantic"
+      },
+      {
         "id": "vehicleTransmissionQualitativeValue",
         "def": "https://schema.org/vehicleTransmission",
         "name": "vehicleTransmission",

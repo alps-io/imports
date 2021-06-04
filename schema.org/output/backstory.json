@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "backstory",
+        "def": "https://schema.org/backstory",
+        "name": "backstory",
+        "type": "semantic"
+      },
+      {
         "id": "backstoryCreativeWork",
         "def": "https://schema.org/backstory",
         "name": "backstory",

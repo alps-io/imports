@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "contributor",
+        "def": "https://schema.org/contributor",
+        "name": "contributor",
+        "type": "semantic"
+      },
+      {
         "id": "contributorOrganization",
         "def": "https://schema.org/contributor",
         "name": "contributor",

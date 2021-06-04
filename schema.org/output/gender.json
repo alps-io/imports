@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "gender",
+        "def": "https://schema.org/gender",
+        "name": "gender",
+        "type": "semantic"
+      },
+      {
         "id": "genderGenderType",
         "def": "https://schema.org/gender",
         "name": "gender",

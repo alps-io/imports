@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "homeLocation",
+        "def": "https://schema.org/homeLocation",
+        "name": "homeLocation",
+        "type": "semantic"
+      },
+      {
         "id": "homeLocationContactPoint",
         "def": "https://schema.org/homeLocation",
         "name": "homeLocation",

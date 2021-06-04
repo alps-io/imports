@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "acceptedPaymentMethod",
+        "def": "https://schema.org/acceptedPaymentMethod",
+        "name": "acceptedPaymentMethod",
+        "type": "semantic"
+      },
+      {
         "id": "acceptedPaymentMethodLoanOrCredit",
         "def": "https://schema.org/acceptedPaymentMethod",
         "name": "acceptedPaymentMethod",

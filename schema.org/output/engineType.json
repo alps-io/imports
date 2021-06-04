@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "engineType",
+        "def": "https://schema.org/engineType",
+        "name": "engineType",
+        "type": "semantic"
+      },
+      {
         "id": "engineTypeQualitativeValue",
         "def": "https://schema.org/engineType",
         "name": "engineType",

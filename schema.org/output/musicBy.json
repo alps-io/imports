@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "musicBy",
+        "def": "https://schema.org/musicBy",
+        "name": "musicBy",
+        "type": "semantic"
+      },
+      {
         "id": "musicByMusicGroup",
         "def": "https://schema.org/musicBy",
         "name": "musicBy",

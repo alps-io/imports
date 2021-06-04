@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "contentRating",
+        "def": "https://schema.org/contentRating",
+        "name": "contentRating",
+        "type": "semantic"
+      },
+      {
         "id": "contentRatingRating",
         "def": "https://schema.org/contentRating",
         "name": "contentRating",

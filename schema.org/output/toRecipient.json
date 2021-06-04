@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "toRecipient",
+        "def": "https://schema.org/toRecipient",
+        "name": "toRecipient",
+        "type": "semantic"
+      },
+      {
         "id": "toRecipientAudience",
         "def": "https://schema.org/toRecipient",
         "name": "toRecipient",

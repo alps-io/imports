@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "surface",
+        "def": "https://schema.org/surface",
+        "name": "surface",
+        "type": "semantic"
+      },
+      {
         "id": "surfaceText",
         "def": "https://schema.org/surface",
         "name": "surface",

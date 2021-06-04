@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "paymentDueDate",
+        "def": "https://schema.org/paymentDueDate",
+        "name": "paymentDueDate",
+        "type": "semantic"
+      },
+      {
         "id": "paymentDueDateDate",
         "def": "https://schema.org/paymentDueDate",
         "name": "paymentDueDate",

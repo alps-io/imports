@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "recipeYield",
+        "def": "https://schema.org/recipeYield",
+        "name": "recipeYield",
+        "type": "semantic"
+      },
+      {
         "id": "recipeYieldQuantitativeValue",
         "def": "https://schema.org/recipeYield",
         "name": "recipeYield",

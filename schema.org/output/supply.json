@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "supply",
+        "def": "https://schema.org/supply",
+        "name": "supply",
+        "type": "semantic"
+      },
+      {
         "id": "supplyHowToSupply",
         "def": "https://schema.org/supply",
         "name": "supply",

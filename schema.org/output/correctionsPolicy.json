@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "correctionsPolicy",
+        "def": "https://schema.org/correctionsPolicy",
+        "name": "correctionsPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "correctionsPolicyCreativeWork",
         "def": "https://schema.org/correctionsPolicy",
         "name": "correctionsPolicy",

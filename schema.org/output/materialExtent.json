@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "materialExtent",
+        "def": "https://schema.org/materialExtent",
+        "name": "materialExtent",
+        "type": "semantic"
+      },
+      {
         "id": "materialExtentQuantitativeValue",
         "def": "https://schema.org/materialExtent",
         "name": "materialExtent",

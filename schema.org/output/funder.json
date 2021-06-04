@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "funder",
+        "def": "https://schema.org/funder",
+        "name": "funder",
+        "type": "semantic"
+      },
+      {
         "id": "funderOrganization",
         "def": "https://schema.org/funder",
         "name": "funder",

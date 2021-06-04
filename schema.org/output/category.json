@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "category",
+        "def": "https://schema.org/category",
+        "name": "category",
+        "type": "semantic"
+      },
+      {
         "id": "categoryPhysicalActivityCategory",
         "def": "https://schema.org/category",
         "name": "category",

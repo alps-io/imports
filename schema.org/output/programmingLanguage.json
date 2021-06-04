@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "programmingLanguage",
+        "def": "https://schema.org/programmingLanguage",
+        "name": "programmingLanguage",
+        "type": "semantic"
+      },
+      {
         "id": "programmingLanguageComputerLanguage",
         "def": "https://schema.org/programmingLanguage",
         "name": "programmingLanguage",

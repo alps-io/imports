@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "amount",
+        "def": "https://schema.org/amount",
+        "name": "amount",
+        "type": "semantic"
+      },
+      {
         "id": "amountMonetaryAmount",
         "def": "https://schema.org/amount",
         "name": "amount",

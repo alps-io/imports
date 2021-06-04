@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "educationalUse",
+        "def": "https://schema.org/educationalUse",
+        "name": "educationalUse",
+        "type": "semantic"
+      },
+      {
         "id": "educationalUseDefinedTerm",
         "def": "https://schema.org/educationalUse",
         "name": "educationalUse",

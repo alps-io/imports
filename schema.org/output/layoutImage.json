@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "layoutImage",
+        "def": "https://schema.org/layoutImage",
+        "name": "layoutImage",
+        "type": "semantic"
+      },
+      {
         "id": "layoutImageImageObject",
         "def": "https://schema.org/layoutImage",
         "name": "layoutImage",

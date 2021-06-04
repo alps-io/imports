@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoContains",
+        "def": "https://schema.org/geoContains",
+        "name": "geoContains",
+        "type": "semantic"
+      },
+      {
         "id": "geoContainsGeospatialGeometry",
         "def": "https://schema.org/geoContains",
         "name": "geoContains",

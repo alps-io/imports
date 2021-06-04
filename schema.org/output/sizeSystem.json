@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sizeSystem",
+        "def": "https://schema.org/sizeSystem",
+        "name": "sizeSystem",
+        "type": "semantic"
+      },
+      {
         "id": "sizeSystemSizeSystemEnumeration",
         "def": "https://schema.org/sizeSystem",
         "name": "sizeSystem",

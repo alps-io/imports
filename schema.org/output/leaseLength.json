@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "leaseLength",
+        "def": "https://schema.org/leaseLength",
+        "name": "leaseLength",
+        "type": "semantic"
+      },
+      {
         "id": "leaseLengthDuration",
         "def": "https://schema.org/leaseLength",
         "name": "leaseLength",

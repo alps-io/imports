@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "pageEnd",
+        "def": "https://schema.org/pageEnd",
+        "name": "pageEnd",
+        "type": "semantic"
+      },
+      {
         "id": "pageEndInteger",
         "def": "https://schema.org/pageEnd",
         "name": "pageEnd",

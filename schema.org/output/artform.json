@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "artform",
+        "def": "https://schema.org/artform",
+        "name": "artform",
+        "type": "semantic"
+      },
+      {
         "id": "artformText",
         "def": "https://schema.org/artform",
         "name": "artform",

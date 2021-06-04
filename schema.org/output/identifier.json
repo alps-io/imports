@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "identifier",
+        "def": "https://schema.org/identifier",
+        "name": "identifier",
+        "type": "semantic"
+      },
+      {
         "id": "identifierPropertyValue",
         "def": "https://schema.org/identifier",
         "name": "identifier",

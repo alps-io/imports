@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "baseSalary",
+        "def": "https://schema.org/baseSalary",
+        "name": "baseSalary",
+        "type": "semantic"
+      },
+      {
         "id": "baseSalaryMonetaryAmount",
         "def": "https://schema.org/baseSalary",
         "name": "baseSalary",

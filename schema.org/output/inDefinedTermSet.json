@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "inDefinedTermSet",
+        "def": "https://schema.org/inDefinedTermSet",
+        "name": "inDefinedTermSet",
+        "type": "semantic"
+      },
+      {
         "id": "inDefinedTermSetDefinedTermSet",
         "def": "https://schema.org/inDefinedTermSet",
         "name": "inDefinedTermSet",

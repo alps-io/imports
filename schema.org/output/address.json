@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "address",
+        "def": "https://schema.org/address",
+        "name": "address",
+        "type": "semantic"
+      },
+      {
         "id": "addressPostalAddress",
         "def": "https://schema.org/address",
         "name": "address",

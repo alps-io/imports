@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "startDate",
+        "def": "https://schema.org/startDate",
+        "name": "startDate",
+        "type": "semantic"
+      },
+      {
         "id": "startDateDate",
         "def": "https://schema.org/startDate",
         "name": "startDate",

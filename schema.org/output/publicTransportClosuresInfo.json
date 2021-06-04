@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "publicTransportClosuresInfo",
+        "def": "https://schema.org/publicTransportClosuresInfo",
+        "name": "publicTransportClosuresInfo",
+        "type": "semantic"
+      },
+      {
         "id": "publicTransportClosuresInfoURL",
         "def": "https://schema.org/publicTransportClosuresInfo",
         "name": "publicTransportClosuresInfo",

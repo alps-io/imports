@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "vehicleSpecialUsage",
+        "def": "https://schema.org/vehicleSpecialUsage",
+        "name": "vehicleSpecialUsage",
+        "type": "semantic"
+      },
+      {
         "id": "vehicleSpecialUsageCarUsageType",
         "def": "https://schema.org/vehicleSpecialUsage",
         "name": "vehicleSpecialUsage",

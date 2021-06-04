@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "totalPaymentDue",
+        "def": "https://schema.org/totalPaymentDue",
+        "name": "totalPaymentDue",
+        "type": "semantic"
+      },
+      {
         "id": "totalPaymentDueMonetaryAmount",
         "def": "https://schema.org/totalPaymentDue",
         "name": "totalPaymentDue",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "unnamedSourcesPolicy",
+        "def": "https://schema.org/unnamedSourcesPolicy",
+        "name": "unnamedSourcesPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "unnamedSourcesPolicyCreativeWork",
         "def": "https://schema.org/unnamedSourcesPolicy",
         "name": "unnamedSourcesPolicy",

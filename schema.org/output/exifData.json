@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "exifData",
+        "def": "https://schema.org/exifData",
+        "name": "exifData",
+        "type": "semantic"
+      },
+      {
         "id": "exifDataPropertyValue",
         "def": "https://schema.org/exifData",
         "name": "exifData",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "variesBy",
+        "def": "https://schema.org/variesBy",
+        "name": "variesBy",
+        "type": "semantic"
+      },
+      {
         "id": "variesByDefinedTerm",
         "def": "https://schema.org/variesBy",
         "name": "variesBy",

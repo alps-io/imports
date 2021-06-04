@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "typeOfGood",
+        "def": "https://schema.org/typeOfGood",
+        "name": "typeOfGood",
+        "type": "semantic"
+      },
+      {
         "id": "typeOfGoodProduct",
         "def": "https://schema.org/typeOfGood",
         "name": "typeOfGood",

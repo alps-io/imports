@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "featureList",
+        "def": "https://schema.org/featureList",
+        "name": "featureList",
+        "type": "semantic"
+      },
+      {
         "id": "featureListText",
         "def": "https://schema.org/featureList",
         "name": "featureList",

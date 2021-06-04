@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "broadcastSignalModulation",
+        "def": "https://schema.org/broadcastSignalModulation",
+        "name": "broadcastSignalModulation",
+        "type": "semantic"
+      },
+      {
         "id": "broadcastSignalModulationQualitativeValue",
         "def": "https://schema.org/broadcastSignalModulation",
         "name": "broadcastSignalModulation",

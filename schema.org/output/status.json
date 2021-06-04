@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "status",
+        "def": "https://schema.org/status",
+        "name": "status",
+        "type": "semantic"
+      },
+      {
         "id": "statusEventStatusType",
         "def": "https://schema.org/status",
         "name": "status",

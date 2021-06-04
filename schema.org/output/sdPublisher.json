@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sdPublisher",
+        "def": "https://schema.org/sdPublisher",
+        "name": "sdPublisher",
+        "type": "semantic"
+      },
+      {
         "id": "sdPublisherOrganization",
         "def": "https://schema.org/sdPublisher",
         "name": "sdPublisher",

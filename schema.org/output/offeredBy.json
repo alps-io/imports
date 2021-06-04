@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "offeredBy",
+        "def": "https://schema.org/offeredBy",
+        "name": "offeredBy",
+        "type": "semantic"
+      },
+      {
         "id": "offeredByOrganization",
         "def": "https://schema.org/offeredBy",
         "name": "offeredBy",

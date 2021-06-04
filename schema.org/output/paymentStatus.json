@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "paymentStatus",
+        "def": "https://schema.org/paymentStatus",
+        "name": "paymentStatus",
+        "type": "semantic"
+      },
+      {
         "id": "paymentStatusPaymentStatusType",
         "def": "https://schema.org/paymentStatus",
         "name": "paymentStatus",

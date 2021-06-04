@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "organizer",
+        "def": "https://schema.org/organizer",
+        "name": "organizer",
+        "type": "semantic"
+      },
+      {
         "id": "organizerOrganization",
         "def": "https://schema.org/organizer",
         "name": "organizer",

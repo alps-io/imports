@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "competitor",
+        "def": "https://schema.org/competitor",
+        "name": "competitor",
+        "type": "semantic"
+      },
+      {
         "id": "competitorPerson",
         "def": "https://schema.org/competitor",
         "name": "competitor",

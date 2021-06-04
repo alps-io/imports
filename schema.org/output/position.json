@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "position",
+        "def": "https://schema.org/position",
+        "name": "position",
+        "type": "semantic"
+      },
+      {
         "id": "positionInteger",
         "def": "https://schema.org/position",
         "name": "position",

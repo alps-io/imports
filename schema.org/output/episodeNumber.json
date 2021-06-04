@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "episodeNumber",
+        "def": "https://schema.org/episodeNumber",
+        "name": "episodeNumber",
+        "type": "semantic"
+      },
+      {
         "id": "episodeNumberInteger",
         "def": "https://schema.org/episodeNumber",
         "name": "episodeNumber",

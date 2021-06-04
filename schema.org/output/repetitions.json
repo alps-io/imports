@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "repetitions",
+        "def": "https://schema.org/repetitions",
+        "name": "repetitions",
+        "type": "semantic"
+      },
+      {
         "id": "repetitionsNumber",
         "def": "https://schema.org/repetitions",
         "name": "repetitions",

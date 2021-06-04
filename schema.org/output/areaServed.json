@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "areaServed",
+        "def": "https://schema.org/areaServed",
+        "name": "areaServed",
+        "type": "semantic"
+      },
+      {
         "id": "areaServedAdministrativeArea",
         "def": "https://schema.org/areaServed",
         "name": "areaServed",

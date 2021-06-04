@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "speakable",
+        "def": "https://schema.org/speakable",
+        "name": "speakable",
+        "type": "semantic"
+      },
+      {
         "id": "speakableSpeakableSpecification",
         "def": "https://schema.org/speakable",
         "name": "speakable",

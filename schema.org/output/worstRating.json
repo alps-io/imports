@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "worstRating",
+        "def": "https://schema.org/worstRating",
+        "name": "worstRating",
+        "type": "semantic"
+      },
+      {
         "id": "worstRatingNumber",
         "def": "https://schema.org/worstRating",
         "name": "worstRating",

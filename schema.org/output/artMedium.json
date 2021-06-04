@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "artMedium",
+        "def": "https://schema.org/artMedium",
+        "name": "artMedium",
+        "type": "semantic"
+      },
+      {
         "id": "artMediumText",
         "def": "https://schema.org/artMedium",
         "name": "artMedium",

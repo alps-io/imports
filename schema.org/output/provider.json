@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "provider",
+        "def": "https://schema.org/provider",
+        "name": "provider",
+        "type": "semantic"
+      },
+      {
         "id": "providerOrganization",
         "def": "https://schema.org/provider",
         "name": "provider",

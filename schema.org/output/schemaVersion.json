@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "schemaVersion",
+        "def": "https://schema.org/schemaVersion",
+        "name": "schemaVersion",
+        "type": "semantic"
+      },
+      {
         "id": "schemaVersionText",
         "def": "https://schema.org/schemaVersion",
         "name": "schemaVersion",

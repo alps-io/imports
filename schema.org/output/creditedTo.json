@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "creditedTo",
+        "def": "https://schema.org/creditedTo",
+        "name": "creditedTo",
+        "type": "semantic"
+      },
+      {
         "id": "creditedToOrganization",
         "def": "https://schema.org/creditedTo",
         "name": "creditedTo",

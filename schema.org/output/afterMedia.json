@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "afterMedia",
+        "def": "https://schema.org/afterMedia",
+        "name": "afterMedia",
+        "type": "semantic"
+      },
+      {
         "id": "afterMediaMediaObject",
         "def": "https://schema.org/afterMedia",
         "name": "afterMedia",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "diseaseSpreadStatistics",
+        "def": "https://schema.org/diseaseSpreadStatistics",
+        "name": "diseaseSpreadStatistics",
+        "type": "semantic"
+      },
+      {
         "id": "diseaseSpreadStatisticsDataset",
         "def": "https://schema.org/diseaseSpreadStatistics",
         "name": "diseaseSpreadStatistics",

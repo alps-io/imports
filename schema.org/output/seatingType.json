@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "seatingType",
+        "def": "https://schema.org/seatingType",
+        "name": "seatingType",
+        "type": "semantic"
+      },
+      {
         "id": "seatingTypeQualitativeValue",
         "def": "https://schema.org/seatingType",
         "name": "seatingType",

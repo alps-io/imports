@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "clipNumber",
+        "def": "https://schema.org/clipNumber",
+        "name": "clipNumber",
+        "type": "semantic"
+      },
+      {
         "id": "clipNumberInteger",
         "def": "https://schema.org/clipNumber",
         "name": "clipNumber",

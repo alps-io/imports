@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "hasMenu",
+        "def": "https://schema.org/hasMenu",
+        "name": "hasMenu",
+        "type": "semantic"
+      },
+      {
         "id": "hasMenuMenu",
         "def": "https://schema.org/hasMenu",
         "name": "hasMenu",

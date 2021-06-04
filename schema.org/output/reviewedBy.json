@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "reviewedBy",
+        "def": "https://schema.org/reviewedBy",
+        "name": "reviewedBy",
+        "type": "semantic"
+      },
+      {
         "id": "reviewedByOrganization",
         "def": "https://schema.org/reviewedBy",
         "name": "reviewedBy",

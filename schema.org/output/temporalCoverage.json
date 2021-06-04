@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "temporalCoverage",
+        "def": "https://schema.org/temporalCoverage",
+        "name": "temporalCoverage",
+        "type": "semantic"
+      },
+      {
         "id": "temporalCoverageDateTime",
         "def": "https://schema.org/temporalCoverage",
         "name": "temporalCoverage",

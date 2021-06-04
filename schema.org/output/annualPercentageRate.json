@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "annualPercentageRate",
+        "def": "https://schema.org/annualPercentageRate",
+        "name": "annualPercentageRate",
+        "type": "semantic"
+      },
+      {
         "id": "annualPercentageRateNumber",
         "def": "https://schema.org/annualPercentageRate",
         "name": "annualPercentageRate",

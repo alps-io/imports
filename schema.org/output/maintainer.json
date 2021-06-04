@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "maintainer",
+        "def": "https://schema.org/maintainer",
+        "name": "maintainer",
+        "type": "semantic"
+      },
+      {
         "id": "maintainerOrganization",
         "def": "https://schema.org/maintainer",
         "name": "maintainer",

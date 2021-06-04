@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "estimatedCost",
+        "def": "https://schema.org/estimatedCost",
+        "name": "estimatedCost",
+        "type": "semantic"
+      },
+      {
         "id": "estimatedCostMonetaryAmount",
         "def": "https://schema.org/estimatedCost",
         "name": "estimatedCost",

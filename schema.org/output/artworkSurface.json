@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "artworkSurface",
+        "def": "https://schema.org/artworkSurface",
+        "name": "artworkSurface",
+        "type": "semantic"
+      },
+      {
         "id": "artworkSurfaceText",
         "def": "https://schema.org/artworkSurface",
         "name": "artworkSurface",

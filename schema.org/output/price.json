@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "price",
+        "def": "https://schema.org/price",
+        "name": "price",
+        "type": "semantic"
+      },
+      {
         "id": "priceNumber",
         "def": "https://schema.org/price",
         "name": "price",

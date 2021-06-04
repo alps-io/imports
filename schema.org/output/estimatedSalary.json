@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "estimatedSalary",
+        "def": "https://schema.org/estimatedSalary",
+        "name": "estimatedSalary",
+        "type": "semantic"
+      },
+      {
         "id": "estimatedSalaryMonetaryAmount",
         "def": "https://schema.org/estimatedSalary",
         "name": "estimatedSalary",

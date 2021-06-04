@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "endTime",
+        "def": "https://schema.org/endTime",
+        "name": "endTime",
+        "type": "semantic"
+      },
+      {
         "id": "endTimeDateTime",
         "def": "https://schema.org/endTime",
         "name": "endTime",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "attendees",
+        "def": "https://schema.org/attendees",
+        "name": "attendees",
+        "type": "semantic"
+      },
+      {
         "id": "attendeesOrganization",
         "def": "https://schema.org/attendees",
         "name": "attendees",

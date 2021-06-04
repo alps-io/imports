@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "passengerPriorityStatus",
+        "def": "https://schema.org/passengerPriorityStatus",
+        "name": "passengerPriorityStatus",
+        "type": "semantic"
+      },
+      {
         "id": "passengerPriorityStatusQualitativeValue",
         "def": "https://schema.org/passengerPriorityStatus",
         "name": "passengerPriorityStatus",

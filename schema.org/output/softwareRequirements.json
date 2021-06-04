@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "softwareRequirements",
+        "def": "https://schema.org/softwareRequirements",
+        "name": "softwareRequirements",
+        "type": "semantic"
+      },
+      {
         "id": "softwareRequirementsText",
         "def": "https://schema.org/softwareRequirements",
         "name": "softwareRequirements",

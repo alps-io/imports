@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "jurisdiction",
+        "def": "https://schema.org/jurisdiction",
+        "name": "jurisdiction",
+        "type": "semantic"
+      },
+      {
         "id": "jurisdictionAdministrativeArea",
         "def": "https://schema.org/jurisdiction",
         "name": "jurisdiction",

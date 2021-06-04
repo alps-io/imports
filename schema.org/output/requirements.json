@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "requirements",
+        "def": "https://schema.org/requirements",
+        "name": "requirements",
+        "type": "semantic"
+      },
+      {
         "id": "requirementsText",
         "def": "https://schema.org/requirements",
         "name": "requirements",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "isBasedOnUrl",
+        "def": "https://schema.org/isBasedOnUrl",
+        "name": "isBasedOnUrl",
+        "type": "semantic"
+      },
+      {
         "id": "isBasedOnUrlCreativeWork",
         "def": "https://schema.org/isBasedOnUrl",
         "name": "isBasedOnUrl",

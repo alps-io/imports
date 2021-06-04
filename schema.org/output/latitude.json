@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "latitude",
+        "def": "https://schema.org/latitude",
+        "name": "latitude",
+        "type": "semantic"
+      },
+      {
         "id": "latitudeNumber",
         "def": "https://schema.org/latitude",
         "name": "latitude",

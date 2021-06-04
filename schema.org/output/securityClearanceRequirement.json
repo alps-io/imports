@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "securityClearanceRequirement",
+        "def": "https://schema.org/securityClearanceRequirement",
+        "name": "securityClearanceRequirement",
+        "type": "semantic"
+      },
+      {
         "id": "securityClearanceRequirementText",
         "def": "https://schema.org/securityClearanceRequirement",
         "name": "securityClearanceRequirement",

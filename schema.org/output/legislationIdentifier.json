@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "legislationIdentifier",
+        "def": "https://schema.org/legislationIdentifier",
+        "name": "legislationIdentifier",
+        "type": "semantic"
+      },
+      {
         "id": "legislationIdentifierText",
         "def": "https://schema.org/legislationIdentifier",
         "name": "legislationIdentifier",

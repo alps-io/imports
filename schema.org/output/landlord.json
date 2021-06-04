@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "landlord",
+        "def": "https://schema.org/landlord",
+        "name": "landlord",
+        "type": "semantic"
+      },
+      {
         "id": "landlordOrganization",
         "def": "https://schema.org/landlord",
         "name": "landlord",

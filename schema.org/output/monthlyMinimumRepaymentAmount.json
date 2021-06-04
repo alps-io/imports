@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "monthlyMinimumRepaymentAmount",
+        "def": "https://schema.org/monthlyMinimumRepaymentAmount",
+        "name": "monthlyMinimumRepaymentAmount",
+        "type": "semantic"
+      },
+      {
         "id": "monthlyMinimumRepaymentAmountMonetaryAmount",
         "def": "https://schema.org/monthlyMinimumRepaymentAmount",
         "name": "monthlyMinimumRepaymentAmount",

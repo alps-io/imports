@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "publishingPrinciples",
+        "def": "https://schema.org/publishingPrinciples",
+        "name": "publishingPrinciples",
+        "type": "semantic"
+      },
+      {
         "id": "publishingPrinciplesCreativeWork",
         "def": "https://schema.org/publishingPrinciples",
         "name": "publishingPrinciples",

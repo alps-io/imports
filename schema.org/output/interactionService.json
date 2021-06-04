@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "interactionService",
+        "def": "https://schema.org/interactionService",
+        "name": "interactionService",
+        "type": "semantic"
+      },
+      {
         "id": "interactionServiceSoftwareApplication",
         "def": "https://schema.org/interactionService",
         "name": "interactionService",

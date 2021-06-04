@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "citation",
+        "def": "https://schema.org/citation",
+        "name": "citation",
+        "type": "semantic"
+      },
+      {
         "id": "citationCreativeWork",
         "def": "https://schema.org/citation",
         "name": "citation",

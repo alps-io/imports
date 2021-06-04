@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "exchangeRateSpread",
+        "def": "https://schema.org/exchangeRateSpread",
+        "name": "exchangeRateSpread",
+        "type": "semantic"
+      },
+      {
         "id": "exchangeRateSpreadMonetaryAmount",
         "def": "https://schema.org/exchangeRateSpread",
         "name": "exchangeRateSpread",

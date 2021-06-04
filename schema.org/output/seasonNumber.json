@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "seasonNumber",
+        "def": "https://schema.org/seasonNumber",
+        "name": "seasonNumber",
+        "type": "semantic"
+      },
+      {
         "id": "seasonNumberInteger",
         "def": "https://schema.org/seasonNumber",
         "name": "seasonNumber",

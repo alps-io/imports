@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geo",
+        "def": "https://schema.org/geo",
+        "name": "geo",
+        "type": "semantic"
+      },
+      {
         "id": "geoGeoCoordinates",
         "def": "https://schema.org/geo",
         "name": "geo",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "missionCoveragePrioritiesPolicy",
+        "def": "https://schema.org/missionCoveragePrioritiesPolicy",
+        "name": "missionCoveragePrioritiesPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "missionCoveragePrioritiesPolicyCreativeWork",
         "def": "https://schema.org/missionCoveragePrioritiesPolicy",
         "name": "missionCoveragePrioritiesPolicy",

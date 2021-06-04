@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sdLicense",
+        "def": "https://schema.org/sdLicense",
+        "name": "sdLicense",
+        "type": "semantic"
+      },
+      {
         "id": "sdLicenseCreativeWork",
         "def": "https://schema.org/sdLicense",
         "name": "sdLicense",

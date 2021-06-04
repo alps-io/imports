@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "measurementTechnique",
+        "def": "https://schema.org/measurementTechnique",
+        "name": "measurementTechnique",
+        "type": "semantic"
+      },
+      {
         "id": "measurementTechniqueText",
         "def": "https://schema.org/measurementTechnique",
         "name": "measurementTechnique",

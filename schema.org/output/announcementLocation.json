@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "announcementLocation",
+        "def": "https://schema.org/announcementLocation",
+        "name": "announcementLocation",
+        "type": "semantic"
+      },
+      {
         "id": "announcementLocationCivicStructure",
         "def": "https://schema.org/announcementLocation",
         "name": "announcementLocation",

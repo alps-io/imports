@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "subjectOf",
+        "def": "https://schema.org/subjectOf",
+        "name": "subjectOf",
+        "type": "semantic"
+      },
+      {
         "id": "subjectOfCreativeWork",
         "def": "https://schema.org/subjectOf",
         "name": "subjectOf",

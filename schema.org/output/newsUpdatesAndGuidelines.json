@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "newsUpdatesAndGuidelines",
+        "def": "https://schema.org/newsUpdatesAndGuidelines",
+        "name": "newsUpdatesAndGuidelines",
+        "type": "semantic"
+      },
+      {
         "id": "newsUpdatesAndGuidelinesURL",
         "def": "https://schema.org/newsUpdatesAndGuidelines",
         "name": "newsUpdatesAndGuidelines",

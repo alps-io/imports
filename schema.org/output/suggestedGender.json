@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "suggestedGender",
+        "def": "https://schema.org/suggestedGender",
+        "name": "suggestedGender",
+        "type": "semantic"
+      },
+      {
         "id": "suggestedGenderGenderType",
         "def": "https://schema.org/suggestedGender",
         "name": "suggestedGender",

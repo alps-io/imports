@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "typicalCreditsPerTerm",
+        "def": "https://schema.org/typicalCreditsPerTerm",
+        "name": "typicalCreditsPerTerm",
+        "type": "semantic"
+      },
+      {
         "id": "typicalCreditsPerTermInteger",
         "def": "https://schema.org/typicalCreditsPerTerm",
         "name": "typicalCreditsPerTerm",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "dateDeleted",
+        "def": "https://schema.org/dateDeleted",
+        "name": "dateDeleted",
+        "type": "semantic"
+      },
+      {
         "id": "dateDeletedDate",
         "def": "https://schema.org/dateDeleted",
         "name": "dateDeleted",

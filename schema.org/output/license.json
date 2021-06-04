@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "license",
+        "def": "https://schema.org/license",
+        "name": "license",
+        "type": "semantic"
+      },
+      {
         "id": "licenseCreativeWork",
         "def": "https://schema.org/license",
         "name": "license",

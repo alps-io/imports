@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numberOfDoors",
+        "def": "https://schema.org/numberOfDoors",
+        "name": "numberOfDoors",
+        "type": "semantic"
+      },
+      {
         "id": "numberOfDoorsNumber",
         "def": "https://schema.org/numberOfDoors",
         "name": "numberOfDoors",

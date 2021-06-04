@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "teaches",
+        "def": "https://schema.org/teaches",
+        "name": "teaches",
+        "type": "semantic"
+      },
+      {
         "id": "teachesDefinedTerm",
         "def": "https://schema.org/teaches",
         "name": "teaches",

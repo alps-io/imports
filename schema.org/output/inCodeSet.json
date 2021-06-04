@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "inCodeSet",
+        "def": "https://schema.org/inCodeSet",
+        "name": "inCodeSet",
+        "type": "semantic"
+      },
+      {
         "id": "inCodeSetCategoryCodeSet",
         "def": "https://schema.org/inCodeSet",
         "name": "inCodeSet",

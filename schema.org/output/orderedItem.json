@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "orderedItem",
+        "def": "https://schema.org/orderedItem",
+        "name": "orderedItem",
+        "type": "semantic"
+      },
+      {
         "id": "orderedItemOrderItem",
         "def": "https://schema.org/orderedItem",
         "name": "orderedItem",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "duringMedia",
+        "def": "https://schema.org/duringMedia",
+        "name": "duringMedia",
+        "type": "semantic"
+      },
+      {
         "id": "duringMediaMediaObject",
         "def": "https://schema.org/duringMedia",
         "name": "duringMedia",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "endDate",
+        "def": "https://schema.org/endDate",
+        "name": "endDate",
+        "type": "semantic"
+      },
+      {
         "id": "endDateDate",
         "def": "https://schema.org/endDate",
         "name": "endDate",

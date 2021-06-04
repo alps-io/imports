@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "actionableFeedbackPolicy",
+        "def": "https://schema.org/actionableFeedbackPolicy",
+        "name": "actionableFeedbackPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "actionableFeedbackPolicyCreativeWork",
         "def": "https://schema.org/actionableFeedbackPolicy",
         "name": "actionableFeedbackPolicy",

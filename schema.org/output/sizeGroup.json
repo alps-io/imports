@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sizeGroup",
+        "def": "https://schema.org/sizeGroup",
+        "name": "sizeGroup",
+        "type": "semantic"
+      },
+      {
         "id": "sizeGroupSizeGroupEnumeration",
         "def": "https://schema.org/sizeGroup",
         "name": "sizeGroup",

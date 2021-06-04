@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "normalRange",
+        "def": "https://schema.org/normalRange",
+        "name": "normalRange",
+        "type": "semantic"
+      },
+      {
         "id": "normalRangeMedicalEnumeration",
         "def": "https://schema.org/normalRange",
         "name": "normalRange",

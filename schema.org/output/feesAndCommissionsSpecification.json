@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "feesAndCommissionsSpecification",
+        "def": "https://schema.org/feesAndCommissionsSpecification",
+        "name": "feesAndCommissionsSpecification",
+        "type": "semantic"
+      },
+      {
         "id": "feesAndCommissionsSpecificationText",
         "def": "https://schema.org/feesAndCommissionsSpecification",
         "name": "feesAndCommissionsSpecification",

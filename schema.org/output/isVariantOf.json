@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "isVariantOf",
+        "def": "https://schema.org/isVariantOf",
+        "name": "isVariantOf",
+        "type": "semantic"
+      },
+      {
         "id": "isVariantOfProductGroup",
         "def": "https://schema.org/isVariantOf",
         "name": "isVariantOf",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "lowPrice",
+        "def": "https://schema.org/lowPrice",
+        "name": "lowPrice",
+        "type": "semantic"
+      },
+      {
         "id": "lowPriceNumber",
         "def": "https://schema.org/lowPrice",
         "name": "lowPrice",

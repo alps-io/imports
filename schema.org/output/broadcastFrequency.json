@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "broadcastFrequency",
+        "def": "https://schema.org/broadcastFrequency",
+        "name": "broadcastFrequency",
+        "type": "semantic"
+      },
+      {
         "id": "broadcastFrequencyBroadcastFrequencySpecification",
         "def": "https://schema.org/broadcastFrequency",
         "name": "broadcastFrequency",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "publishedBy",
+        "def": "https://schema.org/publishedBy",
+        "name": "publishedBy",
+        "type": "semantic"
+      },
+      {
         "id": "publishedByOrganization",
         "def": "https://schema.org/publishedBy",
         "name": "publishedBy",

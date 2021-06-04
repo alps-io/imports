@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "dateCreated",
+        "def": "https://schema.org/dateCreated",
+        "name": "dateCreated",
+        "type": "semantic"
+      },
+      {
         "id": "dateCreatedDate",
         "def": "https://schema.org/dateCreated",
         "name": "dateCreated",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "propertyID",
+        "def": "https://schema.org/propertyID",
+        "name": "propertyID",
+        "type": "semantic"
+      },
+      {
         "id": "propertyIDText",
         "def": "https://schema.org/propertyID",
         "name": "propertyID",
