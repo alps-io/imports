@@ -1,4 +1,9 @@
-imports
-=======
+# imports
 
-Collection of imported vocabularies from other sources (e.g. IANA, Schema.org, microformats, etc.) converted into ALPS documents.
+Collection of imported vocabularies from other sources converted into ALPS
+documents.
+
+- [IANA](./iana/README.md)
+- [microformats](./microformats/README.md)
+- [OpenSearch](./open-search/README.md)
+- [Schema.org](./schema.org/README.md)
