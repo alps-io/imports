@@ -1,4 +1,4 @@
-# imports
+# ALPS Imports
 
 Collection of imported vocabularies from other sources converted into ALPS
 documents.
