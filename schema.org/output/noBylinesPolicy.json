@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "noBylinesPolicy",
+        "def": "https://schema.org/noBylinesPolicy",
+        "name": "noBylinesPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "noBylinesPolicyCreativeWork",
         "def": "https://schema.org/noBylinesPolicy",
         "name": "noBylinesPolicy",

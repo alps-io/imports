@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "programPrerequisites",
+        "def": "https://schema.org/programPrerequisites",
+        "name": "programPrerequisites",
+        "type": "semantic"
+      },
+      {
         "id": "programPrerequisitesAlignmentObject",
         "def": "https://schema.org/programPrerequisites",
         "name": "programPrerequisites",

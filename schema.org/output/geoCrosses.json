@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoCrosses",
+        "def": "https://schema.org/geoCrosses",
+        "name": "geoCrosses",
+        "type": "semantic"
+      },
+      {
         "id": "geoCrossesGeospatialGeometry",
         "def": "https://schema.org/geoCrosses",
         "name": "geoCrosses",

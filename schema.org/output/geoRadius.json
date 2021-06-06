@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoRadius",
+        "def": "https://schema.org/geoRadius",
+        "name": "geoRadius",
+        "type": "semantic"
+      },
+      {
         "id": "geoRadiusDistance",
         "def": "https://schema.org/geoRadius",
         "name": "geoRadius",

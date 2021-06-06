@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoIntersects",
+        "def": "https://schema.org/geoIntersects",
+        "name": "geoIntersects",
+        "type": "semantic"
+      },
+      {
         "id": "geoIntersectsGeospatialGeometry",
         "def": "https://schema.org/geoIntersects",
         "name": "geoIntersects",

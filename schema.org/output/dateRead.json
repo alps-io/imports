@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "dateRead",
+        "def": "https://schema.org/dateRead",
+        "name": "dateRead",
+        "type": "semantic"
+      },
+      {
         "id": "dateReadDate",
         "def": "https://schema.org/dateRead",
         "name": "dateRead",

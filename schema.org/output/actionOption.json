@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "actionOption",
+        "def": "https://schema.org/actionOption",
+        "name": "actionOption",
+        "type": "semantic"
+      },
+      {
         "id": "actionOptionText",
         "def": "https://schema.org/actionOption",
         "name": "actionOption",

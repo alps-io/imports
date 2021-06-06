@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "lender",
+        "def": "https://schema.org/lender",
+        "name": "lender",
+        "type": "semantic"
+      },
+      {
         "id": "lenderOrganization",
         "def": "https://schema.org/lender",
         "name": "lender",

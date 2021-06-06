@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "knowsAbout",
+        "def": "https://schema.org/knowsAbout",
+        "name": "knowsAbout",
+        "type": "semantic"
+      },
+      {
         "id": "knowsAboutText",
         "def": "https://schema.org/knowsAbout",
         "name": "knowsAbout",

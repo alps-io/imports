@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "colleague",
+        "def": "https://schema.org/colleague",
+        "name": "colleague",
+        "type": "semantic"
+      },
+      {
         "id": "colleaguePerson",
         "def": "https://schema.org/colleague",
         "name": "colleague",

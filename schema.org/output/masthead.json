@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "masthead",
+        "def": "https://schema.org/masthead",
+        "name": "masthead",
+        "type": "semantic"
+      },
+      {
         "id": "mastheadCreativeWork",
         "def": "https://schema.org/masthead",
         "name": "masthead",

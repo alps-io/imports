@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "namedPosition",
+        "def": "https://schema.org/namedPosition",
+        "name": "namedPosition",
+        "type": "semantic"
+      },
+      {
         "id": "namedPositionText",
         "def": "https://schema.org/namedPosition",
         "name": "namedPosition",

@@ -1,5 +1,5 @@
 export class Doc {
-  constructor(readonly fileName: string, readonly descriptors: Descriptor[]) {}
+  constructor(readonly name: string, readonly descriptors: Descriptor[]) {}
 
   toJSON() {
     return {

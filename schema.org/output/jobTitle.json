@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "jobTitle",
+        "def": "https://schema.org/jobTitle",
+        "name": "jobTitle",
+        "type": "semantic"
+      },
+      {
         "id": "jobTitleDefinedTerm",
         "def": "https://schema.org/jobTitle",
         "name": "jobTitle",

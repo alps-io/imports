@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "netWorth",
+        "def": "https://schema.org/netWorth",
+        "name": "netWorth",
+        "type": "semantic"
+      },
+      {
         "id": "netWorthMonetaryAmount",
         "def": "https://schema.org/netWorth",
         "name": "netWorth",

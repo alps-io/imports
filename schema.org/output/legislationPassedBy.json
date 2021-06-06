@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "legislationPassedBy",
+        "def": "https://schema.org/legislationPassedBy",
+        "name": "legislationPassedBy",
+        "type": "semantic"
+      },
+      {
         "id": "legislationPassedByOrganization",
         "def": "https://schema.org/legislationPassedBy",
         "name": "legislationPassedBy",

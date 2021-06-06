@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "isRelatedTo",
+        "def": "https://schema.org/isRelatedTo",
+        "name": "isRelatedTo",
+        "type": "semantic"
+      },
+      {
         "id": "isRelatedToProduct",
         "def": "https://schema.org/isRelatedTo",
         "name": "isRelatedTo",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "prescriptionStatus",
+        "def": "https://schema.org/prescriptionStatus",
+        "name": "prescriptionStatus",
+        "type": "semantic"
+      },
+      {
         "id": "prescriptionStatusDrugPrescriptionStatus",
         "def": "https://schema.org/prescriptionStatus",
         "name": "prescriptionStatus",

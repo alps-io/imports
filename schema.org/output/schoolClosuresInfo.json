@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "schoolClosuresInfo",
+        "def": "https://schema.org/schoolClosuresInfo",
+        "name": "schoolClosuresInfo",
+        "type": "semantic"
+      },
+      {
         "id": "schoolClosuresInfoURL",
         "def": "https://schema.org/schoolClosuresInfo",
         "name": "schoolClosuresInfo",

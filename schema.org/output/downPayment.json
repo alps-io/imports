@@ -11,14 +11,3 @@
     ]
   }
 }
-        "type": "semantic"
-      },
-      {
-        "id": "downPaymentNumber",
-        "def": "https://schema.org/downPayment",
-        "name": "downPayment",
-        "type": "semantic"
-      }
-    ]
-  }
-}

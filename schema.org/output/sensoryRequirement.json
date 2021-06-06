@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sensoryRequirement",
+        "def": "https://schema.org/sensoryRequirement",
+        "name": "sensoryRequirement",
+        "type": "semantic"
+      },
+      {
         "id": "sensoryRequirementDefinedTerm",
         "def": "https://schema.org/sensoryRequirement",
         "name": "sensoryRequirement",

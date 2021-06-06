@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "releaseNotes",
+        "def": "https://schema.org/releaseNotes",
+        "name": "releaseNotes",
+        "type": "semantic"
+      },
+      {
         "id": "releaseNotesText",
         "def": "https://schema.org/releaseNotes",
         "name": "releaseNotes",

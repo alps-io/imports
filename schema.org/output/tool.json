@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "tool",
+        "def": "https://schema.org/tool",
+        "name": "tool",
+        "type": "semantic"
+      },
+      {
         "id": "toolHowToTool",
         "def": "https://schema.org/tool",
         "name": "tool",

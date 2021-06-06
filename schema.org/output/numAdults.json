@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numAdults",
+        "def": "https://schema.org/numAdults",
+        "name": "numAdults",
+        "type": "semantic"
+      },
+      {
         "id": "numAdultsInteger",
         "def": "https://schema.org/numAdults",
         "name": "numAdults",

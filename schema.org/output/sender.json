@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sender",
+        "def": "https://schema.org/sender",
+        "name": "sender",
+        "type": "semantic"
+      },
+      {
         "id": "senderAudience",
         "def": "https://schema.org/sender",
         "name": "sender",

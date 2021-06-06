@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sponsor",
+        "def": "https://schema.org/sponsor",
+        "name": "sponsor",
+        "type": "semantic"
+      },
+      {
         "id": "sponsorOrganization",
         "def": "https://schema.org/sponsor",
         "name": "sponsor",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "underName",
+        "def": "https://schema.org/underName",
+        "name": "underName",
+        "type": "semantic"
+      },
+      {
         "id": "underNameOrganization",
         "def": "https://schema.org/underName",
         "name": "underName",

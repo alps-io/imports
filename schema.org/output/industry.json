@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "industry",
+        "def": "https://schema.org/industry",
+        "name": "industry",
+        "type": "semantic"
+      },
+      {
         "id": "industryDefinedTerm",
         "def": "https://schema.org/industry",
         "name": "industry",

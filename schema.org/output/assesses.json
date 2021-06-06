@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "assesses",
+        "def": "https://schema.org/assesses",
+        "name": "assesses",
+        "type": "semantic"
+      },
+      {
         "id": "assessesDefinedTerm",
         "def": "https://schema.org/assesses",
         "name": "assesses",

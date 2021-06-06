@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "datePosted",
+        "def": "https://schema.org/datePosted",
+        "name": "datePosted",
+        "type": "semantic"
+      },
+      {
         "id": "datePostedDate",
         "def": "https://schema.org/datePosted",
         "name": "datePosted",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "requiredQuantity",
+        "def": "https://schema.org/requiredQuantity",
+        "name": "requiredQuantity",
+        "type": "semantic"
+      },
+      {
         "id": "requiredQuantityNumber",
         "def": "https://schema.org/requiredQuantity",
         "name": "requiredQuantity",

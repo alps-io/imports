@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "healthcareReportingData",
+        "def": "https://schema.org/healthcareReportingData",
+        "name": "healthcareReportingData",
+        "type": "semantic"
+      },
+      {
         "id": "healthcareReportingDataCDCPMDRecord",
         "def": "https://schema.org/healthcareReportingData",
         "name": "healthcareReportingData",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "checkinTime",
+        "def": "https://schema.org/checkinTime",
+        "name": "checkinTime",
+        "type": "semantic"
+      },
+      {
         "id": "checkinTimeDateTime",
         "def": "https://schema.org/checkinTime",
         "name": "checkinTime",

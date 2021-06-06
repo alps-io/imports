@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "fuelType",
+        "def": "https://schema.org/fuelType",
+        "name": "fuelType",
+        "type": "semantic"
+      },
+      {
         "id": "fuelTypeQualitativeValue",
         "def": "https://schema.org/fuelType",
         "name": "fuelType",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "financialAidEligible",
+        "def": "https://schema.org/financialAidEligible",
+        "name": "financialAidEligible",
+        "type": "semantic"
+      },
+      {
         "id": "financialAidEligibleDefinedTerm",
         "def": "https://schema.org/financialAidEligible",
         "name": "financialAidEligible",

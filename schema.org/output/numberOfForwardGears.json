@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numberOfForwardGears",
+        "def": "https://schema.org/numberOfForwardGears",
+        "name": "numberOfForwardGears",
+        "type": "semantic"
+      },
+      {
         "id": "numberOfForwardGearsNumber",
         "def": "https://schema.org/numberOfForwardGears",
         "name": "numberOfForwardGears",

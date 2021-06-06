@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "height",
+        "def": "https://schema.org/height",
+        "name": "height",
+        "type": "semantic"
+      },
+      {
         "id": "heightDistance",
         "def": "https://schema.org/height",
         "name": "height",

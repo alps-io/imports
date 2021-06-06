@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "startOffset",
+        "def": "https://schema.org/startOffset",
+        "name": "startOffset",
+        "type": "semantic"
+      },
+      {
         "id": "startOffsetHyperTocEntry",
         "def": "https://schema.org/startOffset",
         "name": "startOffset",

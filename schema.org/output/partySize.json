@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "partySize",
+        "def": "https://schema.org/partySize",
+        "name": "partySize",
+        "type": "semantic"
+      },
+      {
         "id": "partySizeInteger",
         "def": "https://schema.org/partySize",
         "name": "partySize",

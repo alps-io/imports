@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "followee",
+        "def": "https://schema.org/followee",
+        "name": "followee",
+        "type": "semantic"
+      },
+      {
         "id": "followeeOrganization",
         "def": "https://schema.org/followee",
         "name": "followee",

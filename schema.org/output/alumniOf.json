@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "alumniOf",
+        "def": "https://schema.org/alumniOf",
+        "name": "alumniOf",
+        "type": "semantic"
+      },
+      {
         "id": "alumniOfEducationalOrganization",
         "def": "https://schema.org/alumniOf",
         "name": "alumniOf",

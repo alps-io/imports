@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "creativeWorkStatus",
+        "def": "https://schema.org/creativeWorkStatus",
+        "name": "creativeWorkStatus",
+        "type": "semantic"
+      },
+      {
         "id": "creativeWorkStatusDefinedTerm",
         "def": "https://schema.org/creativeWorkStatus",
         "name": "creativeWorkStatus",

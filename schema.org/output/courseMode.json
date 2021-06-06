@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "courseMode",
+        "def": "https://schema.org/courseMode",
+        "name": "courseMode",
+        "type": "semantic"
+      },
+      {
         "id": "courseModeText",
         "def": "https://schema.org/courseMode",
         "name": "courseMode",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "storageRequirements",
+        "def": "https://schema.org/storageRequirements",
+        "name": "storageRequirements",
+        "type": "semantic"
+      },
+      {
         "id": "storageRequirementsText",
         "def": "https://schema.org/storageRequirements",
         "name": "storageRequirements",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "repeatFrequency",
+        "def": "https://schema.org/repeatFrequency",
+        "name": "repeatFrequency",
+        "type": "semantic"
+      },
+      {
         "id": "repeatFrequencyDuration",
         "def": "https://schema.org/repeatFrequency",
         "name": "repeatFrequency",

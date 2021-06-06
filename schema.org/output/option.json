@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "option",
+        "def": "https://schema.org/option",
+        "name": "option",
+        "type": "semantic"
+      },
+      {
         "id": "optionText",
         "def": "https://schema.org/option",
         "name": "option",

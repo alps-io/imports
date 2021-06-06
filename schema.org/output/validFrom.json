@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "validFrom",
+        "def": "https://schema.org/validFrom",
+        "name": "validFrom",
+        "type": "semantic"
+      },
+      {
         "id": "validFromDate",
         "def": "https://schema.org/validFrom",
         "name": "validFrom",

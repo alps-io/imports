@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "broker",
+        "def": "https://schema.org/broker",
+        "name": "broker",
+        "type": "semantic"
+      },
+      {
         "id": "brokerOrganization",
         "def": "https://schema.org/broker",
         "name": "broker",

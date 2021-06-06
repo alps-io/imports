@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "freeShippingThreshold",
+        "def": "https://schema.org/freeShippingThreshold",
+        "name": "freeShippingThreshold",
+        "type": "semantic"
+      },
+      {
         "id": "freeShippingThresholdDeliveryChargeSpecification",
         "def": "https://schema.org/freeShippingThreshold",
         "name": "freeShippingThreshold",

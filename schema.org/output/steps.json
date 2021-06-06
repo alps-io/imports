@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "steps",
+        "def": "https://schema.org/steps",
+        "name": "steps",
+        "type": "semantic"
+      },
+      {
         "id": "stepsCreativeWork",
         "def": "https://schema.org/steps",
         "name": "steps",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "translator",
+        "def": "https://schema.org/translator",
+        "name": "translator",
+        "type": "semantic"
+      },
+      {
         "id": "translatorOrganization",
         "def": "https://schema.org/translator",
         "name": "translator",

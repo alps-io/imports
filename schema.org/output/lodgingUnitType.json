@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "lodgingUnitType",
+        "def": "https://schema.org/lodgingUnitType",
+        "name": "lodgingUnitType",
+        "type": "semantic"
+      },
+      {
         "id": "lodgingUnitTypeQualitativeValue",
         "def": "https://schema.org/lodgingUnitType",
         "name": "lodgingUnitType",

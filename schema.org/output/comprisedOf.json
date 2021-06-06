@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "comprisedOf",
+        "def": "https://schema.org/comprisedOf",
+        "name": "comprisedOf",
+        "type": "semantic"
+      },
+      {
         "id": "comprisedOfAnatomicalStructure",
         "def": "https://schema.org/comprisedOf",
         "name": "comprisedOf",

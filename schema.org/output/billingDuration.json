@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "billingDuration",
+        "def": "https://schema.org/billingDuration",
+        "name": "billingDuration",
+        "type": "semantic"
+      },
+      {
         "id": "billingDurationDuration",
         "def": "https://schema.org/billingDuration",
         "name": "billingDuration",

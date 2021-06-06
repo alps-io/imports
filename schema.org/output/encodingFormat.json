@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "encodingFormat",
+        "def": "https://schema.org/encodingFormat",
+        "name": "encodingFormat",
+        "type": "semantic"
+      },
+      {
         "id": "encodingFormatText",
         "def": "https://schema.org/encodingFormat",
         "name": "encodingFormat",

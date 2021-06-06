@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "competencyRequired",
+        "def": "https://schema.org/competencyRequired",
+        "name": "competencyRequired",
+        "type": "semantic"
+      },
+      {
         "id": "competencyRequiredDefinedTerm",
         "def": "https://schema.org/competencyRequired",
         "name": "competencyRequired",

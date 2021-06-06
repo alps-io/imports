@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "material",
+        "def": "https://schema.org/material",
+        "name": "material",
+        "type": "semantic"
+      },
+      {
         "id": "materialProduct",
         "def": "https://schema.org/material",
         "name": "material",

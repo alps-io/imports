@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "usesHealthPlanIdStandard",
+        "def": "https://schema.org/usesHealthPlanIdStandard",
+        "name": "usesHealthPlanIdStandard",
+        "type": "semantic"
+      },
+      {
         "id": "usesHealthPlanIdStandardText",
         "def": "https://schema.org/usesHealthPlanIdStandard",
         "name": "usesHealthPlanIdStandard",

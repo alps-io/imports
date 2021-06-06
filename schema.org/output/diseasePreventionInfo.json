@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "diseasePreventionInfo",
+        "def": "https://schema.org/diseasePreventionInfo",
+        "name": "diseasePreventionInfo",
+        "type": "semantic"
+      },
+      {
         "id": "diseasePreventionInfoURL",
         "def": "https://schema.org/diseasePreventionInfo",
         "name": "diseasePreventionInfo",

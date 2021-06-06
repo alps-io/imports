@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "membershipPointsEarned",
+        "def": "https://schema.org/membershipPointsEarned",
+        "name": "membershipPointsEarned",
+        "type": "semantic"
+      },
+      {
         "id": "membershipPointsEarnedNumber",
         "def": "https://schema.org/membershipPointsEarned",
         "name": "membershipPointsEarned",

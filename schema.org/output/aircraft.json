@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "aircraft",
+        "def": "https://schema.org/aircraft",
+        "name": "aircraft",
+        "type": "semantic"
+      },
+      {
         "id": "aircraftText",
         "def": "https://schema.org/aircraft",
         "name": "aircraft",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "touristType",
+        "def": "https://schema.org/touristType",
+        "name": "touristType",
+        "type": "semantic"
+      },
+      {
         "id": "touristTypeAudience",
         "def": "https://schema.org/touristType",
         "name": "touristType",

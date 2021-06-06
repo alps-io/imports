@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "flightDistance",
+        "def": "https://schema.org/flightDistance",
+        "name": "flightDistance",
+        "type": "semantic"
+      },
+      {
         "id": "flightDistanceDistance",
         "def": "https://schema.org/flightDistance",
         "name": "flightDistance",

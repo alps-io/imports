@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "activityFrequency",
+        "def": "https://schema.org/activityFrequency",
+        "name": "activityFrequency",
+        "type": "semantic"
+      },
+      {
         "id": "activityFrequencyQuantitativeValue",
         "def": "https://schema.org/activityFrequency",
         "name": "activityFrequency",

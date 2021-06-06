@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "sport",
+        "def": "https://schema.org/sport",
+        "name": "sport",
+        "type": "semantic"
+      },
+      {
         "id": "sportText",
         "def": "https://schema.org/sport",
         "name": "sport",

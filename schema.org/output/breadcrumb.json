@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "breadcrumb",
+        "def": "https://schema.org/breadcrumb",
+        "name": "breadcrumb",
+        "type": "semantic"
+      },
+      {
         "id": "breadcrumbBreadcrumbList",
         "def": "https://schema.org/breadcrumb",
         "name": "breadcrumb",

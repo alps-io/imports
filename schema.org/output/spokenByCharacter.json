@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "spokenByCharacter",
+        "def": "https://schema.org/spokenByCharacter",
+        "name": "spokenByCharacter",
+        "type": "semantic"
+      },
+      {
         "id": "spokenByCharacterOrganization",
         "def": "https://schema.org/spokenByCharacter",
         "name": "spokenByCharacter",

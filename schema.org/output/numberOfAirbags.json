@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numberOfAirbags",
+        "def": "https://schema.org/numberOfAirbags",
+        "name": "numberOfAirbags",
+        "type": "semantic"
+      },
+      {
         "id": "numberOfAirbagsNumber",
         "def": "https://schema.org/numberOfAirbags",
         "name": "numberOfAirbags",

@@ -8,11 +8,17 @@ function propToAlpsDescriptors(
   prop: Schema.Prop
 ): Alps.OntologicalDescriptor[] {
   if (prop.rangeIncludes.length > 1) {
-    return prop.rangeIncludes.map((expectedTypeHref) => {
-      const typeLabel = hrefToLabel(expectedTypeHref);
-      const id = `${prop.label}${typeLabel}`;
-      return new Alps.OntologicalDescriptor(id, prop.id, prop.label);
-    });
+    return prop.rangeIncludes.reduce(
+      (descriptors, expectedTypeHref) => {
+        const typeLabel = hrefToLabel(expectedTypeHref);
+        const id = `${prop.label}${typeLabel}`;
+        descriptors.push(
+          new Alps.OntologicalDescriptor(id, prop.id, prop.label)
+        );
+        return descriptors;
+      },
+      [new Alps.OntologicalDescriptor(prop.label, prop.id, prop.label)]
+    );
   } else {
     return [new Alps.OntologicalDescriptor(prop.label, prop.id)];
   }

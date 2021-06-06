@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "bed",
+        "def": "https://schema.org/bed",
+        "name": "bed",
+        "type": "semantic"
+      },
+      {
         "id": "bedBedDetails",
         "def": "https://schema.org/bed",
         "name": "bed",

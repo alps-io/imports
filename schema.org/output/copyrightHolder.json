@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "copyrightHolder",
+        "def": "https://schema.org/copyrightHolder",
+        "name": "copyrightHolder",
+        "type": "semantic"
+      },
+      {
         "id": "copyrightHolderOrganization",
         "def": "https://schema.org/copyrightHolder",
         "name": "copyrightHolder",

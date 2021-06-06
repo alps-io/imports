@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "inLanguage",
+        "def": "https://schema.org/inLanguage",
+        "name": "inLanguage",
+        "type": "semantic"
+      },
+      {
         "id": "inLanguageLanguage",
         "def": "https://schema.org/inLanguage",
         "name": "inLanguage",

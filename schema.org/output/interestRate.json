@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "interestRate",
+        "def": "https://schema.org/interestRate",
+        "name": "interestRate",
+        "type": "semantic"
+      },
+      {
         "id": "interestRateNumber",
         "def": "https://schema.org/interestRate",
         "name": "interestRate",

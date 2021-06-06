@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "workload",
+        "def": "https://schema.org/workload",
+        "name": "workload",
+        "type": "semantic"
+      },
+      {
         "id": "workloadEnergy",
         "def": "https://schema.org/workload",
         "name": "workload",

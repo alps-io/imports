@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "travelBans",
+        "def": "https://schema.org/travelBans",
+        "name": "travelBans",
+        "type": "semantic"
+      },
+      {
         "id": "travelBansURL",
         "def": "https://schema.org/travelBans",
         "name": "travelBans",

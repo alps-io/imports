@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "mathExpression",
+        "def": "https://schema.org/mathExpression",
+        "name": "mathExpression",
+        "type": "semantic"
+      },
+      {
         "id": "mathExpressionSolveMathAction",
         "def": "https://schema.org/mathExpression",
         "name": "mathExpression",

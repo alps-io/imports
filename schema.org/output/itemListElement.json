@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "itemListElement",
+        "def": "https://schema.org/itemListElement",
+        "name": "itemListElement",
+        "type": "semantic"
+      },
+      {
         "id": "itemListElementListItem",
         "def": "https://schema.org/itemListElement",
         "name": "itemListElement",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "itinerary",
+        "def": "https://schema.org/itinerary",
+        "name": "itinerary",
+        "type": "semantic"
+      },
+      {
         "id": "itineraryItemList",
         "def": "https://schema.org/itinerary",
         "name": "itinerary",

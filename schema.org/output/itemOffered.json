@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "itemOffered",
+        "def": "https://schema.org/itemOffered",
+        "name": "itemOffered",
+        "type": "semantic"
+      },
+      {
         "id": "itemOfferedAggregateOffer",
         "def": "https://schema.org/itemOffered",
         "name": "itemOffered",

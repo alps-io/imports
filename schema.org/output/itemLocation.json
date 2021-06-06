@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "itemLocation",
+        "def": "https://schema.org/itemLocation",
+        "name": "itemLocation",
+        "type": "semantic"
+      },
+      {
         "id": "itemLocationPlace",
         "def": "https://schema.org/itemLocation",
         "name": "itemLocation",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "pageStart",
+        "def": "https://schema.org/pageStart",
+        "name": "pageStart",
+        "type": "semantic"
+      },
+      {
         "id": "pageStartInteger",
         "def": "https://schema.org/pageStart",
         "name": "pageStart",

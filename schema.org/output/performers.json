@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "performers",
+        "def": "https://schema.org/performers",
+        "name": "performers",
+        "type": "semantic"
+      },
+      {
         "id": "performersOrganization",
         "def": "https://schema.org/performers",
         "name": "performers",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "productSupported",
+        "def": "https://schema.org/productSupported",
+        "name": "productSupported",
+        "type": "semantic"
+      },
+      {
         "id": "productSupportedProduct",
         "def": "https://schema.org/productSupported",
         "name": "productSupported",

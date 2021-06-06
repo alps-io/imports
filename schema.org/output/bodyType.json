@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "bodyType",
+        "def": "https://schema.org/bodyType",
+        "name": "bodyType",
+        "type": "semantic"
+      },
+      {
         "id": "bodyTypeQualitativeValue",
         "def": "https://schema.org/bodyType",
         "name": "bodyType",

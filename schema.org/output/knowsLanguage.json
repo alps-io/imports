@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "knowsLanguage",
+        "def": "https://schema.org/knowsLanguage",
+        "name": "knowsLanguage",
+        "type": "semantic"
+      },
+      {
         "id": "knowsLanguageLanguage",
         "def": "https://schema.org/knowsLanguage",
         "name": "knowsLanguage",

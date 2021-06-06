@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "volumeNumber",
+        "def": "https://schema.org/volumeNumber",
+        "name": "volumeNumber",
+        "type": "semantic"
+      },
+      {
         "id": "volumeNumberInteger",
         "def": "https://schema.org/volumeNumber",
         "name": "volumeNumber",

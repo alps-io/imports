@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "diversityStaffingReport",
+        "def": "https://schema.org/diversityStaffingReport",
+        "name": "diversityStaffingReport",
+        "type": "semantic"
+      },
+      {
         "id": "diversityStaffingReportArticle",
         "def": "https://schema.org/diversityStaffingReport",
         "name": "diversityStaffingReport",

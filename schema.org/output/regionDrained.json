@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "regionDrained",
+        "def": "https://schema.org/regionDrained",
+        "name": "regionDrained",
+        "type": "semantic"
+      },
+      {
         "id": "regionDrainedAnatomicalStructure",
         "def": "https://schema.org/regionDrained",
         "name": "regionDrained",

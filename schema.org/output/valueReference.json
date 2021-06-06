@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "valueReference",
+        "def": "https://schema.org/valueReference",
+        "name": "valueReference",
+        "type": "semantic"
+      },
+      {
         "id": "valueReferenceDefinedTerm",
         "def": "https://schema.org/valueReference",
         "name": "valueReference",

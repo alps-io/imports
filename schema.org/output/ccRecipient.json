@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "ccRecipient",
+        "def": "https://schema.org/ccRecipient",
+        "name": "ccRecipient",
+        "type": "semantic"
+      },
+      {
         "id": "ccRecipientContactPoint",
         "def": "https://schema.org/ccRecipient",
         "name": "ccRecipient",

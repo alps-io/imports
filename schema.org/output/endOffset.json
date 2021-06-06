@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "endOffset",
+        "def": "https://schema.org/endOffset",
+        "name": "endOffset",
+        "type": "semantic"
+      },
+      {
         "id": "endOffsetHyperTocEntry",
         "def": "https://schema.org/endOffset",
         "name": "endOffset",

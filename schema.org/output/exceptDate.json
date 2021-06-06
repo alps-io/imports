@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "exceptDate",
+        "def": "https://schema.org/exceptDate",
+        "name": "exceptDate",
+        "type": "semantic"
+      },
+      {
         "id": "exceptDateDate",
         "def": "https://schema.org/exceptDate",
         "name": "exceptDate",

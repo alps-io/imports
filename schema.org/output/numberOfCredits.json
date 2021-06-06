@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numberOfCredits",
+        "def": "https://schema.org/numberOfCredits",
+        "name": "numberOfCredits",
+        "type": "semantic"
+      },
+      {
         "id": "numberOfCreditsInteger",
         "def": "https://schema.org/numberOfCredits",
         "name": "numberOfCredits",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numberOfPreviousOwners",
+        "def": "https://schema.org/numberOfPreviousOwners",
+        "name": "numberOfPreviousOwners",
+        "type": "semantic"
+      },
+      {
         "id": "numberOfPreviousOwnersNumber",
         "def": "https://schema.org/numberOfPreviousOwners",
         "name": "numberOfPreviousOwners",

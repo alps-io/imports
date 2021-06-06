@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "image",
+        "def": "https://schema.org/image",
+        "name": "image",
+        "type": "semantic"
+      },
+      {
         "id": "imageImageObject",
         "def": "https://schema.org/image",
         "name": "image",

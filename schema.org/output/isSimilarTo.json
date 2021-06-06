@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "isSimilarTo",
+        "def": "https://schema.org/isSimilarTo",
+        "name": "isSimilarTo",
+        "type": "semantic"
+      },
+      {
         "id": "isSimilarToProduct",
         "def": "https://schema.org/isSimilarTo",
         "name": "isSimilarTo",

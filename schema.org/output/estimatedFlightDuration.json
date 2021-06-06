@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "estimatedFlightDuration",
+        "def": "https://schema.org/estimatedFlightDuration",
+        "name": "estimatedFlightDuration",
+        "type": "semantic"
+      },
+      {
         "id": "estimatedFlightDurationDuration",
         "def": "https://schema.org/estimatedFlightDuration",
         "name": "estimatedFlightDuration",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "meetsEmissionStandard",
+        "def": "https://schema.org/meetsEmissionStandard",
+        "name": "meetsEmissionStandard",
+        "type": "semantic"
+      },
+      {
         "id": "meetsEmissionStandardQualitativeValue",
         "def": "https://schema.org/meetsEmissionStandard",
         "name": "meetsEmissionStandard",

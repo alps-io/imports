@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "learningResourceType",
+        "def": "https://schema.org/learningResourceType",
+        "name": "learningResourceType",
+        "type": "semantic"
+      },
+      {
         "id": "learningResourceTypeDefinedTerm",
         "def": "https://schema.org/learningResourceType",
         "name": "learningResourceType",

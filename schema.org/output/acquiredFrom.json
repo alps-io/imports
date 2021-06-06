@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "acquiredFrom",
+        "def": "https://schema.org/acquiredFrom",
+        "name": "acquiredFrom",
+        "type": "semantic"
+      },
+      {
         "id": "acquiredFromOrganization",
         "def": "https://schema.org/acquiredFrom",
         "name": "acquiredFrom",

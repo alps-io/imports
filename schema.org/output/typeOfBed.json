@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "typeOfBed",
+        "def": "https://schema.org/typeOfBed",
+        "name": "typeOfBed",
+        "type": "semantic"
+      },
+      {
         "id": "typeOfBedBedType",
         "def": "https://schema.org/typeOfBed",
         "name": "typeOfBed",

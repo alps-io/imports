@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numChildren",
+        "def": "https://schema.org/numChildren",
+        "name": "numChildren",
+        "type": "semantic"
+      },
+      {
         "id": "numChildrenInteger",
         "def": "https://schema.org/numChildren",
         "name": "numChildren",

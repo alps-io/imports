@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "departureTime",
+        "def": "https://schema.org/departureTime",
+        "name": "departureTime",
+        "type": "semantic"
+      },
+      {
         "id": "departureTimeDateTime",
         "def": "https://schema.org/departureTime",
         "name": "departureTime",

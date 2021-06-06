@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "answerExplanation",
+        "def": "https://schema.org/answerExplanation",
+        "name": "answerExplanation",
+        "type": "semantic"
+      },
+      {
         "id": "answerExplanationComment",
         "def": "https://schema.org/answerExplanation",
         "name": "answerExplanation",

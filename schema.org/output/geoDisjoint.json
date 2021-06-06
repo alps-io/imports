@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoDisjoint",
+        "def": "https://schema.org/geoDisjoint",
+        "name": "geoDisjoint",
+        "type": "semantic"
+      },
+      {
         "id": "geoDisjointGeospatialGeometry",
         "def": "https://schema.org/geoDisjoint",
         "name": "geoDisjoint",

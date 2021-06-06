@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numberOfAxles",
+        "def": "https://schema.org/numberOfAxles",
+        "name": "numberOfAxles",
+        "type": "semantic"
+      },
+      {
         "id": "numberOfAxlesNumber",
         "def": "https://schema.org/numberOfAxles",
         "name": "numberOfAxles",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "preparation",
+        "def": "https://schema.org/preparation",
+        "name": "preparation",
+        "type": "semantic"
+      },
+      {
         "id": "preparationMedicalEntity",
         "def": "https://schema.org/preparation",
         "name": "preparation",

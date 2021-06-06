@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "loanType",
+        "def": "https://schema.org/loanType",
+        "name": "loanType",
+        "type": "semantic"
+      },
+      {
         "id": "loanTypeText",
         "def": "https://schema.org/loanType",
         "name": "loanType",

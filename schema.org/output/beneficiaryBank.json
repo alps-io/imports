@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "beneficiaryBank",
+        "def": "https://schema.org/beneficiaryBank",
+        "name": "beneficiaryBank",
+        "type": "semantic"
+      },
+      {
         "id": "beneficiaryBankBankOrCreditUnion",
         "def": "https://schema.org/beneficiaryBank",
         "name": "beneficiaryBank",

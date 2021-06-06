@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "arrivalTime",
+        "def": "https://schema.org/arrivalTime",
+        "name": "arrivalTime",
+        "type": "semantic"
+      },
+      {
         "id": "arrivalTimeDateTime",
         "def": "https://schema.org/arrivalTime",
         "name": "arrivalTime",

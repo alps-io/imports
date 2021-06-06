@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "pattern",
+        "def": "https://schema.org/pattern",
+        "name": "pattern",
+        "type": "semantic"
+      },
+      {
         "id": "patternDefinedTerm",
         "def": "https://schema.org/pattern",
         "name": "pattern",

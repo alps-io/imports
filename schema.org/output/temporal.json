@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "temporal",
+        "def": "https://schema.org/temporal",
+        "name": "temporal",
+        "type": "semantic"
+      },
+      {
         "id": "temporalDateTime",
         "def": "https://schema.org/temporal",
         "name": "temporal",

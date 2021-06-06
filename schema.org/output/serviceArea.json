@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "serviceArea",
+        "def": "https://schema.org/serviceArea",
+        "name": "serviceArea",
+        "type": "semantic"
+      },
+      {
         "id": "serviceAreaAdministrativeArea",
         "def": "https://schema.org/serviceArea",
         "name": "serviceArea",

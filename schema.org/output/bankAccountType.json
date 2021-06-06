@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "bankAccountType",
+        "def": "https://schema.org/bankAccountType",
+        "name": "bankAccountType",
+        "type": "semantic"
+      },
+      {
         "id": "bankAccountTypeText",
         "def": "https://schema.org/bankAccountType",
         "name": "bankAccountType",

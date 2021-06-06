@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "numberOfBedrooms",
+        "def": "https://schema.org/numberOfBedrooms",
+        "name": "numberOfBedrooms",
+        "type": "semantic"
+      },
+      {
         "id": "numberOfBedroomsNumber",
         "def": "https://schema.org/numberOfBedrooms",
         "name": "numberOfBedrooms",

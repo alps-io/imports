@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "logo",
+        "def": "https://schema.org/logo",
+        "name": "logo",
+        "type": "semantic"
+      },
+      {
         "id": "logoImageObject",
         "def": "https://schema.org/logo",
         "name": "logo",

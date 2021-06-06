@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "endorsee",
+        "def": "https://schema.org/endorsee",
+        "name": "endorsee",
+        "type": "semantic"
+      },
+      {
         "id": "endorseeOrganization",
         "def": "https://schema.org/endorsee",
         "name": "endorsee",

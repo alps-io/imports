@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "size",
+        "def": "https://schema.org/size",
+        "name": "size",
+        "type": "semantic"
+      },
+      {
         "id": "sizeDefinedTerm",
         "def": "https://schema.org/size",
         "name": "size",

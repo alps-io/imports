@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "recipient",
+        "def": "https://schema.org/recipient",
+        "name": "recipient",
+        "type": "semantic"
+      },
+      {
         "id": "recipientAudience",
         "def": "https://schema.org/recipient",
         "name": "recipient",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "cashBack",
+        "def": "https://schema.org/cashBack",
+        "name": "cashBack",
+        "type": "semantic"
+      },
+      {
         "id": "cashBackBoolean",
         "def": "https://schema.org/cashBack",
         "name": "cashBack",

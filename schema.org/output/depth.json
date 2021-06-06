@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "depth",
+        "def": "https://schema.org/depth",
+        "name": "depth",
+        "type": "semantic"
+      },
+      {
         "id": "depthDistance",
         "def": "https://schema.org/depth",
         "name": "depth",

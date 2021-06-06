@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "legislationJurisdiction",
+        "def": "https://schema.org/legislationJurisdiction",
+        "name": "legislationJurisdiction",
+        "type": "semantic"
+      },
+      {
         "id": "legislationJurisdictionAdministrativeArea",
         "def": "https://schema.org/legislationJurisdiction",
         "name": "legislationJurisdiction",

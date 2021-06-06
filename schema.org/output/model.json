@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "model",
+        "def": "https://schema.org/model",
+        "name": "model",
+        "type": "semantic"
+      },
+      {
         "id": "modelProductModel",
         "def": "https://schema.org/model",
         "name": "model",

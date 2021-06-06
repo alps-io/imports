@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "gameLocation",
+        "def": "https://schema.org/gameLocation",
+        "name": "gameLocation",
+        "type": "semantic"
+      },
+      {
         "id": "gameLocationPlace",
         "def": "https://schema.org/gameLocation",
         "name": "gameLocation",

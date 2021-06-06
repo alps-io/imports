@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "defaultValue",
+        "def": "https://schema.org/defaultValue",
+        "name": "defaultValue",
+        "type": "semantic"
+      },
+      {
         "id": "defaultValueText",
         "def": "https://schema.org/defaultValue",
         "name": "defaultValue",

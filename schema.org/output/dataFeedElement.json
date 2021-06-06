@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "dataFeedElement",
+        "def": "https://schema.org/dataFeedElement",
+        "name": "dataFeedElement",
+        "type": "semantic"
+      },
+      {
         "id": "dataFeedElementDataFeedItem",
         "def": "https://schema.org/dataFeedElement",
         "name": "dataFeedElement",

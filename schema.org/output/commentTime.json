@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "commentTime",
+        "def": "https://schema.org/commentTime",
+        "name": "commentTime",
+        "type": "semantic"
+      },
+      {
         "id": "commentTimeDate",
         "def": "https://schema.org/commentTime",
         "name": "commentTime",

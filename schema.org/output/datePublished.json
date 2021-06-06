@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "datePublished",
+        "def": "https://schema.org/datePublished",
+        "name": "datePublished",
+        "type": "semantic"
+      },
+      {
         "id": "datePublishedDate",
         "def": "https://schema.org/datePublished",
         "name": "datePublished",

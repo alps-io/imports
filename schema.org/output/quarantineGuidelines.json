@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "quarantineGuidelines",
+        "def": "https://schema.org/quarantineGuidelines",
+        "name": "quarantineGuidelines",
+        "type": "semantic"
+      },
+      {
         "id": "quarantineGuidelinesURL",
         "def": "https://schema.org/quarantineGuidelines",
         "name": "quarantineGuidelines",

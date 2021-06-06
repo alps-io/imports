@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "byArtist",
+        "def": "https://schema.org/byArtist",
+        "name": "byArtist",
+        "type": "semantic"
+      },
+      {
         "id": "byArtistMusicGroup",
         "def": "https://schema.org/byArtist",
         "name": "byArtist",

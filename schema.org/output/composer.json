@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "composer",
+        "def": "https://schema.org/composer",
+        "name": "composer",
+        "type": "semantic"
+      },
+      {
         "id": "composerOrganization",
         "def": "https://schema.org/composer",
         "name": "composer",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "homeTeam",
+        "def": "https://schema.org/homeTeam",
+        "name": "homeTeam",
+        "type": "semantic"
+      },
+      {
         "id": "homeTeamPerson",
         "def": "https://schema.org/homeTeam",
         "name": "homeTeam",

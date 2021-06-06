@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "intensity",
+        "def": "https://schema.org/intensity",
+        "name": "intensity",
+        "type": "semantic"
+      },
+      {
         "id": "intensityQuantitativeValue",
         "def": "https://schema.org/intensity",
         "name": "intensity",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "memoryRequirements",
+        "def": "https://schema.org/memoryRequirements",
+        "name": "memoryRequirements",
+        "type": "semantic"
+      },
+      {
         "id": "memoryRequirementsText",
         "def": "https://schema.org/memoryRequirements",
         "name": "memoryRequirements",

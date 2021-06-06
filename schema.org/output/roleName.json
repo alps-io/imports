@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "roleName",
+        "def": "https://schema.org/roleName",
+        "name": "roleName",
+        "type": "semantic"
+      },
+      {
         "id": "roleNameText",
         "def": "https://schema.org/roleName",
         "name": "roleName",

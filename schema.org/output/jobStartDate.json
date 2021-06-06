@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "jobStartDate",
+        "def": "https://schema.org/jobStartDate",
+        "name": "jobStartDate",
+        "type": "semantic"
+      },
+      {
         "id": "jobStartDateDate",
         "def": "https://schema.org/jobStartDate",
         "name": "jobStartDate",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "workLocation",
+        "def": "https://schema.org/workLocation",
+        "name": "workLocation",
+        "type": "semantic"
+      },
+      {
         "id": "workLocationContactPoint",
         "def": "https://schema.org/workLocation",
         "name": "workLocation",

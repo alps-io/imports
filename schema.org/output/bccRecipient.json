@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "bccRecipient",
+        "def": "https://schema.org/bccRecipient",
+        "name": "bccRecipient",
+        "type": "semantic"
+      },
+      {
         "id": "bccRecipientContactPoint",
         "def": "https://schema.org/bccRecipient",
         "name": "bccRecipient",

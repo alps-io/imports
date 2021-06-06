@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "agent",
+        "def": "https://schema.org/agent",
+        "name": "agent",
+        "type": "semantic"
+      },
+      {
         "id": "agentOrganization",
         "def": "https://schema.org/agent",
         "name": "agent",

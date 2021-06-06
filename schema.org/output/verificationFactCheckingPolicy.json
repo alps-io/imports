@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "verificationFactCheckingPolicy",
+        "def": "https://schema.org/verificationFactCheckingPolicy",
+        "name": "verificationFactCheckingPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "verificationFactCheckingPolicyCreativeWork",
         "def": "https://schema.org/verificationFactCheckingPolicy",
         "name": "verificationFactCheckingPolicy",

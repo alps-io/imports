@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "arrivalBusStop",
+        "def": "https://schema.org/arrivalBusStop",
+        "name": "arrivalBusStop",
+        "type": "semantic"
+      },
+      {
         "id": "arrivalBusStopBusStation",
         "def": "https://schema.org/arrivalBusStop",
         "name": "arrivalBusStop",

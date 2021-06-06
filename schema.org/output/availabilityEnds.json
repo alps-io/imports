@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "availabilityEnds",
+        "def": "https://schema.org/availabilityEnds",
+        "name": "availabilityEnds",
+        "type": "semantic"
+      },
+      {
         "id": "availabilityEndsDate",
         "def": "https://schema.org/availabilityEnds",
         "name": "availabilityEnds",

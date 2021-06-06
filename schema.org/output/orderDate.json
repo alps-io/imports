@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "orderDate",
+        "def": "https://schema.org/orderDate",
+        "name": "orderDate",
+        "type": "semantic"
+      },
+      {
         "id": "orderDateDate",
         "def": "https://schema.org/orderDate",
         "name": "orderDate",

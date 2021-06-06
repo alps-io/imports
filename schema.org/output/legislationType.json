@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "legislationType",
+        "def": "https://schema.org/legislationType",
+        "name": "legislationType",
+        "type": "semantic"
+      },
+      {
         "id": "legislationTypeCategoryCode",
         "def": "https://schema.org/legislationType",
         "name": "legislationType",

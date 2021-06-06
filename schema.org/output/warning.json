@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "warning",
+        "def": "https://schema.org/warning",
+        "name": "warning",
+        "type": "semantic"
+      },
+      {
         "id": "warningText",
         "def": "https://schema.org/warning",
         "name": "warning",

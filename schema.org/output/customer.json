@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "customer",
+        "def": "https://schema.org/customer",
+        "name": "customer",
+        "type": "semantic"
+      },
+      {
         "id": "customerOrganization",
         "def": "https://schema.org/customer",
         "name": "customer",

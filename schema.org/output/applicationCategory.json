@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "applicationCategory",
+        "def": "https://schema.org/applicationCategory",
+        "name": "applicationCategory",
+        "type": "semantic"
+      },
+      {
         "id": "applicationCategoryText",
         "def": "https://schema.org/applicationCategory",
         "name": "applicationCategory",

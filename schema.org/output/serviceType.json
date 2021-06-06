@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "serviceType",
+        "def": "https://schema.org/serviceType",
+        "name": "serviceType",
+        "type": "semantic"
+      },
+      {
         "id": "serviceTypeGovernmentBenefitsType",
         "def": "https://schema.org/serviceType",
         "name": "serviceType",

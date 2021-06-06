@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "recipeInstructions",
+        "def": "https://schema.org/recipeInstructions",
+        "name": "recipeInstructions",
+        "type": "semantic"
+      },
+      {
         "id": "recipeInstructionsCreativeWork",
         "def": "https://schema.org/recipeInstructions",
         "name": "recipeInstructions",

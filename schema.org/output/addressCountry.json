@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "addressCountry",
+        "def": "https://schema.org/addressCountry",
+        "name": "addressCountry",
+        "type": "semantic"
+      },
+      {
         "id": "addressCountryCountry",
         "def": "https://schema.org/addressCountry",
         "name": "addressCountry",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "physicalRequirement",
+        "def": "https://schema.org/physicalRequirement",
+        "name": "physicalRequirement",
+        "type": "semantic"
+      },
+      {
         "id": "physicalRequirementDefinedTerm",
         "def": "https://schema.org/physicalRequirement",
         "name": "physicalRequirement",

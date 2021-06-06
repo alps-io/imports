@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "doseValue",
+        "def": "https://schema.org/doseValue",
+        "name": "doseValue",
+        "type": "semantic"
+      },
+      {
         "id": "doseValueNumber",
         "def": "https://schema.org/doseValue",
         "name": "doseValue",

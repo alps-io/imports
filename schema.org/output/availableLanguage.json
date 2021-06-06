@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "availableLanguage",
+        "def": "https://schema.org/availableLanguage",
+        "name": "availableLanguage",
+        "type": "semantic"
+      },
+      {
         "id": "availableLanguageLanguage",
         "def": "https://schema.org/availableLanguage",
         "name": "availableLanguage",

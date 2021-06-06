@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "webFeed",
+        "def": "https://schema.org/webFeed",
+        "name": "webFeed",
+        "type": "semantic"
+      },
+      {
         "id": "webFeedDataFeed",
         "def": "https://schema.org/webFeed",
         "name": "webFeed",

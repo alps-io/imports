@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "titleEIDR",
+        "def": "https://schema.org/titleEIDR",
+        "name": "titleEIDR",
+        "type": "semantic"
+      },
+      {
         "id": "titleEIDRText",
         "def": "https://schema.org/titleEIDR",
         "name": "titleEIDR",

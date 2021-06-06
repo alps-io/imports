@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "doorTime",
+        "def": "https://schema.org/doorTime",
+        "name": "doorTime",
+        "type": "semantic"
+      },
+      {
         "id": "doorTimeDateTime",
         "def": "https://schema.org/doorTime",
         "name": "doorTime",

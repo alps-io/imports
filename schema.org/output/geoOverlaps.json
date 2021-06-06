@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoOverlaps",
+        "def": "https://schema.org/geoOverlaps",
+        "name": "geoOverlaps",
+        "type": "semantic"
+      },
+      {
         "id": "geoOverlapsGeospatialGeometry",
         "def": "https://schema.org/geoOverlaps",
         "name": "geoOverlaps",

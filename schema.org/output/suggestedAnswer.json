@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "suggestedAnswer",
+        "def": "https://schema.org/suggestedAnswer",
+        "name": "suggestedAnswer",
+        "type": "semantic"
+      },
+      {
         "id": "suggestedAnswerAnswer",
         "def": "https://schema.org/suggestedAnswer",
         "name": "suggestedAnswer",

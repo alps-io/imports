@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "grantee",
+        "def": "https://schema.org/grantee",
+        "name": "grantee",
+        "type": "semantic"
+      },
+      {
         "id": "granteeAudience",
         "def": "https://schema.org/grantee",
         "name": "grantee",

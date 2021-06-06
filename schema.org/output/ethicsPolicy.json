@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "ethicsPolicy",
+        "def": "https://schema.org/ethicsPolicy",
+        "name": "ethicsPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "ethicsPolicyCreativeWork",
         "def": "https://schema.org/ethicsPolicy",
         "name": "ethicsPolicy",

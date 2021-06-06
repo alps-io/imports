@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "ownershipFundingInfo",
+        "def": "https://schema.org/ownershipFundingInfo",
+        "name": "ownershipFundingInfo",
+        "type": "semantic"
+      },
+      {
         "id": "ownershipFundingInfoAboutPage",
         "def": "https://schema.org/ownershipFundingInfo",
         "name": "ownershipFundingInfo",

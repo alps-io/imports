@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "audio",
+        "def": "https://schema.org/audio",
+        "name": "audio",
+        "type": "semantic"
+      },
+      {
         "id": "audioAudioObject",
         "def": "https://schema.org/audio",
         "name": "audio",

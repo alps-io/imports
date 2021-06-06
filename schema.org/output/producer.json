@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "producer",
+        "def": "https://schema.org/producer",
+        "name": "producer",
+        "type": "semantic"
+      },
+      {
         "id": "producerOrganization",
         "def": "https://schema.org/producer",
         "name": "producer",

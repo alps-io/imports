@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "isPartOf",
+        "def": "https://schema.org/isPartOf",
+        "name": "isPartOf",
+        "type": "semantic"
+      },
+      {
         "id": "isPartOfCreativeWork",
         "def": "https://schema.org/isPartOf",
         "name": "isPartOf",

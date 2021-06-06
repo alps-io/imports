@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "associatedAnatomy",
+        "def": "https://schema.org/associatedAnatomy",
+        "name": "associatedAnatomy",
+        "type": "semantic"
+      },
+      {
         "id": "associatedAnatomyAnatomicalStructure",
         "def": "https://schema.org/associatedAnatomy",
         "name": "associatedAnatomy",

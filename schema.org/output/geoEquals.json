@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "geoEquals",
+        "def": "https://schema.org/geoEquals",
+        "name": "geoEquals",
+        "type": "semantic"
+      },
+      {
         "id": "geoEqualsGeospatialGeometry",
         "def": "https://schema.org/geoEquals",
         "name": "geoEquals",

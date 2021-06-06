@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "driveWheelConfiguration",
+        "def": "https://schema.org/driveWheelConfiguration",
+        "name": "driveWheelConfiguration",
+        "type": "semantic"
+      },
+      {
         "id": "driveWheelConfigurationDriveWheelConfigurationValue",
         "def": "https://schema.org/driveWheelConfiguration",
         "name": "driveWheelConfiguration",

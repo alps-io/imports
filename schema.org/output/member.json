@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "member",
+        "def": "https://schema.org/member",
+        "name": "member",
+        "type": "semantic"
+      },
+      {
         "id": "memberOrganization",
         "def": "https://schema.org/member",
         "name": "member",

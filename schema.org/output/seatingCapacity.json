@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "seatingCapacity",
+        "def": "https://schema.org/seatingCapacity",
+        "name": "seatingCapacity",
+        "type": "semantic"
+      },
+      {
         "id": "seatingCapacityNumber",
         "def": "https://schema.org/seatingCapacity",
         "name": "seatingCapacity",

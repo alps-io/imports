@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "functionalClass",
+        "def": "https://schema.org/functionalClass",
+        "name": "functionalClass",
+        "type": "semantic"
+      },
+      {
         "id": "functionalClassMedicalEntity",
         "def": "https://schema.org/functionalClass",
         "name": "functionalClass",

@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "legalStatus",
+        "def": "https://schema.org/legalStatus",
+        "name": "legalStatus",
+        "type": "semantic"
+      },
+      {
         "id": "legalStatusDrugLegalStatus",
         "def": "https://schema.org/legalStatus",
         "name": "legalStatus",

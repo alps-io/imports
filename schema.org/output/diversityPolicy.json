@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "diversityPolicy",
+        "def": "https://schema.org/diversityPolicy",
+        "name": "diversityPolicy",
+        "type": "semantic"
+      },
+      {
         "id": "diversityPolicyCreativeWork",
         "def": "https://schema.org/diversityPolicy",
         "name": "diversityPolicy",

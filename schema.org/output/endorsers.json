@@ -4,6 +4,12 @@
     "version": "1.0",
     "descriptor": [
       {
+        "id": "endorsers",
+        "def": "https://schema.org/endorsers",
+        "name": "endorsers",
+        "type": "semantic"
+      },
+      {
         "id": "endorsersOrganization",
         "def": "https://schema.org/endorsers",
         "name": "endorsers",
