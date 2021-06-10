@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "brand",
+        "def": "https://schema.org/brand",
+        "name": "brand",
+        "type": "semantic"
+      },
+      {
+        "id": "brandBrand",
+        "def": "https://schema.org/brand",
+        "name": "brand",
+        "type": "semantic"
+      },
+      {
+        "id": "brandOrganization",
+        "def": "https://schema.org/brand",
+        "name": "brand",
+        "type": "semantic"
+      }
+    ]
+  }
+}

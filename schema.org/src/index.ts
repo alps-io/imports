@@ -10,19 +10,25 @@ fs.mkdirSync(outputDir);
 
 const fileName = (doc: Alps.Doc) => `${doc.name}.json`;
 
-function writeAlpsDoc(doc: Alps.Doc) {
-  const filePath = path.join(outputDir, fileName(doc));
+function writeAlpsDoc(doc: Alps.Doc, dir: string): void {
+  const filePath = path.join(dir, fileName(doc));
   fs.writeFileSync(filePath, JSON.stringify(doc, null, 2));
 }
 
-const toMarkdownList = (docs: Alps.Doc[]): string =>
-  docs.map((doc) => `- [\`${doc.name}\`](${fileName(doc)})`).join('\n');
+function writeAlpsDocs(docs: Alps.Doc[], folder: string): void {
+  const dir = path.join(outputDir, folder);
+  fs.mkdirSync(dir);
+  docs.forEach((doc) => writeAlpsDoc(doc, dir));
+}
 
 const ontologies = readProps().map(convert.propToAlpsDoc);
 const taxonomies = readTypes().map(convert.typeToAlpsDoc);
 
-ontologies.forEach(writeAlpsDoc);
-taxonomies.forEach(writeAlpsDoc);
+writeAlpsDocs(ontologies, 'properties');
+writeAlpsDocs(taxonomies, 'types');
+
+const toMarkdownList = (docs: Alps.Doc[], folder: string): string =>
+  docs.map((doc) => `- [\`${doc.name}\`](./${folder}/${fileName(doc)})`).join('\n');
 
 const readme = `
 <!-- WARNING: generated document, do not modify directly -->
@@ -39,14 +45,14 @@ This document acts as an index of the ALPS documents generated from Schema.org.
 
 Schema.org properties are generated as standalone ontologies.
 
-${toMarkdownList(ontologies)}
+${toMarkdownList(ontologies, 'properties')}
 
 ## Types
 
 Schema.org types are generated as taxonomies composed of
 [properties](#properties).
 
-${toMarkdownList(taxonomies)}
+${toMarkdownList(taxonomies, 'types')}
 `.trimStart();
 
 fs.writeFileSync(path.join(outputDir, 'README.md'), readme);

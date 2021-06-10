@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "downPayment",
+        "def": "https://schema.org/downPayment",
+        "name": "downPayment",
+        "type": "semantic"
+      },
+      {
+        "id": "downPaymentMonetaryAmount",
+        "def": "https://schema.org/downPayment",
+        "name": "downPayment",
+        "type": "semantic"
+      },
+      {
+        "id": "downPaymentNumber",
+        "def": "https://schema.org/downPayment",
+        "name": "downPayment",
+        "type": "semantic"
+      }
+    ]
+  }
+}
