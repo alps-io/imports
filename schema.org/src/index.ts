@@ -4,9 +4,13 @@ import * as Alps from './alps';
 import * as convert from './convert';
 import { readProps, readTypes } from './read';
 
-const outputDir = path.join(__dirname, '../output');
-fs.rmSync(outputDir, { recursive: true, force: true });
-fs.mkdirSync(outputDir);
+const outputDir = path.join(__dirname, '../');
+const propsDir = path.join(outputDir, 'properties');
+const typesDir = path.join(outputDir, 'types');
+[propsDir, typesDir].forEach(dir => {
+  fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir);
+})
 
 const fileName = (doc: Alps.Doc) => `${doc.name}.json`;
 
@@ -15,22 +19,21 @@ function writeAlpsDoc(doc: Alps.Doc, dir: string): void {
   fs.writeFileSync(filePath, JSON.stringify(doc, null, 2));
 }
 
-function writeAlpsDocs(docs: Alps.Doc[], folder: string): void {
-  const dir = path.join(outputDir, folder);
-  fs.mkdirSync(dir);
+const writeAlpsDocs = (docs: Alps.Doc[], dir: string) =>
   docs.forEach((doc) => writeAlpsDoc(doc, dir));
-}
 
 const ontologies = readProps().map(convert.propToAlpsDoc);
 const taxonomies = readTypes().map(convert.typeToAlpsDoc);
 
-writeAlpsDocs(ontologies, 'properties');
-writeAlpsDocs(taxonomies, 'types');
+writeAlpsDocs(ontologies, propsDir);
+writeAlpsDocs(taxonomies, typesDir);
 
 const toMarkdownList = (docs: Alps.Doc[], folder: string): string =>
-  docs.map((doc) => `- [\`${doc.name}\`](./${folder}/${fileName(doc)})`).join('\n');
+  docs
+    .map((doc) => `- [\`${doc.name}\`](./${folder}/${fileName(doc)})`)
+    .join('\n');
 
-const readme = `
+const index = `
 <!-- WARNING: generated document, do not modify directly -->
 # Schema.org ALPS Index
 
@@ -55,4 +58,4 @@ Schema.org types are generated as taxonomies composed of
 ${toMarkdownList(taxonomies, 'types')}
 `.trimStart();
 
-fs.writeFileSync(path.join(outputDir, 'README.md'), readme);
+fs.writeFileSync(path.join(outputDir, 'index.md'), index);
