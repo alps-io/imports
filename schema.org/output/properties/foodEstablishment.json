@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "foodEstablishment",
+        "def": "https://schema.org/foodEstablishment",
+        "name": "foodEstablishment",
+        "type": "semantic"
+      },
+      {
+        "id": "foodEstablishmentFoodEstablishment",
+        "def": "https://schema.org/foodEstablishment",
+        "name": "foodEstablishment",
+        "type": "semantic"
+      },
+      {
+        "id": "foodEstablishmentPlace",
+        "def": "https://schema.org/foodEstablishment",
+        "name": "foodEstablishment",
+        "type": "semantic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://alps-io.github.io/schemas/alps.json",
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "medicalAudience",
+        "def": "https://schema.org/medicalAudience",
+        "name": "medicalAudience",
+        "type": "semantic"
+      },
+      {
+        "id": "medicalAudienceMedicalAudience",
+        "def": "https://schema.org/medicalAudience",
+        "name": "medicalAudience",
+        "type": "semantic"
+      },
+      {
+        "id": "medicalAudienceMedicalAudienceType",
+        "def": "https://schema.org/medicalAudience",
+        "name": "medicalAudience",
+        "type": "semantic"
+      }
+    ]
+  }
+}
