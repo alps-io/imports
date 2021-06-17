@@ -8,8 +8,8 @@ manually in this directory.
 [vdf]: https://schema.org/docs/developers.html#defs
 
 The generated ALPS documents are written to the [output](./output) directory.
-Since the number of generated documents is large, we generate a
-[README](./output/README.md) to act as an index.
+Since the number of generated documents is large, we also generate an
+[index](./index.md).
 
 ## Running the Generator
 
