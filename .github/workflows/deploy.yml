@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  [push, workflow_dispatch]
+
+jobs:
+  asd:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Generates schema.org ALPS files
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install && npm start
+        working-directory: ./schema.org
+
+      - name: Deploy for schema.org
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./schema.org/output
+          destination_dir: ./schema.org
