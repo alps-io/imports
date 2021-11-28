@@ -9,7 +9,7 @@ manually in this directory.
 
 The generated ALPS documents are written to the [output](./output) directory.
 Since the number of generated documents is large, we also generate an
-[index](./index.md).
+[index](./output/index.html).
 
 ## Running the Generator
 
