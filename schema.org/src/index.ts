@@ -4,7 +4,7 @@ import * as Alps from './alps';
 import * as convert from './convert';
 import { readProps, readTypes } from './read';
 
-const outputDir = path.join(__dirname, '../');
+const outputDir = path.join(__dirname, '../output');
 const propsDir = path.join(outputDir, 'properties');
 const typesDir = path.join(outputDir, 'types');
 [propsDir, typesDir].forEach(dir => {
