@@ -1,0 +1,536 @@
+<?xml version="1.0" ?>
+<alps>
+ <link rel="self" href="http://alps.io/iana/relations"/>
+ <link rel="help" href="http://www.iana.org/assignments/link-relations/link-relations.xml"/>
+
+ <doc format="html">
+  <p>This document contains ALPS versions of the link relations
+  registered with the <a
+  href="http://www.iana.org/assignments/link-relations/link-relations.xml">IANA
+  registry of link relations</a>. This document reflects the
+  2013-02-06 revision of the registry.</p>
+
+  <p>The descriptions and links found in this ALPS document are
+  informative. Every link relation in this document is equivalent to a
+  relation registered with the IANA registry, and the IANA description
+  is the normative one.</p>
+ </doc>
+
+ <descriptor id="about" type="safe">
+  <link rel="help" href="http://www.iana.org/go/RFC-snell-additional-link-relations-07"/>
+  <doc format="html">
+   <p>Refers to a resource that is the subject of the link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="alternate" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-alternate"/>
+  <doc format="html">
+   <p>Refers to a substitute for this context</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="appendix" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to an appendix.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="archives" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives"/>
+  <doc format="html">
+   <p>Refers to a collection of records, documents, or other
+      materials of historical interest.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="author" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-author"/>
+  <doc format="html">
+   <p>Refers to the context's author.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="bookmark" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-bookmark"/>
+  <doc format="html">
+   <p>Gives a permanent link to use for bookmarking purposes.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="canonical" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6596"/>
+  <doc format="html">
+   <p>Designates the preferred version of a resource (the IRI and its contents).</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="chapter" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to a chapter in a collection of resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="collection" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6573"/>
+  <doc format="html">
+   <p>The target IRI points to a resource which represents the collection resource for the context IRI.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="contents" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to a table of contents.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="copyright" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to a copyright statement that applies to the
+    link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="create-form" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6861"/>
+  <doc format="html">
+   <p>The target IRI points to a resource where a submission form can be obtained.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="current" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5005"/>
+  <doc format="html">
+   <p>Refers to a resource containing the most recent
+      item(s) in a collection of resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="describedby" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/powder-dr/#assoc-linking"/>
+  <doc format="html">
+   <p>Refers to a resource providing information about the
+      link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="describes" type="safe">
+  <link rel="help" href="http://www.iana.org/go/RFC-wilde-describes-link-02"/>
+  <doc format="html">
+   <p>The relationship A 'describes' B asserts that
+      resource A provides a description of resource B. There are no
+      constraints on the format or representation of either A or B,
+      neither are there any further constraints on either resource.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="disclosure" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6579"/>
+  <doc format="html">
+   <p>Refers to a list of patent disclosures made with respect to material for which 'disclosure' relation is specified.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="duplicate" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6249"/>
+  <doc format="html">
+   <p>Refers to a resource whose available representations
+      are byte-for-byte identical with the corresponding representations of
+      the context IRI.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="edit" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5023"/>
+  <doc format="html">
+   <p>Refers to a resource that can be used to edit the
+      link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="edit-form" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6861"/>
+  <doc format="html">
+   <p>The target IRI points to a resource where a submission form for
+      editing associated resource can be obtained.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="edit-media" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5023"/>
+  <doc format="html">
+   <p>Refers to a resource that can be used to edit media
+      associated with the link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="enclosure" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc4287"/>
+  <doc format="html">
+   <p>Identifies a related resource that is potentially
+      large and might require special handling.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="first" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5988"/>
+  <doc format="html">
+   <p>An IRI that refers to the furthest preceding resource
+    in a series of resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="glossary" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to a glossary of terms.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="help" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-help"/>
+  <doc format="html">
+   <p>Refers to context-sensitive help.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="hosts" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6690"/>
+  <doc format="html">
+   <p>Refers to a resource hosted by the server indicated by
+      the link context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="hub" type="safe">
+  <link rel="help" href="http://pubsubhubbub.googlecode.com"/>
+  <doc format="html">
+   <p>Refers to a hub that enables registration for
+    notification of updates to the context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="icon" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-icon"/>
+  <doc format="html">
+   <p>Refers to an icon representing the link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="index" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to an index.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="item" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6573"/>
+  <doc format="html">
+   <p>The target IRI points to a resource that is a member of the collection represented by the context IRI.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="last" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5988"/>
+  <doc format="html">
+   <p>An IRI that refers to the furthest following resource
+      in a series of resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="latest-version" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5829"/>
+  <doc format="html">
+   <p>Points to a resource containing the latest (e.g.,
+      current) version of the context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="license" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc4946"/>
+  <doc format="html">
+   <p>Refers to a license associated with this context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="lrdd" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc6415"/>
+  <doc format="html">
+   <p>Refers to further information about the link's context,
+      expressed as a LRDD ("Link-based Resource Descriptor Document")
+      resource.  See <a href="http://www.iana.org/go/rfc6415">rfc6415</a> for information about
+      processing this relation type in host-meta documents. When used
+      elsewhere, it refers to additional links and other metadata.
+      Multiple instances indicate additional LRDD resources. LRDD
+      resources MUST have an "application/xrd+xml" representation, and
+      MAY have others.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="monitor" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5989"/>
+  <doc format="html">
+   <p>Refers to a resource that can be used to monitor changes in an HTTP resource.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="monitor-group" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5989"/>
+  <doc format="html">
+   <p>Refers to a resource that can be used to monitor changes in a specified group of HTTP resources.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="next" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-next"/>
+  <doc format="html">
+   <p>Indicates that the link's context is a part of a series, and
+      that the next in the series is the link target.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="next-archive" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5005"/>
+  <doc format="html">
+   <p>Refers to the immediately following archive resource.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="nofollow" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-nofollow"/>
+  <doc format="html">
+   <p>Indicates that the context’s original author or publisher does not endorse the link target.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="noreferrer" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-noreferrer"/>
+  <doc format="html">
+   <p>Indicates that no referrer information is to be leaked when following the link.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="payment" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5988"/>
+  <doc format="html">
+   <p>Indicates a resource where payment is accepted.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="predecessor-version" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5829"/>
+  <doc format="html">
+   <p>Points to a resource containing the predecessor
+      version in the version history.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="prefetch" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-prefetch"/>
+  <doc format="html">
+   <p>Indicates that the link target should be preemptively cached.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="prev" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-prev"/>
+  <doc format="html">
+   <p>Indicates that the link's context is a part of a series, and
+      that the previous in the series is the link target.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="preview" type="safe">
+  <link rel="help" href="http://www.iana.org/go/RFC-snell-additional-link-relations-07"/>
+  <doc format="html">
+   <p>Refers to a resource that provides a preview of the link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="previous" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to the previous resource in an ordered series
+      of resources.  Synonym for "prev".</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="prev-archive" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5005"/>
+  <doc format="html">
+   <p>Refers to the immediately preceding archive resource.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="privacy-policy" type="safe">
+  <link rel="help" href="http://www.iana.org/go/RFC-snell-additional-link-relations-07"/>
+  <doc format="html">
+   <p>Refers to a Privacy Policy associated with the link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="profile" type="safe">
+  <link rel="help" href="http://www.iana.org/go/RFC-wilde-profile-link-04"/>
+  <doc format="html">
+   <p>Identifying that a resource representation conforms
+to a certain profile, without affecting the non-profile semantics
+of the resource representation.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="related" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc4287"/>
+  <doc format="html">
+   <p>Identifies a related resource.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="replies" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc4685"/>
+  <doc format="html">
+   <p>Identifies a resource that is a reply to the context
+      of the link.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="search" type="safe">
+  <link rel="help" href="http://www.opensearch.org/Specifications/OpenSearch/1.1"/>
+  <doc format="html">
+   <p>Refers to a resource that can be used to search through
+      the link's context and related resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="section" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to a section in a collection of resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="self" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc4287"/>
+  <doc format="html">
+   <p>Conveys an identifier for the link's context.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="service" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5023"/>
+  <doc format="html">
+   <p>Indicates a URI that can be used to retrieve a
+      service document.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="start" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to the first resource in a collection of
+      resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="stylesheet" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-stylesheet"/>
+  <doc format="html">
+   <p>Refers to a stylesheet.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="subsection" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/1999/REC-html401-19991224"/>
+  <doc format="html">
+   <p>Refers to a resource serving as a subsection in a
+      collection of resources.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="successor-version" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5829"/>
+  <doc format="html">
+   <p>Points to a resource containing the successor version
+      in the version history.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="tag" type="safe">
+  <link rel="help" href="http://www.w3.org/TR/html5/links.html#link-type-tag"/>
+  <doc format="html">
+   <p>Gives a tag (identified by the given address) that applies to
+      the current document.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="terms-of-service" type="safe">
+  <link rel="help" href="http://www.iana.org/go/RFC-snell-additional-link-relations-07"/>
+  <doc format="html">
+   <p>Refers to the Terms of Service associated with the link's context.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="type" type="safe">
+  <link rel="help" href="http://www.iana.org/go/RFC-snell-additional-link-relations-07"/>
+  <doc format="html">
+   <p>Refers to a resource identifying the abstract semantic type the link's context is considered to be an instance of.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="up" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5988"/>
+  <doc format="html">
+   <p>Refers to a parent document in a hierarchy of
+      documents.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="version-history" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5829"/>
+  <doc format="html">
+   <p>Points to a resource containing the version history
+      for the context.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="via" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc4287"/>
+  <doc format="html">
+   <p>Identifies a resource that is the source of the
+      information in the link's context.
+    </p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="working-copy" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5829"/>
+  <doc format="html">
+   <p>Points to a working copy for this resource.</p>
+  </doc>
+ </descriptor>
+
+ <descriptor id="working-copy-of" type="safe">
+  <link rel="help" href="http://www.iana.org/go/rfc5829"/>
+  <doc format="html">
+   <p>Points to the versioned resource from which this
+      working copy was obtained.
+    </p>
+  </doc>
+ </descriptor>
+
+</alps>

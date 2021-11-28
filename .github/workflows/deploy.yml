@@ -18,7 +18,13 @@ jobs:
       - run: npm install && npm start
         working-directory: ./schema.org
 
-      - name: Deploy for schema.org
+      - name: Deploy (base)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+      - name: Deploy (schema.org)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
